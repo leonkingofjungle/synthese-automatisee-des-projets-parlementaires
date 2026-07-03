@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tricoteuses": {
+      "type": "http",
+      "url": "https://mcp.code4code.eu/mcp"
+    }
+  }
+}

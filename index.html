@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dernières lois — résumés</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f7f7f8;
+    --card: #ffffff;
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --border: #e3e3e6;
+    --accent: #2953a6;
+    --pending: #a86b1f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17181c;
+      --card: #212228;
+      --text: #ececec;
+      --muted: #9a9a9f;
+      --border: #34353c;
+      --accent: #7aa2f7;
+      --pending: #e0af68;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 1rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+    margin: 0 0 0.25rem;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 1.25rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+  }
+  .card h2 {
+    font-size: 1.05rem;
+    margin: 0 0 0.35rem;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+  .meta code {
+    background: var(--bg);
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+  }
+  .resume {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+  }
+  .status {
+    font-size: 0.85rem;
+    color: var(--pending);
+  }
+  .status.error { color: #c0392b; }
+  a { color: var(--accent); }
+  #state {
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding: 0 1.25rem;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Dernières propositions de loi</h1>
+  <div class="subtitle">Résumés générés côté tricoteuses (parlement.tricoteuses.fr) — Assemblée nationale</div>
+</header>
+<div id="state">Chargement…</div>
+<main id="list"></main>
+
+<script>
+const API_BASE = "https://parlement.tricoteuses.fr";
+const LIMIT = 10;
+
+async function getRecentDocuments(limit) {
+  const url = `${API_BASE}/documents?perPage=${limit}&sort=dateDepot.desc&typeCode=PION&chambre=AN`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Erreur ${res.status} en listant les documents`);
+  const body = await res.json();
+  return body.data.slice(0, limit);
+}
+
+async function getResume(uid) {
+  const res = await fetch(`${API_BASE}/documents/${uid}/resume`);
+  if (!res.ok) throw new Error(`Erreur ${res.status} pour ${uid}`);
+  const body = await res.json();
+  return body.data;
+}
+
+function formatDate(iso) {
+  if (!iso) return "date inconnue";
+  return new Date(iso).toLocaleDateString("fr-FR", { day: "2-digit", month: "long", year: "numeric" });
+}
+
+function renderCard(doc) {
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <h2>${doc.titrePrincipalCourt || doc.titrePrincipal}</h2>
+    <div class="meta"><code>${doc.uid}</code> — déposé le ${formatDate(doc.dateDepot)}</div>
+    <div class="status">Chargement du résumé…</div>
+  `;
+  return card;
+}
+
+async function fillResume(card, uid) {
+  const statusEl = card.querySelector(".status");
+  try {
+    const { status, resume } = await getResume(uid);
+    if (status === "completed" && resume) {
+      statusEl.remove();
+      const p = document.createElement("div");
+      p.className = "resume";
+      p.textContent = resume.content;
+      card.appendChild(p);
+    } else if (status === "pending") {
+      statusEl.textContent = "Résumé en cours de génération, réessayez plus tard.";
+    } else {
+      statusEl.textContent = `Pas de résumé disponible (${status}).`;
+    }
+  } catch (err) {
+    statusEl.textContent = `Erreur : ${err.message}`;
+    statusEl.classList.add("error");
+  }
+}
+
+async function main() {
+  const stateEl = document.getElementById("state");
+  const listEl = document.getElementById("list");
+  try {
+    const docs = await getRecentDocuments(LIMIT);
+    stateEl.remove();
+    for (const doc of docs) {
+      const card = renderCard(doc);
+      listEl.appendChild(card);
+      fillResume(card, doc.uid);
+    }
+  } catch (err) {
+    stateEl.textContent = `Erreur : ${err.message}`;
+    stateEl.classList.add("error");
+  }
+}
+
+main();
+</script>
+</body>
+</html>
