@@ -1,89 +1,1445 @@
 {
-  "generated_at": "2026-07-03T17:12:29.480737+00:00",
+  "generated_at": "2026-07-03T18:05:22.040553+00:00",
   "documents": [
     {
+      "status": "ok",
       "uid": "PIONANR5L17BTC3004",
       "titre": "Patrimoine immobilier de l'État",
       "date_depot": "2026-07-01",
-      "resume": "La gestion du patrimoine immobilier de l'État est modernisée par la transformation d'une agence en nouvel établissement public, modifiant plusieurs codes.\n\n*   L'actuelle Agence de gestion de l'immobilier de l'État est transformée en un nouvel établissement public national, l'Établissement public immobilier et foncier de l'État.\n*   Ce nouvel organisme aura pour missions de gérer, entretenir, rénover, acquérir et valoriser les biens immobiliers de l'État, tout en assurant la continuité du service public.\n*   Des biens immobiliers de l'État pourront être transférés gratuitement à ce nouvel établissement, et la plupart des opérations liées bénéficieront d'exemptions fiscales.\n*   Les collectivités territoriales concernées seront informées lorsque l'État ou le nouvel établissement public envisagera la cession de certains immeubles."
+      "categorie": "Logement et urbanisme",
+      "accroche": "La proposition de loi vise à moderniser la gestion du patrimoine immobilier de l’État en transformant une agence existante en établissement public.",
+      "points": [
+        "L'Agence de gestion de l'immobilier de l'État est transformée en un Établissement public immobilier et foncier de l'État (EPIFE).",
+        "L'EPIFE aura pour missions de gérer, entretenir, rénover, acquérir et valoriser les biens immobiliers de l'État, en intégrant les objectifs de transition écologique.",
+        "Des biens immobiliers de l'État pourront être transférés gratuitement à cet établissement public, et ces opérations bénéficieront d'exemptions fiscales.",
+        "Les collectivités territoriales devront être informées par l'État ou l'EPIFE de toute cession envisagée d'immeubles situés sur leur territoire.",
+        "Le texte modifie plusieurs codes existants, notamment le code général de la propriété des personnes publiques, le code de l'urbanisme et le code général des impôts."
+      ]
     },
     {
+      "status": "ok",
       "uid": "PIONANR5L17B2989",
       "titre": "Remplacer le principe de précaution par le principe de responsabilité dans la Constitution",
       "date_depot": "2026-06-26",
-      "resume": "Une proposition de loi constitutionnelle vise à remplacer le principe de précaution par celui de responsabilité dans la Constitution française, afin de stimuler innovation et croissance.\n\n*   La proposition vise à modifier la loi constitutionnelle n° 2005‑205 du 1er mars 2005 relative à la Charte de l’environnement.\n*   Le principe de précaution, introduit en 2005 dans la Constitution, est perçu comme un frein à la croissance, à l'innovation et au développement des entreprises, générant incertitudes juridiques et \"inaction\".\n*   Des rapports officiels (Attali 2008, Gallois 2012, CGSP 2013) sont cités pour appuyer l'idée que ce principe peut inhiber la recherche et constituer un obstacle à la compétitivité.\n*   Le principe de responsabilité proposé encouragerait l'évaluation des risques, la prévention des dommages et l'assomption des conséquences, tout en favorisant l'innovation et l'initiative.\n*   La modification consisterait à remplacer le mot \"précaution\" par \"responsabilité\" au seizième alinéa de l'article 2 de la loi constitutionnelle précitée."
+      "categorie": "Environnement et énergie",
+      "accroche": "Une proposition de loi constitutionnelle vise à remplacer le principe de précaution par le principe de responsabilité dans la Constitution française.",
+      "points": [
+        "La proposition de loi constitutionnelle vise à remplacer le principe de précaution par le principe de responsabilité dans la Constitution.",
+        "Le principe de précaution est critiqué pour freiner la croissance économique, l'innovation et la création d'emplois en France.",
+        "Il est également perçu comme générant des incertitudes juridiques, inhibant la recherche et conduisant à l'inaction des acteurs.",
+        "Le principe de responsabilité proposé encouragerait l'initiative en exigeant l'évaluation des risques, la prévention des dommages et l'assumation des conséquences.",
+        "Cette modification spécifique interviendrait dans la loi constitutionnelle relative à la Charte de l'environnement."
+      ]
     },
     {
-      "uid": "PIONANR5L17B2960",
-      "titre": "Supprimer les séquences d'observation obligatoires de seconde et à réformer celles de troisième",
+      "status": "ok",
+      "uid": "PIONANR5L17B2967",
+      "titre": "Mieux protéger les enfants des prédateurs sexuels",
       "date_depot": "2026-06-23",
-      "resume": "Cette proposition de loi modifie le code de l'éducation pour supprimer les stages d'observation obligatoires en seconde et réformer ceux de troisième.\n\n*   Elle supprime toute séquence d'observation obligatoire en milieu professionnel pour les élèves de seconde générale et technologique.\n*   Elle remplace le stage d'observation obligatoire de troisième par une semaine de découverte du monde professionnel, organisée collectivement par l'établissement scolaire avec l'association des syndicats et employeurs.\n*   Elle permet aux élèves de troisième d'effectuer volontairement, hors temps scolaire, une séquence d'observation de cinq jours maximum, encadrée par une convention nationale.\n*   Cette convention impose des obligations strictes, incluant l'interdiction de tâches productives, une formation sécurité pour l'élève, l'évaluation préalable des risques par l'entreprise et la désignation d'un tuteur qualifié.\n*   Elle prévoit également un suivi de l'élève par un enseignant, l'accord écrit des parents, et des vérifications des conditions d'accueil par l'établissement scolaire."
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi vise à renforcer la protection des enfants contre les prédateurs sexuels par des mesures pénales strictes.",
+      "points": [
+        "Rendre imprescriptibles les infractions sexuelles commises sur des mineurs, modifiant ainsi le code de procédure pénale.",
+        "Instaurer des peines de prison incompressibles pour les viols et agressions sexuelles sur mineurs, sans aménagement ni remise de peine, en modifiant le code pénal.",
+        "Imposer aux récidivistes un suivi psychiatrique et un traitement inhibiteur de la libido, avec maintien en détention en cas de refus, conformément aux modifications du code pénal.",
+        "Rendre systématique et définitive l'interdiction d'exercer toute activité, même bénévole, en lien avec des mineurs pour les personnes condamnées pour une infraction sexuelle, modifiant également le code pénal."
+      ]
     },
     {
-      "uid": "PIONANR5L17B2952",
-      "titre": "Exonérer d’impôt les revenus locatifs utilisés pour la prise en charge de la dépendance",
+      "status": "ok",
+      "uid": "PIONANR5L17B2968",
+      "titre": "Interdire l’accès et l’usage des superyachts dans les eaux et ports français",
       "date_depot": "2026-06-23",
-      "resume": "Une proposition de loi vise à exonérer d'impôt les revenus tirés de la location de l'ancienne résidence principale pour aider à financer les frais d'EHPAD. Ce texte modifie le code général des impôts.\n\n*   L'exonération des revenus locatifs s'appliquerait aux personnes en établissement d'hébergement pour personnes âgées dépendantes (EHPAD).\n*   Elle serait accordée lorsque la totalité des revenus mensuels de la personne ne suffit pas à couvrir l'intégralité du coût mensuel de son EHPAD.\n*   Un décret du Conseil d'État définira le montant maximal des mensualités d'EHPAD pris en compte pour cette exonération, adapté selon les tarifs moyens régionaux.\n*   La proposition prévoit de compenser la perte de recettes pour l'État par la création d'une taxe additionnelle sur le tabac."
+      "categorie": "Environnement et énergie",
+      "accroche": "Cette proposition de loi vise à interdire l'accès et l'usage des superyachts de 50 mètres ou plus dans les ports et eaux françaises.",
+      "points": [
+        "Les navires de plaisance d'une longueur supérieure ou égale à 50 mètres se verront refuser l'accès aux ports maritimes français et l'obtention d'un poste d'amarrage.",
+        "Ces navires ne pourront pas stationner ni mouiller dans les eaux intérieures maritimes et la mer territoriale françaises, sauf en cas de détresse ou de sécurité impérieuse.",
+        "Le non-respect de ces interdictions entraînera des amendes pouvant aller de 1% à 15% de la valeur du navire, la confiscation éventuelle et une interdiction d'accès aux eaux françaises de 5 à 10 ans.",
+        "Tout superyacht faisant escale ou contrôlé devra communiquer des informations sur son pavillon, son propriétaire et l'équipage, sous peine d'amende ou d'immobilisation.",
+        "Ces dispositions sont proposées par l'insertion de nouveaux articles dans le code des transports."
+      ]
     },
     {
-      "uid": "PIONANR5L17B2951",
-      "titre": "Simplifier le modèle de formation continue des professionnels de santé et consolider l’organisation de la Haute autorité de santé dans sa mission d’évaluation des technologies et des pratiques professionnelles",
+      "status": "ok",
+      "uid": "PIONANR5L17B2972",
+      "titre": "Faciliter l’exercice du métier d’agriculteur en zone de montagne",
       "date_depot": "2026-06-23",
-      "resume": "Simplifier la formation continue des professionnels de santé et renforcer l'évaluation des technologies par la Haute Autorité de Santé est l'objectif de cette proposition de loi qui modifie le code de la santé publique et le code de la sécurité sociale.\n\n- L'obligation de développement professionnel continu (DPC) est supprimée pour les professionnels de santé inscrits à un ordre, qui sont soumis à la certification périodique.\n- L'Agence nationale du développement professionnel continu (ANDPC) est supprimée, ses missions de pilotage scientifique étant transférées à la Haute Autorité de Santé (HAS).\n- Les périodes d'obligation de développement professionnel continu restantes et de certification périodique sont alignées sur six ans.\n- Une commission spécialisée est créée au sein de la Haute Autorité de Santé pour évaluer les technologies à visée diagnostique, pronostique ou prédictive.\n- La HAS est chargée d'élaborer les méthodes de formation continue et de prévenir les conflits d'intérêts dans ces dispositifs."
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi vise à simplifier l'exercice du métier d'agriculteur en zone de montagne en adaptant certaines réglementations spécifiques aux contraintes locales.",
+      "points": [
+        "Réduire la période d'interdiction de taille des haies et des arbres pour les agriculteurs en montagne, en tenant compte des spécificités climatiques locales.",
+        "Exempter les agriculteurs en montagne de l'obligation de justifier par écrit la mise à disposition de petites parcelles (moins d'un hectare), s'ils prouvent leur exploitation effective.",
+        "Plafonner le montant de l'indemnité compensatoire de défrichement pour les agriculteurs situés en zone de montagne, afin de soutenir les projets d'installation.",
+        "Ce texte propose de modifier des articles du Code rural et de la pêche maritime ainsi que du Code forestier pour intégrer ces nouvelles dispositions."
+      ]
     },
     {
-      "uid": "PIONANR5L17B2957",
-      "titre": "Mieux encadrer les conditions d'exploitation des activités commerciales dans les immeubles d'habitation",
+      "status": "ok",
+      "uid": "PIONANR5L17B2964",
+      "titre": "Détecter et éloigner les prédateurs sexuels",
       "date_depot": "2026-06-23",
-      "resume": "Le texte propose de donner aux copropriétés des outils pour encadrer ou interdire des activités commerciales bruyantes ou gênantes dans les immeubles d'habitation.\n\n- Il modifie la loi de 1965 fixant le statut de la copropriété des immeubles bâtis.\n- L'assemblée générale des copropriétaires pourra, à la majorité qualifiée, soumettre à des conditions particulières ou interdire une activité commerciale déterminée.\n- Ces mesures s'appliqueront si l'activité génère des nuisances répétées (flux de clientèle/livraison, bruit, odeurs) affectant la tranquillité ou la salubrité des occupants.\n- Elles devront être motivées par des nuisances objectivement constatées, être nécessaires et proportionnées, l'interdiction étant un dernier recours.\n- Un devoir d'information est instauré pour les nouvelles activités commerciales envisagées, susceptibles de générer de tels flux."
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi vise à mieux détecter les risques d'atteintes sexuelles sur mineurs et à permettre l'éloignement rapide des prédateurs.",
+      "points": [
+        "Création d'un fichier national automatisé pour centraliser les informations (signalements, plaintes, décisions disciplinaires) relatives aux risques d'atteintes sexuelles sur mineurs, modifiant le Code de procédure pénale.",
+        "Ce fichier générera des alertes automatiques au procureur en cas de faisceau d'indices, l'obligeant à statuer rapidement sur la mise en place de mesures de protection.",
+        "Extension des ordonnances de protection provisoire aux tiers (non-membres de la famille) afin d'interdire rapidement (sous 72h) le contact avec des mineurs ou l'accès à certains lieux.",
+        "Ces ordonnances pourront également imposer des restrictions numériques et leur violation constituera un nouveau délit pénal, sanctionné par des peines d'emprisonnement."
+      ]
     },
     {
-      "uid": "PIONANR5L17B2954",
-      "titre": "Interdire la publicité pour les paris sportifs",
-      "date_depot": "2026-06-23",
-      "resume": "Cette proposition de loi vise à interdire la publicité pour les paris sportifs et les jeux d'argent liés au sport, tant en ligne que hors ligne.\n\n- Elle propose d'interdire, via le Code de la sécurité intérieure, la publicité pour tous les jeux d'argent et de hasard ayant un lien avec le sport.\n- Elle prévoit d'interdire spécifiquement la publicité pour les paris sportifs en ligne, en complétant la loi de 2010 encadrant ce secteur.\n- Tout opérateur de jeux ou de paris en ligne qui ne respecterait pas cette interdiction perdrait son agrément."
-    },
-    {
-      "uid": "PIONANR5L17B2956",
-      "titre": "Lutter contre les excès de la financiarisation en santé",
-      "date_depot": "2026-06-23",
-      "resume": "Cette proposition de loi entend renforcer l'encadrement de la financiarisation du secteur de la santé, en précisant les contrôles et les règles applicables aux investissements privés. Cette proposition de loi modifie le code de la santé publique et une ordonnance de 2023.\n\n- Les ordres professionnels (médecins, pharmaciens, etc.) verront leurs pouvoirs de contrôle renforcés sur les contrats et le financement des sociétés de santé, assistés par une cellule d’experts juridiques.\n- Un registre national sera mis en place pour identifier les personnes physiques et morales détenant des participations indirectes dans les sociétés d'exercice libéral de santé.\n- L'utilisation d'actions de préférence conférant des droits décisionnels ou financiers disproportionnés sera limitée aux professionnels ou à des entités liées à l'activité de soin.\n- Une durée minimale de sept ans sera imposée pour les investissements de non-professionnels dans les sociétés d'exercice libéral de santé, avec des exceptions.\n- Le défaut de communication des documents aux ordres ou de déclaration des participations sera passible de sanctions disciplinaires ou d'amendes administratives."
-    },
-    {
-      "uid": "PIONANR5L17B2955",
-      "titre": "Reconnaître, définir et prévenir la victimisation secondaire dans le cadre de la procédure pénale",
-      "date_depot": "2026-06-23",
-      "resume": "Une proposition de loi vise à intégrer une définition de la victimisation secondaire dans le code de procédure pénale, à la prévenir et à permettre l'indemnisation des victimes.\n\nCette proposition de loi, qui modifie le code de procédure pénale :\n- Définit la \"victimisation secondaire\" comme un préjudice subi par une victime, aggravé par des conditions d'accueil ou de traitement durant la procédure pénale, qui excèdent ses nécessités.\n- Impose aux professionnels du système judiciaire de prévenir cette victimisation, en veillant au respect des victimes et en évitant les propos ou comportements humiliants ou stéréotypés.\n- Prévoit des actions de formation et de sensibilisation pour les acteurs judiciaires et demande de limiter les auditions, tout en adaptant les pratiques à la vulnérabilité des victimes.\n- En cas de reconnaissance d'une victimisation secondaire par le tribunal, la victime pourra prétendre à une indemnisation.\n- Renforce le rôle du président d'audience pour garantir la dignité des débats et prévenir ce type de préjudice."
-    },
-    {
-      "uid": "PIONANR5L17B2948",
-      "titre": "Permettre la prise en compte de l’emploi et de l’activité industrielle en phase de liquidation judiciaire",
-      "date_depot": "2026-06-23",
-      "resume": "Une proposition de loi vise à permettre, sous conditions strictes, de privilégier l'emploi et l'activité industrielle lors de la vente d'actifs en liquidation judiciaire, même si l'offre est moins élevée.\n*Ceci est une proposition de loi qui modifierait le Code de commerce.*\n\n- Le juge pourrait accepter une offre d'achat financièrement moins élevée (jusqu'à 15% d'écart) pour des actifs d'entreprises en liquidation, si la vente risque d'affecter au moins 250 emplois.\n- Cette offre devrait garantir le maintien durable d'une activité industrielle ou de service sur le territoire national et d'un nombre significatif d'emplois, avec un engagement de poursuite d'activité d'au moins trois ans.\n- Pour les activités industrielles jugées essentielles aux intérêts de la Nation, l'écart maximal acceptable entre les offres pourrait être porté à 33 %, selon des conditions définies par décret.\n- La décision du juge, qui reste une possibilité et non une obligation, devrait être motivée, recueillir l'avis obligatoire du ministère public et pourrait être contestée en appel sous dix jours."
-    },
-    {
-      "uid": "PIONANR5L17B2947",
-      "titre": "Limiter les effectifs de classes à 24 élèves de la petite section de maternelle à la classe de troisième au collège",
-      "date_depot": "2026-06-23",
-      "resume": "Une proposition de loi vise à plafonner à 24 le nombre d'élèves par classe, de la petite section de maternelle à la troisième au collège, pour améliorer les apprentissages.\n\n*   Cette proposition de loi modifie le code de l'éducation afin de fixer un nombre maximal d'élèves par classe.\n*   L'effectif d'une classe ne pourrait être supérieur à vingt-quatre élèves, de la petite section de maternelle à la classe de troisième au collège.\n*   Cette limitation s'appliquerait aux établissements d'enseignement publics et privés sous contrat.\n*   Le financement de cette mesure serait compensé par la création d'une taxe additionnelle à l'accise sur les tabacs."
-    },
-    {
-      "uid": "PIONANR5L17B2949",
-      "titre": "Reconnaître le fleuve « Loire » et son bassin versant comme une entité naturelle juridique dotée de droits",
-      "date_depot": "2026-06-23",
-      "resume": "Cette proposition de loi vise à conférer au fleuve Loire et à son bassin versant le statut d'entité naturelle juridique, dotée de droits propres et d'une représentation humaine.\n\n-   La Loire et son bassin seraient reconnus comme une entité juridique dotée de droits propres, tels que le droit d'évoluer naturellement, de couler librement et de maintenir sa santé écologique.\n-   Deux personnes physiques, appelées « gardien de Loire », seraient chargées de représenter et défendre les intérêts et droits du fleuve, y compris en intentant des actions en justice.\n-   Le gardien de Loire siégerait dans les instances de gouvernance du bassin-versant pour veiller à la prise en compte de la perspective du fleuve dans les décisions.\n-   L'entité bénéficierait de financements diversifiés, incluant des dotations publiques, des dons privés et des redevances sur les activités lucratives exploitant ses ressources.\n-   Toute atteinte aux droits reconnus de l'entité naturelle juridique entraînerait des responsabilités pénales, civiles, environnementales ou administratives."
-    },
-    {
+      "status": "ok",
       "uid": "PIONANR5L17B2950",
       "titre": "Protéger les mineurs en imposant l’information des employeurs et des responsables associatifs lorsqu’un de leurs personnels ou bénévoles au contact d’enfants fait l’objet d’une information judiciaire pour des infractions sexuelles sur mineurs",
       "date_depot": "2026-06-23",
-      "resume": "Cette proposition de loi vise à mieux protéger les enfants en imposant l'information des employeurs et associations lors de poursuites judiciaires pour infractions sexuelles sur mineurs.\n\nLe texte est une proposition de loi qui modifie le Code de procédure pénale, le Code du travail et la loi portant droits et obligations des fonctionnaires.\n\n*   Le procureur de la République doit informer l'employeur ou le responsable associatif quand un salarié ou bénévole en contact habituel avec des enfants de moins de 15 ans fait l'objet d'une information judiciaire pour des infractions sexuelles sur mineurs.\n*   L'employeur ou le responsable associatif est alors tenu d'écarter sans délai la personne concernée de toute activité impliquant un contact avec des mineurs pour toute la durée de l'instruction.\n*   Ces mesures sont conservatoires et non disciplinaires ; elles cessent de plein droit en cas de non-lieu, de relaxe ou d'acquittement.\n*   L'information transmise est strictement limitée à l'existence et la qualification générale de la procédure et demeure confidentielle pour le destinataire, sous peine de sanctions pénales."
+      "categorie": "Justice et sécurité",
+      "accroche": "La proposition de loi vise à informer employeurs et associations des informations judiciaires pour infractions sexuelles sur mineurs concernant leur personnel ou bénévoles.",
+      "points": [
+        "Le procureur de la République informera les employeurs et responsables d'associations si un salarié ou bénévole au contact d'enfants fait l'objet d'une information judiciaire pour infractions sexuelles sur mineurs de moins de 15 ans.",
+        "Les employeurs devront immédiatement éloigner le salarié concerné de tout contact avec des mineurs pendant l'instruction, par suspension, congé ou réaffectation.",
+        "Les responsables d'associations devront écarter le bénévole concerné de toute activité impliquant un contact avec des mineurs pour la durée de l'instruction.",
+        "Ces mesures sont conservatoires, non disciplinaires, et prennent fin en cas de non-lieu, relaxe ou acquittement. Les informations communiquées sont limitées et confidentielles.",
+        "Ce texte propose des modifications au code de procédure pénale, au code du travail et à la loi portant droits et obligations des fonctionnaires."
+      ]
     },
     {
+      "status": "ok",
+      "uid": "PIONANR5L17B2963",
+      "titre": "Suppression du Haut-commissariat à la stratégie et au plan",
+      "date_depot": "2026-06-23",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Une proposition de loi vise à supprimer le Haut-commissariat à la stratégie et au plan, créé en 2020, pour rationaliser l'action publique et éviter les doublons.",
+      "points": [
+        "Le Haut-commissariat à la stratégie et au plan serait supprimé à compter du 1er janvier 2027.",
+        "Cette suppression est justifiée par une redondance des travaux avec les ministères et autres institutions.",
+        "L'objectif est de rationaliser l'action publique et de maîtriser les finances, sans perte de capacité stratégique.",
+        "La fonction de stratégie et de planification serait entièrement restituée aux ministères concernés.",
+        "Un décret en Conseil d'État précisera les modalités de mise en œuvre, y compris le devenir des biens et le reclassement des personnels."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2962",
+      "titre": "Prise en charge juste et cohérente des maladies chroniques évolutives",
+      "date_depot": "2026-06-23",
+      "categorie": "Santé",
+      "accroche": "La proposition de loi vise à mieux prendre en charge les maladies chroniques évolutives en harmonisant leur reconnaissance et leur évaluation entre organismes publics et assureurs privés.",
+      "points": [
+        "La loi propose de créer une définition juridique spécifique pour les maladies chroniques évolutives dans le Code de l'action sociale et des familles.",
+        "Elle instaure des critères d'évaluation harmonisés pour ces maladies par les organismes de Sécurité sociale, incluant les symptômes invisibles et variables.",
+        "Elle exige des assureurs de prendre en compte prioritairement les reconnaissances d'incapacité ou d'invalidité émises par les organismes publics, sauf justification médicale.",
+        "Elle encadre les expertises médicales pour qu'elles considèrent explicitement la nature évolutive des pathologies et les symptômes non visibles."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2955",
+      "titre": "Reconnaître, définir et prévenir la victimisation secondaire dans le cadre de la procédure pénale",
+      "date_depot": "2026-06-23",
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi vise à reconnaître, définir et prévenir la victimisation secondaire, un préjudice additionnel pour les victimes dans la procédure pénale.",
+      "points": [
+        "Le Code de procédure pénale est modifié pour inclure une définition de la victimisation secondaire, un préjudice psychologique, moral ou matériel subi par les victimes en raison des conditions de la procédure.",
+        "Les professionnels de la justice et des enquêtes ont l'obligation de prévenir la victimisation secondaire et d'adapter leurs pratiques aux besoins des victimes.",
+        "Des propos ou comportements humiliants, culpabilisants, stéréotypés ou discriminatoires qui excèdent les nécessités de la procédure sont explicitement considérés comme de la victimisation secondaire.",
+        "L'État doit assurer des actions régulières de formation et de sensibilisation pour les acteurs judiciaires afin de prévenir ce type de préjudice.",
+        "La reconnaissance d'une victimisation secondaire par la juridiction de jugement peut ouvrir droit à une indemnisation, et les pouvoirs du président d'audience sont renforcés pour garantir la dignité des débats."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2971",
+      "titre": "Instaurer une programmation pluriannuelle en faveur du patrimoine",
+      "date_depot": "2026-06-23",
+      "categorie": "Société et solidarités",
+      "accroche": "Une proposition de loi vise à instaurer une programmation pluriannuelle pour la protection, la conservation et la restauration du patrimoine français.",
+      "points": [
+        "La proposition de loi instaure une programmation pluriannuelle de dix ans pour la politique nationale du patrimoine, en insérant un article dans le code du patrimoine.",
+        "Elle vise à stabiliser les engagements de l'État et à garantir la prévisibilité des financements pour les opérations patrimoniales.",
+        "Des priorités seront établies en fonction de l'état de conservation, de l'urgence des travaux et de l'intérêt général, notamment pour le patrimoine rural et local.",
+        "Les opérations patrimoniales exceptionnelles ne pourront être financées au détriment des opérations de sauvegarde jugées prioritaires.",
+        "Le texte prévoit également de renforcer la coordination entre l'État et les collectivités territoriales et de soutenir la filière économique du patrimoine."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2951",
+      "titre": "Simplifier le modèle de formation continue des professionnels de santé et consolider l’organisation de la Haute autorité de santé dans sa mission d’évaluation des technologies et des pratiques professionnelles",
+      "date_depot": "2026-06-23",
+      "categorie": "Santé",
+      "accroche": "Simplifie la formation continue des professionnels de santé et renforce le rôle de la Haute Autorité de Santé dans l'évaluation des pratiques et technologies médicales.",
+      "points": [
+        "L'obligation de Développement Professionnel Continu (DPC) est supprimée pour les professions de santé inscrites à un ordre, la Certification Périodique devenant le dispositif principal.",
+        "L'Agence Nationale du Développement Professionnel Continu (ANDPC) est supprimée; le pilotage scientifique de la formation continue est transféré à la Haute Autorité de Santé (HAS).",
+        "Une commission spécialisée est créée au sein de la Haute Autorité de Santé pour élaborer les méthodes de formation continue et de certification périodique, garantissant l'objectivité des connaissances.",
+        "Les systèmes d'information concernant les différentes modalités de formation des professionnels de santé sont unifiés, et la durée de l'obligation de DPC est alignée sur six ans.",
+        "La loi consacre l'existence d'une commission au sein de la HAS chargée d'évaluer les technologies à visée diagnostique, pronostique ou prédictive."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2952",
+      "titre": "Exonérer d’impôt les revenus locatifs utilisés pour la prise en charge de la dépendance",
+      "date_depot": "2026-06-23",
+      "categorie": "Société et solidarités",
+      "accroche": "Une proposition de loi vise à exempter d'impôt les revenus locatifs de la résidence principale pour financer les frais d'EHPAD des personnes âgées dépendantes.",
+      "points": [
+        "Le texte propose d'exonérer d'impôt sur le revenu les loyers de l'ancienne résidence principale d'une personne hébergée en EHPAD.",
+        "Cette mesure s'appliquerait si l'ensemble des revenus mensuels de la personne ne couvre pas l'intégralité des frais de son établissement.",
+        "Un décret est prévu pour fixer le montant maximal des mensualités prises en compte, en fonction des tarifs moyens régionaux des EHPAD.",
+        "La proposition modifie l'article 199 quindecies du Code général des impôts pour introduire cette nouvelle disposition.",
+        "La perte de recettes pour l'État sera compensée par une taxe additionnelle à l'accise sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2969",
+      "titre": "Mettre fin aux discriminations dans l’accès à l’emploi des personnes en situation de handicap",
+      "date_depot": "2026-06-23",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi vise à supprimer les discriminations entravant l'accès à l'emploi des personnes handicapées en réformant l'Allocation Adulte Handicapée.",
+      "points": [
+        "La proposition modifie le Code de la sécurité sociale pour mieux définir ce qui constitue une restriction d'accès à l'emploi pour les personnes handicapées.",
+        "Elle permet aux bénéficiaires de l'Allocation aux Adultes Handicapés (AAH) de travailler au-delà d'un mi-temps sans risquer de perdre cette aide financière.",
+        "Elle garantit que l'AAH peut être attribuée même si la personne ne recherche pas activement un emploi, à condition que cette situation soit due à son handicap.",
+        "L'objectif est d'harmoniser les pratiques d'attribution de l'AAH et de favoriser l'inclusion professionnelle des personnes en situation de handicap."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2966",
+      "titre": "Dématérialiser l’état civil des bénéficiaires de la protection internationale",
+      "date_depot": "2026-06-23",
+      "categorie": "Société et solidarités",
+      "accroche": "Une proposition de loi vise à dématérialiser l’état civil des bénéficiaires de la protection internationale pour améliorer les services et réduire les délais.",
+      "points": [
+        "L'établissement, la conservation et la mise à jour des actes d'état civil pour les bénéficiaires de la protection internationale seront réalisés sous forme électronique par l'OFPRA.",
+        "Un registre électronique des actes d'état civil sera mis en place par l'OFPRA, garantissant l'intégrité, la confidentialité et l'inaltérabilité des données.",
+        "Les copies et extraits des actes pourront être délivrés sous format électronique, simplifiant leur accès pour les bénéficiaires.",
+        "Les actes d'état civil établis sur papier avant l'entrée en vigueur de la loi pourront être numérisés et intégrés au nouveau registre électronique.",
+        "Cette réforme modifie le code de l'entrée et du séjour des étrangers et du droit d'asile (CESEDA)."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2973",
+      "titre": "Reconnaître des entités naturelles comme sujet de protection juridique, notamment outre-mer",
+      "date_depot": "2026-06-23",
+      "categorie": "Environnement et énergie",
+      "accroche": "Une proposition de loi vise à reconnaître une personnalité juridique à certaines entités naturelles, notamment en outre-mer, pour renforcer leur protection.",
+      "points": [
+        "Le texte modifie le code de l'environnement pour permettre la reconnaissance d'entités naturelles juridiques présentant un intérêt écologique majeur.",
+        "Cette personnalité juridique est exclusivement dédiée à la préservation de l'intégrité écologique, à la protection de ses cycles naturels et à sa restauration.",
+        "Chaque entité sera représentée par un « collège des gardiens » ayant le pouvoir d'exercer des actions administratives ou juridictionnelles en son nom.",
+        "La reconnaissance de cette personnalité juridique est sans incidence sur les régimes de propriété, les compétences des collectivités territoriales ou les pouvoirs de l'État.",
+        "La proposition de loi s'applique concrètement aux Salines de Sainte-Anne et au massif du Mont-Conil – Montagne Pelée en Martinique, et modifie le code civil pour leur accorder la qualité pour agir en réparation du préjudice écologique."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2974",
+      "titre": "Créer un service public des loisirs éducatifs",
+      "date_depot": "2026-06-23",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Proposition de loi instituant un service public des loisirs éducatifs pour garantir l'égal accès des enfants et jeunes aux activités complémentaires de l'école.",
+      "points": [
+        "Le texte reconnaît le droit aux loisirs éducatifs pour tous et crée un service public pour assurer cet accès.",
+        "Il établit que ce service public sera organisé au niveau local via de nouveaux Projets Éducatifs Territoriaux (PEDT), avec la commune comme chef de file.",
+        "L'éducation populaire et ses associations sont reconnues comme des acteurs majeurs de ce service, visant l'émancipation individuelle et collective.",
+        "Un plan d'action est prévu pour développer les compétences des encadrants et renforcer la prévention et le signalement de toute violence envers les enfants.",
+        "Ces nouvelles dispositions sont intégrées au Code de l'éducation, notamment en définissant l'éducation populaire."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2959",
+      "titre": "Renforcer la prévention des violences et abus commis sur les mineurs",
+      "date_depot": "2026-06-23",
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi vise à renforcer la prévention et la sanction des violences et abus commis sur les mineurs, notamment dans les structures d'accueil périscolaires.",
+      "points": [
+        "Le ministère public informera rapidement l'employeur des mises en cause pour violences sur mineurs, obligeant à la suspension immédiate de l'employé.",
+        "L'interdiction d'exercer auprès de mineurs sera obligatoire et définitive pour les personnes condamnées pour des infractions graves.",
+        "Un extrait du fichier des auteurs d'infractions sexuelles et violentes sera exigé pour toute activité professionnelle ou bénévole avec des mineurs.",
+        "Ce texte propose des modifications du code de procédure pénale et du code pénal."
+      ]
+    },
+    {
+      "status": "ok",
       "uid": "PIONANR5L17B2953",
       "titre": "Rendre imprescriptibles les crimes sexuels, les crimes d’atteinte volontaire à la vie ou à l’intégrité physique et les crimes de traite des êtres humains commis sur des mineurs",
       "date_depot": "2026-06-23",
-      "resume": "Une proposition de loi vise à rendre imprescriptibles certains crimes graves commis sur des mineurs, modifiant ainsi le Code civil et le Code de procédure pénale.\n\n-   La proposition rend imprescriptibles les crimes sexuels, les crimes d’atteinte volontaire à la vie ou à l’intégrité physique, et les crimes de traite des êtres humains, lorsqu'ils sont commis sur des mineurs.\n-   L'action civile en réparation du dommage causé par ces infractions deviendrait également imprescriptible.\n-   L'action publique s'éteindrait au décès du responsable du dommage causé par ces infractions.\n-   Ces modifications s'appliqueraient notamment à l'article 2226 du Code civil et à l'article 7 du Code de procédure pénale."
+      "categorie": "Justice et sécurité",
+      "accroche": "La proposition de loi vise à rendre imprescriptibles certains crimes graves commis sur des mineurs pour protéger les victimes et la société.",
+      "points": [
+        "Le texte propose de rendre imprescriptibles les crimes sexuels, les atteintes graves à la vie ou à l'intégrité physique, et la traite des êtres humains commis sur des mineurs.",
+        "Cette mesure vise à permettre aux victimes mineures de saisir la justice, même plusieurs décennies après les faits, reconnaissant les difficultés à révéler ces violences.",
+        "L'imprescriptibilité a également pour objectif de protéger la société en favorisant l'identification d'auteurs et la prévention de nouvelles violences sur d'autres enfants.",
+        "La proposition de loi modifie l'article 7 du code de procédure pénale pour établir cette imprescriptibilité de l'action publique.",
+        "L'action civile en réparation du dommage causé par ces infractions deviendrait également imprescriptible, s'éteignant toutefois au décès du responsable."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2960",
+      "titre": "Supprimer les séquences d'observation obligatoires de seconde et à réformer celles de troisième",
+      "date_depot": "2026-06-23",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Cette proposition de loi vise à supprimer les stages d'observation obligatoires en seconde et à réformer ceux de troisième, suite à des accidents et un manque de pertinence pédagogique.",
+      "points": [
+        "Met fin aux séquences d'observation obligatoires en milieu professionnel pour les élèves de seconde générale et technologique.",
+        "Remplace le stage d'observation obligatoire de troisième par une semaine de découverte du monde professionnel, organisée collectivement par l'établissement scolaire.",
+        "Permet aux élèves de troisième d'accomplir des stages d'observation volontaires d'une durée maximale de cinq jours, encadrés par une convention nationale précisant des obligations strictes de sécurité et d'encadrement.",
+        "Modifie les articles L. 333-5, L. 332-3-3 et L. 332-3-4 du Code de l'éducation pour intégrer ces nouvelles dispositions."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2961",
+      "titre": "Restituer au maire la maîtrise des attributions de logements sociaux sur le territoire de sa commune",
+      "date_depot": "2026-06-23",
+      "categorie": "Logement et urbanisme",
+      "accroche": "La proposition de loi vise à redonner aux maires la pleine maîtrise des attributions de logements sociaux sur le territoire de leur commune.",
+      "points": [
+        "La proposition de loi modifie le code de la construction et de l'habitation pour redonner au maire un rôle central dans l'attribution des logements sociaux.",
+        "Le maire présidera la commission d'attribution des logements sociaux et son accord exprès sera obligatoire pour toute attribution sur le territoire de sa commune.",
+        "Les conseils municipaux pourront définir des critères de priorité locaux, et le maire disposera de droits de désignation directe et d'évocation sur les dossiers.",
+        "Les droits de réservation de l'État sur certains logements sociaux seront réduits et transférés en partie aux communes.",
+        "Les bailleurs sociaux devront notifier toutes les attributions au maire, sous peine de sanctions, et leurs décisions pourront être contestées en justice par la commune."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2958",
+      "titre": "Renforcer le pouvoir d’achat et mettre fin aux jours de congés « perdus » par la monétisation volontaire des congés payés",
+      "date_depot": "2026-06-23",
+      "categorie": "Économie et travail",
+      "accroche": "La proposition de loi permet aux salariés de monétiser jusqu'à cinq jours de congés payés par an, renforçant leur pouvoir d'achat et évitant les jours perdus.",
+      "points": [
+        "Les salariés pourront, s'ils le souhaitent et en accord avec leur employeur, convertir jusqu'à cinq jours de congés payés annuels en une majoration de salaire.",
+        "Les revenus issus de la monétisation de ces jours de congés seront défiscalisés et exonérés de charges sociales pour le salarié, et de cotisations pour l'employeur, pendant trois ans.",
+        "Ce dispositif vise à renforcer le pouvoir d'achat des travailleurs et à garantir qu'aucun jour de congé acquis ne soit perdu sans compensation financière.",
+        "La proposition de loi modifie le Code du travail, le Code de la sécurité sociale et le Code général des impôts.",
+        "La perte de recettes pour l'État et les organismes de sécurité sociale résultant de cette mesure sera compensée par une taxe additionnelle sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2970",
+      "titre": "Abroger les zones à faibles émissions-mobilités",
+      "date_depot": "2026-06-23",
+      "categorie": "Environnement et énergie",
+      "accroche": "Une proposition de loi vise à abroger les zones à faibles émissions-mobilités (ZFE-m) pour répondre à l'urgence des automobilistes face aux restrictions de circulation.",
+      "points": [
+        "La proposition de loi a pour objectif principal de supprimer les Zones à Faibles Émissions-mobilités (ZFE-m) en France.",
+        "Elle fait suite à plusieurs tentatives parlementaires d'abrogation des ZFE-m, qui ont été rejetées par le Conseil constitutionnel pour des raisons de procédure.",
+        "L'urgence de cette proposition est justifiée par le début des verbalisations pour les véhicules Crit'Air 3 dans certaines agglomérations à partir du 1er juillet 2026.",
+        "Pour ce faire, la loi modifierait le Code de l'environnement, le Code général des collectivités territoriales et le Code des transports.",
+        "Ces modifications visent à abroger toutes les dispositions concernant les ZFE-m, y compris les contrôles associés et les transferts de compétences obligatoires des maires vers les intercommunalités."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2954",
+      "titre": "Interdire la publicité pour les paris sportifs",
+      "date_depot": "2026-06-23",
+      "categorie": "Société et solidarités",
+      "accroche": "La proposition de loi vise à interdire la publicité pour les paris sportifs afin de protéger les populations vulnérables et prévenir les addictions au jeu.",
+      "points": [
+        "La proposition de loi a pour objectif d'interdire toute forme de publicité pour les paris sportifs.",
+        "Le texte met en lumière la croissance exponentielle des paris sportifs en ligne, ciblant particulièrement les jeunes adultes et les personnes précaires.",
+        "Il insiste sur les risques d'addiction au jeu, avec des conséquences financières, sociales, familiales et psychologiques graves pour les joueurs.",
+        "La proposition dénonce les pratiques commerciales jugées trompeuses des opérateurs et l'insuffisance des sanctions actuelles de l'Autorité Nationale des Jeux (ANJ).",
+        "Pour ce faire, elle propose des modifications au code de la sécurité intérieure et à la loi de 2010 sur la régulation des jeux d'argent en ligne."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2947",
+      "titre": "Limiter les effectifs de classes à 24 élèves de la petite section de maternelle à la classe de troisième au collège",
+      "date_depot": "2026-06-23",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Cette proposition de loi vise à instaurer une limite de 24 élèves par classe, de la maternelle à la troisième, dans les établissements publics et privés sous contrat.",
+      "points": [
+        "La proposition de loi modifie le Code de l'éducation pour introduire cette limitation des effectifs.",
+        "Elle établit un maximum de 24 élèves par classe pour l'enseignement du premier degré (maternelle et primaire).",
+        "La même limite de 24 élèves par classe est fixée pour les collèges.",
+        "Ces règles s'appliquent aux établissements d'enseignement publics et privés sous contrat.",
+        "La charge financière pour l'État serait compensée par une taxe additionnelle sur les produits du tabac."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2957",
+      "titre": "Mieux encadrer les conditions d'exploitation des activités commerciales dans les immeubles d'habitation",
+      "date_depot": "2026-06-23",
+      "categorie": "Logement et urbanisme",
+      "accroche": "Cette proposition de loi vise à mieux encadrer les activités commerciales dans les immeubles d'habitation afin de garantir la tranquillité des résidents.",
+      "points": [
+        "Les assemblées de copropriétaires pourront imposer des conditions spécifiques (horaires, gestion des déchets) aux activités commerciales qui causent des nuisances (bruit, odeurs, trafic) dans les immeubles d'habitation.",
+        "Si ces conditions ne suffisent pas à faire cesser les nuisances, l'assemblée pourra, en dernier recours et de manière motivée, interdire une activité commerciale spécifique dans un lot déterminé.",
+        "Les nouvelles activités commerciales susceptibles de générer des flux importants (clients, livraisons) devront faire l'objet d'une information préalable auprès du syndic de copropriété.",
+        "Le texte modifie la loi de 1965 sur la copropriété pour permettre ces régulations par l'assemblée générale avec une majorité qualifiée, en dérogeant aux règles habituelles."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2948",
+      "titre": "Permettre la prise en compte de l’emploi et de l’activité industrielle en phase de liquidation judiciaire",
+      "date_depot": "2026-06-23",
+      "categorie": "Économie et travail",
+      "accroche": "Une proposition de loi vise à permettre au juge de retenir une offre d'acquisition moins élevée en liquidation judiciaire si elle assure le maintien de l'emploi et de l'activité industrielle.",
+      "points": [
+        "La proposition modifie le Code de commerce pour que le juge-commissaire puisse accepter une offre d'acquisition moins élevée afin de sauvegarder l'emploi et l'activité industrielle.",
+        "Cette possibilité est limitée aux cas où la cession impacte au moins 250 emplois et si l'écart financier entre l'offre retenue et la meilleure offre ne dépasse pas 15%.",
+        "L'offre privilégiée doit garantir le maintien durable d'une activité industrielle ou de service en France et d'un nombre significatif d'emplois pour au moins trois ans.",
+        "Pour les activités industrielles jugées essentielles aux intérêts de la Nation, l'écart financier maximal peut être porté à 33%."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2956",
+      "titre": "Lutter contre les excès de la financiarisation en santé",
+      "date_depot": "2026-06-23",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi vise à encadrer la financiarisation du secteur de la santé pour garantir la primauté de l'accès aux soins et l'indépendance des professionnels.",
+      "points": [
+        "Renforcer les pouvoirs de contrôle des ordres professionnels (médecins, pharmaciens, sages-femmes, dentistes) sur les sociétés d'exercice libéral de santé, notamment par l'élargissement des documents exigibles sur les montages financiers et la création d'une cellule d'appui, modifiant certaines dispositions du Code de la santé publique.",
+        "Instaurer un registre des personnes physiques ou morales détenant des participations indirectes dans les sociétés de santé, avec une obligation de déclaration à la Caisse nationale de l'assurance maladie pour plus de transparence.",
+        "Encadrer strictement le recours aux actions de préférence et imposer une durée minimale d'investissement de sept ans pour les capitaux apportés par des investisseurs non professionnels dans les structures de soin.",
+        "Appliquer des sanctions disciplinaires pour les professionnels ne communiquant pas les documents requis et des amendes administratives pour les sociétés ne respectant pas les obligations de communication et de déclaration."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2965",
+      "titre": "Garantir aux Mahorais un accès effectif à l’eau",
+      "date_depot": "2026-06-23",
+      "categorie": "International et outre-mer",
+      "accroche": "Le texte vise à garantir un accès effectif à l'eau à Mayotte, en transférant temporairement les compétences à l'État et en créant une commission dédiée.",
+      "points": [
+        "La gestion de la distribution d'eau potable et de l'assainissement à Mayotte sera transférée à l'État pour six ans, en dérogation au code général des collectivités territoriales.",
+        "Une commission territoriale est créée pour garantir l'accès à l'eau potable aux habitants de Mayotte.",
+        "Cette commission pourra exiger du représentant de l'État de fournir une solution provisoire d'accès à l'eau sous 48 heures pour les situations fondées.",
+        "La commission sera composée de parlementaires, d'élus locaux, de l'agence régionale de santé, d'associations d'usagers et de personnalités qualifiées.",
+        "Un rapport d'évaluation sera remis au Parlement six mois avant la fin des six ans pour évaluer le dispositif et les infrastructures."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2949",
+      "titre": "Reconnaître le fleuve « Loire » et son bassin versant comme une entité naturelle juridique dotée de droits",
+      "date_depot": "2026-06-23",
+      "categorie": "Environnement et énergie",
+      "accroche": "Cette proposition de loi vise à reconnaître le fleuve Loire et son bassin versant comme une entité naturelle juridique dotée de droits.",
+      "points": [
+        "Le fleuve Loire et son bassin versant seraient reconnus comme une entité naturelle juridique, dotée de la personnalité juridique et de droits propres.",
+        "Cette entité bénéficierait de droits spécifiques, incluant le droit d'évoluer naturellement, de couler librement, à la continuité et à la santé écologique, à la régénération, et la possibilité d'ester en justice.",
+        "Un \"gardien de Loire\", composé de deux personnes physiques, serait créé pour incarner et défendre les perspectives, besoins, valeurs, et droits de l'entité naturelle Loire.",
+        "Le gardien siégerait dans les instances de gouvernance du bassin-versant, émettrait des avis, signalerait les risques et proposerait des feuilles de route pour la coexistence avec le fleuve.",
+        "L'entité naturelle Loire disposerait de sources de financement propres et toute atteinte à ses droits entraînerait une responsabilité pénale, civile, environnementale ou administrative."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2944",
+      "titre": "Portant diverses dispositions d'adaptation du droit des outre-mer",
+      "date_depot": "2026-06-18",
+      "categorie": "International et outre-mer",
+      "accroche": "La proposition de loi adapte diverses réglementations nationales aux spécificités des outre-mer, couvrant le logement, l'économie, l'environnement et la sécurité.",
+      "points": [
+        "Adapte les règles d'urbanisme et de logement aux réalités des outre-mer, notamment en prolongeant des délais et en permettant des extensions d'urbanisation limitées.",
+        "Renforce l'économie locale par la structuration des filières agricoles et forestières, et institue un dispositif de volontariat en entreprise spécifique aux outre-mer.",
+        "Met en place des mesures d'adaptation environnementale et énergétique pour les outre-mer, y compris la gestion des déchets, des espèces invasives et le développement de la géothermie.",
+        "Élargit les dispositions du code de la sécurité intérieure pour mieux encadrer les activités de sécurité privée dans certaines collectivités et communes ultramarines.",
+        "Homologue diverses peines et sanctions pénales locales en vigueur à Saint-Pierre-et-Miquelon, en Polynésie française et en Nouvelle-Calédonie."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2938",
+      "titre": "Protéger les petits porteurs et les entreprises des fonds vautours",
+      "date_depot": "2026-06-17",
+      "categorie": "Économie et travail",
+      "accroche": "Une proposition de loi vise à protéger les petits porteurs et les entreprises des fonds vautours en ajoutant une définition au Code monétaire et financier.",
+      "points": [
+        "Le texte a pour objectif de protéger les petits actionnaires et les entreprises face à certaines pratiques financières.",
+        "Il propose d'insérer un nouvel article, le L. 321-1-1, au sein du Code monétaire et financier.",
+        "Cet article définit précisément ce qu'est le \"service de prise ferme\", à savoir l'acquisition d'instruments financiers directement auprès de l'émetteur ou du cédant dans le but de les revendre."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2934",
+      "titre": "Droit de chaque enfant à disposer d'un avocat",
+      "date_depot": "2026-06-17",
+      "categorie": "Justice et sécurité",
+      "accroche": "Une proposition de loi vise à garantir l'assistance d'un avocat à chaque enfant dans les procédures d'aide éducative et de protection de l'enfance.",
+      "points": [
+        "Il s'agit d'une proposition de loi examinée par l'Assemblée nationale, issue d'un rapport de commission.",
+        "Le texte a pour objectif d'assurer le droit de chaque enfant à être assisté par un avocat.",
+        "Cette assistance est prévue dans le cadre des mesures d'aide éducative et de protection de l'enfance.",
+        "L'entrée en vigueur de l'article 2 est fixée au 6 janvier 2027."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2940",
+      "titre": "Réduire l'impact environnemental de l'industrie textile",
+      "date_depot": "2026-06-17",
+      "categorie": "Environnement et énergie",
+      "accroche": "La loi vise à réduire l'impact environnemental de l'industrie textile en encadrant la mode ultra-express et en encourageant des pratiques de consommation durables.",
+      "points": [
+        "Le code de l'environnement est complété pour définir la \"mode ultra-express\" et obliger les plateformes en ligne à diffuser des messages encourageant la sobriété et le réemploi des produits textiles.",
+        "Des pénalités financières progressives sont introduites pour les producteurs de mode ultra-express, basées sur le nombre de références et l'incitation à la réparation.",
+        "La publicité et la promotion, y compris par les influenceurs commerciaux, des produits et marques relevant de la mode ultra-express sont interdites.",
+        "L'affichage clair et lisible du lieu de fabrication est rendu obligatoire pour les produits textiles neufs ou d'occasion vendus en ligne.",
+        "Les programmes scolaires intègrent une sensibilisation aux incidences sur l'environnement et la santé des productions et pratiques de consommation non durables, notamment pour les textiles."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2928",
+      "titre": "Droits voisins de la presse",
+      "date_depot": "2026-06-17",
+      "categorie": "Numérique",
+      "accroche": "Une proposition de loi modifie le code de la propriété intellectuelle pour renforcer les droits voisins des éditeurs et agences de presse vis-à-vis des services en ligne.",
+      "points": [
+        "La loi modifie le Code de la propriété intellectuelle pour mieux encadrer les droits des éditeurs et agences de presse.",
+        "Les services de communication en ligne devront fournir des informations précises sur l'utilisation des publications de presse et l'évaluation de leur rémunération.",
+        "L'Autorité de régulation de la communication audiovisuelle et numérique (ARCOM) intervient pour arbitrer les négociations et peut fixer la rémunération des droits voisins.",
+        "L'ARCOM est dotée de pouvoirs d'enquête, y compris la collecte automatisée de données publiques, et peut imposer des sanctions pécuniaires importantes en cas de non-respect.",
+        "L'autorité peut également saisir l'Autorité de la concurrence en cas de pratiques jugées anticoncurrentielles."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2925",
+      "titre": "Garantir la transparence du calcul des contributions des collectivités territoriales au financement des établissements d’enseignement privés sous contrat d’association",
+      "date_depot": "2026-06-16",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Cette proposition de loi vise à rendre transparent le calcul des contributions des collectivités territoriales au financement des établissements d’enseignement privés sous contrat.",
+      "points": [
+        "La loi modifie le Code de l'éducation pour obliger les collectivités territoriales à publier annuellement les montants et les modalités de calcul de leurs contributions aux écoles privées sous contrat.",
+        "La Cour des comptes et les chambres régionales des comptes seront chargées de vérifier la régularité et la sincérité de ces informations financières.",
+        "Les établissements privés sous contrat devront instituer une comptabilité analytique pour mesurer leurs dépenses de fonctionnement et d'investissement, ainsi que leurs produits.",
+        "L'exigence de mise en place de la comptabilité analytique prendra effet trois ans après la promulgation de la loi."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2926",
+      "titre": "Prévenir les occupations sans droit ni titre en encadrant la souscription des contrats essentiels",
+      "date_depot": "2026-06-16",
+      "categorie": "Logement et urbanisme",
+      "accroche": "La proposition de loi encadre la souscription des contrats essentiels pour les logements afin de prévenir les occupations sans droit ni titre, en exigeant une preuve d'occupation légitime.",
+      "points": [
+        "La loi modifie le code de la consommation pour obliger les fournisseurs d'électricité, de gaz et de services internet à vérifier le droit d'occupation légitime pour tout logement.",
+        "Une preuve d'occupation légitime est requise, comme un bail, un titre de propriété, ou une attestation du propriétaire.",
+        "Fournir de faux documents pour justifier l'occupation est assimilé à un usage de faux, selon le code pénal.",
+        "Les fournisseurs qui ne respectent pas ces règles devront indemniser le propriétaire ou l'occupant légitime en cas de préjudice.",
+        "Le préfet pourra ordonner la suspension des contrats si les documents d'occupation légitime sont reconnus comme des faux."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2922",
+      "titre": "Relative à l'expérimentation d'une gouvernance territoriale unifiée pour le centre de ressources, d'expertise et de performance sportive (CREPS) de Vichy",
+      "date_depot": "2026-06-15",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "La proposition de loi expérimente une gouvernance territoriale unifiée pour le CREPS de Vichy, élargissant ses missions et modifiant sa gestion.",
+      "points": [
+        "Une expérimentation est lancée jusqu'en 2033 pour le Centre de ressources, d'expertise et de performance sportive (CREPS) de Vichy.",
+        "Le CREPS de Vichy voit ses missions élargies, incluant l'offre universitaire, la recherche en sport, jeunesse et éducation populaire, ainsi que la médecine du sport.",
+        "L'établissement public de coopération intercommunale « Vichy Communauté » est fortement impliqué dans la gestion et l'exploitation d'équipements sportifs locaux, ainsi que le soutien aux politiques sportives territoriales.",
+        "La gouvernance du CREPS est ajustée, modifiant certaines dispositions du code du sport, notamment la composition de son conseil d'administration et les modalités de nomination de son directeur.",
+        "Un comité d'évaluation sera nommé pour rendre un rapport au Parlement d'ici fin 2032 sur l'impact de cette nouvelle gouvernance."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2916",
+      "titre": "Relative au contrat d’édition, visant à favoriser les meilleures pratiques entre les acteurs des filières du livre et de l’œuvre musicale et portant simplification de l’exception au droit d’auteur pour les personnes en situation de handicap",
+      "date_depot": "2026-06-11",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi régule les contrats d’édition du livre et de l’œuvre musicale, favorise les meilleures pratiques et simplifie le droit d’auteur pour les personnes handicapées.",
+      "points": [
+        "Ce texte modifie le Code de la propriété intellectuelle pour moderniser les règles du contrat d'édition.",
+        "Il renforce les droits des auteurs de livres en instituant une rémunération minimale garantie et une reddition des comptes plus transparente des éditeurs.",
+        "Pour les œuvres musicales, la loi précise les obligations de l'éditeur en matière de reddition des comptes et les conditions de résiliation du contrat en cas de non-respect.",
+        "Elle simplifie l'accès aux œuvres pour les personnes en situation de handicap, en centralisant la liste des entités adaptatrices et en rendant obligatoire le dépôt numérique de certains livres par les éditeurs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2917",
+      "titre": "Patrimoine immobilier de l'État",
+      "date_depot": "2026-06-11",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Moderniser la gestion du patrimoine immobilier de l'État par la création d'un établissement public et l'introduction de nouvelles règles de transfert et de fiscalité.",
+      "points": [
+        "Une agence existante est transformée en un établissement public national dédié au patrimoine immobilier de l'État.",
+        "Ce nouvel établissement aura pour missions principales la gestion, l'entretien, la rénovation et la valorisation des biens immobiliers de l'État.",
+        "Des biens immobiliers de l'État, y compris ceux du domaine public, pourront être transférés gratuitement à cet établissement public.",
+        "Les transferts de propriété bénéficieront d'exonérations d'impôts, et les collectivités locales seront informées des cessions d'immeubles de l'État.",
+        "La loi modifie plusieurs codes existants, notamment le code général de la propriété des personnes publiques, le code de l'urbanisme et le code général des impôts."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2915",
+      "titre": "Droit à l'aide à mourir",
+      "date_depot": "2026-06-11",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi établit le droit à l'aide à mourir, définissant les conditions d'accès, la procédure d'application et son cadre légal.",
+      "points": [
+        "La loi modifie le code de la santé publique pour définir l'aide à mourir comme le droit de recourir à une substance létale, administrée par la personne elle-même ou un professionnel de santé.",
+        "L'accès est réservé aux personnes majeures, résidant en France, atteintes d'une affection grave et incurable avec souffrance réfractaire ou insupportable, et capables de manifester une volonté libre et éclairée.",
+        "Une procédure rigoureuse est établie, incluant une demande au médecin, une vérification collégiale par une équipe pluriprofessionnelle et un délai de réflexion avant confirmation.",
+        "Les professionnels de santé bénéficient d'une clause de conscience pour ne pas participer, et les coûts liés à cette procédure sont pris en charge par l'assurance maladie."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2919",
+      "titre": "Visant à remobiliser le bâti rural",
+      "date_depot": "2026-06-11",
+      "categorie": "Logement et urbanisme",
+      "accroche": "Une proposition de loi vise à créer un Fonds de mobilisation du bâti rural pour financer la réhabilitation ou reconversion de bâtiments dégradés dans les petites communes.",
+      "points": [
+        "Un ",
+        "Fonds de mobilisation du bâti rural",
+        " sera créé à titre expérimental pour une durée de six ans.",
+        "Ce fonds contribuera au financement de la réhabilitation ou reconversion du bâti dégradé dans les communes rurales de moins de 1 000 habitants et très peu denses.",
+        "Les modalités d'organisation, de gestion et les critères d'éligibilité de ce fonds seront définis par décret. Allocation en fonction des données statistiques de l'Institut national de la statistique et des études économiques. "
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2907",
+      "titre": "Territoires zéro chômeur longue durée",
+      "date_depot": "2026-06-10",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi modifiée vise à pérenniser et étendre l'expérimentation « territoires zéro chômeur de longue durée » pour l'insertion professionnelle.",
+      "points": [
+        "Le dispositif « territoires zéro chômeur de longue durée » a pour but de permettre aux personnes volontaires durablement privées d'emploi de bénéficier de contrats de travail via des entreprises à but d'emploi.",
+        "Les entreprises à but d'emploi (EBE) relèvent de l'économie sociale et solidaire et embauchent des personnes privées durablement d'emploi depuis au moins un an, domiciliées depuis six mois dans le territoire concerné.",
+        "L'État finance une partie de la rémunération des emplois occupés par ces personnes et les collectivités territoriales concourent également au financement des EBE via des conventions.",
+        "Les territoires peuvent être habilités par arrêté ministériel après avis des comités départementaux, et les contrats de travail conclus sont à durée indéterminée à temps choisi.",
+        "La loi, qui modifie la cinquième partie du code du travail, entre en vigueur le 1er janvier 2027, et les habilitations existantes peuvent être renouvelées."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2906",
+      "titre": "Accélérer la prévention cardio-neuro-vasculaire",
+      "date_depot": "2026-06-10",
+      "categorie": "Santé",
+      "accroche": "Une proposition de loi modifiée par le Sénat vise à établir une stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires.",
+      "points": [
+        "Mise en place d'une stratégie nationale pluriannuelle pour la prévention, le dépistage et les parcours de soins des maladies cardio-neuro-vasculaires, visant à réduire les inégalités.",
+        "Les rendez-vous de prévention en santé incluront la sensibilisation et le dépistage des facteurs de risques cardio-neuro-vasculaires chez les adultes.",
+        "Un dépistage précoce des maladies cardio-neuro-vasculaires sera proposé aux enfants après leur sixième anniversaire par un médecin formé.",
+        "Le code de la santé publique est modifié pour élargir les compétences de certains professionnels, comme les pharmaciens et kinésithérapeutes, à la mesure de la pression artérielle préventive.",
+        "Renforcement des actions d'information et de sensibilisation aux risques cardio-neuro-vasculaires dans les milieux professionnels et scolaires."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2912",
+      "titre": "Relative au déclassement de restes humains kali'nas et à leur remise à la collectivité de Guyane à des fins funéraires",
+      "date_depot": "2026-06-10",
+      "categorie": "Société et solidarités",
+      "accroche": "Cette proposition de loi prévoit le déclassement de restes humains kali'nas et arawaks conservés au Muséum national d'histoire naturelle pour des funérailles en Guyane.",
+      "points": [
+        "La loi permet le retour de restes humains et de moulages de défunts kali'nas et arawaks des collections publiques.",
+        "Ces éléments, actuellement détenus par le Muséum national d'histoire naturelle, sont destinés à être inhumés sur le territoire de la commune d'Iracoubo en Guyane.",
+        "Cette mesure déroge au principe d'inaliénabilité des collections publiques, tel qu'inscrit dans le Code du patrimoine.",
+        "Le transfert des restes doit être effectif au plus tard six mois après l'entrée en vigueur de la présente loi.",
+        "Une annexe à la loi détaille précisément la liste des squelettes, crânes et moulages concernés par cette restitution."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2901",
+      "titre": "Garantir aux travailleurs saisonniers la remise effective et rapide des documents de fin de contrat",
+      "date_depot": "2026-06-09",
+      "categorie": "Économie et travail",
+      "accroche": "Une proposition de loi vise à assurer aux travailleurs saisonniers la réception rapide de leurs documents de fin de contrat pour faciliter l'accès à leurs droits sociaux.",
+      "points": [
+        "Le texte modifie le Code du travail pour mieux prendre en compte la situation des travailleurs saisonniers.",
+        "Il s'agit de garantir la remise rapide et effective des documents de fin de contrat, tels que le certificat de travail et l'attestation France Travail.",
+        "Actuellement, ces documents sont à retirer par le salarié, ce qui est souvent problématique pour les travailleurs saisonniers mobiles.",
+        "La proposition impose aux employeurs d'envoyer directement ces documents aux salariés, par voie postale ou électronique sécurisée.",
+        "Cette mesure vise à éviter les retards qui empêchent les saisonniers de s'inscrire à France Travail et de percevoir leurs allocations chômage à temps."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2900",
+      "titre": "Renforcer l'encadrement de l'usage de la trottinette électrique",
+      "date_depot": "2026-06-09",
+      "categorie": "Justice et sécurité",
+      "accroche": "Une proposition de loi vise à renforcer la sécurité liée à l'utilisation des trottinettes électriques en introduisant de nouvelles obligations et sanctions.",
+      "points": [
+        "Rendre obligatoire le port du casque et d'un gilet rétroréfléchissant pour tous les utilisateurs de trottinettes électriques, et exiger la détention du brevet de sécurité routière (BSR).",
+        "Durcir les sanctions en cas de non-respect des règles de circulation et de modification des engins, avec des amendes doublées ou fortement augmentées et la possibilité de confiscation.",
+        "Obliger les vendeurs de trottinettes électriques à informer les acheteurs de l'obligation de souscrire une assurance de responsabilité civile spécifique à leur utilisation.",
+        "Renforcer les pouvoirs des policiers municipaux pour constater les infractions et immobiliser les engins, en modifiant notamment le code de la route et le code de la sécurité intérieure."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2902",
+      "titre": "Renforcer le contrôle de l’interdiction de détention d’un animal par la création d’un fichier national automatisé des auteurs d’infractions envers les animaux",
+      "date_depot": "2026-06-09",
+      "categorie": "Société et solidarités",
+      "accroche": "Une proposition de loi vise à créer un fichier national des auteurs d'infractions envers les animaux pour renforcer le contrôle des interdictions de détention.",
+      "points": [
+        "La proposition de loi institue un fichier judiciaire national automatisé pour recenser les personnes condamnées à une interdiction de détenir un animal.",
+        "Ce fichier, placé sous l'autorité du ministre de la Justice, vise à faciliter le contrôle des interdictions judiciaires et à prévenir la réitération des infractions de maltraitance animale.",
+        "Seules les autorités judiciaires et les officiers de police judiciaire auront un accès direct aux informations contenues dans ce fichier.",
+        "Toute cession d'un animal de compagnie, gratuite ou onéreuse, sera subordonnée à la production par l'acquéreur d'une attestation d'absence d'inscription au fichier.",
+        "Des amendes sont prévues pour les personnes ne respectant pas l'obligation de contrôle ou cédant un animal à une personne inscrite au fichier."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2897",
+      "titre": "Reconnaître la cystite interstitielle comme affection de longue durée",
+      "date_depot": "2026-06-09",
+      "categorie": "Santé",
+      "accroche": "Une proposition de loi vise à reconnaître la cystite interstitielle, une maladie chronique invalidante, comme affection de longue durée pour améliorer sa prise en charge.",
+      "points": [
+        "La cystite interstitielle est une maladie chronique inflammatoire de la vessie, souvent invalidante et sans traitement curatif connu.",
+        "Actuellement, cette affection n'est pas explicitement reconnue comme affection de longue durée, causant des disparités de prise en charge et des coûts élevés pour les patients.",
+        "La proposition de loi modifierait le code de la sécurité sociale pour reconnaître la cystite interstitielle comme affection de longue durée lorsqu'elle est chronique, invalidante et nécessite un traitement prolongé et coûteux.",
+        "Cette reconnaissance a pour but de garantir une meilleure égalité d'accès aux soins, une prise en charge adaptée et l'exonération du ticket modérateur pour les traitements."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2895",
+      "titre": "La réparation des préjudices résultant de la traite et de l'esclavage",
+      "date_depot": "2026-06-09",
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi vise à instituer des comités chargés d'étudier les préjudices et les modalités de réparation résultant de la traite et de l'esclavage colonial.",
+      "points": [
+        "Proposer l'instauration d'un comité d'experts pour évaluer les dommages causés par la traite négrière et l'esclavage, et définir les conditions de réparation.",
+        "Prévoir la création d'un second comité dédié à l'estimation des montants dus par la France à Haïti concernant la rançon de 1825, et à l'étude des options de restitution.",
+        "Inclure une disposition financière qui serait compensée par une taxe additionnelle sur le tabac, impliquant une modification du code des impositions sur les biens et services."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2891",
+      "titre": "Abolir la prescription décennale civile et garantir une réparation des préjudices pour les victimes d’une exposition au diéthylstilbestrol",
+      "date_depot": "2026-06-09",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi vise à abolir la prescription décennale civile et à garantir une réparation pour les victimes d'exposition au diéthylstilbestrol.",
+      "points": [
+        "Modifie le Code civil pour rendre imprescriptibles les actions en justice civiles pour les victimes d'une exposition prénatale au diéthylstilbestrol (DES) et autres hormones similaires.",
+        "Intègre, via le Code de la santé publique, les dommages liés à l'exposition au DES dans les dispositifs d'indemnisation existants au titre de la solidarité nationale.",
+        "Prévoit qu'un décret, après avis de la Haute Autorité de santé, précisera la liste des pathologies ouvrant droit à réparation par la solidarité nationale.",
+        "Compense la charge financière pour l'État et la sécurité sociale par l'instauration d'une taxe additionnelle sur le tabac."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2889",
+      "titre": "Garantir des droits sociaux et professionnels aux personnes atteintes d’algie vasculaire de la face par l’intégration de la pathologie dans les dispositifs de solidarité et d’handicap",
+      "date_depot": "2026-06-09",
+      "categorie": "Société et solidarités",
+      "accroche": "La proposition de loi vise à garantir des droits sociaux et professionnels aux personnes atteintes d’algie vasculaire de la face.",
+      "points": [
+        "La pathologie « algie vasculaire de la face » sera reconnue comme Affection de Longue Durée, garantissant une prise en charge intégrale des soins et traitements (modification du code de la sécurité sociale).",
+        "Les personnes atteintes de la forme chronique de cette algie bénéficieront automatiquement de l'Allocation aux Adultes Handicapés.",
+        "La reconnaissance de la qualité de travailleur handicapé sera facilitée pour les formes chroniques et épisodiques sévères (modification du code du travail).",
+        "Des aménagements professionnels (horaires adaptés, télétravail facilité, pauses de récupération) seront garantis pour les salariés et agents publics concernés.",
+        "Un dispositif expérimental permettra des absences de courte durée sans jour de carence, et un droit annuel à 30 jours d'arrêt de travail sera instauré (modification du code de la sécurité sociale)."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2890",
+      "titre": "Exclure l’indemnisation des spectateurs de rodéos urbains et autres rassemblements routiers dangereux",
+      "date_depot": "2026-06-09",
+      "categorie": "Justice et sécurité",
+      "accroche": "Une proposition de loi vise à exclure l'indemnisation des victimes ayant volontairement assisté à des rodéos urbains et rassemblements routiers dangereux.",
+      "points": [
+        "La multiplication des rassemblements routiers dangereux et rodéos urbains compromet la sécurité publique et la tranquillité des citoyens.",
+        "La loi Badinter de 1985 indemnise actuellement les victimes non-conductrices d'accidents, sauf en cas de faute inexcusable, une exception rarement appliquée.",
+        "Le texte propose d'assimiler à une faute inexcusable le fait d'assister volontairement à des démonstrations de conduite dangereuses et illicites.",
+        "Cette mesure aurait pour effet d'exclure le droit à indemnisation pour les spectateurs, visant à les responsabiliser et à les dissuader.",
+        "La proposition modifie l'article 3 de la loi n° 85‑677 du 5 juillet 1985 relative aux accidents de la circulation."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2886",
+      "titre": "Garantir l'exercice des droits fondamentaux des personnes handicapées",
+      "date_depot": "2026-06-09",
+      "categorie": "Société et solidarités",
+      "accroche": "Cette proposition de loi vise à actualiser le droit français relatif aux personnes handicapées pour mieux garantir leurs droits fondamentaux, en s'alignant sur les conventions internationales.",
+      "points": [
+        "Redéfinit le handicap dans le code de l'action sociale et des familles, passant d'une vision médicale à une approche reconnaissant les barrières environnementales.",
+        "Garantit le droit à l'autodétermination et à la vie autonome pour les personnes handicapées, assurant leur capacité à décider pour elles-mêmes.",
+        "Supprime du code du travail la liste des emplois \"ECAP\" (exigeant des conditions d'aptitude particulières), considérée comme discriminatoire.",
+        "Rétablit l'obligation que 100% des logements neufs en bâtiments collectifs soient accessibles dès leur construction, modifiant le code de la construction et de l'habitation."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2896",
+      "titre": "Garantir l’égalité de traitement entre militaires et fonctionnaires civils en matière d’indemnisation des invalidités imputables au service",
+      "date_depot": "2026-06-09",
+      "categorie": "Société et solidarités",
+      "accroche": "La proposition de loi vise à harmoniser l'indemnisation des invalidités imputables au service entre militaires et fonctionnaires civils pour garantir l'égalité.",
+      "points": [
+        "Met fin à la différence de traitement entre militaires et fonctionnaires civils concernant l'indemnisation des invalidités dues au service.",
+        "Aligner le calcul des pensions d'invalidité des militaires sur celui des fonctionnaires civils, en se basant sur l'indice de carrière détenu.",
+        "Prend en compte l'ancienneté de service dans le calcul de la pension militaire d'invalidité pour une réparation plus juste.",
+        "Les dispositions modifient spécifiquement le code des pensions civiles et militaires de retraite et le code des pensions militaires d’invalidité et des victimes de guerre.",
+        "Ces nouvelles règles s'appliquent aux pensions liquidées après son entrée en vigueur et permettent la révision des pensions déjà versées."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2883",
+      "titre": "Sécuriser l’exercice effectif du droit à l’autoconsommation d’électricité d’origine renouvelable",
+      "date_depot": "2026-06-09",
+      "categorie": "Environnement et énergie",
+      "accroche": "Cette proposition de loi vise à garantir et faciliter l'exercice effectif du droit à l'autoconsommation d'électricité d'origine renouvelable, notamment collective, en France.",
+      "points": [
+        "Inscrit dans le Code de l'énergie le droit de produire, consommer, stocker et partager sa propre électricité renouvelable, avec des garanties contre les modifications réglementaires défavorables.",
+        "Facilite le raccordement au réseau électrique pour les installations d'autoconsommation et plafonne les coûts de raccordement pour les petites et moyennes installations.",
+        "Simplifie l'autoconsommation collective en supprimant l'obligation d'autorisation de fourniture, en étendant la distance maximale entre participants et en ouvrant certaines opérations aux acteurs privés.",
+        "Instaure un tarif réduit pour l'utilisation du réseau électrique pour les participants à l'autoconsommation collective et intègre cette énergie dans le calcul de la réduction énergétique des bâtiments tertiaires."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2882",
+      "titre": "Visant à garantir la neutralité financière du don d'organes par les vivants",
+      "date_depot": "2026-06-09",
+      "categorie": "Santé",
+      "accroche": "La proposition de loi vise à assurer la neutralité financière du don d'organes et d'autres éléments humains par les vivants.",
+      "points": [
+        "Les frais de toute nature liés au don, y compris le suivi et les soins post-prélèvement, seront intégralement pris en charge pour les donneurs vivants.",
+        "Les donneurs seront exemptés de diverses contributions de santé (forfait journalier, participation de l'assuré, franchises, dépassements d'honoraires) pour les actes liés à leur don et bénéficieront du tiers payant.",
+        "Une autorisation d'absence de l'employeur sera accordée aux donneurs pour les examens et interventions nécessaires au processus de don.",
+        "Les assureurs n'auront pas le droit de demander des informations sur d'éventuels dons d'organes, de cellules ou de gamètes lors de la déclaration de risque pour un contrat d'assurance.",
+        "Le financement des dépenses supplémentaires pour les organismes de sécurité sociale sera compensé par une taxe additionnelle sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2885",
+      "titre": "Renforcer la sécurité juridique des projets d’infrastructures publiques nécessaires aux usagers du service public",
+      "date_depot": "2026-06-09",
+      "categorie": "Environnement et énergie",
+      "accroche": "La proposition de loi vise à renforcer la sécurité juridique des projets d'infrastructures publiques en adaptant les règles de recours, notamment pour les contentieux environnementaux.",
+      "points": [
+        "Le texte inscrit dans le code de l'environnement des critères précis pour évaluer l'existence d'une solution alternative satisfaisante pour les projets pouvant affecter des espèces protégées.",
+        "Les recours contre les autorisations environnementales de certains projets d'infrastructures publiques portés par les collectivités territoriales bénéficieront d'un traitement prioritaire par les juridictions administratives, avec des délais resserrés.",
+        "Les mécanismes d'annulation partielle et de sursis à statuer sont étendus à ces contentieux, permettant la poursuite des parties non entachées d'illégalité des autorisations.",
+        "L'objectif est de maîtriser les délais des contentieux et d'éviter le blocage prolongé des projets d'intérêt général local, tout en respectant le droit au recours."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2898",
+      "titre": "Interdire l’utilisation d’animaux non domestiques dans les créations artistiques",
+      "date_depot": "2026-06-09",
+      "categorie": "Société et solidarités",
+      "accroche": "Une proposition de loi entend interdire l'utilisation d'animaux non domestiques, leur captivité et leur dressage pour les créations artistiques.",
+      "points": [
+        "La loi vise à interdire l'utilisation, la captivité et le dressage d'animaux non domestiques pour l'élaboration ou l'exécution de toute œuvre de l'esprit (audiovisuelle, photographique, installations artistiques, événements).",
+        "Cette mesure a pour but de limiter la souffrance des animaux sauvages, souvent inadaptés à la vie en captivité, au stress des transports et aux exigences de performance artistique.",
+        "Le texte modifie l'article L. 413-13 du Code de l'environnement et supprime une phrase d'une loi de 2023 sur l'influence commerciale.",
+        "Des peines de 2 ans d'emprisonnement et 75 000 euros d'amende sont prévues en cas de violation des dispositions.",
+        "La proposition souligne l'existence d'alternatives technologiques vertueuses, telles que les effets visuels et l'animatronique, pour la création artistique sans animaux réels. L'entrée en vigueur est prévue deux ans après la promulgation."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2892",
+      "titre": "Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+      "date_depot": "2026-06-09",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi vise à moderniser et rééquilibrer le fonctionnement du titre-restaurant, en s'adaptant aux évolutions des habitudes de consommation et de travail.",
+      "points": [
+        "À partir du 1er janvier 2028, les titres-restaurant deviendront exclusivement dématérialisés et pourront être utilisés pour l'achat de tout produit alimentaire, avec quelques exceptions.",
+        "Il sera interdit aux émetteurs de titres d'accorder des remises aux employeurs, et ils devront communiquer annuellement les commissions appliquées aux commerçants.",
+        "La loi consacre la possibilité pour les salariés de faire don de leurs titres-restaurant à des associations nationales œuvrant dans l'aide alimentaire.",
+        "Cette proposition de loi modifie le Code du travail et entrera en vigueur le 1er janvier 2028, prolongeant les mesures transitoires actuelles jusqu'à cette date."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2893",
+      "titre": "Garantir à tous les travailleurs les conditions d’une vie digne en instaurant l’échelle mobile des salaires",
+      "date_depot": "2026-06-09",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi vise à instaurer l'indexation automatique des salaires sur l'inflation pour garantir des conditions de vie dignes aux travailleurs.",
+      "points": [
+        "Les salaires du secteur privé augmenteront automatiquement deux fois par an en fonction d'un indice de l'inflation, sans s'appliquer aux salaires supérieurs à deux fois le salaire médian.",
+        "La rémunération des fonctionnaires et des agents contractuels de la Fonction publique sera également indexée sur l'inflation, selon les mêmes modalités et plafonds.",
+        "Les branches professionnelles devront revaloriser leurs salaires minima pour qu'ils ne soient jamais inférieurs au SMIC, avec des négociations obligatoires à chaque hausse de celui-ci.",
+        "Les salaires minimums des apprentis et des personnes en contrat de professionnalisation seront revalorisés.",
+        "Une caisse de péréquation inter-entreprises, financée par une cotisation progressive des grandes entreprises, sera créée pour soutenir financièrement les petites et moyennes entreprises ainsi que les associations employeuses."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2888",
+      "titre": "Garantir la continuité du service public de l’enseignement supérieur et rétablir l’autorité de l’État sur les campus universitaires",
+      "date_depot": "2026-06-09",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Cette proposition de loi vise à garantir la continuité du service public de l'enseignement supérieur et à rétablir l'autorité de l'État sur les campus universitaires.",
+      "points": [
+        "Le préfet pourra intervenir sur les campus pour rétablir l'ordre si le président de l'université n'agit pas, après mise en demeure ou en cas d'urgence caractérisée.",
+        "Un nouveau délit sera créé pour sanctionner le blocage physique des accès aux établissements d'enseignement supérieur, avec des peines d'amende et d'emprisonnement possibles.",
+        "Chaque président d'université devra élaborer un plan de sécurité et de continuité du service public, approuvé par le recteur chancelier.",
+        "Cette proposition de loi modifie et complète plusieurs articles du Code de l'éducation."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2897",
+      "titre": "Reconnaître la cystite interstitielle comme affection de longue durée",
+      "date_depot": "2026-06-09",
+      "categorie": "Santé",
+      "accroche": "Une proposition de loi vise à reconnaître la cystite interstitielle, une maladie chronique invalidante, comme affection de longue durée pour améliorer sa prise en charge.",
+      "points": [
+        "La cystite interstitielle est une maladie chronique inflammatoire de la vessie, souvent invalidante et sans traitement curatif connu.",
+        "Actuellement, cette affection n'est pas explicitement reconnue comme affection de longue durée, causant des disparités de prise en charge et des coûts élevés pour les patients.",
+        "La proposition de loi modifierait le code de la sécurité sociale pour reconnaître la cystite interstitielle comme affection de longue durée lorsqu'elle est chronique, invalidante et nécessite un traitement prolongé et coûteux.",
+        "Cette reconnaissance a pour but de garantir une meilleure égalité d'accès aux soins, une prise en charge adaptée et l'exonération du ticket modérateur pour les traitements."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2902",
+      "titre": "Renforcer le contrôle de l’interdiction de détention d’un animal par la création d’un fichier national automatisé des auteurs d’infractions envers les animaux",
+      "date_depot": "2026-06-09",
+      "categorie": "Société et solidarités",
+      "accroche": "Une proposition de loi vise à créer un fichier national des auteurs d'infractions envers les animaux pour renforcer le contrôle des interdictions de détention.",
+      "points": [
+        "La proposition de loi institue un fichier judiciaire national automatisé pour recenser les personnes condamnées à une interdiction de détenir un animal.",
+        "Ce fichier, placé sous l'autorité du ministre de la Justice, vise à faciliter le contrôle des interdictions judiciaires et à prévenir la réitération des infractions de maltraitance animale.",
+        "Seules les autorités judiciaires et les officiers de police judiciaire auront un accès direct aux informations contenues dans ce fichier.",
+        "Toute cession d'un animal de compagnie, gratuite ou onéreuse, sera subordonnée à la production par l'acquéreur d'une attestation d'absence d'inscription au fichier.",
+        "Des amendes sont prévues pour les personnes ne respectant pas l'obligation de contrôle ou cédant un animal à une personne inscrite au fichier."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2901",
+      "titre": "Garantir aux travailleurs saisonniers la remise effective et rapide des documents de fin de contrat",
+      "date_depot": "2026-06-09",
+      "categorie": "Économie et travail",
+      "accroche": "Une proposition de loi vise à assurer aux travailleurs saisonniers la réception rapide de leurs documents de fin de contrat pour faciliter l'accès à leurs droits sociaux.",
+      "points": [
+        "Le texte modifie le Code du travail pour mieux prendre en compte la situation des travailleurs saisonniers.",
+        "Il s'agit de garantir la remise rapide et effective des documents de fin de contrat, tels que le certificat de travail et l'attestation France Travail.",
+        "Actuellement, ces documents sont à retirer par le salarié, ce qui est souvent problématique pour les travailleurs saisonniers mobiles.",
+        "La proposition impose aux employeurs d'envoyer directement ces documents aux salariés, par voie postale ou électronique sécurisée.",
+        "Cette mesure vise à éviter les retards qui empêchent les saisonniers de s'inscrire à France Travail et de percevoir leurs allocations chômage à temps."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2887",
+      "titre": "Améliorer la reconnaissance des troubles psychiques imputables au service pour les forces de sécurité et de secours",
+      "date_depot": "2026-06-09",
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi vise à améliorer la reconnaissance des troubles psychiques liés au service pour les forces de sécurité et de secours.",
+      "points": [
+        "Reconnaître explicitement que certains troubles psychiques, comme le stress post-traumatique, peuvent être imputables au service pour les agents de sécurité et de secours.",
+        "Instaurer une présomption simple d'imputabilité au service lorsque l'agent a été exposé à des événements traumatiques graves, sauf preuve contraire de l'administration.",
+        "Exiger une expertise médicale pour la reconnaissance de ces troubles, avec des détails (événements, fonctions concernées) à préciser par décret.",
+        "Modifier le Code général de la fonction publique et le Code des pensions civiles et militaires de retraite pour assurer les droits à réparation."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2878",
+      "titre": "Renforcer la protection des mineurs en formation professionnelle",
+      "date_depot": "2026-06-04",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "La proposition de loi vise à améliorer la sécurité et à lutter contre les violences pour les mineurs en formation professionnelle.",
+      "points": [
+        "Les entreprises présentant des risques ou un historique d'accidents ne pourront plus accueillir de mineurs en stage ou en apprentissage, et les travaux dangereux sont plus strictement encadrés.",
+        "Les stagiaires et apprentis recevront une fiche détaillant les risques professionnels, leurs droits (notamment le droit de retrait), et les contacts des autorités compétentes.",
+        "Les établissements et organismes d'accueil devront définir et communiquer des mesures de prévention contre les violences sexuelles, le harcèlement et les discriminations.",
+        "Les amendes pour manquements à la sécurité des mineurs sont augmentées, la récidive entraînera des peines plus lourdes et la suspension des aides aux employeurs d'apprentis.",
+        "La loi modifie plusieurs codes existants, notamment le Code du travail, le Code de l'éducation et le Code de commerce, pour intégrer ces nouvelles dispositions."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2879",
+      "titre": "Pour l’égalité d’accès aux soins des ressortissants ultramarins en hexagone",
+      "date_depot": "2026-06-04",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi vise à garantir l'égalité d'accès aux soins pour les affiliés des régimes sociaux ultramarins lors de leurs séjours en France hexagonale.",
+      "points": [
+        "Crée un moyen d'identification électronique pour les affiliés des régimes de sécurité sociale de Polynésie française, Saint-Pierre-et-Miquelon, Nouvelle-Calédonie et Wallis-et-Futuna, utilisable en France hexagonale et dans les départements d'outre-mer.",
+        "Ce moyen d'identification sera délivré sur demande et fonctionnera dans les mêmes conditions que celui des résidents de métropole, sous réserve de décrets de coordination.",
+        "Le texte modifie le code de la sécurité sociale pour affirmer l'application de la garantie de protection de la santé lors des transferts entre les régimes sociaux ultramarins et ceux de la France hexagonale.",
+        "Prévoit une compensation des charges financières pour les organismes de sécurité sociale et l'État par l'augmentation de l'accise sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2877",
+      "titre": "Rétention administrative et prévention des risques d'attentat",
+      "date_depot": "2026-06-04",
+      "categorie": "Justice et sécurité",
+      "accroche": "La proposition de loi vise à renforcer les mesures de sécurité, la rétention administrative des étrangers et la prévention des risques d'attentat en France.",
+      "points": [
+        "Les préfets pourront contraindre à un examen psychiatrique les personnes dont le comportement, lié à des troubles mentaux, constitue une menace grave d'actes de terrorisme, avec possibilité d'admission en soins.",
+        "Mise en place d'une rétention de sûreté terroriste après la peine pour les condamnés de crimes terroristes, s'ils restent très dangereux en raison de leur idéologie et de troubles de la personnalité.",
+        "Création d'une mesure judiciaire de prévention et de réinsertion pour les condamnés de droit commun radicalisés présentant un risque terroriste élevé, incluant un suivi sanitaire et social.",
+        "La durée maximale de rétention administrative des étrangers considérés comme une menace grave pour l'ordre public et condamnés pour certains crimes est étendue.",
+        "Renforcement du contrôle des demandes de changement de prénom ou de nom, avec transmission au procureur en cas de condamnation pour terrorisme ou d'inscription à des fichiers judiciaires spécifiques, modifiant ainsi le Code civil et le Code de procédure pénale."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2866",
+      "titre": "Adaptation du régime des intermittents du spectacle dans les départements et régions d'outre-mer et les collectivités d'outre-mer",
+      "date_depot": "2026-06-03",
+      "categorie": "Économie et travail",
+      "accroche": "Ce texte propose des adaptations au régime des intermittents du spectacle dans les territoires d'outre-mer, visant à soutenir l'emploi culturel et la mobilité des professionnels.",
+      "points": [
+        "Le Code du travail est modifié pour permettre l'adaptation des conditions d'affiliation au régime d'assurance chômage des intermittents du spectacle en outre-mer, avec un seuil d'heures travaillées entre 350 heures et le seuil national.",
+        "Le Code des transports est modifié pour créer un \"passeport pour la mobilité\" destiné à aider financièrement les intermittents ultramarins dans leurs déplacements professionnels.",
+        "La loi sur la liberté de création, l'architecture et le patrimoine est complétée pour mieux soutenir les infrastructures et la production culturelle locale dans les territoires d'outre-mer.",
+        "Le Gouvernement devra remettre un rapport au Parlement évaluant l'accès des artistes et techniciens ultramarins au régime des intermittents et l'efficacité des dispositifs culturels existants.",
+        "Un rapport public annuel, transmis au Parlement, analysera les conditions d'accès au régime des intermittents en outre-mer et l'évolution de l'emploi dans les secteurs culturels locaux."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2872",
+      "titre": "Nationalisation d'ArcelorMittal France",
+      "date_depot": "2026-06-03",
+      "categorie": "Économie et travail",
+      "accroche": "Une proposition de loi vise à la nationalisation d'ArcelorMittal France pour préserver la souveraineté industrielle du pays.",
+      "points": [
+        "La société ArcelorMittal France serait nationalisée.",
+        "Une commission administrative serait chargée de déterminer le prix d'achat par l'État, qui ne pourra pas dépasser la valeur moyenne des actions sur une période définie.",
+        "Cette commission serait composée de membres issus de la Cour des comptes, de la Banque de France, du Conseil d'État, de la Cour de cassation, de la Commission des participations et des transferts et du CESE.",
+        "Le coût pour l'État serait compensé par une taxe additionnelle sur les tabacs, modifiant le code des impositions sur les biens et services."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2856",
+      "titre": "Relance des investissements dans l'hydroélectricité",
+      "date_depot": "2026-06-02",
+      "categorie": "Environnement et énergie",
+      "accroche": "La proposition de loi vise à relancer les investissements dans l'hydroélectricité en réformant son cadre juridique et en introduisant de nouveaux mécanismes de marché.",
+      "points": [
+        "Les contrats de concession existants pour les grandes installations hydroélectriques sont résiliés et remplacés par des droits réels d'exploitation pour une durée de 70 ans.",
+        "Un nouveau régime d'autorisation d'utilisation de l'énergie hydraulique est créé pour les installations de plus de 4500 kilowatts, modifiant le code de l'énergie et le code de l'environnement.",
+        "La loi définit les modalités d'indemnisation des anciennes concessions et la contrepartie financière pour l'attribution des nouveaux droits d'exploitation.",
+        "Électricité de France (EDF) est tenue de mettre à disposition des tiers une capacité hydroélectrique virtuelle via des produits de marché pour garantir l'ouverture du secteur.",
+        "Des comités de suivi, d'information et de concertation sont créés pour associer les collectivités territoriales et les riverains à la gestion des usages de l'eau liés à ces installations."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2864",
+      "titre": "Relative à l'instauration d'une présomption d'exploitation des contenus culturels par les fournisseurs d'intelligence artificielle",
+      "date_depot": "2026-06-02",
+      "categorie": "Numérique",
+      "accroche": "Une proposition de loi instaure une présomption d'utilisation des œuvres culturelles par les fournisseurs d'intelligence artificielle en cas d'indice vraisemblable.",
+      "points": [
+        "La loi modifie le Code de la propriété intellectuelle pour y ajouter de nouvelles dispositions.",
+        "Elle établit une présomption qu'une œuvre protégée par le droit d'auteur a été utilisée par un fournisseur d'intelligence artificielle.",
+        "Cette présomption s'applique si un élément rend l'utilisation vraisemblable, lié au développement, déploiement ou au résultat de l'IA.",
+        "Le fournisseur d'intelligence artificielle a la possibilité de prouver le contraire pour réfuter cette présomption.",
+        "Cette nouvelle règle s'applique aussi aux affaires civiles déjà en cours, sauf si une décision finale a déjà été rendue."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2862",
+      "titre": "Réformer les bourses sur critères sociaux et lutter contre la précarité étudiante",
+      "date_depot": "2026-06-02",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Une proposition de loi vise à réformer les bourses étudiantes sur critères sociaux pour réduire la précarité, via une revalorisation annuelle et un versement mensuel.",
+      "points": [
+        "La proposition de loi modifie le Code de l'éducation pour renforcer l'objectif de réduction des inégalités sociales par les bourses étudiantes.",
+        "Les montants des bourses sur critères sociaux et les plafonds de ressources pour leur attribution seraient revalorisés chaque année, au minimum selon l'inflation.",
+        "Les bourses d'enseignement supérieur sur critères sociaux seraient versées sur une base annuelle, en douze mensualités.",
+        "La charge financière pour l'État de ces mesures serait compensée par une nouvelle taxe additionnelle sur le tabac."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2855",
+      "titre": "Concernant la représentativité au sein des unions régionales des professionnels de santé",
+      "date_depot": "2026-06-01",
+      "categorie": "Santé",
+      "accroche": "La loi modifie les règles de désignation des membres des unions régionales des professionnels de santé et instaure une mesure de l'audience syndicale.",
+      "points": [
+        "Ce texte modifie le Code de la santé publique et le Code de la sécurité sociale.",
+        "Les membres des unions régionales des professionnels de santé (URPS) seront désormais désignés par les organisations syndicales en fonction de leur audience régionale.",
+        "Une élection sera organisée pour chaque profession afin de mesurer l'audience des syndicats représentant les professionnels de santé libéraux, ou le nombre d'adhérents pour les petites professions.",
+        "Les organisations syndicales devront satisfaire à des critères d'indépendance financière, d'ancienneté et d'implantation territoriale pour se porter candidates.",
+        "Les médecins seront répartis en deux collèges distincts pour ces élections: les généralistes et les spécialistes."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2853",
+      "titre": "Droit de chaque enfant à disposer d'un avocat",
+      "date_depot": "2026-05-29",
+      "categorie": "Société et solidarités",
+      "accroche": "Proposition de loi visant à garantir l'assistance d'un avocat pour chaque enfant dans le cadre de mesures d'assistance éducative et de protection de l'enfance.",
+      "points": [
+        "Ce texte assure à chaque enfant le droit d'être accompagné par un avocat lors des procédures d'aide éducative et de protection.",
+        "La proposition de loi, initialement adoptée par l'Assemblée nationale, a été modifiée par le Sénat.",
+        "L'entrée en vigueur de l'article principal de cette loi est fixée au 6 janvier 2027."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2852",
+      "titre": "Reconnaître les victimes des essais nucléaires français",
+      "date_depot": "2026-05-28",
+      "categorie": "Santé",
+      "accroche": "Une proposition de loi vise à mieux reconnaître et indemniser les victimes des essais nucléaires français, en modifiant la loi existante.",
+      "points": [
+        "La proposition de loi modifie la loi n° 2010‑2 du 5 janvier 2010 pour améliorer la reconnaissance et l'indemnisation des victimes des essais nucléaires.",
+        "Elle élargit l'éligibilité à l'indemnisation aux personnes souffrant de pathologies radio-induites et à leurs ayants droit, incluant celles nées de parents exposés.",
+        "L'État prendra en charge le remboursement des dépenses de santé engagées par les organismes d'assurance maladie pour les soins liés aux pathologies reconnues.",
+        "Une commission de suivi est renforcée pour actualiser la liste des pathologies radio-induites et superviser l'indemnisation ainsi que les remboursements de santé.",
+        "Le comité d'indemnisation verra sa composition ajustée et appliquera une présomption irréfragable d'exposition pour simplifier les démarches des victimes."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2848",
+      "titre": "Visant à permettre la mise en place d'une enquête administrative et le contrôle des antécédents judiciaires des personnels d'encadrement des enfants",
+      "date_depot": "2026-05-28",
+      "categorie": "Société et solidarités",
+      "accroche": "La proposition de loi renforce le contrôle des antécédents judiciaires des personnes encadrant des mineurs pour mieux les protéger.",
+      "points": [
+        "La loi étend le contrôle d'honorabilité aux personnes intervenant auprès de mineurs, que ce soit en structures d'accueil ou à domicile.",
+        "Sont concernés les organisateurs, intervenants ou toute personne exerçant des fonctions d'animation, d'enseignement ou de garde de mineurs.",
+        "Le texte modifie le Code de l'action sociale et des familles pour renforcer les obligations de vérification.",
+        "Les autorités administratives auront désormais l'obligation de transmettre sans délai les informations et de prononcer des mesures conservatoires en cas de risque pour les mineurs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2849",
+      "titre": "Portant réforme des critères d'attribution de l'éducation prioritaire pour l'équité des résultats et l'égalité territoriale",
+      "date_depot": "2026-05-28",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Cette proposition de loi, adoptée par le Sénat, vise à réformer les critères d'attribution de l'éducation prioritaire pour une meilleure équité des résultats et égalité territoriale.",
+      "points": [
+        "Le Code de l'éducation est modifié, notamment l'article L. 111-1, pour encadrer la répartition des moyens de l'éducation prioritaire.",
+        "La répartition des moyens du service public de l'éducation tiendra davantage compte des situations économiques, territoriales et sociales, incluant désormais les zones éloignées.",
+        "Une nouvelle définition de l'éducation prioritaire est introduite, la présentant comme une politique territoriale renforçant l'action pédagogique dans les zones difficiles.",
+        "La liste des établissements concernés et la répartition des moyens de l'éducation prioritaire feront l'objet d'une révision au moins tous les cinq ans, y compris au niveau académique."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2851",
+      "titre": "Visant à assouplir la procédure d'autorisation des établissements et services médico-sociaux à caractère expérimental",
+      "date_depot": "2026-05-28",
+      "categorie": "Société et solidarités",
+      "accroche": "La proposition de loi adoptée par le Sénat vise à assouplir la procédure d'autorisation des établissements et services sociaux et médico-sociaux expérimentaux.",
+      "points": [
+        "Ce texte modifie l'article L. 313-7 du code de l'action sociale et des familles.",
+        "Les autorisations pour les établissements et services expérimentaux pourront être renouvelées, pour une durée totale ne pouvant excéder dix ans, après des évaluations positives.",
+        "À l'issue de cette période d'expérimentation et suite à une nouvelle évaluation positive, l'établissement ou le service pourra obtenir une autorisation permanente selon les conditions habituelles."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2838",
+      "titre": "Garantir l'interdiction de la vaisselle en plastique dans la restauration collective accueillant du jeune public et liée à la petite enfance",
+      "date_depot": "2026-05-27",
+      "categorie": "Environnement et énergie",
+      "accroche": "Cette proposition de loi vise à garantir l'interdiction de la vaisselle en plastique, y compris gobelets et couverts, dans la restauration collective accueillant les jeunes publics.",
+      "points": [
+        "La proposition de loi renforce l'interdiction de la vaisselle en plastique dans la restauration collective accueillant du jeune public et liée à la petite enfance.",
+        "L'interdiction est clarifiée pour inclure spécifiquement les gobelets, assiettes, récipients et couverts en plastique.",
+        "Le texte modifie l'article L. 541‑15‑10 du code de l’environnement.",
+        "Les coûts financiers pour l'État, les collectivités territoriales et les organismes de sécurité sociale seront compensés par une taxe additionnelle sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2837",
+      "titre": "Indemnisation des victimes du chlordécone",
+      "date_depot": "2026-05-27",
+      "categorie": "Santé",
+      "accroche": "L'État reconnaît sa responsabilité dans les dommages du chlordécone à la Guadeloupe et la Martinique, visant la dépollution, la recherche et l'indemnisation des victimes.",
+      "points": [
+        "L'État reconnaît officiellement sa part de responsabilité dans les préjudices sanitaires, moraux, écologiques et économiques causés par le chlordécone en Guadeloupe et en Martinique.",
+        "Un objectif majeur est la dépollution des terres et des eaux contaminées, avec une priorité nationale pour la recherche scientifique sur les effets sanitaires et environnementaux de cette pollution.",
+        "La loi s'engage à indemniser toutes les victimes de la contamination au chlordécone dans ces territoires, que l'exposition ait eu lieu dans le cadre professionnel ou non.",
+        "Le Gouvernement devra étudier l'extension du fonds d'indemnisation des victimes de pesticides à toutes les personnes souffrant de maladies liées au chlordécone.",
+        "Une stratégie pluriannuelle sera mise en œuvre pour atteindre ces objectifs, avec un financement compensé en partie par une taxe additionnelle sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2839",
+      "titre": "Réduire les risques sanitaires liés aux contaminations au cadmium dans l’alimentation",
+      "date_depot": "2026-05-27",
+      "categorie": "Santé",
+      "accroche": "Une proposition de loi vise à interdire les engrais phosphatés contenant une teneur élevée en cadmium pour limiter sa contamination dans l'alimentation.",
+      "points": [
+        "La proposition de loi a pour objectif de réduire les risques pour la santé liés au cadmium présent dans l'alimentation.",
+        "Elle modifie le code rural et de la pêche maritime en y insérant de nouvelles dispositions.",
+        "Il sera interdit d'importer, de vendre ou d'utiliser des engrais phosphatés qui contiennent plus de 40 milligrammes de cadmium par kilogramme d'anhydride phosphorique.",
+        "Cette limite de cadmium sera abaissée à 20 milligrammes par kilogramme d'anhydride phosphorique à une date ultérieure.",
+        "L'interdiction initiale (40 mg/kg) prendra effet le 1er janvier 2027, et la limite plus stricte (20 mg/kg) le 1er janvier 2030."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2840",
+      "titre": "Visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire",
+      "date_depot": "2026-05-27",
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi modifie le Code de procédure pénale pour renforcer la gestion des avoirs criminels et améliorer le travail des experts judiciaires.",
+      "points": [
+        "Les victimes d'infractions seront mieux informées sur les biens saisis et pourront plus facilement obtenir une indemnisation sur les avoirs confisqués.",
+        "La gestion des biens meubles saisis est optimisée, permettant la destruction rapide de ceux de faible valeur ou invendables, et une décision accélérée pour les véhicules.",
+        "La vente de certains biens saisis, comme les crypto-actifs, pourra être réalisée avant le jugement pour en préserver la valeur, le produit étant consigné.",
+        "Des mesures sont introduites pour faciliter l'exécution des peines de confiscation, notamment pour les personnes condamnées qui se rendent introuvables, avec des enquêtes post-sentencielles possibles.",
+        "Les délais de paiement des experts judiciaires sont encadrés, avec l'introduction d'intérêts moratoires en cas de retard, afin d'améliorer leurs missions."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2835",
+      "titre": "Protéger les enfants et lutter contre les violences en milieu scolaire",
+      "date_depot": "2026-05-27",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Cette proposition de loi vise à renforcer la protection des enfants contre toutes formes de violences en milieu scolaire et périscolaire, et à indemniser les victimes.",
+      "points": [
+        "Institution d'une journée nationale d'hommage aux enfants victimes de violences et création d'un fonds d'indemnisation et d'accompagnement pour ces victimes.",
+        "Renforcement des contrôles de l'État sur les établissements privés sous contrat et instauration de sanctions administratives en cas de manquement aux obligations.",
+        "Exigence de vérification des antécédents judiciaires (fichier des infractions sexuelles, violentes ou terroristes) pour toute personne intervenant auprès des élèves.",
+        "Interdiction explicite de toute violence morale ou physique, châtiment corporel ou traitement humiliant à l'encontre des élèves et étudiants, modifiant le Code de l'éducation.",
+        "Obligation de formation initiale et continue du personnel, public et privé, à la prévention et détection des violences contre les enfants."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2842",
+      "titre": "Mesures de justice en faveur de la revalorisation des pensions de retraites agricoles",
+      "date_depot": "2026-05-27",
+      "categorie": "Société et solidarités",
+      "accroche": "Une proposition de loi vise à revaloriser les pensions de retraite agricole, à élargir certains compléments et à garantir des ressources complémentaires au régime.",
+      "points": [
+        "Supprimer l'écrêtement des pensions de retraite complémentaire obligatoire pour les non-salariés agricoles, en modifiant le Code rural et de la pêche maritime.",
+        "Élargir l'accès au complément de points de retraite complémentaire obligatoire aux conjoints collaborateurs et aux aides familiaux agricoles.",
+        "Exclure la pension de réversion et la bonification pour enfants du calcul du plafond d'écrêtement de la pension majorée de référence.",
+        "Instituer une taxe additionnelle sur les transactions financières, affectée à la Mutualité Sociale Agricole, pour assurer des ressources complémentaires au régime.",
+        "Demander au Gouvernement des rapports évaluant l'adaptation des pensions minimales au coût de la vie et leur revalorisation au niveau du SMIC."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2833",
+      "titre": "Généraliser la délivrance à l’unité de médicaments",
+      "date_depot": "2026-05-26",
+      "categorie": "Santé",
+      "accroche": "Une proposition de loi vise à généraliser la délivrance des médicaments à l'unité afin de réduire le gaspillage et améliorer la prise en charge des patients.",
+      "points": [
+        "La proposition de loi a pour objectif de rendre obligatoire la délivrance des médicaments à l'unité pour lutter contre les surplus et les risques sanitaires.",
+        "Les laboratoires pharmaceutiques seront tenus de proposer des conditionnements adaptés aux durées de traitement les plus courantes dès le début de la réforme.",
+        "La délivrance de médicaments à l'unité deviendra progressivement obligatoire, modifiant ainsi le Code de la santé publique.",
+        "Cette mesure de généralisation de la délivrance à l'unité entrera en vigueur dans un délai de trois ans après la promulgation de la loi."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2832",
+      "titre": "Rétablir les particularités du scrutin majoritaire pour les communes de moins de 1 000 habitants",
+      "date_depot": "2026-05-26",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Cette proposition de loi vise à rétablir le scrutin majoritaire à deux tours pour les élections municipales dans les communes de moins de 1 000 habitants.",
+      "points": [
+        "La loi rétablit le scrutin majoritaire à deux tours pour l'élection des conseillers municipaux dans les communes de moins de 1 000 habitants, remplaçant ainsi le scrutin de liste.",
+        "Elle permet aux candidats de se présenter seuls ou en groupe et réintroduit la possibilité de panacher les voix entre différents candidats.",
+        "De nouvelles règles sont définies pour le dépôt des déclarations de candidature, avec des délais spécifiques pour le premier et le second tour.",
+        "Le Code général des collectivités territoriales est modifié pour préciser les modalités d'élection des adjoints au maire dans ces petites communes."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2834",
+      "titre": "Égalité de toutes les communes concernant les modalités de remboursement par l’État des frais de propagande électorale des candidates et candidats aux élections municipales",
+      "date_depot": "2026-05-26",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Cette proposition de loi vise à rendre l'État responsable du remboursement des frais de propagande électorale pour tous les candidats aux municipales, quelle que soit la taille de leur commune.",
+      "points": [
+        "Actuellement, les frais de propagande électorale des candidats aux élections municipales ne sont pas remboursés par l'État dans les communes de moins de 1 000 habitants.",
+        "Le texte propose de modifier le code électoral pour harmoniser ces règles et étendre le remboursement à toutes les communes.",
+        "L'objectif est de garantir l'égalité entre les candidats et de soutenir l'engagement citoyen dans toutes les communes, y compris rurales.",
+        "Les nouvelles dispositions prendraient effet à partir du prochain renouvellement général des conseils municipaux.",
+        "La charge financière pour l'État serait compensée par une taxe additionnelle sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2830",
+      "titre": "Renforcer l’accès aux soins non programmés par le développement des structures de soins de proximité",
+      "date_depot": "2026-05-26",
+      "categorie": "Santé",
+      "accroche": "Proposition de loi visant à renforcer l'accès aux soins non programmés via le développement de structures de proximité, pour désengorger les urgences.",
+      "points": [
+        "La proposition de loi crée un cadre juridique spécifique pour les structures de soins non programmés en modifiant le Code de la santé publique.",
+        "Ces structures pourront être créées sans autorisation préalable, sous réserve du respect d'un cahier des charges national, et leur implantation ne sera pas soumise à une régulation quantitative.",
+        "Elle prévoit une rémunération spécifique pour les soins non programmés réalisés dans ces structures, ainsi que leur éligibilité à divers dispositifs de financement.",
+        "Les professionnels de santé y exerçant bénéficieront de flexibilité, notamment concernant la participation volontaire à la permanence des soins et l'absence de régulation démographique pour les infirmiers.",
+        "Ces structures pourront réaliser certains examens de biologie médicale délocalisée, collaborer avec des pharmacies hospitalières et servir de terrains de stage pour les étudiants en santé."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2829",
+      "titre": "Lutter contre la pédocriminalité en ligne et les violences sexuelles sur mineurs",
+      "date_depot": "2026-05-26",
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi vise à renforcer la lutte contre la pédocriminalité en ligne et les violences sexuelles sur mineurs par diverses mesures.",
+      "points": [
+        "La proposition de loi modifie des articles du Code pénal et du Code civil pour mieux lutter contre la pédocriminalité et les violences sexuelles sur mineurs.",
+        "Les peines sont aggravées pour les infractions commises en ligne contre les mineurs, notamment ceux de moins de quinze ans ou en bande organisée.",
+        "La création de deepfakes à caractère sexuel impliquant des mineurs, le cyberflashing et l'exploitation sexuelle en ligne (grooming/sextorsion) deviennent des délits spécifiques.",
+        "La création ou l'utilisation de modèles d'intelligence artificielle pour générer des contenus pédocriminels ou faciliter l'exploitation est sanctionnée.",
+        "Les plateformes numériques doivent signaler les contenus générés par IA, et l'apologie d'actes pédocriminels, y compris fictifs, est désormais punie."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2831",
+      "titre": "Exonérer de majoration de participation les assurés dans l'impossibilité manifeste de désigner un médecin traitant",
+      "date_depot": "2026-05-26",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi vise à exempter de surcoût les assurés ne pouvant désigner de médecin traitant, notamment en zones sous-dotées.",
+      "points": [
+        "Actuellement, les assurés n'ayant pas de médecin traitant subissent une majoration de leur remboursement de soins, ce qui peut entraîner un renoncement aux soins.",
+        "La proposition vise à exonérer de cette majoration les personnes résidant dans des zones où l'offre de soins est jugée insuffisante ou l'accès difficile.",
+        "Cette exonération serait automatique pour les habitants des zones concernées, sans qu'ils aient à prouver leur impossibilité de trouver un médecin traitant.",
+        "La mesure est transitoire et s'éteindrait de droit si l'offre de soins dans la zone de résidence de l'assuré redevenait suffisante, et modifie l'article L. 162-5-3 du code de la sécurité sociale."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2826",
+      "titre": "Abroger le titre de séjour pour soins",
+      "date_depot": "2026-05-26",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi vise à abroger le titre de séjour pour soins, un dispositif initialement humanitaire, dont le coût est jugé insoutenable.",
+      "points": [
+        "La proposition de loi a pour objectif principal d'abroger le titre de séjour pour soins, qui permet à des étrangers d'obtenir un droit de séjour pour des raisons médicales.",
+        "Ce titre, créé en 1998 dans un contexte humanitaire précis (VIH/sida), a été élargi au fil des ans et est désormais considéré comme « dévoyé » et d'un coût jugé opaque et excessif pour le système de santé français.",
+        "Les rapporteurs soulignent l'augmentation du nombre de bénéficiaires et le traitement de pathologies coûteuses, ce qui, selon eux, fragilise l'équilibre des hôpitaux et crée une injustice sociale pour les citoyens français.",
+        "Le texte prévoit de modifier plusieurs articles du code de l'entrée et du séjour des étrangers et du droit d'asile et instaure une période transitoire pour les personnes déjà titulaires d'un titre de séjour pour soins."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2827",
+      "titre": "Territorialiser la prévention et le dépistage du cancer du sein",
+      "date_depot": "2026-05-26",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi vise à mieux cibler et renforcer les actions de prévention et de dépistage du cancer du sein dans les territoires où la participation est faible ou l'accès difficile.",
+      "points": [
+        "Crée une nouvelle catégorie juridique, 'territoires à déficit de dépistage organisé du cancer du sein', dans le Code de la santé publique pour identifier les zones en difficulté.",
+        "Désigne les 20 départements les plus affectés par ce déficit pour un accompagnement prioritaire et renforcé.",
+        "Charge les Agences Régionales de Santé d'élaborer des plans d'action triennaux, incluant le renforcement de l'offre d'imagerie et le déploiement d'unités mobiles.",
+        "Prévoit une évaluation annuelle publique des plans et la possibilité de les réviser si les objectifs ne sont pas atteints.",
+        "Adapte ces mesures aux particularités des territoires ultramarins, en tenant compte de leurs contraintes spécifiques."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2828",
+      "titre": "Créer un corps de directeurs des écoles publiques",
+      "date_depot": "2026-05-26",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Cette proposition de loi vise à créer un corps de directeurs des écoles publiques pour assurer un pilotage effectif et une meilleure organisation de l'enseignement primaire.",
+      "points": [
+        "Le texte modifie le Code de l'éducation pour créer un corps de directeurs pour les écoles maternelles et élémentaires publiques.",
+        "Les directeurs bénéficieront d'une décharge totale d'enseignement pour se concentrer sur leurs missions de direction.",
+        "L'autorité du directeur pourra s'exercer sur un réseau d'écoles, regroupant au minimum 12 postes d'enseignants, avec des chargés d'école sous leur supervision.",
+        "Leurs missions principales incluront l'organisation pédagogique, l'autorité sur le personnel, la sécurité de l'école, l'élaboration du projet d'école et les relations institutionnelles."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2825",
+      "titre": "Plafonner les commissions payées par les restaurateurs et commerçants sur les titres restaurant",
+      "date_depot": "2026-05-26",
+      "categorie": "Économie et travail",
+      "accroche": "Une proposition de loi vise à limiter les frais de commission que les restaurateurs et commerçants versent sur les titres restaurant.",
+      "points": [
+        "C'est une proposition de loi déposée par un député à l'Assemblée nationale.",
+        "Elle a pour objectif de plafonner les commissions payées sur les titres restaurant.",
+        "Cette mesure vise spécifiquement les restaurateurs et commerçants concernés.",
+        "Le texte a été enregistré à la Présidence de l'Assemblée nationale le 26 mai 2026."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2821",
+      "titre": "Le calcul de la pension civile des fonctionnaires de l’État dans les collectivités du Pacifique",
+      "date_depot": "2026-05-26",
+      "categorie": "Société et solidarités",
+      "accroche": "Cette proposition de loi vise à réformer le calcul de la pension civile des fonctionnaires de l'État dans les collectivités du Pacifique.",
+      "points": [
+        "Elle vise à corriger une inégalité en incluant le coefficient de majoration des salaires dans l'assiette des cotisations sociales pour les fonctionnaires d'État du Pacifique.",
+        "Le montant de la pension sera désormais calculé en intégrant cette part de rémunération majorée, pour mieux refléter les revenus ayant fait l'objet de cotisations.",
+        "Le bénéfice de cette nouvelle méthode de calcul est subordonné à des conditions de durée de service effectif et de résidence durable dans les territoires concernés.",
+        "Les dispositifs de compensation antérieurs, tels que l'indemnité temporaire de retraite (ITR) et la cotisation volontaire de retraite (CVR), seront supprimés ou non cumulables.",
+        "Cette réforme modifie notamment le code des pensions civiles et militaires de retraite et entrera en vigueur principalement à compter du 1er janvier 2027."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2822",
+      "titre": "Création d’un Observatoire nationale de l’ouverture à la concurrence du transport ferroviaire",
+      "date_depot": "2026-05-26",
+      "categorie": "Économie et travail",
+      "accroche": "Une proposition de loi vise à créer un Observatoire national pour évaluer les effets de l'ouverture à la concurrence du transport ferroviaire.",
+      "points": [
+        "La proposition de loi prévoit d'insérer un nouveau chapitre au code des transports pour créer un Observatoire national de l'ouverture à la concurrence du transport ferroviaire.",
+        "Cet Observatoire aura pour mission d'évaluer les impacts de la concurrence sur la qualité du service, la sécurité, l'emploi, les coûts pour l'État et les usagers, l'aménagement du territoire et la transition écologique.",
+        "Il sera composé de parlementaires, de représentants syndicaux du secteur, d'associations d'usagers, de collectivités territoriales et d'experts qualifiés, assurant parité et pluralisme des points de vue.",
+        "L'Observatoire publiera un rapport annuel et pourra demander toute donnée utile; le Gouvernement devra ensuite présenter les suites qu'il entend donner à ses analyses et recommandations."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2824",
+      "titre": "Lutter contre les violences morales sexistes et sexuelles dans la culture",
+      "date_depot": "2026-05-26",
+      "categorie": "Société et solidarités",
+      "accroche": "Cette proposition de loi vise à combattre les violences sexistes et sexuelles dans le secteur culturel en protégeant les mineurs et les travailleurs.",
+      "points": [
+        "Renforce la protection des mineurs artistes en interdisant leur sexualisation, en étendant les règles d'emploi jusqu'à 18 ans et en exigeant un contrôle d'honorabilité des encadrants.",
+        "Mieux encadre les conditions de recrutement et de travail des artistes, notamment en rendant obligatoires les coordinateurs d'intimité et en détaillant les scènes intimes dans les contrats.",
+        "Impose aux employeurs et agents artistiques des obligations d'enquête interne et d'assistance juridique en cas de violences sexistes et sexuelles.",
+        "Adapte la procédure pénale pour les victimes de violences sexuelles en allongeant les délais de prescription et en élargissant l'aide juridictionnelle sans condition de ressources.",
+        "Instaure une clause assurantielle pour indemniser les pertes financières liées à des violences sexistes ou sexuelles dans le secteur culturel."
+      ]
     }
   ]
 }

@@ -9,8 +9,16 @@ Flux :
           texte intégral, léger, directement tokenisable par Gemini
        2. à défaut (mirroir absent, Sénat, ...), PDF officiel (tricoteuses-assets.s3.fr-par.scw.cloud),
           envoyé à Gemini en mode multimodal (plus lent : rendu page par page côté modèle)
-  -> Gemini (prompt maison, voir SUMMARY_PROMPT_TEMPLATE)
+  -> Gemini, en sortie JSON structurée (prompt maison, voir SUMMARY_PROMPT_TEMPLATE) :
+       categorie (thème, pour le regroupement côté front), accroche, points
   -> affichage console + écriture de front/resumes.json (lu par le front statique)
+
+Deux optimisations de vitesse :
+  - cache : les uid déjà résumés dans front/resumes.json ne sont pas retraités
+    (utiliser --force pour tout régénérer) ;
+  - parallélisme : le téléchargement + l'appel Gemini par document sont des
+    opérations réseau indépendantes, traitées par un pool de threads
+    (--workers, défaut 5) plutôt que séquentiellement.
 
 Contrairement à la version précédente, on n'utilise plus le résumé déjà calculé
 par l'API tricoteuses (`/documents/{uid}/resume`) : on le régénère nous-mêmes
@@ -22,6 +30,7 @@ import argparse
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
@@ -40,20 +49,55 @@ OUTPUT_PATH = Path(__file__).parent.parent / "front" / "resumes.json"
 
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
+# Catégories thématiques utilisées pour regrouper les résumés dans le front.
+CATEGORIES = [
+    "Santé",
+    "Éducation et jeunesse",
+    "Environnement et énergie",
+    "Économie et travail",
+    "Logement et urbanisme",
+    "Justice et sécurité",
+    "Institutions et démocratie",
+    "Société et solidarités",
+    "Numérique",
+    "International et outre-mer",
+    "Autre",
+]
+
 SUMMARY_PROMPT_TEMPLATE = """Tu es un assistant spécialisé dans la vulgarisation de textes législatifs français à destination du grand public.
 
 Titre du document : {titre}
 
-Rédige un résumé neutre et factuel de ce texte, structuré ainsi :
-1. Une phrase d'accroche (maximum 25 mots) qui résume l'essentiel du texte.
-2. Une liste de 3 à 5 points clés (une ligne commençant par "- " chacune), qui présentent les mesures ou dispositions principales, dans un langage clair, sans jargon juridique.
+Analyse ce texte et réponds uniquement avec l'objet JSON demandé, contenant :
+- "categorie" : le thème principal du texte, en choisissant la valeur la plus pertinente dans la liste autorisée.
+- "accroche" : une phrase neutre et factuelle (maximum 25 mots) qui résume l'essentiel du texte.
+- "points" : une liste de 3 à 5 points clés, dans un langage clair et sans jargon juridique, présentant les mesures ou dispositions principales.
 
 Consignes :
 - Base-toi uniquement sur le contenu du document fourni ; n'invente aucune information et ne suppose pas de contexte non mentionné dans le texte.
 - Reste factuel et neutre : ne donne aucune opinion, ne prends pas parti sur l'opportunité du texte, n'utilise pas de qualificatifs favorables ou défavorables absents du texte.
-- Ne commence pas la phrase d'accroche par "Ce texte" ou "Ce document" ; entre directement dans le sujet.
-- Si le texte est de nature constitutionnelle ou organique, ou modifie un code existant, précise-le brièvement.
-- N'ajoute ni introduction, ni conclusion, ni méta-commentaire sur le résumé lui-même."""
+- Ne commence pas l'accroche par "Ce texte" ou "Ce document" ; entre directement dans le sujet.
+- Si le texte est de nature constitutionnelle ou organique, ou modifie un code existant, précise-le brièvement dans un des points."""
+
+RESPONSE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "categorie": {"type": "string", "enum": CATEGORIES},
+        "accroche": {"type": "string"},
+        "points": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 3,
+            "maxItems": 5,
+        },
+    },
+    "required": ["categorie", "accroche", "points"],
+}
+
+GENERATION_CONFIG = types.GenerateContentConfig(
+    response_mime_type="application/json",
+    response_schema=RESPONSE_SCHEMA,
+)
 
 
 def get_recent_documents(type_codes: str, chambre: str, limit: int) -> list[dict]:
@@ -80,6 +124,17 @@ def get_recent_documents(type_codes: str, chambre: str, limit: int) -> list[dict
     return docs[:limit]
 
 
+def load_cache() -> dict[str, dict]:
+    """uid -> résumé déjà écrit lors d'un run précédent (front/resumes.json)."""
+    if not OUTPUT_PATH.exists():
+        return {}
+    try:
+        payload = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+        return {d["uid"]: d for d in payload.get("documents", []) if d.get("accroche")}
+    except (json.JSONDecodeError, KeyError):
+        return {}
+
+
 def download_document_text(uid: str) -> str | None:
     """Texte intégral depuis le mirroir HTML opendata de l'Assemblée nationale.
 
@@ -103,16 +158,17 @@ def download_pdf(pdf_url: str) -> bytes:
     return response.content
 
 
-def summarize_text(text: str, titre: str) -> str:
+def summarize_text(text: str, titre: str) -> dict:
     prompt = SUMMARY_PROMPT_TEMPLATE.format(titre=titre)
     response = client.models.generate_content(
         model=MODEL_NAME,
         contents=[text, prompt],
+        config=GENERATION_CONFIG,
     )
-    return response.text.strip()
+    return json.loads(response.text)
 
 
-def summarize_pdf(pdf_bytes: bytes, titre: str) -> str:
+def summarize_pdf(pdf_bytes: bytes, titre: str) -> dict:
     prompt = SUMMARY_PROMPT_TEMPLATE.format(titre=titre)
     response = client.models.generate_content(
         model=MODEL_NAME,
@@ -120,8 +176,35 @@ def summarize_pdf(pdf_bytes: bytes, titre: str) -> str:
             types.Part.from_bytes(data=pdf_bytes, mime_type="application/pdf"),
             prompt,
         ],
+        config=GENERATION_CONFIG,
     )
-    return response.text.strip()
+    return json.loads(response.text)
+
+
+def process_document(doc: dict) -> dict:
+    """Télécharge + résume un document. Ne lève jamais : le statut est dans le retour."""
+    uid = doc["uid"]
+    titre = doc.get("titrePrincipalCourt") or doc.get("titrePrincipal")
+    date_depot = (doc.get("dateDepot") or "")[:10]
+    pdf_url = doc.get("pdfUrl")
+
+    text = download_document_text(uid)
+    if not text and not pdf_url:
+        return {"uid": uid, "titre": titre, "status": "skipped"}
+
+    try:
+        summary = summarize_text(text, titre) if text else summarize_pdf(download_pdf(pdf_url), titre)
+        return {
+            "status": "ok",
+            "uid": uid,
+            "titre": titre,
+            "date_depot": date_depot,
+            "categorie": summary["categorie"],
+            "accroche": summary["accroche"],
+            "points": summary["points"],
+        }
+    except Exception as e:
+        return {"uid": uid, "titre": titre, "status": "error", "error": str(e)}
 
 
 def main():
@@ -129,50 +212,58 @@ def main():
     parser.add_argument("--limit", type=int, default=10, help="Nombre de lois à résumer (défaut 10)")
     parser.add_argument("--type", default="PION", help="typeCode(s) séparés par virgule (PION, PRJL, ...)")
     parser.add_argument("--chambre", default="AN", help="Chambre : AN ou SN (défaut AN)")
+    parser.add_argument("--workers", type=int, default=5, help="Requêtes en parallèle (défaut 5)")
+    parser.add_argument("--force", action="store_true", help="Ignorer le cache et tout régénérer")
     args = parser.parse_args()
 
     docs = get_recent_documents(args.type, args.chambre, args.limit)
     print(f"\n{len(docs)} document(s) trouvé(s).\n")
 
+    cache = {} if args.force else load_cache()
+    to_fetch = [d for d in docs if d["uid"] not in cache]
+    cached_count = len(docs) - len(to_fetch)
+    if cached_count:
+        print(f"{cached_count} déjà en cache (front/resumes.json), {len(to_fetch)} à générer.\n")
+
+    fresh_results: dict[str, dict] = {}
+    skipped = errors = 0
+    if to_fetch:
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
+            futures = {pool.submit(process_document, doc): doc for doc in to_fetch}
+            for future in as_completed(futures):
+                result = future.result()
+                uid, titre = result["uid"], result["titre"]
+                if result["status"] == "ok":
+                    print(f"[OK] ({result['categorie']}) {uid} — {titre}")
+                    print(result["accroche"])
+                    for point in result["points"]:
+                        print(f"  - {point}")
+                    print()
+                    fresh_results[uid] = result
+                elif result["status"] == "skipped":
+                    print(f"[SKIP] {uid} — {titre} (ni mirroir HTML ni PDF disponibles)\n")
+                    skipped += 1
+                else:
+                    print(f"[ERREUR] {uid} — {titre} : {result['error']}\n")
+                    errors += 1
+
+    # On réassemble dans l'ordre d'origine (date de dépôt décroissante), en
+    # combinant cache + résultats fraîchement générés.
     results = []
-    ok = skipped = errors = 0
-    for i, doc in enumerate(docs, 1):
+    for doc in docs:
         uid = doc["uid"]
-        titre = doc.get("titrePrincipalCourt") or doc.get("titrePrincipal")
-        date_depot = (doc.get("dateDepot") or "")[:10]
-        pdf_url = doc.get("pdfUrl")
-        print(f"[{i}/{len(docs)}] {uid} — {titre} (déposé le {date_depot})")
-
-        text = download_document_text(uid)
-        if not text and not pdf_url:
-            print("   (ni mirroir HTML ni PDF disponibles pour ce document, ignoré)\n")
-            skipped += 1
-            continue
-
-        try:
-            if text:
-                resume = summarize_text(text, titre)
-            else:
-                pdf_bytes = download_pdf(pdf_url)
-                resume = summarize_pdf(pdf_bytes, titre)
-            print(resume, "\n")
-            results.append({
-                "uid": uid,
-                "titre": titre,
-                "date_depot": date_depot,
-                "resume": resume,
-            })
-            ok += 1
-        except Exception as e:
-            print(f"   ERREUR : {e}\n")
-            errors += 1
+        if uid in cache:
+            results.append(cache[uid])
+        elif uid in fresh_results:
+            results.append(fresh_results[uid])
 
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "documents": results,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"{ok} résumé(s) écrit(s) dans {OUTPUT_PATH} / {skipped} ignoré(s) / {errors} erreur(s).")
+    print(f"{len(results)} résumé(s) au total ({cached_count} en cache, {len(fresh_results)} générés) "
+          f"écrit(s) dans {OUTPUT_PATH} / {skipped} ignoré(s) / {errors} erreur(s).")
 
 
 if __name__ == "__main__":

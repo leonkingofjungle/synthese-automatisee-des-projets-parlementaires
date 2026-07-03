@@ -3,162 +3,480 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dernières lois — résumés</title>
+<meta name="description" content="Résumés des dernières propositions de loi de l'Assemblée nationale, générés par IA à partir du texte officiel.">
+<title>Résumés parlementaires</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%232953a6'/%3E%3Cpath d='M6 7h12M6 12h12M6 17h8' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>
   :root {
     color-scheme: light dark;
-    --bg: #f7f7f8;
+    --bg: #f4f5f7;
     --card: #ffffff;
-    --text: #1a1a1a;
-    --muted: #6b6b6b;
-    --border: #e3e3e6;
+    --text: #1a1c20;
+    --muted: #656a72;
+    --faint: #8b909a;
+    --border: #e2e4e8;
     --accent: #2953a6;
-    --pending: #a86b1f;
+    --accent-soft: #eaf0fb;
+    --warn-bg: #fdf3e7;
+    --warn-text: #8a5a12;
+    --error: #b3271e;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #17181c;
-      --card: #212228;
-      --text: #ececec;
-      --muted: #9a9a9f;
-      --border: #34353c;
-      --accent: #7aa2f7;
-      --pending: #e0af68;
+      --bg: #14151a;
+      --card: #1d1f26;
+      --text: #eceef1;
+      --muted: #a2a7b0;
+      --faint: #767b85;
+      --border: #2d2f37;
+      --accent: #82a6e8;
+      --accent-soft: #1f2a40;
+      --warn-bg: #33290f;
+      --warn-text: #e0af68;
+      --error: #ff6b62;
     }
   }
+  :root[data-theme="dark"] {
+    --bg: #14151a; --card: #1d1f26; --text: #eceef1; --muted: #a2a7b0; --faint: #767b85;
+    --border: #2d2f37; --accent: #82a6e8; --accent-soft: #1f2a40; --warn-bg: #33290f;
+    --warn-text: #e0af68; --error: #ff6b62;
+  }
+  :root[data-theme="light"] {
+    --bg: #f4f5f7; --card: #ffffff; --text: #1a1c20; --muted: #656a72; --faint: #8b909a;
+    --border: #e2e4e8; --accent: #2953a6; --accent-soft: #eaf0fb; --warn-bg: #fdf3e7;
+    --warn-text: #8a5a12; --error: #b3271e;
+  }
+
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background: var(--bg);
     color: var(--text);
+    -webkit-font-smoothing: antialiased;
   }
-  header {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 2rem 1.25rem 1rem;
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 1.25rem; }
+
+  header.site { border-bottom: 1px solid var(--border); }
+
+  /* --- Hero : allégé au maximum (eyebrow + titre + une ligne de meta) --- */
+  .hero {
+    background:
+      radial-gradient(120% 180% at 0% 0%, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0) 55%),
+      linear-gradient(135deg, #17284f 0%, #23478f 55%, #3d6fc9 100%);
+    color: #fff;
   }
-  h1 {
-    font-size: 1.4rem;
-    margin: 0 0 0.25rem;
+  .hero-inner { padding: 2.1rem 1.25rem 1.75rem; }
+  .hero .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #a9c4f5;
+    margin: 0 0 0.4rem;
   }
-  .subtitle {
-    color: var(--muted);
+  .hero h1 {
+    font-size: 1.7rem;
+    line-height: 1.22;
+    margin: 0 0 0.6rem;
+    letter-spacing: -0.015em;
+    color: #fff;
+    max-width: 26ch;
+  }
+  .hero-meta {
+    font-size: 0.84rem;
+    color: rgba(255,255,255,0.72);
+  }
+  .hero-meta strong { color: #fff; font-weight: 600; }
+
+  .toolbar-bar {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+  .toolbar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    padding: 0.75rem 1.25rem;
+  }
+  #search {
+    flex: 1 1 220px;
+    min-width: 0;
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
     font-size: 0.9rem;
   }
-  main {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 0 1.25rem 3rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  #search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .count-badge {
+    font-size: 0.8rem;
+    color: var(--muted);
+    white-space: nowrap;
   }
+
+  main { padding: 1.75rem 1.25rem 3.5rem; display: flex; flex-direction: column; gap: 2rem; }
+
+  /* --- Sections par thème --- */
+  .section-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    margin: 0 0 0.9rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .section-title .section-count {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--faint);
+  }
+
+  /* --- Grille responsive des cartes : 1 colonne en mobile, plus en large --- */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    align-items: start;
+  }
+
   .card {
     background: var(--card);
     border: 1px solid var(--border);
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 1.1rem 1.25rem;
+    transition: border-color 0.15s ease;
+    min-width: 0;
   }
-  .card h2 {
-    font-size: 1.05rem;
-    margin: 0 0 0.35rem;
+  .card:hover { border-color: var(--accent); }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
   }
-  .meta {
-    color: var(--muted);
-    font-size: 0.8rem;
-    margin-bottom: 0.6rem;
+  .pill {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
   }
-  .meta code {
-    background: var(--bg);
-    padding: 0.1rem 0.35rem;
-    border-radius: 4px;
+  .date {
+    font-size: 0.76rem;
+    color: var(--faint);
   }
-  .resume {
-    font-size: 0.92rem;
-    line-height: 1.5;
-    white-space: pre-wrap;
+
+  .card h3 {
+    font-size: 1rem;
+    line-height: 1.35;
+    margin: 0 0 0.55rem;
+    font-weight: 600;
   }
-  .status {
-    font-size: 0.85rem;
-    color: var(--pending);
-  }
-  .status.error { color: #c0392b; }
-  a { color: var(--accent); }
-  #state {
-    color: var(--muted);
+
+  .lead {
     font-size: 0.9rem;
-    padding: 0 1.25rem;
-    max-width: 860px;
-    margin: 0 auto;
+    line-height: 1.5;
+    margin: 0 0 0.65rem;
+  }
+  ul.points {
+    margin: 0;
+    padding-left: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  ul.points li {
+    font-size: 0.86rem;
+    line-height: 1.48;
+    color: var(--text);
+  }
+  ul.points li::marker { color: var(--accent); }
+
+  .uid-tag {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.7rem;
+    color: var(--faint);
+    margin-top: 0.7rem;
+  }
+
+  /* Loading skeleton */
+  .skeleton-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+  .skeleton { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.1rem 1.25rem; }
+  .sk-line { height: 0.7rem; border-radius: 4px; background: var(--border); animation: pulse 1.3s ease-in-out infinite; }
+  .sk-line + .sk-line { margin-top: 0.6rem; }
+  .sk-line.w60 { width: 60%; height: 0.55rem; }
+  .sk-line.w90 { width: 90%; }
+  .sk-line.w40 { width: 40%; }
+  @keyframes pulse { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+
+  .notice {
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+  .notice.info { background: var(--card); border: 1px solid var(--border); color: var(--muted); }
+  .notice.warn { background: var(--warn-bg); color: var(--warn-text); }
+  .notice.error { background: var(--card); border: 1px solid var(--error); color: var(--error); }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 1.25rem 2.5rem;
+  }
+  footer .wrap { padding: 0; max-width: 760px; margin: 0; }
+  footer p {
+    font-size: 0.78rem;
+    color: var(--faint);
+    line-height: 1.6;
+    margin: 0 0 0.4rem;
+  }
+  footer a { color: var(--muted); }
+
+  a { color: var(--accent); }
+
+  .hidden { display: none !important; }
+
+  @media (max-width: 480px) {
+    .hero-inner { padding: 1.75rem 1rem 1.4rem; }
+    .hero h1 { font-size: 1.4rem; }
+    main { padding: 1.25rem 1rem 2.5rem; gap: 1.5rem; }
   }
 </style>
 </head>
 <body>
-<header>
-  <h1>Dernières propositions de loi</h1>
-  <div class="subtitle" id="subtitle">Résumés générés avec notre propre prompt Gemini, à partir du PDF officiel</div>
+
+<header class="site">
+  <div class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Assemblée nationale · Propositions de loi</p>
+      <h1>L'essentiel des dernières propositions de loi</h1>
+      <p class="hero-meta">
+        <strong id="statCount">—</strong> résumés générés par IA · mis à jour le
+        <strong id="statDate">—</strong>
+      </p>
+    </div>
+  </div>
+  <div class="toolbar-bar">
+    <div class="wrap toolbar">
+      <input id="search" type="search" placeholder="Rechercher par mot-clé, titre…" aria-label="Rechercher un résumé" disabled>
+      <span class="count-badge" id="countBadge"></span>
+    </div>
+  </div>
 </header>
-<div id="state">Chargement…</div>
-<main id="list"></main>
+
+<div class="wrap">
+  <main id="list">
+    <div class="skeleton-grid">
+      <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+      <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+      <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>Source : API publique <a href="https://parlement.tricoteuses.fr" target="_blank" rel="noopener">parlement.tricoteuses.fr</a> (projet Tricoteuses) et textes officiels de l'Assemblée nationale.</p>
+    <p>Les résumés sont générés automatiquement et peuvent contenir des erreurs ou des approximations ; ils ne remplacent pas la lecture du texte officiel.</p>
+  </div>
+</footer>
 
 <script>
-async function getResumes() {
-  const res = await fetch("resumes.json", { cache: "no-store" });
-  if (!res.ok) throw new Error(`Erreur ${res.status} en chargeant resumes.json`);
-  return res.json();
-}
+// Ordre d'affichage des sections thématiques (doit rester cohérent avec
+// CATEGORIES dans scripts/pdf_summarizer_mcp.py). Toute catégorie inconnue
+// (ancien cache, valeur inattendue) atterrit dans "Autre".
+const CATEGORY_ORDER = [
+  "Institutions et démocratie",
+  "Justice et sécurité",
+  "Santé",
+  "Éducation et jeunesse",
+  "Environnement et énergie",
+  "Économie et travail",
+  "Logement et urbanisme",
+  "Société et solidarités",
+  "Numérique",
+  "International et outre-mer",
+  "Autre",
+];
 
 function formatDate(iso) {
   if (!iso) return "date inconnue";
   return new Date(iso).toLocaleDateString("fr-FR", { day: "2-digit", month: "long", year: "numeric" });
 }
 
+function hasUsableResume(doc) {
+  return typeof doc.accroche === "string" && doc.accroche.trim().length > 0;
+}
+
 function renderCard(doc) {
-  const card = document.createElement("div");
+  const card = document.createElement("article");
   card.className = "card";
-  card.innerHTML = `
-    <h2>${doc.titre}</h2>
-    <div class="meta"><code>${doc.uid}</code> — déposé le ${formatDate(doc.date_depot)}</div>
-    <div class="resume"></div>
+
+  const meta = document.createElement("div");
+  meta.className = "card-meta";
+  meta.innerHTML = `
+    <span class="pill">Proposition de loi</span>
+    <span class="date">Déposée le ${formatDate(doc.date_depot)}</span>
   `;
-  card.querySelector(".resume").textContent = doc.resume;
+  card.appendChild(meta);
+
+  const h3 = document.createElement("h3");
+  h3.textContent = doc.titre;
+  card.appendChild(h3);
+
+  const p = document.createElement("p");
+  p.className = "lead";
+  p.textContent = doc.accroche;
+  card.appendChild(p);
+
+  if (Array.isArray(doc.points) && doc.points.length > 0) {
+    const ul = document.createElement("ul");
+    ul.className = "points";
+    for (const point of doc.points) {
+      const li = document.createElement("li");
+      li.textContent = point;
+      ul.appendChild(li);
+    }
+    card.appendChild(ul);
+  }
+
+  const uidTag = document.createElement("div");
+  uidTag.className = "uid-tag";
+  uidTag.textContent = doc.uid;
+  card.appendChild(uidTag);
+
+  card.dataset.searchIndex = `${doc.titre} ${doc.accroche} ${(doc.points || []).join(" ")}`.toLowerCase();
   return card;
 }
 
-// Un document n'est affiché que s'il a un résumé exploitable : les documents
-// sans PDF ou en erreur sont déjà absents de resumes.json (voir
-// scripts/pdf_summarizer_mcp.py), ce filtre est une seconde barrière côté
-// front pour ne jamais faire apparaître de carte vide ou en erreur.
-function hasUsableResume(doc) {
-  return typeof doc.resume === "string" && doc.resume.trim().length > 0;
+function renderNotice(kind, text) {
+  const div = document.createElement("div");
+  div.className = `notice ${kind}`;
+  div.textContent = text;
+  return div;
+}
+
+function groupByCategory(docs) {
+  const groups = new Map();
+  for (const doc of docs) {
+    const key = CATEGORY_ORDER.includes(doc.categorie) ? doc.categorie : "Autre";
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(doc);
+  }
+  return CATEGORY_ORDER
+    .filter(cat => groups.has(cat))
+    .map(cat => ({ categorie: cat, docs: groups.get(cat) }));
+}
+
+function renderSections(listEl, docs) {
+  listEl.innerHTML = "";
+  const allCards = [];
+  for (const { categorie, docs: sectionDocs } of groupByCategory(docs)) {
+    const section = document.createElement("section");
+
+    const title = document.createElement("h2");
+    title.className = "section-title";
+    title.innerHTML = `${categorie} <span class="section-count">${sectionDocs.length}</span>`;
+    section.appendChild(title);
+
+    const grid = document.createElement("div");
+    grid.className = "cards-grid";
+    for (const doc of sectionDocs) {
+      const card = renderCard(doc);
+      grid.appendChild(card);
+      allCards.push(card);
+    }
+    section.appendChild(grid);
+
+    listEl.appendChild(section);
+  }
+  return allCards;
+}
+
+async function getResumes() {
+  const res = await fetch("resumes.json", { cache: "no-store" });
+  if (!res.ok) throw new Error(`http ${res.status}`);
+  return res.json();
+}
+
+function setupSearch(cards) {
+  const input = document.getElementById("search");
+  const countBadge = document.getElementById("countBadge");
+  input.disabled = false;
+
+  function apply() {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+    for (const card of cards) {
+      const match = !q || card.dataset.searchIndex.includes(q);
+      card.classList.toggle("hidden", !match);
+      if (match) visible++;
+    }
+    document.querySelectorAll(".section-title").forEach(title => {
+      const grid = title.nextElementSibling;
+      const anyVisible = [...grid.children].some(c => !c.classList.contains("hidden"));
+      title.closest("section").classList.toggle("hidden", !anyVisible);
+    });
+    document.querySelectorAll(".notice.empty-search").forEach(n => n.remove());
+    countBadge.textContent = q
+      ? `${visible} résultat${visible > 1 ? "s" : ""}`
+      : `${cards.length} résumé${cards.length > 1 ? "s" : ""}`;
+    if (visible === 0) {
+      document.getElementById("list").appendChild(
+        renderNotice("info empty-search", "Aucun résumé ne correspond à cette recherche.")
+      );
+    }
+  }
+
+  input.addEventListener("input", apply);
+  apply();
 }
 
 async function main() {
-  const stateEl = document.getElementById("state");
   const listEl = document.getElementById("list");
+  const statCount = document.getElementById("statCount");
+  const statDate = document.getElementById("statDate");
+
+  let payload;
   try {
-    const { generated_at, documents } = await getResumes();
-    stateEl.remove();
-    if (generated_at) {
-      document.getElementById("subtitle").textContent +=
-        ` — généré le ${formatDate(generated_at)}`;
-    }
-    const usable = (documents || []).filter(hasUsableResume);
-    if (usable.length === 0) {
-      listEl.innerHTML = `<div class="status">Aucun résumé disponible pour le moment. Lancer scripts/pdf_summarizer_mcp.py pour en générer.</div>`;
-      return;
-    }
-    for (const doc of usable) {
-      listEl.appendChild(renderCard(doc));
-    }
+    payload = await getResumes();
   } catch (err) {
-    // Erreur de chargement de resumes.json (fichier absent, JSON invalide, etc.) :
-    // c'est un problème d'infra global, pas un souci par document, donc on le
-    // signale — mais aucune carte individuelle n'affiche jamais d'erreur.
-    stateEl.textContent = `Impossible de charger les résumés — as-tu lancé scripts/pdf_summarizer_mcp.py ?`;
-    stateEl.classList.add("error");
+    listEl.innerHTML = "";
+    statCount.textContent = "0";
+    statDate.textContent = "—";
+    listEl.appendChild(renderNotice(
+      "error",
+      "Impossible de charger les résumés. Le fichier resumes.json est introuvable ou invalide — générez-le avec scripts/pdf_summarizer_mcp.py."
+    ));
+    return;
   }
+
+  const usable = (payload.documents || []).filter(hasUsableResume);
+
+  statCount.textContent = usable.length;
+  statDate.textContent = payload.generated_at ? formatDate(payload.generated_at) : "—";
+
+  if (usable.length === 0) {
+    listEl.innerHTML = "";
+    listEl.appendChild(renderNotice(
+      "warn",
+      "Aucun résumé disponible pour le moment. Générez-en avec scripts/pdf_summarizer_mcp.py."
+    ));
+    return;
+  }
+
+  const cards = renderSections(listEl, usable);
+  setupSearch(cards);
 }
 
 main();
