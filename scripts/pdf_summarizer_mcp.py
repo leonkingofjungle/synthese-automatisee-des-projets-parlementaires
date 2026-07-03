@@ -1,23 +1,29 @@
 """
 Résumés des dernières lois — liste via l'API parlement.tricoteuses.fr, résumé
-généré localement avec Gemini à partir du PDF officiel.
+généré localement avec Gemini à partir du texte du document.
 
 Flux :
   parlement.tricoteuses.fr/documents   (liste, triée par date de dépôt, avec pdfUrl)
-  -> téléchargement du PDF (bucket public tricoteuses-assets.s3.fr-par.scw.cloud)
+  -> texte du document, dans l'ordre de préférence :
+       1. mirroir HTML opendata de l'Assemblée nationale (assemblee-nationale.fr/dyn/opendata/{uid}.html) :
+          texte intégral, léger, directement tokenisable par Gemini
+       2. à défaut (mirroir absent, Sénat, ...), PDF officiel (tricoteuses-assets.s3.fr-par.scw.cloud),
+          envoyé à Gemini en mode multimodal (plus lent : rendu page par page côté modèle)
   -> Gemini (prompt maison, voir SUMMARY_PROMPT_TEMPLATE)
   -> affichage console + écriture de front/resumes.json (lu par le front statique)
 
 Contrairement à la version précédente, on n'utilise plus le résumé déjà calculé
 par l'API tricoteuses (`/documents/{uid}/resume`) : on le régénère nous-mêmes
 pour garder la main sur le prompt. Toujours pas de base de données ni de bucket
-GCS à nous : uniquement l'API tricoteuses + Gemini.
+GCS à nous : uniquement l'API tricoteuses + assemblee-nationale.fr + Gemini.
 """
 
 import argparse
 import json
 import os
+import re
 from datetime import datetime, timezone
+from html import unescape
 from pathlib import Path
 
 import requests
@@ -28,6 +34,7 @@ from google.genai import types
 load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
 
 API_BASE = "https://parlement.tricoteuses.fr"
+AN_OPENDATA_HTML = "https://www.assemblee-nationale.fr/dyn/opendata/{uid}.html"
 MODEL_NAME = "gemini-2.5-flash"
 OUTPUT_PATH = Path(__file__).parent.parent / "front" / "resumes.json"
 
@@ -73,13 +80,39 @@ def get_recent_documents(type_codes: str, chambre: str, limit: int) -> list[dict
     return docs[:limit]
 
 
+def download_document_text(uid: str) -> str | None:
+    """Texte intégral depuis le mirroir HTML opendata de l'Assemblée nationale.
+
+    Retourne None si le mirroir n'existe pas pour cet uid (ex. documents Sénat),
+    auquel cas on se rabat sur le PDF.
+    """
+    response = requests.get(AN_OPENDATA_HTML.format(uid=uid), timeout=30)
+    if response.status_code != 200:
+        return None
+    html = response.text
+    html = re.sub(r"<(style|script)[^>]*>.*?</\1>", " ", html, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", html)
+    text = unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text or None
+
+
 def download_pdf(pdf_url: str) -> bytes:
     response = requests.get(pdf_url, timeout=30)
     response.raise_for_status()
     return response.content
 
 
-def summarize(pdf_bytes: bytes, titre: str) -> str:
+def summarize_text(text: str, titre: str) -> str:
+    prompt = SUMMARY_PROMPT_TEMPLATE.format(titre=titre)
+    response = client.models.generate_content(
+        model=MODEL_NAME,
+        contents=[text, prompt],
+    )
+    return response.text.strip()
+
+
+def summarize_pdf(pdf_bytes: bytes, titre: str) -> str:
     prompt = SUMMARY_PROMPT_TEMPLATE.format(titre=titre)
     response = client.models.generate_content(
         model=MODEL_NAME,
@@ -110,14 +143,18 @@ def main():
         pdf_url = doc.get("pdfUrl")
         print(f"[{i}/{len(docs)}] {uid} — {titre} (déposé le {date_depot})")
 
-        if not pdf_url:
-            print("   (pas de PDF disponible pour ce document, ignoré)\n")
+        text = download_document_text(uid)
+        if not text and not pdf_url:
+            print("   (ni mirroir HTML ni PDF disponibles pour ce document, ignoré)\n")
             skipped += 1
             continue
 
         try:
-            pdf_bytes = download_pdf(pdf_url)
-            resume = summarize(pdf_bytes, titre)
+            if text:
+                resume = summarize_text(text, titre)
+            else:
+                pdf_bytes = download_pdf(pdf_url)
+                resume = summarize_pdf(pdf_bytes, titre)
             print(resume, "\n")
             results.append({
                 "uid": uid,

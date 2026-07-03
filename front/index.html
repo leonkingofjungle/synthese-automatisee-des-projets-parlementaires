@@ -126,6 +126,14 @@ function renderCard(doc) {
   return card;
 }
 
+// Un document n'est affiché que s'il a un résumé exploitable : les documents
+// sans PDF ou en erreur sont déjà absents de resumes.json (voir
+// scripts/pdf_summarizer_mcp.py), ce filtre est une seconde barrière côté
+// front pour ne jamais faire apparaître de carte vide ou en erreur.
+function hasUsableResume(doc) {
+  return typeof doc.resume === "string" && doc.resume.trim().length > 0;
+}
+
 async function main() {
   const stateEl = document.getElementById("state");
   const listEl = document.getElementById("list");
@@ -136,15 +144,19 @@ async function main() {
       document.getElementById("subtitle").textContent +=
         ` — généré le ${formatDate(generated_at)}`;
     }
-    if (!documents || documents.length === 0) {
-      listEl.innerHTML = `<div class="status">Aucun résumé disponible. Lancer scripts/pdf_summarizer_mcp.py pour en générer.</div>`;
+    const usable = (documents || []).filter(hasUsableResume);
+    if (usable.length === 0) {
+      listEl.innerHTML = `<div class="status">Aucun résumé disponible pour le moment. Lancer scripts/pdf_summarizer_mcp.py pour en générer.</div>`;
       return;
     }
-    for (const doc of documents) {
+    for (const doc of usable) {
       listEl.appendChild(renderCard(doc));
     }
   } catch (err) {
-    stateEl.textContent = `Erreur : ${err.message} — as-tu lancé scripts/pdf_summarizer_mcp.py ?`;
+    // Erreur de chargement de resumes.json (fichier absent, JSON invalide, etc.) :
+    // c'est un problème d'infra global, pas un souci par document, donc on le
+    // signale — mais aucune carte individuelle n'affiche jamais d'erreur.
+    stateEl.textContent = `Impossible de charger les résumés — as-tu lancé scripts/pdf_summarizer_mcp.py ?`;
     stateEl.classList.add("error");
   }
 }
