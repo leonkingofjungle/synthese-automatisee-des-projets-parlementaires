@@ -3,6 +3,9 @@
 .env.*
 !.env.example
 
+# Généré par scripts/pdf_summarizer_mcp.py
+front/resumes.json
+
 # Python
 __pycache__/
 *.py[cod]

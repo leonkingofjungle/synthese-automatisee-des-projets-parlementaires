@@ -97,28 +97,16 @@
 <body>
 <header>
   <h1>Dernières propositions de loi</h1>
-  <div class="subtitle">Résumés générés côté tricoteuses (parlement.tricoteuses.fr) — Assemblée nationale</div>
+  <div class="subtitle" id="subtitle">Résumés générés avec notre propre prompt Gemini, à partir du PDF officiel</div>
 </header>
 <div id="state">Chargement…</div>
 <main id="list"></main>
 
 <script>
-const API_BASE = "https://parlement.tricoteuses.fr";
-const LIMIT = 10;
-
-async function getRecentDocuments(limit) {
-  const url = `${API_BASE}/documents?perPage=${limit}&sort=dateDepot.desc&typeCode=PION&chambre=AN`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Erreur ${res.status} en listant les documents`);
-  const body = await res.json();
-  return body.data.slice(0, limit);
-}
-
-async function getResume(uid) {
-  const res = await fetch(`${API_BASE}/documents/${uid}/resume`);
-  if (!res.ok) throw new Error(`Erreur ${res.status} pour ${uid}`);
-  const body = await res.json();
-  return body.data;
+async function getResumes() {
+  const res = await fetch("resumes.json", { cache: "no-store" });
+  if (!res.ok) throw new Error(`Erreur ${res.status} en chargeant resumes.json`);
+  return res.json();
 }
 
 function formatDate(iso) {
@@ -130,47 +118,33 @@ function renderCard(doc) {
   const card = document.createElement("div");
   card.className = "card";
   card.innerHTML = `
-    <h2>${doc.titrePrincipalCourt || doc.titrePrincipal}</h2>
-    <div class="meta"><code>${doc.uid}</code> — déposé le ${formatDate(doc.dateDepot)}</div>
-    <div class="status">Chargement du résumé…</div>
+    <h2>${doc.titre}</h2>
+    <div class="meta"><code>${doc.uid}</code> — déposé le ${formatDate(doc.date_depot)}</div>
+    <div class="resume"></div>
   `;
+  card.querySelector(".resume").textContent = doc.resume;
   return card;
-}
-
-async function fillResume(card, uid) {
-  const statusEl = card.querySelector(".status");
-  try {
-    const { status, resume } = await getResume(uid);
-    if (status === "completed" && resume) {
-      statusEl.remove();
-      const p = document.createElement("div");
-      p.className = "resume";
-      p.textContent = resume.content;
-      card.appendChild(p);
-    } else if (status === "pending") {
-      statusEl.textContent = "Résumé en cours de génération, réessayez plus tard.";
-    } else {
-      statusEl.textContent = `Pas de résumé disponible (${status}).`;
-    }
-  } catch (err) {
-    statusEl.textContent = `Erreur : ${err.message}`;
-    statusEl.classList.add("error");
-  }
 }
 
 async function main() {
   const stateEl = document.getElementById("state");
   const listEl = document.getElementById("list");
   try {
-    const docs = await getRecentDocuments(LIMIT);
+    const { generated_at, documents } = await getResumes();
     stateEl.remove();
-    for (const doc of docs) {
-      const card = renderCard(doc);
-      listEl.appendChild(card);
-      fillResume(card, doc.uid);
+    if (generated_at) {
+      document.getElementById("subtitle").textContent +=
+        ` — généré le ${formatDate(generated_at)}`;
+    }
+    if (!documents || documents.length === 0) {
+      listEl.innerHTML = `<div class="status">Aucun résumé disponible. Lancer scripts/pdf_summarizer_mcp.py pour en générer.</div>`;
+      return;
+    }
+    for (const doc of documents) {
+      listEl.appendChild(renderCard(doc));
     }
   } catch (err) {
-    stateEl.textContent = `Erreur : ${err.message}`;
+    stateEl.textContent = `Erreur : ${err.message} — as-tu lancé scripts/pdf_summarizer_mcp.py ?`;
     stateEl.classList.add("error");
   }
 }
