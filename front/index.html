@@ -20,6 +20,8 @@
     --warn-bg: #fdf3e7;
     --warn-text: #8a5a12;
     --error: #b3271e;
+    --good: #1a7f4b;
+    --good-bg: #e8f5ee;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -34,17 +36,19 @@
       --warn-bg: #33290f;
       --warn-text: #e0af68;
       --error: #ff6b62;
+      --good: #4ade80;
+      --good-bg: #163827;
     }
   }
   :root[data-theme="dark"] {
     --bg: #14151a; --card: #1d1f26; --text: #eceef1; --muted: #a2a7b0; --faint: #767b85;
     --border: #2d2f37; --accent: #82a6e8; --accent-soft: #1f2a40; --warn-bg: #33290f;
-    --warn-text: #e0af68; --error: #ff6b62;
+    --warn-text: #e0af68; --error: #ff6b62; --good: #4ade80; --good-bg: #163827;
   }
   :root[data-theme="light"] {
     --bg: #f4f5f7; --card: #ffffff; --text: #1a1c20; --muted: #656a72; --faint: #8b909a;
     --border: #e2e4e8; --accent: #2953a6; --accent-soft: #eaf0fb; --warn-bg: #fdf3e7;
-    --warn-text: #8a5a12; --error: #b3271e;
+    --warn-text: #8a5a12; --error: #b3271e; --good: #1a7f4b; --good-bg: #e8f5ee;
   }
 
   * { box-sizing: border-box; }
@@ -151,10 +155,13 @@
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 1.1rem 1.25rem;
-    transition: border-color 0.15s ease;
+    transition: border-color 0.15s ease, transform 0.1s ease;
     min-width: 0;
+    cursor: pointer;
   }
   .card:hover { border-color: var(--accent); }
+  .card:active { transform: scale(0.995); }
+  .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
   .card-meta {
     display: flex;
@@ -208,6 +215,148 @@
     color: var(--faint);
     margin-top: 0.7rem;
   }
+
+  .read-more {
+    display: block;
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  /* --- Badge de note (pill compacte, dans .card-meta et l'en-tête de la modale) --- */
+  .judge-pill {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    margin-left: auto;
+  }
+  .judge-pill.good { color: var(--good); background: var(--good-bg); border-color: color-mix(in srgb, var(--good) 40%, transparent); }
+  .judge-pill.mid { color: var(--warn-text); background: var(--warn-bg); border-color: color-mix(in srgb, var(--warn-text) 40%, transparent); }
+  .judge-pill.bad { color: var(--error); background: color-mix(in srgb, var(--error) 8%, transparent); border-color: color-mix(in srgb, var(--error) 40%, transparent); }
+
+  /* --- Modale de détail --- */
+  dialog.detail-dialog {
+    border: none;
+    border-radius: 14px;
+    padding: 0;
+    max-width: 640px;
+    width: calc(100vw - 2.5rem);
+    max-height: calc(100vh - 4rem);
+    background: var(--card);
+    color: var(--text);
+  }
+  dialog.detail-dialog::backdrop {
+    background: rgba(10, 12, 20, 0.55);
+  }
+  .detail-inner {
+    position: relative;
+    padding: 1.6rem 1.6rem 1.85rem;
+    overflow-y: auto;
+    max-height: calc(100vh - 4rem);
+  }
+  .dialog-close {
+    position: absolute;
+    top: 1.1rem;
+    right: 1.1rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--muted);
+    font-size: 0.85rem;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dialog-close:hover { border-color: var(--accent); color: var(--accent); }
+
+  #detailTitle {
+    font-size: 1.2rem;
+    line-height: 1.32;
+    margin: 0.5rem 2rem 0.85rem 0;
+    font-weight: 700;
+  }
+  #detailLead { font-size: 0.98rem; font-weight: 500; }
+  #detailUid { margin-top: 1rem; }
+
+  /* --- Bloc jugement (dans la modale) --- */
+  .judge-block {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border);
+  }
+  .judge-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .judge-title h4 {
+    margin: 0;
+    font-size: 0.74rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .judge-note { font-weight: 700; font-size: 1rem; }
+  .judge-note.good { color: var(--good); }
+  .judge-note.mid { color: var(--warn-text); }
+  .judge-note.bad { color: var(--error); }
+
+  .judge-veto {
+    font-size: 0.78rem;
+    color: var(--warn-text);
+    background: var(--warn-bg);
+    padding: 0.5rem 0.7rem;
+    border-radius: 8px;
+    margin: 0 0 1rem;
+  }
+
+  .judge-criterion { margin-bottom: 0.75rem; }
+  .judge-criterion-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .judge-score { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .judge-score.good { color: var(--good); }
+  .judge-score.mid { color: var(--warn-text); }
+  .judge-score.bad { color: var(--error); }
+  .judge-justification {
+    font-size: 0.82rem;
+    color: var(--muted);
+    line-height: 1.45;
+    margin: 0.2rem 0 0;
+  }
+
+  .judge-checks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 1rem;
+  }
+  .judge-check {
+    font-size: 0.72rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .judge-check.pass { color: var(--good); border-color: color-mix(in srgb, var(--good) 40%, transparent); }
+  .judge-check.fail { color: var(--error); border-color: color-mix(in srgb, var(--error) 40%, transparent); }
+
+  .judge-empty { font-size: 0.85rem; color: var(--faint); font-style: italic; margin: 0; }
 
   /* Loading skeleton */
   .skeleton-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
@@ -291,6 +440,18 @@
   </div>
 </footer>
 
+<dialog id="detailDialog" class="detail-dialog">
+  <div class="detail-inner">
+    <button class="dialog-close" id="dialogClose" aria-label="Fermer">✕</button>
+    <div class="card-meta" id="detailMeta"></div>
+    <h2 id="detailTitle"></h2>
+    <p class="lead" id="detailLead"></p>
+    <ul class="points" id="detailPoints"></ul>
+    <div class="uid-tag" id="detailUid"></div>
+    <div class="judge-block" id="judgeBlock"></div>
+  </div>
+</dialog>
+
 <script>
 // Ordre d'affichage des sections thématiques (doit rester cohérent avec
 // CATEGORIES dans scripts/pdf_summarizer_mcp.py). Toute catégorie inconnue
@@ -318,9 +479,21 @@ function hasUsableResume(doc) {
   return typeof doc.accroche === "string" && doc.accroche.trim().length > 0;
 }
 
-function renderCard(doc) {
+// Note globale (ou score de critère) -> classe de couleur, selon sa proportion du max.
+function scoreClass(score, max) {
+  const ratio = score / max;
+  if (ratio >= 0.8) return "good";
+  if (ratio >= 0.6) return "mid";
+  return "bad";
+}
+
+function renderCard(doc, judgeResult, judgeReport) {
   const card = document.createElement("article");
   card.className = "card";
+  card.tabIndex = 0;
+  card.setAttribute("role", "button");
+  card.setAttribute("aria-haspopup", "dialog");
+  card.setAttribute("aria-label", `Voir le résumé complet : ${doc.titre}`);
 
   const meta = document.createElement("div");
   meta.className = "card-meta";
@@ -328,35 +501,138 @@ function renderCard(doc) {
     <span class="pill">Proposition de loi</span>
     <span class="date">Déposée le ${formatDate(doc.date_depot)}</span>
   `;
+  if (judgeResult && judgeReport) {
+    const pill = document.createElement("span");
+    pill.className = `judge-pill ${scoreClass(judgeResult.note_globale, judgeReport.scale.max)}`;
+    pill.textContent = `${judgeResult.note_globale}/${judgeReport.scale.max}`;
+    pill.title = "Note du juge automatique";
+    meta.appendChild(pill);
+  }
   card.appendChild(meta);
 
   const h3 = document.createElement("h3");
   h3.textContent = doc.titre;
   card.appendChild(h3);
 
+  // Volontairement tronqué : titre + début seulement, le détail complet
+  // (points clés + jugement) est dans la modale ouverte au clic.
   const p = document.createElement("p");
   p.className = "lead";
   p.textContent = doc.accroche;
   card.appendChild(p);
 
-  if (Array.isArray(doc.points) && doc.points.length > 0) {
-    const ul = document.createElement("ul");
-    ul.className = "points";
-    for (const point of doc.points) {
-      const li = document.createElement("li");
-      li.textContent = point;
-      ul.appendChild(li);
-    }
-    card.appendChild(ul);
-  }
-
-  const uidTag = document.createElement("div");
-  uidTag.className = "uid-tag";
-  uidTag.textContent = doc.uid;
-  card.appendChild(uidTag);
+  const more = document.createElement("span");
+  more.className = "read-more";
+  more.textContent = "Voir le résumé complet →";
+  card.appendChild(more);
 
   card.dataset.searchIndex = `${doc.titre} ${doc.accroche} ${(doc.points || []).join(" ")}`.toLowerCase();
+
+  const open = () => openDetail(doc, judgeResult, judgeReport);
+  card.addEventListener("click", open);
+  card.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      open();
+    }
+  });
+
   return card;
+}
+
+function renderJudgeBlock(judgeResult, judgeReport) {
+  const container = document.createElement("div");
+
+  if (!judgeResult || !judgeReport) {
+    container.innerHTML = `
+      <div class="judge-title"><h4>Évaluation automatique</h4></div>
+      <p class="judge-empty">Pas encore évalué par le juge local (scripts/judge.py).</p>
+    `;
+    return container;
+  }
+
+  const scale = judgeReport.scale;
+
+  const head = document.createElement("div");
+  head.className = "judge-title";
+  head.innerHTML = `
+    <h4>Évaluation automatique (LLM juge local)</h4>
+    <span class="judge-note ${scoreClass(judgeResult.note_globale, scale.max)}">${judgeResult.note_globale} / ${scale.max}</span>
+  `;
+  container.appendChild(head);
+
+  if (judgeResult.plafonnee_par_veto && judgeReport.veto) {
+    const veto = document.createElement("p");
+    veto.className = "judge-veto";
+    veto.textContent = `Note plafonnée à ${judgeReport.veto.cap} : le critère "${judgeReport.veto.criterion}" est à ${judgeReport.veto.threshold} ou moins.`;
+    container.appendChild(veto);
+  }
+
+  for (const c of judgeReport.criteria) {
+    const s = judgeResult.scores[c.name];
+    if (!s) continue;
+    const row = document.createElement("div");
+    row.className = "judge-criterion";
+    const head2 = document.createElement("div");
+    head2.className = "judge-criterion-head";
+    head2.innerHTML = `<span>${c.label}</span><span class="judge-score ${scoreClass(s.score, scale.max)}">${s.score}/${scale.max}</span>`;
+    row.appendChild(head2);
+    const justification = document.createElement("p");
+    justification.className = "judge-justification";
+    justification.textContent = s.justification;
+    row.appendChild(justification);
+    container.appendChild(row);
+  }
+
+  if (judgeReport.checks && judgeReport.checks.length > 0) {
+    const checksWrap = document.createElement("div");
+    checksWrap.className = "judge-checks";
+    for (const c of judgeReport.checks) {
+      const check = (judgeResult.checks || []).find(x => x.name === c.name);
+      const passed = Boolean(check && check.passed);
+      const span = document.createElement("span");
+      span.className = `judge-check ${passed ? "pass" : "fail"}`;
+      span.textContent = `${passed ? "✓" : "✕"} ${c.name}`;
+      span.title = c.rule;
+      checksWrap.appendChild(span);
+    }
+    container.appendChild(checksWrap);
+  }
+
+  return container;
+}
+
+function openDetail(doc, judgeResult, judgeReport) {
+  document.getElementById("detailMeta").innerHTML = `
+    <span class="pill">Proposition de loi</span>
+    <span class="date">Déposée le ${formatDate(doc.date_depot)}</span>
+  `;
+  document.getElementById("detailTitle").textContent = doc.titre;
+  document.getElementById("detailLead").textContent = doc.accroche;
+
+  const pointsEl = document.getElementById("detailPoints");
+  pointsEl.innerHTML = "";
+  for (const point of (doc.points || [])) {
+    const li = document.createElement("li");
+    li.textContent = point;
+    pointsEl.appendChild(li);
+  }
+
+  document.getElementById("detailUid").textContent = doc.uid;
+
+  const judgeSlot = document.getElementById("judgeBlock");
+  judgeSlot.innerHTML = "";
+  judgeSlot.appendChild(renderJudgeBlock(judgeResult, judgeReport));
+
+  document.getElementById("detailDialog").showModal();
+}
+
+function setupDialog() {
+  const dialog = document.getElementById("detailDialog");
+  document.getElementById("dialogClose").addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (e) => {
+    if (e.target === dialog) dialog.close();
+  });
 }
 
 function renderNotice(kind, text) {
@@ -378,7 +654,7 @@ function groupByCategory(docs) {
     .map(cat => ({ categorie: cat, docs: groups.get(cat) }));
 }
 
-function renderSections(listEl, docs) {
+function renderSections(listEl, docs, judgeIndex, judgeReport) {
   listEl.innerHTML = "";
   const allCards = [];
   for (const { categorie, docs: sectionDocs } of groupByCategory(docs)) {
@@ -392,7 +668,7 @@ function renderSections(listEl, docs) {
     const grid = document.createElement("div");
     grid.className = "cards-grid";
     for (const doc of sectionDocs) {
-      const card = renderCard(doc);
+      const card = renderCard(doc, judgeIndex.get(doc.uid), judgeReport);
       grid.appendChild(card);
       allCards.push(card);
     }
@@ -407,6 +683,18 @@ async function getResumes() {
   const res = await fetch("resumes.json", { cache: "no-store" });
   if (!res.ok) throw new Error(`http ${res.status}`);
   return res.json();
+}
+
+// Le rapport du juge est optionnel : s'il est absent (pas encore lancé de
+// scripts/judge.py) ou invalide, on affiche simplement les résumés sans note.
+async function getJudgeReport() {
+  try {
+    const res = await fetch("judge_report.json", { cache: "no-store" });
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null;
+  }
 }
 
 function setupSearch(cards) {
@@ -475,7 +763,11 @@ async function main() {
     return;
   }
 
-  const cards = renderSections(listEl, usable);
+  const judgeReport = await getJudgeReport();
+  const judgeIndex = new Map((judgeReport?.results || []).map(r => [r.uid, r]));
+
+  setupDialog();
+  const cards = renderSections(listEl, usable, judgeIndex, judgeReport);
   setupSearch(cards);
 }
 
