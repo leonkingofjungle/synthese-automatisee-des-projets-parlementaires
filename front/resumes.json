@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T18:05:22.040553+00:00",
+  "generated_at": "2026-07-03T18:35:56.212864+00:00",
   "documents": [
     {
       "status": "ok",
@@ -1439,6 +1439,724 @@
         "Impose aux employeurs et agents artistiques des obligations d'enquête interne et d'assistance juridique en cas de violences sexistes et sexuelles.",
         "Adapte la procédure pénale pour les victimes de violences sexuelles en allongeant les délais de prescription et en élargissant l'aide juridictionnelle sans condition de ressources.",
         "Instaure une clause assurantielle pour indemniser les pertes financières liées à des violences sexistes ou sexuelles dans le secteur culturel."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2834",
+      "titre": "Égalité de toutes les communes concernant les modalités de remboursement par l’État des frais de propagande électorale des candidates et candidats aux élections municipales",
+      "date_depot": "2026-05-26",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Cette proposition de loi vise à rendre l'État responsable du remboursement des frais de propagande électorale pour tous les candidats aux municipales, quelle que soit la taille de leur commune.",
+      "points": [
+        "Actuellement, les frais de propagande électorale des candidats aux élections municipales ne sont pas remboursés par l'État dans les communes de moins de 1 000 habitants.",
+        "Le texte propose de modifier le code électoral pour harmoniser ces règles et étendre le remboursement à toutes les communes.",
+        "L'objectif est de garantir l'égalité entre les candidats et de soutenir l'engagement citoyen dans toutes les communes, y compris rurales.",
+        "Les nouvelles dispositions prendraient effet à partir du prochain renouvellement général des conseils municipaux.",
+        "La charge financière pour l'État serait compensée par une taxe additionnelle sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2814",
+      "titre": "Garantir un revenu mensuel à tout nouveau retraité dès l’entrée en jouissance de la pension de retraite",
+      "date_depot": "2026-05-21",
+      "categorie": "Société et solidarités",
+      "accroche": "Une proposition de loi vise à instaurer une pension temporaire pour les nouveaux retraités ou bénéficiaires de réversion dont la pension est retardée.",
+      "points": [
+        "Mise en place d'une pension temporaire pour les nouveaux retraités et bénéficiaires de pensions de réversion si leur paiement est retardé.",
+        "Cette pension est conditionnée à un dépôt de demande au moins deux mois avant la date d'entrée en jouissance et son montant correspond à l'allocation de solidarité aux personnes âgées (ASPA).",
+        "Elle cesse dès le versement de la pension principale et toute différence est régularisée. Le texte modifie plusieurs codes existants pour l'appliquer.",
+        "Les futurs retraités recevront des estimations plus régulières de leur pension dès 55 ans, et la plupart des dispositions entreront en vigueur le 1er janvier 2027."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2817",
+      "titre": "Rétention administrative et prévention des risques d'attentat",
+      "date_depot": "2026-05-21",
+      "categorie": "Justice et sécurité",
+      "accroche": "La loi vise à renforcer la sécurité, la rétention administrative et la prévention des risques d'attentat par de nouvelles mesures juridiques.",
+      "points": [
+        "Mise en place d'une injonction d'examen psychiatrique pour les personnes représentant une menace terroriste en lien avec des troubles mentaux, pouvant entraîner des soins sous contrainte.",
+        "Introduction d'une rétention de sûreté spécifique au terrorisme pour les condamnés ayant une probabilité très élevée de récidive à l'issue de leur peine, avec placement en centre dédié.",
+        "Création d'une mesure judiciaire préventive pour les personnes condamnées et radicalisées en fin de peine, imposant un suivi médical, social ou professionnel après leur libération.",
+        "Les demandes de changement de prénom ou de nom seront soumises à la consultation des fichiers judiciaires nationaux des auteurs d'infractions terroristes et sexuelles.",
+        "Extension des durées de rétention administrative pour les étrangers qui constituent une menace grave à l'ordre public et font l'objet d'une mesure d'éloignement du territoire."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2815",
+      "titre": "Favoriser la création et la reprise d’entreprises sous forme de sociétés coopératives et participatives et de sociétés coopératives d’intérêt collectif",
+      "date_depot": "2026-05-20",
+      "categorie": "Économie et travail",
+      "accroche": "Ce texte vise à soutenir la création, la transformation et la reprise d’entreprises sous forme de sociétés coopératives de production et d’intérêt collectif.",
+      "points": [
+        "Les particuliers créant, reprenant ou transformant une entreprise en société coopérative pourront recevoir une aide financière de l'État, basée sur leurs apports personnels au capital.",
+        "Un fonds de développement coopératif sera institué, soutenu par l'État, pour aider à la création, transmission et reprise de sociétés coopératives, y compris par des prises de participation.",
+        "Les investissements dans les sociétés coopératives de production ou d'intérêt collectif bénéficieront d'une réduction de 25% de l'impôt sur le revenu."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2816",
+      "titre": "Pour la mobilisation de l’habitat existant en réponse à la crise du logement",
+      "date_depot": "2026-05-20",
+      "categorie": "Logement et urbanisme",
+      "accroche": "Cette proposition de loi vise à mobiliser l'habitat existant pour répondre à la crise du logement, notamment via des incitations fiscales et des ajustements sur la copropriété.",
+      "points": [
+        "La proposition modifie le Code Général des Impôts afin d'encourager la rénovation énergétique des logements loués, avec des déductions fiscales pour une amélioration significative de la performance.",
+        "Elle étend ces incitations fiscales aux locaux qui sont transformés en logements.",
+        "Elle ajuste le Code de la Construction et de l'Habitation en précisant la non-solidarité juridique des cotraitants dans l'exécution des travaux.",
+        "Elle réforme la loi sur la copropriété des immeubles bâtis en renforçant les garanties pour les organismes prêteurs finançant les travaux des copropriétés."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2812",
+      "titre": "Portant pérennisation du contrat de professionnalisation expérimental",
+      "date_depot": "2026-05-20",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi rend permanentes les modifications du contrat de professionnalisation, permettant l'intégration de blocs de compétences pour la certification professionnelle.",
+      "points": [
+        "Le texte vise à pérenniser le contrat de professionnalisation qui était jusqu'alors expérimental.",
+        "Il modifie le Code du travail pour permettre que ce contrat puisse désormais inclure la validation de \"blocs de compétences\" de certifications professionnelles, en plus ou à la place d'une certification complète.",
+        "L'intégration de ces blocs de compétences offre une nouvelle flexibilité pour les parcours de formation et de qualification professionnelle.",
+        "Les éventuels coûts financiers pour l'État liés à cette mesure seront compensés par une taxe additionnelle sur le tabac."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2810",
+      "titre": "Abrogation du Code noir",
+      "date_depot": "2026-05-20",
+      "categorie": "Société et solidarités",
+      "accroche": "Une proposition de loi vise à abroger le Code noir de 1685 et à établir un rapport sur les conséquences du droit colonial et de l'esclavage en outre-mer.",
+      "points": [
+        "Le Code noir de mars 1685, ainsi que toutes les dispositions liées à son application ou extension, sont abrogés.",
+        "Le Gouvernement devra remettre un rapport au Parlement dans un délai d'un an, listant les dispositions du droit colonial encore en vigueur dans les territoires d'outre-mer.",
+        "Ce rapport analysera les conséquences contemporaines de l'application du droit colonial sur le développement économique, social, culturel et environnemental de ces territoires.",
+        "Le rapport évaluera également l'enseignement de l'histoire de l'esclavage et de la traite, proposant des mesures pour le renforcer et créer des lieux de mémoire et de recherche historique.",
+        "Enfin, le rapport analysera les conséquences de ces dispositions en termes de discriminations et de racisme, ainsi que la place des descendants des personnes mises en esclavage dans la société."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2808",
+      "titre": "Faciliter l'accès au logement des familles par la création d'un prêt à taux zéro",
+      "date_depot": "2026-05-19",
+      "categorie": "Logement et urbanisme",
+      "accroche": "Une proposition de loi vise à créer un prêt à taux zéro spécifique pour faciliter l'accès au logement des familles en France.",
+      "points": [
+        "Le prêt est accessible aux familles, y compris celles ayant déjà été propriétaires, à partir d'une grossesse déclarée ou avec un enfant de moins de cinq ans.",
+        "Il permet de financer l'acquisition, la construction ou l'agrandissement de la résidence principale, sans aucun frais de dossier, d'expertise ou d'intérêt.",
+        "Le montant du prêt peut couvrir de 20% à 50% du coût total de l'opération, avec un plafond de 100 000 euros, en complément d'autres prêts.",
+        "Ce nouveau dispositif est intégré dans le Code de la construction et de l'habitation, rétablissant l'article L. 31-10-5.",
+        "Les modalités d'application seront précisées par décret, et sa perte de recettes pour l'État sera compensée par une taxe additionnelle sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2806",
+      "titre": "Visant à étendre à toutes les communes la compensation financière prévue pour les communes de plus de 3 500 habitants pour l'exercice de l'ensemble des compétences du service public de la petite enfance",
+      "date_depot": "2026-05-19",
+      "categorie": "Société et solidarités",
+      "accroche": "Cette proposition de loi étend la compensation financière pour les compétences de petite enfance à toutes les communes et structures intercommunales, supprimant la condition de taille.",
+      "points": [
+        "La compensation financière pour l'exercice des compétences du service public de la petite enfance est étendue à toutes les communes, sans condition de taille.",
+        "Les établissements publics de coopération intercommunale (EPCI) et les syndicats mixtes exerçant ces compétences sont également éligibles à cette compensation.",
+        "Le texte modifie des articles de la loi pour le plein emploi de 2023 et de la loi de finances pour 2025, notamment en supprimant le caractère 'obligatoire' de certaines compétences.",
+        "Ces nouvelles dispositions prendront effet à partir du 1er janvier 2027.",
+        "Les éventuelles conséquences financières pour l'État seront compensées par une taxe additionnelle sur les tabacs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2807",
+      "titre": "Portant actualisation du corps électoral pour les élections au congrès et aux assemblées de province de la Nouvelle-Calédonie",
+      "date_depot": "2026-05-19",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Cette proposition de loi organique modifie les critères d'inscription sur le corps électoral pour les élections provinciales et au congrès de Nouvelle-Calédonie.",
+      "points": [
+        "La proposition est une loi organique, modifiant la loi organique de 1999 relative à la Nouvelle-Calédonie.",
+        "Elle actualise les conditions pour être électeur aux élections du congrès et des assemblées de province de Nouvelle-Calédonie.",
+        "Les personnes nées en Nouvelle-Calédonie et déjà inscrites sur la liste électorale générale pourront voter à ces élections.",
+        "La loi entrera en vigueur le lendemain de sa publication officielle."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2804",
+      "titre": "Portant actualisation du corps électoral pour les élections au congrès et aux assemblées de province de la Nouvelle-Calédonie",
+      "date_depot": "2026-05-18",
+      "categorie": "International et outre-mer",
+      "accroche": "Actualise les conditions d'inscription sur le corps électoral pour les élections au congrès et aux assemblées de province de Nouvelle-Calédonie.",
+      "points": [
+        "Cette proposition de loi est une loi organique qui modifie la loi de 1999 relative à la Nouvelle-Calédonie.",
+        "Elle vise à régulariser le corps électoral pour les élections au congrès et aux assemblées de province de Nouvelle-Calédonie.",
+        "Les personnes nées en Nouvelle-Calédonie peuvent désormais s'inscrire sur la liste électorale pour ces scrutins si elles sont déjà sur la liste électorale générale.",
+        "Cette loi entrera en vigueur le lendemain de sa publication officielle."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2803",
+      "titre": "Relative au déclassement de restes humains kali'nas et à leur remise à la collectivité de Guyane à des fins funéraires",
+      "date_depot": "2026-05-18",
+      "categorie": "Société et solidarités",
+      "accroche": "Cette proposition de loi permet le déclassement de restes humains kali'nas et arawaks des collections publiques pour leur restitution et funérailles en Guyane.",
+      "points": [
+        "La loi autorise la sortie des collections publiques de restes humains kali’nas et arawaks, ainsi que de leurs moulages, conservés au Muséum national d’histoire naturelle.",
+        "Cette mesure constitue une dérogation au principe d’inaliénabilité des collections publiques inscrit à l’article L. 451-5 du code du patrimoine.",
+        "Les restes sont destinés à être inhumés sur le territoire de la commune d’Iracoubo en Guyane, au plus tard six mois après l’entrée en vigueur de la loi.",
+        "Le document liste précisément 14 squelettes, crânes, mandibules et moulages concernés par cette restitution."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2795",
+      "titre": "Transmettre au Parlement les avis du Conseil d’État sur les projets de loi",
+      "date_depot": "2026-05-13",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Une proposition de loi organique prévoit la transmission des avis du Conseil d’État sur les projets de loi au Parlement.",
+      "points": [
+        "Il s'agit d'une proposition de loi organique qui modifie une loi organique de 2009.",
+        "Elle instaure l'obligation de déposer les avis du Conseil d'État sur les projets de loi au Parlement.",
+        "Ces avis devront être transmis à la première assemblée parlementaire saisie (Assemblée nationale ou Sénat).",
+        "La transmission des avis se fera simultanément au dépôt des projets de loi auxquels ils se rapportent."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2796",
+      "titre": "Rendre publics les avis du Conseil d’État sur les projets et sur les propositions de loi",
+      "date_depot": "2026-05-13",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Une proposition de loi prévoit de rendre publics les avis du Conseil d'État sur les textes législatifs pour plus de transparence.",
+      "points": [
+        "Les avis rendus par le Conseil d'État sur les projets et propositions de loi devront être rendus publics.",
+        "Cette publication interviendra au plus tard lorsque la proposition de loi sera inscrite à l'ordre du jour de l'assemblée ou de la commission concernée.",
+        "Le texte vise à modifier l'ordonnance de 1958 relative au fonctionnement des assemblées parlementaires.",
+        "Cette mesure a pour objectif de renforcer la transparence dans le processus d'élaboration des lois."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2797",
+      "titre": "Relative à l'organisation, à la gestion et au financement du sport professionnel",
+      "date_depot": "2026-05-13",
+      "categorie": "Économie et travail",
+      "accroche": "Le texte propose de nouvelles règles pour l'organisation, la gestion et le financement du sport professionnel, ainsi que la lutte contre le piratage.",
+      "points": [
+        "Le texte modifie le code du sport pour moderniser la gouvernance des fédérations et ligues professionnelles, en intégrant des principes de parité et de solidarité entre sport masculin et féminin.",
+        "Il encadre plus strictement l'activité des agents sportifs, notamment leurs rémunérations et les situations d'incompatibilité, pour assurer plus de transparence.",
+        "Un organisme indépendant est créé pour contrôler la gestion financière des clubs, évaluer les projets d'achat et prévenir les atteintes à l'aléa sportif.",
+        "La législation renforce la lutte contre le piratage des diffusions sportives, en permettant des mesures de blocage rapide et en instaurant des peines plus lourdes.",
+        "Les associations de supporters seront davantage consultées et représentées dans les instances des ligues professionnelles."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2790",
+      "titre": "Rétablir l’exemption d’impôt pour les primes accordées par l’obtention de la médaille honorifique du travail",
+      "date_depot": "2026-05-12",
+      "categorie": "Économie et travail",
+      "accroche": "Une proposition de loi vise à rétablir l'exonération d'impôt pour les primes liées à la médaille d'honneur du travail, supprimée en 2026.",
+      "points": [
+        "La proposition de loi a pour but de rendre à nouveau non imposables les primes reçues lors de l'attribution de la médaille d'honneur du travail.",
+        "Cette exonération avait été retirée par la loi de finances pour 2026, entraînant l'imposition de ces primes de reconnaissance.",
+        "Les auteurs du texte jugent que l'imposition de ces primes porte atteinte à leur valeur symbolique et introduit une incohérence avec le régime fiscal d'autres distinctions honorifiques.",
+        "La proposition de loi modifierait l'article 157 du code général des impôts pour réintroduire cette exemption, estimée à un coût budgétaire limité de 11 millions d'euros."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2779",
+      "titre": "Pour un paquet neutre pour les produits avec nicotine",
+      "date_depot": "2026-05-12",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi vise à étendre le paquet neutre à tous les produits du tabac et du vapotage pour réduire leur attractivité commerciale et protéger les jeunes.",
+      "points": [
+        "Les emballages des produits de vapotage (cigarettes électroniques et liquides) devront devenir neutres et uniformisés, à l'instar des cigarettes.",
+        "Le texte modifie le code de la santé publique pour y intégrer ces nouvelles dispositions concernant le conditionnement des produits du vapotage.",
+        "Les emballages ne pourront plus contenir d'éléments suggestifs (couleurs vives, graphismes, arômes) ou promotionnels, ni ressembler à des produits alimentaires ou cosmétiques.",
+        "Les nouvelles règles s'appliqueront aux produits fabriqués à partir du 1er janvier 2027 et la vente de produits non conformes sera interdite dès le 1er juin 2027.",
+        "Un rapport d'évaluation sera remis au Parlement deux ans après l'entrée en vigueur pour mesurer l'impact de la loi, notamment sur l'attractivité des produits auprès des mineurs."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2778",
+      "titre": "Le taux de sucre dans les confitures",
+      "date_depot": "2026-05-12",
+      "categorie": "Santé",
+      "accroche": "Une proposition de loi vise à réduire le taux minimum de matière sèche soluble de 55 % à 20 % pour qu'un produit puisse être dénommé confiture.",
+      "points": [
+        "Actuellement, pour être appelée \"confiture\", un produit doit contenir au moins 55% de matière sèche soluble.",
+        "Beaucoup de produits similaires, mais moins sucrés, ne peuvent pas utiliser cette appellation selon la réglementation en vigueur.",
+        "La proposition de loi souhaite fixer un nouveau seuil minimal de 20% de matière sèche soluble pour permettre l'utilisation de la dénomination \"confiture\".",
+        "Cette mesure a pour but de favoriser l'innovation chez les producteurs et de répondre aux attentes des consommateurs pour des produits moins sucrés.",
+        "Elle contribue aux objectifs de santé publique, notamment la lutte contre l'obésité et le diabète, et modifie le code de la consommation."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2780",
+      "titre": "La taxation des bénéfices exceptionnels liés aux crises",
+      "date_depot": "2026-05-12",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi vise à instaurer une taxe temporaire sur les bénéfices exceptionnels des grandes entreprises du secteur de l'énergie liés aux crises.",
+      "points": [
+        "Une nouvelle taxe est proposée pour les grandes entreprises des secteurs du pétrole, du gaz, du charbon et du raffinage, modifiant le Code général des impôts.",
+        "Elle ciblera les bénéfices exceptionnels, définis comme un résultat imposable au moins 1,2 fois supérieur à la moyenne des trois exercices précédents, avec des taux progressifs allant de 20 % à 40 %.",
+        "Cette contribution temporaire, applicable jusqu'à fin 2029, vise à financer des mesures d'aide aux Françaises et Français dépendants de leur voiture face à la hausse des prix des carburants."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2776",
+      "titre": "Rétablir la liberté d'instruction en famille",
+      "date_depot": "2026-05-12",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Cette proposition de loi vise à rétablir la liberté d'instruction en famille en remplaçant le régime d'autorisation préalable par une simple déclaration annuelle.",
+      "points": [
+        "Rétablit le droit à l'instruction en famille en supprimant la nécessité d'une autorisation préalable des services académiques, remplacée par une déclaration annuelle à la mairie et à l'autorité de l'État.",
+        "Remplace le terme ",
+        "obligation scolaire",
+        " par ",
+        "obligation d'instruction"
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2777",
+      "titre": "Permettre le financement participatif de la construction des casernes de gendarmerie",
+      "date_depot": "2026-05-12",
+      "categorie": "Justice et sécurité",
+      "accroche": "Une proposition de loi vise à instaurer un financement participatif citoyen pour la construction de casernes de gendarmerie, permettant aux habitants d'investir localement.",
+      "points": [
+        "Les citoyens pourront créer une société par actions simplifiée pour financer et réaliser la construction de nouvelles casernes de gendarmerie.",
+        "La caserne sera louée à l'État pour 25 ans, avec un loyer annuel couvrant les charges et rémunérant les investisseurs citoyens.",
+        "Après 25 ans de bail, la propriété de la caserne sera automatiquement transférée gratuitement à l'État.",
+        "Les citoyens investissant dans ces sociétés pourront bénéficier d'une réduction d'impôt sur le revenu.",
+        "Le dispositif est encadré par un agrément ministériel préalable, un contrôle annuel et modifie le Code général des impôts."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2781",
+      "titre": "Garantir aux enfants placés le bénéfice des prestations familiales",
+      "date_depot": "2026-05-12",
+      "categorie": "Société et solidarités",
+      "accroche": "Cette proposition de loi vise à réformer le versement des prestations familiales et sociales aux enfants placés, pour mieux soutenir leur prise en charge.",
+      "points": [
+        "La loi modifie les règles de versement des allocations familiales pour les enfants placés, les dirigeant vers l'Aide Sociale à l'Enfance ou le tiers digne de confiance après un an de placement, sauf exceptions.",
+        "Le dispositif actuel de consignation de l'allocation de rentrée scolaire (ARS) est supprimé pour les enfants placés ; l'ARS sera versée aux personnes ou services qui assument les frais réels.",
+        "La majoration du Revenu de Solidarité Active (RSA) pour un enfant placé sera versée au tiers digne de confiance ou à la famille prenant en charge l'enfant.",
+        "Le texte propose des modifications aux codes de la sécurité sociale et de l'action sociale et des familles, afin d'harmoniser les prestations."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2784",
+      "titre": "Renforcer la souveraineté alimentaire par le développement des circuits de proximité dans la restauration collective publique",
+      "date_depot": "2026-05-12",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi vise à renforcer la souveraineté alimentaire en développant les circuits courts pour l'approvisionnement de la restauration collective publique.",
+      "points": [
+        "Au moins 60% des denrées alimentaires de la restauration collective publique devront provenir de producteurs situés dans un rayon de 250 km, si la production est locale.",
+        "Les produits ne pouvant être produits localement ne sont pas soumis à cette obligation, leur part ne pouvant dépasser 20% des approvisionnements annuels.",
+        "Les acheteurs publics pourront conclure des marchés pluriannuels directement avec des producteurs locaux situés dans un rayon de 250 km.",
+        "Ces marchés directs seront dispensés de publicité et de mise en concurrence jusqu'à un montant maximal de 100 000 euros hors taxes par an et par fournisseur."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2773",
+      "titre": "Droit à l'aide à mourir",
+      "date_depot": "2026-05-12",
+      "categorie": "Santé",
+      "accroche": "Une proposition de loi définit le droit à l'aide à mourir, ses conditions d'accès, une procédure encadrée médicalement, ainsi que son contrôle et son financement.",
+      "points": [
+        "La proposition de loi institue un droit à l'aide à mourir pour les personnes éligibles, en modifiant le Code de la santé publique.",
+        "L'accès est réservé aux adultes majeurs, résidant en France, atteints d'une affection grave et incurable, avec un pronostic vital engagé, et dont la souffrance physique est insupportable.",
+        "La demande est soumise à un médecin et fait l'objet d'une procédure collégiale rigoureuse pour vérifier les conditions, incluant un délai de réflexion.",
+        "Les professionnels de santé peuvent exercer une clause de conscience, et une commission nationale est chargée du contrôle et de l'évaluation du dispositif.",
+        "Les frais de la procédure sont pris en charge par l'assurance maladie, et des sanctions sont prévues contre l'entrave à l'aide à mourir ou la pression exercée sur une personne pour y recourir."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2774",
+      "titre": "Protéger durablement les jeunes majeurs de l’aide sociale à l’enfance et de la protection judiciaire de la jeunesse",
+      "date_depot": "2026-05-12",
+      "categorie": "Société et solidarités",
+      "accroche": "Cette proposition de loi vise à rendre obligatoire et prolonger l'accompagnement des jeunes majeurs de l'aide sociale à l'enfance et de la protection judiciaire de la jeunesse.",
+      "points": [
+        "L'accompagnement de tous les jeunes majeurs protégés serait rendu opposable et étendu jusqu'à leurs 25 ans, quel que soit leur parcours de vie.",
+        "Le texte supprime les exclusions existantes, notamment pour les jeunes issus de la protection judiciaire de la jeunesse ou faisant l'objet d'une obligation de quitter le territoire français.",
+        "Un fonds de mobilisation départementale serait créé par l'État pour financer les dépenses d'accompagnement et inciter les départements à les engager.",
+        "La proposition de loi modifie le code de l'action sociale et des familles pour mettre en œuvre ces dispositions."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2785",
+      "titre": "Suspendre le regroupement familial et la réunification familiale des étrangers bénéficiaires de la protection subsidiaire",
+      "date_depot": "2026-05-12",
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi vise à suspendre pour deux ans le regroupement et la réunification familiale pour les étrangers bénéficiant de la protection subsidiaire.",
+      "points": [
+        "La proposition de loi suspendrait, pour deux ans, le droit au regroupement et à la réunification familiale pour les étrangers bénéficiant de la protection subsidiaire, modifiant ainsi le Code de l'entrée et du séjour des étrangers et du droit d'asile.",
+        "Cette suspension est justifiée par la nécessité de maîtriser les flux migratoires, de préserver l'ordre public et de renforcer la sécurité nationale face aux risques d'infiltration.",
+        "Un décret en Conseil d'État doit préciser les modalités de cette suspension, prévoyant des admissions exceptionnelles pour des cas d'extrême urgence.",
+        "La mesure est présentée comme temporaire et proportionnée, en conformité avec la jurisprudence constitutionnelle et internationale.",
+        "Un rapport d'évaluation de cette suspension et de ses effets sera remis au Parlement par le Gouvernement après deux ans."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2775",
+      "titre": "Création d'un statut de parents d'enfant gravement malade",
+      "date_depot": "2026-05-12",
+      "categorie": "Santé",
+      "accroche": "Une proposition de loi vise à créer un statut pour les parents d'enfants gravement malades afin de simplifier l'accès aux aides et aménagements existants.",
+      "points": [
+        "Un nouveau statut de \"Parent d'enfant gravement malade\" sera créé, reconnaissable par un certificat médical simplifié.",
+        "Ce statut permettra un accès immédiat aux aides financières, la suspension du contrat de travail avec protection contre le licenciement et des aménagements d'horaires.",
+        "Les parents bénéficieront d'une prise en charge des frais liés à la maladie de l'enfant et d'un congé de trois jours à l'annonce du diagnostic.",
+        "Un accompagnement psychologique sera garanti pour les parents et la fratrie, avec un traitement prioritaire de leurs dossiers.",
+        "Un référent unique sera désigné dans chaque caisse d'allocations familiales pour informer les familles et faciliter leurs démarches."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2782",
+      "titre": "Garantir le respect de l’expression pluraliste des courants de pensée et d’opinion sur les réseaux sociaux",
+      "date_depot": "2026-05-12",
+      "categorie": "Numérique",
+      "accroche": "Cette proposition de loi vise à étendre les règles de pluralisme de l'expression aux réseaux sociaux, sous le contrôle de l'ARCOM.",
+      "points": [
+        "La proposition de loi modifie la loi du 30 septembre 1986 sur la liberté de communication pour y ajouter une définition des services de réseaux sociaux.",
+        "Elle charge l'Autorité de régulation de la communication audiovisuelle et numérique (ARCOM) de veiller au respect du pluralisme des opinions sur ces plateformes.",
+        "Le contrôle de l'ARCOM s'appliquera spécifiquement aux contenus diffusés, classés ou recommandés par les systèmes algorithmiques des réseaux sociaux.",
+        "Les fournisseurs de services de réseaux sociaux devront transmettre des données d'exposition des contenus à l'ARCOM et pourront être soumis à ses pouvoirs de mise en demeure et de sanction."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2783",
+      "titre": "Protéger les filiales des usages abusifs du licenciement économique par les entreprises dominantes",
+      "date_depot": "2026-05-12",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi vise à mieux encadrer le licenciement économique pour protéger les salariés des filiales face aux pratiques abusives des groupes dominants.",
+      "points": [
+        "Le Code du travail serait modifié pour que la validité d'un licenciement économique pour cessation d'activité d'une filiale soit appréciée à l'échelle du groupe et non de la seule entreprise.",
+        "Une nouvelle définition du co-emploi est proposée, rendant la société mère solidairement responsable des obligations envers les salariés de sa filiale en cas d'immixtion excessive dans sa gestion.",
+        "En cas d'appel contre une décision de liquidation judiciaire, les salariés concernés seraient assimilés à des demandeurs d'emploi et l'appel du comité social et économique (CSE) deviendrait suspensif.",
+        "Ces modifications législatives seraient intégrées au Code du travail et au Code de commerce afin de responsabiliser davantage les sociétés mères."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2787",
+      "titre": "Prévenir les occupations sans droit ni titre en encadrant la souscription des contrats essentiels",
+      "date_depot": "2026-05-12",
+      "categorie": "Logement et urbanisme",
+      "accroche": "Cette proposition de loi vise à prévenir les occupations illicites de logements en obligeant les fournisseurs de services essentiels à vérifier le droit d'occupation.",
+      "points": [
+        "Les fournisseurs d'électricité, de gaz, de téléphone et d'internet devront exiger un justificatif de droit d'occupation légitime avant de souscrire un contrat pour un logement.",
+        "Les justificatifs acceptés incluent un bail, une attestation du propriétaire, un titre de propriété, une décision judiciaire ou un titre d'un organisme public ou agréé.",
+        "En cas de non-respect de cette obligation, les fournisseurs pourraient être tenus pour civilement responsables et redevables du loyer ou de l'indemnité d'occupation due au propriétaire.",
+        "Cette proposition de loi modifie le Code de la consommation pour intégrer ces nouvelles dispositions."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2786",
+      "titre": "Garantir la transparence du calcul des contributions des collectivités territoriales au financement des établissements d’enseignement privés sous contrat d’association",
+      "date_depot": "2026-05-12",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Cette proposition de loi vise à assurer la transparence du calcul des contributions des collectivités territoriales au financement des établissements privés sous contrat d'association.",
+      "points": [
+        "Le financement des établissements d'enseignement privés sous contrat par les collectivités territoriales est souvent inférieur aux obligations légales, avec un manque à gagner estimé à 900 millions d'euros.",
+        "L'absence actuelle de transparence sur les méthodes de calcul de ces contributions empêche les établissements et les citoyens de vérifier leur conformité à la loi.",
+        "La proposition de loi modifierait le Code de l'éducation pour imposer aux collectivités territoriales de publier annuellement le montant et les modalités de calcul de ces contributions.",
+        "Ces informations, dont les conditions seront fixées par décret, devront être attestées par le comptable public pour garantir leur fiabilité."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2791",
+      "titre": "Prévenir les conflits d'intérêts dans les sociétés nationales de programme",
+      "date_depot": "2026-05-12",
+      "categorie": "Institutions et démocratie",
+      "accroche": "La proposition de loi vise à renforcer la prévention des conflits d'intérêts pour les dirigeants et certains agents de l'audiovisuel public, notamment concernant les achats de programmes.",
+      "points": [
+        "Les entreprises de l'audiovisuel public gèrent d'importants fonds publics, mais leur cadre actuel est jugé trop souple concernant la prévention des conflits d'intérêts.",
+        "Les procédures internes pour l'achat de programmes, représentant des centaines de millions d'euros et non soumises au code de la commande publique, sont considérées comme insuffisantes pour garantir la transparence.",
+        "Des situations problématiques ont été identifiées, impliquant des agents qui, après avoir rejoint le secteur privé, ont vu les commandes de leur ancienne entreprise publique augmenter significativement.",
+        "La proposition de loi étend le contrôle de la Haute Autorité pour la transparence de la vie publique (HATVP) aux présidents, membres dirigeants et agents clés des sociétés nationales de programme.",
+        "Ce contrôle s'appliquera si ces personnes envisagent une activité rémunérée ou non dans les trois ans suivant leur départ, au sein d'une entreprise avec laquelle elles étaient en relation dans leurs fonctions, complétant la loi de 1986 sur la liberté de communication."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2788",
+      "titre": "Assurer l’autonomie stratégique de la France pour la production décarbonée d’engrais azotés",
+      "date_depot": "2026-05-12",
+      "categorie": "Économie et travail",
+      "accroche": "La proposition de loi vise à garantir l'autonomie stratégique de la France pour la production décarbonée d'engrais azotés essentiels à l'agriculture.",
+      "points": [
+        "Le texte modifie le code de l'environnement pour ajouter une nouvelle disposition concernant les projets industriels.",
+        "Il établit que certains projets d'installations industrielles produisant des engrais azotés pour l'agriculture sont présumés répondre à une raison impérative d'intérêt public majeur.",
+        "Ces projets doivent contribuer à sécuriser l'approvisionnement en intrants agricoles stratégiques pour la France.",
+        "Ils doivent également permettre de réduire la dépendance du pays aux importations de produits ou matières premières nécessaires à la fabrication d'engrais azotés.",
+        "Les procédés de production utilisés devront respecter des critères de performance environnementale, énergétique et climatique, définis par décret, en accord avec la stratégie nationale bas-carbone."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2789",
+      "titre": "Protéger les petits porteurs et les entreprises des fonds vautours",
+      "date_depot": "2026-05-12",
+      "categorie": "Économie et travail",
+      "accroche": "Cette proposition de loi vise à encadrer les opérations financières de type OCABSA pour protéger les petits porteurs et les entreprises des pratiques dilutives.",
+      "points": [
+        "Les OCABSA sont des instruments financiers complexes utilisés par des entreprises, souvent fragiles, pour obtenir rapidement des fonds.",
+        "Le recours à ces instruments peut entraîner une forte chute du cours de bourse des actions des entreprises concernées, pénalisant les petits actionnaires.",
+        "La proposition de loi ne cherche pas à interdire les OCABSA, mais à renforcer leur encadrement pour protéger les entreprises et les investisseurs.",
+        "Toute personne proposant de manière habituelle ce type de financement devra obtenir un agrément préalable en tant que prestataire de services d'investissement.",
+        "Ces opérations seront réputées constituer un service d'investissement, indépendamment de leur appellation contractuelle, et modifieront le Code monétaire et financier."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2792",
+      "titre": "Accélérer la procédure de qualification d’un bien sans maître",
+      "date_depot": "2026-05-12",
+      "categorie": "Logement et urbanisme",
+      "accroche": "Cette proposition de loi vise à réduire le délai de qualification d'un bien sans maître pour lutter contre la pénurie de logements et favoriser l'intérêt général.",
+      "points": [
+        "Elle réduit de trente à dix ans le délai nécessaire pour qu'un bien immobilier issu d'une succession non réglée puisse être qualifié de \"sans maître\", modifiant ainsi le Code général de la propriété des personnes publiques.",
+        "Les biens ainsi requalifiés devront être consacrés à la construction de logements sociaux, de résidences universitaires ou de foyers de jeunes travailleurs, particulièrement dans les communes ne respectant pas les quotas de logements sociaux.",
+        "La proposition de loi ajuste la période de contestation d'un bien sans maître par d'éventuels anciens propriétaires à dix ans, harmonisant ce délai avec la nouvelle procédure.",
+        "Elle modifie la base de calcul de l'indemnisation due en cas de contestation réussie, en la basant sur la valeur du bien au moment de son incorporation au patrimoine communal et non sur sa valeur au moment de son aliénation."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2793",
+      "titre": "Reconnaitre la fibromyalgie comme une affection longue durée",
+      "date_depot": "2026-05-12",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi vise à inscrire la fibromyalgie sur la liste des affections longue durée (ALD 30) pour une prise en charge intégrale par l'assurance maladie.",
+      "points": [
+        "La fibromyalgie est une maladie chronique reconnue par l'OMS, touchant plus d'un million de personnes en France et provoquant des douleurs et une fatigue intenses.",
+        "Le diagnostic de cette maladie est souvent long et difficile, entraînant des répercussions importantes sur la vie professionnelle et sociale des personnes atteintes.",
+        "Actuellement, la fibromyalgie n'est pas systématiquement remboursée à 100% par l'Assurance maladie, ce qui fragilise les malades.",
+        "La loi propose d'inclure la fibromyalgie dans la liste des affections longue durée (ALD 30) afin de garantir une prise en charge intégrale des soins.",
+        "Cette mesure modifierait le 3° de l'article L. 160-14 du code de la sécurité sociale pour y ajouter spécifiquement la fibromyalgie."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2770",
+      "titre": "Réseaux de criminalité organisée",
+      "date_depot": "2026-05-11",
+      "categorie": "Justice et sécurité",
+      "accroche": "Proposition de loi visant à renforcer la protection des personnes ciblées par les réseaux de criminalité organisée et de leurs proches en France.",
+      "points": [
+        "La proposition de loi insère un nouveau titre (Titre II TER) dans le Code de la sécurité intérieure, dédié à la protection des personnes.",
+        "Des mesures de protection et de réinsertion sont prévues pour les personnes et leurs proches dont les actions contre la criminalité organisée mettent leur vie en danger.",
+        "Un service national spécialisé peut être saisi pour mettre en œuvre ces mesures, incluant des dispositifs techniques et, exceptionnellement, l'usage d'une identité d'emprunt.",
+        "La révélation de l'identité ou de l'adresse d'une personne protégée est sanctionnée par des peines de prison et d'amende, aggravées si cela entraîne des violences ou un décès."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2766",
+      "titre": "La souveraineté de la France",
+      "date_depot": "2026-05-07",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Une proposition de loi constitutionnelle vise à inscrire au sein de la Constitution les conditions d'exercice de la souveraineté nationale.",
+      "points": [
+        "La proposition de loi est de nature constitutionnelle et prévoit de modifier l'article 34 de la Constitution.",
+        "Elle vise à affirmer explicitement le principe de souveraineté nationale dans ses dimensions essentielles.",
+        "Les domaines concernés incluent l'industrie, l'énergie, le numérique, la défense, la santé, l'alimentation et l'agriculture.",
+        "L'objectif est de permettre au législateur de définir des politiques publiques garantissant l'indépendance stratégique de la Nation."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2755",
+      "titre": "Pour une montagne vivante et souveraine",
+      "date_depot": "2026-05-06",
+      "categorie": "Autre",
+      "accroche": "Cette proposition de loi vise à adapter diverses législations nationales aux spécificités des territoires de montagne pour leur développement durable et la protection de leurs services essentiels.",
+      "points": [
+        "Les seuils pour l'ouverture ou la fermeture de classes sont adaptés aux spécificités des écoles de montagne, et l'accès aux services de santé, y compris d'urgence, est renforcé dans ces zones, modifiant les codes de l'éducation et de la santé publique.",
+        "Des commissions spécifiques à la montagne sont instituées au sein des intercommunalités pour les questions environnementales, agricoles et climatiques propres à ces territoires, modifiant le code général des collectivités territoriales.",
+        "Les règles d'urbanisme, notamment le principe de continuité de l'urbanisation et la reconstruction de chalets ou bâtiments d'estive, sont adaptées aux réalités géographiques des zones de montagne, modifiant le code de l'urbanisme.",
+        "Les spécificités des abattoirs et des infrastructures de transformation des produits agricoles de montagne sont reconnues, avec une adaptation des normes et un soutien au développement local, modifiant les codes rural et de la pêche maritime ainsi que de l'environnement.",
+        "Une politique d'usage partagé de la ressource en eau est favorisée et les infrastructures de recharge électrique rapide sont prioritaires dans les territoires de montagne, modifiant les codes de l'environnement et de l'énergie."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2754",
+      "titre": "Protection et accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap",
+      "date_depot": "2026-05-06",
+      "categorie": "Santé",
+      "accroche": "La présente proposition de loi vise à renforcer la protection et l'accompagnement des parents d'enfants atteints d'un cancer, d'une maladie grave ou d'un handicap par diverses mesures sociales et médicales.",
+      "points": [
+        "Le code du travail est modifié pour renforcer la protection contre le licenciement des parents d'enfants malades, adapter les conditions de travail spécifiques et ajuster les règles de certains congés.",
+        "La reconnaissance des affections graves ou handicaps d'enfants est intégrée dans plusieurs codes (assurances, mutualité, monétaire et financier) et un dispositif d'hébergement des parents d'enfants hospitalisés est mis en place avec prise en charge par l'assurance maladie.",
+        "L'assurance maladie prendra en charge de nouvelles séances de soins (ergothérapie, psychomotricité, diététique) et les bilans neuropsychologiques pour les mineurs atteints d'affections graves; l'allocation journalière de présence parentale est prolongée et le crédit d'impôt pour les aidants est étendu.",
+        "Des expérimentations sont mises en place pour réduire à deux mois le délai de décision pour l'Allocation d'éducation de l'enfant handicapé (AEEH) et la carte \"mobilité inclusion\", avec des mécanismes de délivrance automatique en cas de non-réponse."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2756",
+      "titre": "Instituer un mécanisme de saisie des avoirs souverains étrangers gelés en réponse aux violations du droit international",
+      "date_depot": "2026-05-06",
+      "categorie": "International et outre-mer",
+      "accroche": "Une proposition de loi vise à instituer la confiscation des avoirs souverains étrangers gelés en cas de violations graves du droit international.",
+      "points": [
+        "La loi propose d'ajouter un nouvel article au code monétaire et financier pour permettre la confiscation de certains biens d'États étrangers.",
+        "Cette confiscation concerne les avoirs de banques centrales ou autorités monétaires étrangères, déjà gelés sous sanctions internationales ou nationales.",
+        "Elle peut être décidée si l'État concerné a commis une violation grave du droit international, reconnue par une résolution de l'Assemblée générale des Nations unies.",
+        "Les fonds confisqués seront versés à la Caisse des dépôts et consignations.",
+        "Le Gouvernement devra remettre un rapport au Parlement évaluant l'impact de ce mécanisme sur l'attractivité financière de la France."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2751",
+      "titre": "Parcours inclusif des enfants à besoins éducatifs particuliers",
+      "date_depot": "2026-05-06",
+      "categorie": "Éducation et jeunesse",
+      "accroche": "Ce projet de loi vise à améliorer le parcours scolaire et l'accompagnement des enfants ayant des besoins éducatifs particuliers, en modifiant le code de l'éducation.",
+      "points": [
+        "Création d'un outil numérique sécurisé pour partager les informations essentielles entre les professionnels, le personnel périscolaire et les parents des enfants à besoins éducatifs particuliers, assurant un suivi continu.",
+        "Les accompagnants d'élèves en situation de handicap (AESH) sont intégrés à l'équipe pédagogique, bénéficieront d'une formation obligatoire et leur affectation sera encadrée par des délais précis.",
+        "Possibilité d'adapter les critères d'évaluation des épreuves orales des examens nationaux pour les élèves bénéficiant d'un accompagnement personnalisé.",
+        "Le Gouvernement remettra un rapport annuel sur l'éducation inclusive et des formations seront proposées aux professionnels et enseignants pour mieux accompagner les élèves à besoins éducatifs particuliers."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2753",
+      "titre": "Moderniser et simplifier la protection juridique des majeurs",
+      "date_depot": "2026-05-06",
+      "categorie": "Société et solidarités",
+      "accroche": "La proposition de loi vise à moderniser et simplifier la protection juridique des majeurs en ajustant diverses dispositions légales.",
+      "points": [
+        "La proposition de loi modifie le code civil et d'autres codes pour moderniser et simplifier la protection juridique des adultes.",
+        "Elle introduit des règles spécifiques pour les mandats de gestion immobilière concernant les personnes protégées.",
+        "Le texte permet au juge de désigner des personnes remplaçantes pour assurer la continuité de la mesure de protection en cas d'absence du protecteur initial.",
+        "Elle fait évoluer le cadre du mandat de protection future, précisant les modalités d'assistance ou de représentation.",
+        "Des ajustements sont faits concernant l'habilitation familiale, incluant la possibilité de saisir le juge en cas de difficulté."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2757",
+      "titre": "Garantir le droit d’accès aux origines personnelles",
+      "date_depot": "2026-05-06",
+      "categorie": "Société et solidarités",
+      "accroche": "La proposition de loi vise à garantir l'accès aux origines personnelles en encadrant les tests génétiques généalogiques, notamment pour les personnes nées d'AMP.",
+      "points": [
+        "La loi insère un nouvel article au Code civil permettant la communication d'informations sur les ascendants et descendants en cas de tests génétiques généalogiques pour les personnes nées d'assistance médicale à la procréation avec tiers donneur, malgré l'anonymat.",
+        "Le Gouvernement devra remettre au Parlement un rapport d'évaluation du dispositif dans un délai de deux ans, concernant les risques liés à la protection des données, les usages et les conséquences sociales ou familiales des tests.",
+        "Un rapport sera également remis au Parlement sous trois mois, examinant l'accès aux origines personnelles pour les personnes nées sous X, de dons de gamètes ou adoptées, et proposant des mesures pour faciliter cet accès."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2761",
+      "titre": "Garantir l’information et la protection effective des victimes de violences sexuelles lors de la libération de leur agresseur",
+      "date_depot": "2026-05-06",
+      "categorie": "Justice et sécurité",
+      "accroche": "Cette proposition de loi vise à mieux informer et protéger les victimes de violences sexistes et sexuelles lors de la sortie de prison de leur agresseur.",
+      "points": [
+        "Les victimes seront systématiquement informées par l'autorité judiciaire de leurs droits et de la libération ou de la cessation d'incarcération de leur agresseur, sauf si elles refusent.",
+        "Le juge d'application des peines imposera à l'agresseur libéré des interdictions de contact et de paraître à proximité de la victime, sauf décision motivée contraire, afin de garantir sa protection.",
+        "Les victimes pourront faire des observations écrites à la juridiction avant toute décision de libération de l'agresseur et seront informées des associations d'aide aux victimes.",
+        "Un \"guichet unique de suivi des victimes\" sera expérimenté dans plusieurs départements pour un accompagnement global (médical, psychologique, social, juridique) des victimes.",
+        "Pour les victimes mineures scolarisées, l'établissement scolaire sera informé de la remise en liberté de l'agresseur afin d'activer les dispositifs de protection de l'enfance."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2752",
+      "titre": "Visant à lutter contre l'entrisme islamiste en France",
+      "date_depot": "2026-05-06",
+      "categorie": "Justice et sécurité",
+      "accroche": "Une proposition de loi vise à renforcer les outils juridiques pour lutter contre l'entrisme islamiste, en garantissant les principes républicains et en asséchant certains financements.",
+      "points": [
+        "Création d'un délit d'atteinte aux principes de la République dans le code pénal, punissant l'action concertée visant à porter gravement atteinte à ces principes.",
+        "Extension des motifs de dissolution administrative d'associations et groupements, incluant ceux se prévalant d'opinions religieuses pour s'affranchir des règles ou commettant des actes d'ingérence.",
+        "Mise en place de mesures pour assécher le financement de groupes séparatistes, comme le gel de fonds d'entités menaçant l'ordre public et la récupération de subventions non conformes.",
+        "Renforcement du contrôle sur les lieux de culte et les fonds de dotation, permettant au représentant de l'État de s'opposer à des projets de construction ou de prononcer la dissolution en cas de menaces graves.",
+        "Accroissement de la protection des mineurs par une surveillance accrue des accueils hors domicile parental et l'allongement du délai de prescription pour certains délits de presse les visant."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2764",
+      "titre": "Visant à donner aux acteurs locaux les moyens de lutter contre la cabanisation",
+      "date_depot": "2026-05-06",
+      "categorie": "Logement et urbanisme",
+      "accroche": "Cette proposition de loi renforce les outils des autorités locales et de l'État pour lutter contre les constructions illégales et la cabanisation.",
+      "points": [
+        "Les pouvoirs du maire, du président d'établissement public de coopération intercommunale et du représentant de l'État sont renforcés pour constater les infractions et agir contre les constructions illégales.",
+        "Une nouvelle procédure est créée pour ordonner l'évacuation et la démolition de constructions illégales, notamment si elles sont hors zones urbaines, dangereuses ou situées dans des zones à risques.",
+        "Les constructions édifiées en méconnaissance des règles d'urbanisme ne pourront plus être raccordées aux réseaux (eau, électricité, gaz), et les raccordements illégaux pourront être interrompus.",
+        "Le délai de prescription pour les délits d'urbanisme est allongé à dix ans, et peut aller jusqu'à vingt ans pour les infractions occultes ou dissimulées."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2743",
+      "titre": "Visant à clarifier le déploiement de la production d'énergie solaire sur le territoire",
+      "date_depot": "2026-04-30",
+      "categorie": "Environnement et énergie",
+      "accroche": "Une proposition de loi vise à définir des critères pour prioriser le raccordement des installations de production d'énergies renouvelables aux réseaux électriques.",
+      "points": [
+        "La proposition de loi modifie le Code de l'énergie pour y inclure de nouvelles règles concernant le branchement des installations d'énergies renouvelables.",
+        "Elle permet aux gestionnaires des réseaux électriques de transport et de distribution d'établir un ordre de priorité pour traiter les demandes de raccordement de ces installations.",
+        "Ces critères de priorisation devront être définis par un décret du Conseil d'État, après avoir été approuvés et conseillés par la Commission de régulation de l'énergie."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17BTC2733",
+      "titre": "Exercice en France des médecins diplômés au Royaume-Uni avant le Brexit",
+      "date_depot": "2026-04-29",
+      "categorie": "Santé",
+      "accroche": "Cette proposition de loi vise à faciliter l'exercice en France des médecins diplômés du Royaume-Uni ayant commencé leurs études avant le Brexit.",
+      "points": [
+        "Le Code de la santé publique est modifié pour permettre la reconnaissance de certains diplômes de médecine britanniques.",
+        "Les titres de formation de médecin délivrés par le Royaume-Uni sont ajoutés à la liste des qualifications reconnues pour exercer en France.",
+        "Cette reconnaissance concerne les formations de base et de spécialité en médecine commencées avant le 31 décembre 2020.",
+        "Les dispositions s'appliquent aux ressortissants français, andorrans, européens, de l'Espace économique européen ou du Royaume-Uni."
+      ]
+    },
+    {
+      "status": "ok",
+      "uid": "PIONANR5L17B2742",
+      "titre": "Visant à rationaliser l'organisation des scrutins en cas de candidature unique au second tour",
+      "date_depot": "2026-04-29",
+      "categorie": "Institutions et démocratie",
+      "accroche": "Cette proposition de loi vise à simplifier l'organisation des élections quand un seul candidat se présente au second tour, modifiant le code électoral.",
+      "points": [
+        "La loi modifie le code électoral afin de rationaliser le déroulement des scrutins.",
+        "Elle établit une dispense d'organisation de second tour lorsqu'un seul candidat ou binôme de candidats s'est présenté.",
+        "Ces nouvelles dispositions s'appliquent spécifiquement aux articles L. 126, L. 193 et L. 294 du code électoral.",
+        "Une référence législative est mise à jour dans les articles L. 395 et L. 439 du code électoral pour refléter ces changements."
       ]
     }
   ]
