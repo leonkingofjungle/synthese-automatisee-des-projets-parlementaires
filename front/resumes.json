@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T11:13:58.105577+00:00",
+  "generated_at": "2026-07-04T12:53:01.454961+00:00",
   "documents": [
     {
       "uid": "PIONANR5L17BTC3004",
@@ -15,7 +15,10 @@
         "Autorise le transfert gratuit de biens immobiliers de l'État à l'établissement, sans impôts ni frais spécifiques."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N52746",
+      "etat": "En cours",
+      "statut": "Commission mixte paritaire"
     },
     {
       "uid": "PIONANR5L17B2989",
@@ -33,7 +36,10 @@
       "quality_score": 86,
       "quality_flags": [
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54575",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2967",
@@ -52,7 +58,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54554",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2968",
@@ -71,7 +80,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54555",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2972",
@@ -89,7 +101,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54559",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2964",
@@ -105,7 +120,10 @@
         "Oblige les procureurs à coordonner leurs informations avant de classer sans suite une infraction sexuelle sur mineur."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54551",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2963",
@@ -121,7 +139,10 @@
         "Détermine qu'un décret (texte officiel) fixera le sort des biens et le reclassement des personnels."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54550",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2962",
@@ -137,7 +158,10 @@
         "Renforce les expertises médicales pour qu'elles considèrent l'évolution et les symptômes invisibles des maladies."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54549",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2971",
@@ -153,7 +177,10 @@
         "Insère un nouvel article L. 2 dans le code du patrimoine et prévoit un rapport d'évaluation tous les cinq ans."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54558",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2952",
@@ -169,7 +196,10 @@
         "Compense la perte de recettes pour l'État en créant une taxe additionnelle sur l'accise sur les tabacs."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54539",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2969",
@@ -187,7 +217,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54556",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2966",
@@ -205,7 +238,10 @@
       "quality_score": 83,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54553",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2973",
@@ -223,7 +259,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54560",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2974",
@@ -241,7 +280,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54561",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2959",
@@ -259,7 +301,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54546",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2953",
@@ -275,7 +320,10 @@
         "Change le Code de procédure pénale en supprimant le délai actuel de 30 ans pour ces crimes graves."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54540",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2960",
@@ -293,7 +341,10 @@
       "quality_score": 86,
       "quality_flags": [
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54547",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2961",
@@ -309,7 +360,10 @@
         "Transfère aux communes les droits de réservation de l'État sur une partie des logements sociaux situés sur leur territoire."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54548",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2958",
@@ -327,7 +381,10 @@
       "quality_score": 86,
       "quality_flags": [
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54545",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2970",
@@ -346,7 +403,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54557",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2957",
@@ -364,7 +424,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54544",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2956",
@@ -380,7 +443,10 @@
         "Prévoit des sanctions disciplinaires et des amendes administratives en cas de non-respect de ces nouvelles règles."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54543",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2965",
@@ -396,7 +462,10 @@
         "Demande au Gouvernement de remettre un rapport au Parlement six mois avant l'expiration du délai de six ans."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54552",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2950",
@@ -412,7 +481,10 @@
         "Modifie le code de procédure pénale et le code du travail pour rendre ces mesures conservatoires obligatoires."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54537",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2951",
@@ -428,7 +500,10 @@
         "Établit une commission spécialisée au sein de la HAS pour évaluer les technologies diagnostiques médicales."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54538",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2949",
@@ -444,7 +519,10 @@
         "Intègre les gardiens de Loire aux instances de gouvernance du bassin pour promouvoir les besoins du fleuve."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54536",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2954",
@@ -463,7 +541,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54541",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2948",
@@ -481,7 +562,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54535",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2955",
@@ -499,7 +583,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54542",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2947",
@@ -515,7 +602,10 @@
         "Compense les dépenses de l'État par la création d'une taxe supplémentaire sur l'accise du tabac."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54534",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2944",
@@ -531,7 +621,10 @@
         "Homologue diverses peines correctionnelles locales en Polynésie française et Nouvelle-Calédonie, confirmant leur validité."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N50970",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2938",
@@ -550,7 +643,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54313",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2934",
@@ -568,7 +664,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N52781",
+      "etat": "En cours",
+      "statut": "2ème lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17BTC2940",
@@ -586,7 +685,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L16N49364",
+      "etat": "En cours",
+      "statut": "Commission mixte paritaire"
     },
     {
       "uid": "PIONANR5L17B2928",
@@ -602,7 +704,10 @@
         "Étend les pouvoirs d'enquête de l'ARCOM, incluant la collecte automatisée de données publiques sur les plateformes."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N51330",
+      "etat": "En cours",
+      "statut": "2ème lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2925",
@@ -618,7 +723,10 @@
         "Crée pour les écoles privées sous contrat une comptabilité analytique, effective dans trois ans."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54310",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2926",
@@ -636,7 +744,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54311",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2922",
@@ -652,7 +763,10 @@
         "Charge Vichy Communauté du recrutement des personnels, de l'entretien des infrastructures et de la compensation financière du CREPS."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54096",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17B2916",
@@ -670,7 +784,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N51909",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2917",
@@ -686,7 +803,10 @@
         "Modifie plusieurs codes (Code général de la propriété, Code de l'urbanisme) pour encadrer ces transferts."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N52746",
+      "etat": "En cours",
+      "statut": "Commission mixte paritaire"
     },
     {
       "uid": "PIONANR5L17BTC2915",
@@ -702,7 +822,10 @@
         "Prévoit la couverture des frais liés à cette procédure par la sécurité sociale et l'assurance en cas de décès."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N51670",
+      "etat": "En cours",
+      "statut": "Autre lecture"
     },
     {
       "uid": "PIONANR5L17B2919",
@@ -720,7 +843,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53851",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17B2907",
@@ -736,7 +862,10 @@
         "Établit les procédures d'habilitation des territoires concernés et prévoit une évaluation de leur efficacité tous les cinq ans."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N51962",
+      "etat": "En cours",
+      "statut": "2ème lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2906",
@@ -754,7 +883,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53426",
+      "etat": "En cours",
+      "statut": "Commission mixte paritaire"
     },
     {
       "uid": "PIONANR5L17BTC2912",
@@ -773,7 +905,10 @@
       "quality_flags": [
         "invention",
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N50548",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17B2901",
@@ -791,7 +926,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54454",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2900",
@@ -809,7 +947,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54453",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2902",
@@ -827,7 +968,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54455",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2897",
@@ -846,7 +990,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54450",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2895",
@@ -864,7 +1011,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54448",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2891",
@@ -882,7 +1032,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54444",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2889",
@@ -900,7 +1053,10 @@
       "quality_score": 86,
       "quality_flags": [
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54442",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2890",
@@ -919,7 +1075,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54443",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2886",
@@ -938,7 +1097,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54439",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2896",
@@ -954,7 +1116,10 @@
         "Applique ces nouvelles dispositions aux futures pensions et permet la révision des pensions déjà en cours de versement."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54449",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2883",
@@ -973,7 +1138,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54436",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2882",
@@ -992,7 +1160,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53976",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17B2885",
@@ -1011,7 +1182,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54438",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2898",
@@ -1029,7 +1203,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54451",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2892",
@@ -1047,7 +1224,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54445",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2893",
@@ -1063,7 +1243,10 @@
         "Crée une caisse financée par les grandes entreprises pour aider les petites entreprises à payer ces hausses de salaires."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54446",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2888",
@@ -1081,7 +1264,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54441",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2887",
@@ -1097,7 +1283,10 @@
         "Modifie le code des pensions pour garantir l'ouverture effective des droits à réparation après reconnaissance des troubles."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54440",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17BTC2878",
@@ -1115,7 +1304,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54226",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2879",
@@ -1134,7 +1326,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53401",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2877",
@@ -1152,7 +1347,10 @@
       "quality_score": 83,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53284",
+      "etat": "En cours",
+      "statut": "Saisine du conseil constitutionnel"
     },
     {
       "uid": "PIONANR5L17BTC2866",
@@ -1168,7 +1366,10 @@
         "Oblige le Gouvernement à remettre un rapport détaillé au Parlement sur l'accès au régime des intermittents."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54248",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2872",
@@ -1184,7 +1385,10 @@
         "Finance cette nationalisation par l'instauration d'une taxe supplémentaire sur les produits du tabac."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N52977",
+      "etat": "En cours",
+      "statut": "2ème lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2856",
@@ -1205,7 +1409,10 @@
         "deformation",
         "neutralite_douteuse",
         "texte_tronque"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53530",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17BTC2864",
@@ -1223,7 +1430,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53359",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2862",
@@ -1241,7 +1451,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54229",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2855",
@@ -1257,7 +1470,10 @@
         "Met à jour le code de la sécurité sociale pour que les négociations s'appuient sur ce nouveau mode de calcul d'audience."
       ],
       "quality_score": null,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N53846",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17B2853",
@@ -1276,7 +1492,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N52781",
+      "etat": "En cours",
+      "statut": "2ème lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17B2852",
@@ -1295,7 +1514,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53276",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17B2848",
@@ -1313,7 +1535,10 @@
       "quality_score": 83,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53818",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2849",
@@ -1332,7 +1557,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54057",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2851",
@@ -1351,7 +1579,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53886",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17BTC2838",
@@ -1369,7 +1600,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N51775",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17BTC2837",
@@ -1385,7 +1619,10 @@
         "Charge le Gouvernement d'évaluer l'extension d'un fonds pour indemniser les maladies dues au chlordécone sous un an."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L16N49263",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17BTC2839",
@@ -1404,7 +1641,10 @@
       "quality_flags": [
         "invention",
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54148",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2840",
@@ -1422,7 +1662,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53159",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17BTC2835",
@@ -1440,7 +1683,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54227",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2842",
@@ -1458,7 +1704,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N51955",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17B2833",
@@ -1477,7 +1726,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54368",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2832",
@@ -1496,7 +1748,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54367",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2834",
@@ -1514,7 +1769,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54369",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2830",
@@ -1530,7 +1788,10 @@
         "Assouplit les règles pour l'implantation des structures et l'activité des infirmiers, sans régulation démographique."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54365",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2829",
@@ -1546,7 +1807,10 @@
         "Crée un délit d'apologie publique des actes pédocriminels et des violences sexuelles sur mineurs, même fictifs."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54364",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2831",
@@ -1562,7 +1826,10 @@
         "Prévoit que cette mesure est temporaire et cessera lorsque l'offre médicale redeviendra suffisante sur le territoire."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54366",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2826",
@@ -1581,7 +1848,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54361",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2827",
@@ -1597,7 +1867,10 @@
         "Détaille les mesures à inclure dans ces plans, comme la radiologie mobile et la téléradiologie."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54362",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2828",
@@ -1613,7 +1886,10 @@
         "Renforce leurs missions : ils dirigeront les équipes, piloteront la pédagogie, et géreront la sécurité et les relations institutionnelles."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54363",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2825",
@@ -1631,7 +1907,10 @@
       "quality_flags": [
         "invention",
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54360",
+      "etat": "Terminé",
+      "statut": "Retrait de l'initiative"
     },
     {
       "uid": "PIONANR5L17B2821",
@@ -1650,7 +1929,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54356",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2822",
@@ -1666,7 +1948,10 @@
         "Demande au Gouvernement de rendre compte au Parlement des suites données aux recommandations de l'Observatoire."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54357",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2824",
@@ -1685,7 +1970,10 @@
       "quality_flags": [
         "deformation",
         "texte_tronque"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54359",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17BTC2814",
@@ -1701,7 +1989,10 @@
         "Modifie les codes des pensions, rural et de la sécurité sociale pour instaurer ce nouveau bouclier social."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N52517",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17B2817",
@@ -1719,7 +2010,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53284",
+      "etat": "En cours",
+      "statut": "Saisine du conseil constitutionnel"
     },
     {
       "uid": "PIONANR5L17BTC2815",
@@ -1737,7 +2031,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54014",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2816",
@@ -1755,7 +2052,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54144",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2812",
@@ -1773,7 +2073,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N51791",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17BTC2810",
@@ -1789,7 +2092,10 @@
         "Évalue l'enseignement de l'histoire de l'esclavage et propose de nouveaux lieux de mémoire et de recherche."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N52767",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17BTC2808",
@@ -1805,7 +2111,10 @@
         "Compense la perte de recettes pour l'État par l'instauration d'une taxe additionnelle sur le tabac."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54149",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2806",
@@ -1821,7 +2130,10 @@
         "Entre en vigueur le 1er janvier 2027 et est financé par une taxe additionnelle sur le tabac."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N53357",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17BTC2807",
@@ -1839,7 +2151,10 @@
       "quality_score": 83,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N52104",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17B2804",
@@ -1857,7 +2172,10 @@
       "quality_score": 83,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N52104",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17B2803",
@@ -1875,7 +2193,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N50548",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17BTC2795",
@@ -1893,7 +2214,10 @@
       "quality_score": 83,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53879",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2796",
@@ -1911,7 +2235,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53878",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2797",
@@ -1932,7 +2259,10 @@
         "deformation",
         "neutralite_douteuse",
         "texte_tronque"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N51732",
+      "etat": "En cours",
+      "statut": "Commission mixte paritaire"
     },
     {
       "uid": "PIONANR5L17B2790",
@@ -1951,7 +2281,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54314",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2779",
@@ -1969,7 +2302,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54303",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2778",
@@ -1988,7 +2324,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54302",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2780",
@@ -2007,7 +2346,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54304",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2776",
@@ -2023,7 +2365,10 @@
         "Adapte les conditions d'accès aux allocations familiales pour les familles qui instruisent leurs enfants à domicile."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54300",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2777",
@@ -2041,7 +2386,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54301",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2781",
@@ -2059,7 +2407,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54305",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2784",
@@ -2078,7 +2429,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54308",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2773",
@@ -2094,7 +2448,10 @@
         "Garantit la prise en charge par l'Assurance maladie et établit une commission de contrôle et d'évaluation."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N51670",
+      "etat": "En cours",
+      "statut": "Autre lecture"
     },
     {
       "uid": "PIONANR5L17B2774",
@@ -2112,7 +2469,10 @@
       "quality_score": 83,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54298",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2785",
@@ -2131,7 +2491,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54309",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2775",
@@ -2147,7 +2510,10 @@
         "Désigne un référent dans chaque Caisse d'Allocations Familiales (CAF) pour centraliser l'information et le suivi."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54299",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2782",
@@ -2163,7 +2529,10 @@
         "Permet à l'ARCOM d'appliquer des mises en demeure et des sanctions aux fournisseurs de services de réseaux sociaux."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54306",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2783",
@@ -2182,7 +2551,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54307",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2787",
@@ -2200,7 +2572,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54311",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2786",
@@ -2216,7 +2591,10 @@
         "Modifie le code de l'éducation pour garantir une plus grande transparence dans le financement des écoles privées sous contrat."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54310",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2791",
@@ -2234,7 +2612,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54315",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2788",
@@ -2253,7 +2634,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54312",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2789",
@@ -2272,7 +2656,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54313",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2792",
@@ -2290,7 +2677,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54316",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2793",
@@ -2309,7 +2699,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54317",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17B2770",
@@ -2325,7 +2718,10 @@
         "Prévoyait des peines sévères (jusqu'à 10 ans de prison et 150 000 euros d'amende) pour la révélation d'identité."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N53427",
+      "etat": "En cours",
+      "statut": "2ème lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2766",
@@ -2341,7 +2737,10 @@
         "Permet au législateur de définir des politiques publiques pour garantir l'indépendance stratégique du pays."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54285",
+      "etat": "Déposé",
+      "statut": "Texte déposé"
     },
     {
       "uid": "PIONANR5L17BTC2755",
@@ -2359,7 +2758,10 @@
       "quality_score": 86,
       "quality_flags": [
         "categorie_incertaine"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N54006",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2754",
@@ -2377,7 +2779,10 @@
       "quality_score": 74,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N50444",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17BTC2756",
@@ -2395,7 +2800,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N52498",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2751",
@@ -2413,7 +2821,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N50686",
+      "etat": "En cours",
+      "statut": "Autre lecture"
     },
     {
       "uid": "PIONANR5L17BTC2753",
@@ -2429,7 +2840,10 @@
         "Modifie le Code civil et le Code de l'action sociale et des familles pour moderniser la protection juridique."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N52958",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2757",
@@ -2447,7 +2861,10 @@
       "quality_score": 83,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53429",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2761",
@@ -2463,7 +2880,10 @@
         "Crée un guichet unique départemental pour suivre les victimes, les accompagner et les orienter vers les aides."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N52743",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2752",
@@ -2482,7 +2902,10 @@
       "quality_flags": [
         "deformation",
         "neutralite_douteuse"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53936",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17B2764",
@@ -2498,7 +2921,10 @@
         "Allonge la durée de prescription pour les délits d'urbanisme à dix ans, pouvant aller jusqu'à vingt ans."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N53956",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     },
     {
       "uid": "PIONANR5L17B2743",
@@ -2516,7 +2942,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N53540",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission"
     },
     {
       "uid": "PIONANR5L17BTC2733",
@@ -2532,7 +2961,10 @@
         "Modifie le code de la santé publique pour inclure ces nouvelles règles d'exercice."
       ],
       "quality_score": 100,
-      "quality_flags": []
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N53192",
+      "etat": "Terminé",
+      "statut": "Texte adopté"
     },
     {
       "uid": "PIONANR5L17B2742",
@@ -2550,7 +2982,10 @@
       "quality_score": 91,
       "quality_flags": [
         "deformation"
-      ]
+      ],
+      "dossier_uid": "DLR5L17N52585",
+      "etat": "En cours",
+      "statut": "1ère lecture en séance publique"
     }
   ],
   "rejets": {}

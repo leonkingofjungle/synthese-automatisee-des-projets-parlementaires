@@ -23,6 +23,9 @@ Flux :
        MAX_REJECT_ATTEMPTS rejets — compteur "rejets" dans resumes.json) ;
        judge éteint, réponse inexploitable ou document PDF : publié sans score ;
        texte tronqué (> 40k caractères) : jamais rejeté, badge seulement
+  -> état d'avancement (etat/statut du dossier législatif, GET /dossiers/{uid}) :
+       re-synchronisé à chaque run pour toutes les entrées, cache compris
+       (`--limit 0` = backfill statuts seul, sans aucun appel LLM)
   -> affichage console + écriture (atomique) de front/resumes.json (lu par le front statique)
 
 Deux optimisations de vitesse :
@@ -127,6 +130,80 @@ def download_pdf(pdf_url: str) -> bytes:
     return response.content
 
 
+def _get_api_data(url: str) -> dict | None:
+    """GET JSON sur l'API tricoteuses avec retries courts ; None en cas d'échec."""
+    for attempt in range(3):
+        try:
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            return response.json()["data"]
+        except (requests.exceptions.RequestException, ValueError, KeyError):
+            if attempt < 2:
+                time.sleep(2 * (attempt + 1))
+    return None
+
+
+def fetch_document_meta(uid: str) -> dict | None:
+    return _get_api_data(f"{API_BASE}/documents/{uid}")
+
+
+def fetch_dossier_status(dossier_uid: str) -> tuple[str | None, str | None] | None:
+    """(etat, statut) du dossier législatif, ou None si l'API est injoignable."""
+    data = _get_api_data(f"{API_BASE}/dossiers/{dossier_uid}")
+    if data is None:
+        return None
+    return data.get("etat"), data.get("statut")
+
+
+def refresh_statuses(entries: list[dict], workers: int, known_dossiers: dict[str, str | None]) -> None:
+    """Synchronise dossier_uid / etat / statut de toutes les entrées publiées.
+
+    L'état d'avancement d'un texte change au fil du temps : il est re-lu à
+    chaque run pour toutes les entrées, y compris celles en cache — appels
+    réseau uniquement, aucun LLM. En cas d'échec réseau, les valeurs
+    précédentes sont conservées.
+
+    Convention sur dossier_uid : clé absente = jamais résolu (on réessaiera au
+    prochain run) ; valeur None = résolu mais sans dossier associé (on arrête
+    d'interroger l'API pour cette entrée).
+    """
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        # Backfill : résoudre le dossier des entrées qui ne le connaissent pas
+        # encore, d'abord depuis la fenêtre courante (déjà téléchargée), sinon
+        # via un GET /documents/{uid}.
+        to_resolve = []
+        for entry in entries:
+            if "dossier_uid" in entry:
+                continue
+            if entry["uid"] in known_dossiers:
+                entry["dossier_uid"] = known_dossiers[entry["uid"]]
+            else:
+                to_resolve.append(entry)
+        metas = pool.map(lambda e: fetch_document_meta(e["uid"]), to_resolve)
+        for entry, meta in zip(to_resolve, metas):
+            if meta is not None:
+                entry["dossier_uid"] = meta.get("dossierRefUid")
+
+        # Rafraîchissement : un dossier peut porter plusieurs documents, chaque
+        # dossier n'est interrogé qu'une fois.
+        dossier_uids = sorted({e["dossier_uid"] for e in entries if e.get("dossier_uid")})
+        statuses = dict(zip(dossier_uids, pool.map(fetch_dossier_status, dossier_uids)))
+
+    refreshed = failed = 0
+    for entry in entries:
+        status = statuses.get(entry.get("dossier_uid"))
+        if status is not None:
+            entry["etat"], entry["statut"] = status
+            refreshed += 1
+        elif entry.get("dossier_uid"):
+            failed += 1
+        entry.setdefault("etat", None)
+        entry.setdefault("statut", None)
+    without = len(entries) - refreshed - failed
+    print(f"Statuts : {refreshed} rafraîchi(s), {without} sans dossier, "
+          f"{failed} échec(s) (valeurs précédentes conservées).")
+
+
 def process_document(doc: dict) -> dict:
     """Télécharge + résume + vérifie un document. Ne lève jamais : le statut est dans le retour."""
     uid = doc["uid"]
@@ -175,6 +252,7 @@ def process_document(doc: dict) -> dict:
             "points": summary["points"],
             "quality_score": quality_score,
             "quality_flags": quality_flags,
+            "dossier_uid": doc.get("dossierRefUid"),
         }
     except Exception as e:
         return {"uid": uid, "titre": titre, "status": "error", "error": str(e)}
@@ -187,6 +265,8 @@ def main():
     parser.add_argument("--chambre", default="AN", help="Chambre : AN ou SN (défaut AN)")
     parser.add_argument("--workers", type=int, default=5, help="Requêtes en parallèle (défaut 5)")
     parser.add_argument("--force", action="store_true", help="Ignorer le cache et régénérer la fenêtre courante")
+    parser.add_argument("--no-status-refresh", action="store_true",
+                        help="Ne pas re-synchroniser l'état d'avancement (etat/statut) des entrées")
     args = parser.parse_args()
 
     docs = get_recent_documents(args.type, args.chambre, args.limit)
@@ -249,6 +329,12 @@ def main():
     results = sorted(merged.values(), key=lambda d: d.get("date_depot") or "", reverse=True)
     for entry in results:
         entry.pop("status", None)
+
+    # État d'avancement (dossier législatif) : re-synchronisé à chaque run pour
+    # toutes les entrées, cache compris — `--limit 0` permet ainsi un backfill
+    # complet sans aucun appel LLM.
+    if not args.no_status_refresh:
+        refresh_statuses(results, args.workers, {d["uid"]: d.get("dossierRefUid") for d in docs})
 
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
     payload = json.dumps({

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Toutes les propositions de loi d'une rubrique, résumées par IA à partir du texte officiel.">
+<title>Rubrique — Résumés parlementaires</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' fill='%23FDFCF9'/%3E%3Crect y='2' width='24' height='3' fill='%231E3A8A'/%3E%3Cpath d='M4 10h16M4 14h16M4 18h10' stroke='%231A1A1E' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/SourceSerif4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Inter-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="liserer" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="index.html">Résumés parlementaires</a>
+    <a class="back-link" href="index.html">← Tous les résumés</a>
+  </div>
+</header>
+
+<div class="wrap-narrow">
+  <main id="content" class="cat-page">
+    <div class="skeleton-grid">
+      <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+      <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+      <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap footer-inner">
+    <p class="footer-brand">Résumés parlementaires</p>
+    <p>Source : API publique <a href="https://parlement.tricoteuses.fr" target="_blank" rel="noopener">parlement.tricoteuses.fr</a> (projet Tricoteuses) et textes officiels de l'Assemblée nationale.</p>
+    <p>Les résumés sont générés automatiquement et peuvent contenir des erreurs ou des approximations ; ils ne remplacent pas la lecture du texte officiel.</p>
+    <p>Lorsqu'un score de fiabilité est affiché, il provient d'un second modèle d'IA qui vérifie que les affirmations du résumé figurent bien dans le texte officiel ; les résumés jugés trop peu fiables ne sont pas publiés. Les résumés sans score n'ont pas pu être vérifiés automatiquement.</p>
+  </div>
+</footer>
+
+<script type="module">
+import { CATEGORY_META, resolveCategory, hasUsableResume, getResumes, renderNotice, byDateDesc, renderRow } from "./app.js";
+
+function backLink() {
+  const link = document.createElement("a");
+  link.className = "back-link-bottom";
+  link.href = "index.html";
+  link.textContent = "← Retour à la liste des résumés";
+  return link;
+}
+
+async function main() {
+  const content = document.getElementById("content");
+  const slug = new URLSearchParams(location.search).get("cat");
+  const entry = Object.entries(CATEGORY_META).find(([, meta]) => meta.slug === slug);
+
+  if (!entry) {
+    content.innerHTML = "";
+    content.append(renderNotice("warn", "Rubrique introuvable."), backLink());
+    return;
+  }
+  const [categorie, meta] = entry;
+
+  let payload;
+  try {
+    payload = await getResumes();
+  } catch (err) {
+    content.innerHTML = "";
+    content.appendChild(renderNotice(
+      "error",
+      "Impossible de charger les résumés. Le fichier resumes.json est introuvable ou invalide."
+    ));
+    return;
+  }
+
+  const docs = (payload.documents || [])
+    .filter(d => hasUsableResume(d) && resolveCategory(d.categorie) === categorie)
+    .sort(byDateDesc);
+
+  document.title = `${categorie} — Résumés parlementaires`;
+  content.innerHTML = "";
+
+  const head = document.createElement("header");
+  head.className = "rubrique-head cat-page-head";
+  head.dataset.cat = meta.slug;
+  const h1 = document.createElement("h1");
+  h1.textContent = categorie;
+  const count = document.createElement("span");
+  count.className = "rubrique-count";
+  count.textContent = `${docs.length} proposition${docs.length > 1 ? "s" : ""}`;
+  head.append(h1, count);
+  content.appendChild(head);
+
+  if (docs.length === 0) {
+    content.append(renderNotice("warn", "Aucune proposition résumée dans cette rubrique pour le moment."), backLink());
+    return;
+  }
+
+  const list = document.createElement("div");
+  list.className = "law-list";
+  for (const doc of docs) list.appendChild(renderRow(doc));
+  content.append(list, backLink());
+}
+
+main();
+</script>
+</body>
+</html>

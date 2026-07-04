@@ -43,7 +43,10 @@
 </footer>
 
 <script type="module">
-import { getMeta, resolveCategory, formatDate, hasUsableResume, getResumes, renderNotice } from "./app.js";
+import {
+  getMeta, resolveCategory, formatDate, hasUsableResume, getResumes, renderNotice,
+  renderStatusBadge, renderQualityBadge, qualityLevel, describeFlags,
+} from "./app.js";
 
 function renderArticle(doc) {
   const meta = getMeta(doc.categorie);
@@ -59,6 +62,10 @@ function renderArticle(doc) {
     <span class="pill" data-cat="${meta.slug}" title="${catFull}">${meta.short}</span>
     <span class="date">Déposée le ${formatDate(doc.date_depot)}</span>
   `;
+  const status = renderStatusBadge(doc);
+  if (status) metaRow.appendChild(status);
+  const quality = renderQualityBadge(doc);
+  if (quality) metaRow.appendChild(quality);
   article.appendChild(metaRow);
 
   const h1 = document.createElement("h1");
@@ -70,6 +77,17 @@ function renderArticle(doc) {
     lede.className = "lede";
     lede.textContent = doc.accroche;
     article.appendChild(lede);
+  }
+
+  // Avertissement détaillé lorsque la vérification automatique a relevé
+  // des points de vigilance (score sous le seuil ou flags du judge).
+  if (qualityLevel(doc) === "warn") {
+    const details = describeFlags(doc);
+    const score = typeof doc.quality_score === "number" ? `Fiabilité ${doc.quality_score}/100. ` : "";
+    const text = details.length > 0
+      ? `${score}Points de vigilance relevés par la vérification automatique : ${details.join(" ; ")}.`
+      : `${score}Certaines affirmations de ce résumé n'ont pas pu être entièrement vérifiées.`;
+    article.appendChild(renderNotice("warn", text));
   }
 
   if (Array.isArray(doc.points) && doc.points.length > 0) {
@@ -98,6 +116,15 @@ function renderArticle(doc) {
       <a href="https://parlement.tricoteuses.fr" target="_blank" rel="noopener">parlement.tricoteuses.fr</a>.
       Peut contenir des erreurs ou des approximations ; ne remplace pas la lecture du texte officiel.</p>
   `;
+  if (doc.link) {
+    const source = document.createElement("a");
+    source.className = "source-link";
+    source.href = doc.link;
+    source.target = "_blank";
+    source.rel = "noopener";
+    source.textContent = "Lire le texte officiel →";
+    footerMeta.appendChild(source);
+  }
   article.appendChild(footerMeta);
 
   const backLink = document.createElement("a");

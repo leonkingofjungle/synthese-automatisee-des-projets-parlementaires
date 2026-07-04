@@ -23,12 +23,9 @@
   </p>
 </header>
 
-<nav class="kiosk" id="kiosk" aria-label="Rubriques et recherche">
+<nav class="kiosk" id="kiosk" aria-label="Recherche">
   <div class="wrap kiosk-inner">
     <a class="kiosk-brand" href="#" id="kioskBrand">Résumés parlementaires</a>
-    <div class="chip-strip">
-      <div class="chip-row" id="chipRow" role="group" aria-label="Filtrer par rubrique"></div>
-    </div>
     <div class="search-box">
       <input id="search" type="search" placeholder="Rechercher une proposition…" aria-label="Rechercher un résumé" disabled>
     </div>
@@ -40,6 +37,19 @@
     <section class="une hidden" id="une" aria-labelledby="uneLabel">
       <h2 class="une-label" id="uneLabel">À la une</h2>
       <div class="une-grid" id="uneGrid"></div>
+    </section>
+
+    <section class="stats hidden" id="stats" aria-labelledby="statsLabel">
+      <div class="stats-head">
+        <h2 class="une-label" id="statsLabel">En chiffres</h2>
+        <div class="stats-toggle" role="group" aria-label="Période des statistiques">
+          <button type="button" data-days="7" aria-pressed="false">7 jours</button>
+          <button type="button" data-days="30" aria-pressed="true">30 jours</button>
+          <button type="button" data-days="" aria-pressed="false">Tout</button>
+        </div>
+      </div>
+      <div class="stats-tiles" id="statsTiles"></div>
+      <div class="stats-charts" id="statsCharts"></div>
     </section>
 
     <div class="results-bar hidden" id="resultsBar">
@@ -56,13 +66,13 @@
     </div>
   </main>
 
-  <aside class="sidebar" aria-label="Sommaire et dernières propositions">
+  <aside class="sidebar" aria-label="Sommaire et propositions les mieux vérifiées">
     <section class="side-block" aria-labelledby="tocLabel">
       <h2 class="side-label" id="tocLabel">Sommaire</h2>
       <ol class="toc-list" id="tocList"></ol>
     </section>
-    <section class="side-block" aria-labelledby="recentLabel">
-      <h2 class="side-label" id="recentLabel">Les plus récentes</h2>
+    <section class="side-block" id="recentBlock" aria-labelledby="recentLabel">
+      <h2 class="side-label" id="recentLabel">Les mieux vérifiées</h2>
       <ol class="recent-list" id="recentList"></ol>
     </section>
   </aside>
@@ -80,77 +90,17 @@
 <button type="button" class="to-top away" id="toTop">↑ Haut de page</button>
 
 <script type="module">
-import { CATEGORY_ORDER, getMeta, resolveCategory, formatDate, hasUsableResume, extractSubtitle, getResumes, renderNotice } from "./app.js";
+import {
+  CATEGORY_ORDER, getMeta, resolveCategory, formatDate, hasUsableResume, extractSubtitle,
+  getResumes, renderNotice, byDateDesc, metaLine, baseLink, renderRow,
+  computeStats, QUALITY_BADGE_THRESHOLD,
+} from "./app.js";
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-/* Nombre d'entrées affichées en liste complète avant de basculer
-   le reste de la rubrique en brèves sur deux colonnes. */
-const FULL_ROWS = 6;
-const BREVES_MIN = 3;
-
-function byDateDesc(a, b) {
-  return (b.date_depot || "").localeCompare(a.date_depot || "");
-}
-
-function searchIndexOf(doc) {
-  return `${doc.titre} ${doc.accroche} ${(doc.points || []).join(" ")}`.toLowerCase();
-}
-
-function metaLine(doc) {
-  const meta = getMeta(doc.categorie);
-  const p = document.createElement("p");
-  p.className = "law-meta";
-  const badge = document.createElement("span");
-  badge.className = "badge";
-  badge.dataset.cat = meta.slug;
-  badge.title = resolveCategory(doc.categorie);
-  badge.textContent = meta.short;
-  const time = document.createElement("time");
-  if (doc.date_depot) time.dateTime = doc.date_depot;
-  time.textContent = formatDate(doc.date_depot);
-  p.append(badge, time);
-  return p;
-}
-
-function baseLink(doc, className) {
-  const a = document.createElement("a");
-  a.className = className;
-  a.href = `loi.html?uid=${encodeURIComponent(doc.uid)}`;
-  a.dataset.cat = getMeta(doc.categorie).slug;
-  a.dataset.category = resolveCategory(doc.categorie);
-  a.dataset.searchIndex = searchIndexOf(doc);
-  return a;
-}
-
-function renderRow(doc) {
-  const row = baseLink(doc, "law-row");
-  const title = document.createElement("h3");
-  title.className = "law-title";
-  title.textContent = doc.titre;
-  row.appendChild(title);
-  const subtitle = extractSubtitle(doc.accroche);
-  if (subtitle) {
-    const p = document.createElement("p");
-    p.className = "law-excerpt";
-    p.textContent = subtitle;
-    row.appendChild(p);
-  }
-  row.appendChild(metaLine(doc));
-  return row;
-}
-
-function renderBreve(doc) {
-  const a = baseLink(doc, "breve");
-  const title = document.createElement("h3");
-  title.className = "law-title";
-  title.textContent = doc.titre;
-  const time = document.createElement("time");
-  if (doc.date_depot) time.dateTime = doc.date_depot;
-  time.textContent = formatDate(doc.date_depot);
-  a.append(title, time);
-  return a;
-}
+/* Nombre de propositions affichées par rubrique au repos ; le reste est rendu
+   (pour que la recherche le couvre) mais masqué, la page rubrique affiche tout. */
+const FULL_ROWS = 5;
 
 function renderUneItem(doc, isLead) {
   const a = baseLink(doc, `une-item ${isLead ? "une-lead" : ""}`);
@@ -220,87 +170,29 @@ function renderSections(filEl, docs) {
     head.append(h2, count);
     section.appendChild(head);
 
-    const useBreves = sectionDocs.length >= FULL_ROWS + BREVES_MIN;
-    const fullDocs = useBreves ? sectionDocs.slice(0, FULL_ROWS) : sectionDocs;
-    const breveDocs = useBreves ? sectionDocs.slice(FULL_ROWS) : [];
-
+    // Toutes les propositions sont rendues (la recherche doit les couvrir),
+    // mais seules les FULL_ROWS plus récentes sont visibles au repos.
     const list = document.createElement("div");
     list.className = "law-list";
-    for (const doc of fullDocs) {
+    sectionDocs.forEach((doc, index) => {
       const row = renderRow(doc);
+      if (index >= FULL_ROWS) row.classList.add("law-row--extra", "hidden");
       list.appendChild(row);
       items.push(row);
-    }
+    });
     section.appendChild(list);
 
-    if (breveDocs.length > 0) {
-      const label = document.createElement("p");
-      label.className = "breves-label";
-      label.textContent = "En bref";
-      section.appendChild(label);
-      const grid = document.createElement("div");
-      grid.className = "breves";
-      for (const doc of breveDocs) {
-        const breve = renderBreve(doc);
-        grid.appendChild(breve);
-        items.push(breve);
-      }
-      section.appendChild(grid);
+    if (sectionDocs.length > FULL_ROWS) {
+      const more = document.createElement("a");
+      more.className = "rubrique-more";
+      more.href = `categorie.html?cat=${encodeURIComponent(meta.slug)}`;
+      more.textContent = `Voir les ${sectionDocs.length} propositions ${meta.short} →`;
+      section.appendChild(more);
     }
 
     filEl.appendChild(section);
   }
   return items;
-}
-
-function renderChips(docs) {
-  const chipRow = document.getElementById("chipRow");
-  chipRow.innerHTML = "";
-
-  const counts = new Map();
-  for (const doc of docs) {
-    const cat = resolveCategory(doc.categorie);
-    counts.set(cat, (counts.get(cat) || 0) + 1);
-  }
-
-  function makeChip(category, label, count, slug) {
-    const chip = document.createElement("button");
-    chip.type = "button";
-    chip.className = "chip";
-    chip.dataset.category = category;
-    if (slug) {
-      chip.dataset.cat = slug;
-      const dot = document.createElement("span");
-      dot.className = "dot";
-      chip.appendChild(dot);
-    }
-    chip.append(label, " ");
-    const countEl = document.createElement("span");
-    countEl.className = "chip-count";
-    countEl.textContent = count;
-    chip.appendChild(countEl);
-    chip.setAttribute("aria-pressed", "false");
-    return chip;
-  }
-
-  chipRow.appendChild(makeChip("", "Tout", docs.length, null));
-  for (const cat of CATEGORY_ORDER) {
-    const count = counts.get(cat);
-    if (!count) continue;
-    const meta = getMeta(cat);
-    chipRow.appendChild(makeChip(cat, meta.short, count, meta.slug));
-  }
-
-  const strip = chipRow.closest(".chip-strip");
-  function updateFades() {
-    strip.classList.toggle("fade-left", chipRow.scrollLeft > 4);
-    strip.classList.toggle("fade-right", chipRow.scrollLeft + chipRow.clientWidth < chipRow.scrollWidth - 4);
-  }
-  chipRow.addEventListener("scroll", updateFades, { passive: true });
-  window.addEventListener("resize", updateFades);
-  updateFades();
-
-  return chipRow;
 }
 
 function renderSidebar(docs) {
@@ -326,7 +218,14 @@ function renderSidebar(docs) {
     tocLinks.set(`rub-${meta.slug}`, a);
   }
 
-  for (const doc of [...docs].sort(byDateDesc).slice(0, 5)) {
+  // Dernières propositions dont le résumé a été vérifié avec le meilleur
+  // score de fiabilité (les résumés sans score — PDF — sont exclus).
+  const best = docs
+    .filter(d => typeof d.quality_score === "number" && d.quality_score > QUALITY_BADGE_THRESHOLD)
+    .sort(byDateDesc)
+    .slice(0, 5);
+  document.getElementById("recentBlock").classList.toggle("hidden", best.length === 0);
+  for (const doc of best) {
     const li = document.createElement("li");
     const a = document.createElement("a");
     a.href = `loi.html?uid=${encodeURIComponent(doc.uid)}`;
@@ -336,12 +235,116 @@ function renderSidebar(docs) {
     const time = document.createElement("time");
     if (doc.date_depot) time.dateTime = doc.date_depot;
     time.textContent = formatDate(doc.date_depot);
-    a.append(title, time);
+    const score = document.createElement("span");
+    score.className = "recent-score";
+    score.textContent = `Fiabilité ${doc.quality_score}/100`;
+    a.append(title, time, score);
     li.appendChild(a);
     recentList.appendChild(li);
   }
 
   return tocLinks;
+}
+
+/* ---------- Bloc « En chiffres » ---------- */
+function renderStats(docs) {
+  const section = document.getElementById("stats");
+  const tilesEl = document.getElementById("statsTiles");
+  const chartsEl = document.getElementById("statsCharts");
+  const toggle = section.querySelector(".stats-toggle");
+
+  function makeTile(label, value, note) {
+    const tile = document.createElement("div");
+    tile.className = "stat-tile";
+    const labelEl = document.createElement("p");
+    labelEl.className = "stat-tile-label";
+    labelEl.textContent = label;
+    const valueEl = document.createElement("p");
+    valueEl.className = "stat-tile-value";
+    valueEl.textContent = value;
+    tile.append(labelEl, valueEl);
+    if (note) {
+      const noteEl = document.createElement("p");
+      noteEl.className = "stat-tile-note";
+      noteEl.textContent = note;
+      tile.appendChild(noteEl);
+    }
+    return tile;
+  }
+
+  function makeBarChart(title, rows) {
+    const block = document.createElement("div");
+    block.className = "stat-chart";
+    const h3 = document.createElement("h3");
+    h3.className = "stat-chart-label";
+    h3.textContent = title;
+    block.appendChild(h3);
+    const list = document.createElement("ul");
+    list.className = "stat-bars";
+    const max = Math.max(...rows.map(r => r.count));
+    for (const row of rows) {
+      const li = document.createElement("li");
+      const name = document.createElement("span");
+      name.className = "stat-bar-name";
+      name.textContent = row.label;
+      if (row.title) name.title = row.title;
+      const track = document.createElement("span");
+      track.className = "stat-bar-track";
+      const fill = document.createElement("span");
+      fill.className = "stat-bar-fill";
+      fill.style.width = `${Math.max((row.count / max) * 100, 2)}%`;
+      track.appendChild(fill);
+      const value = document.createElement("span");
+      value.className = "stat-bar-value";
+      value.textContent = row.count;
+      li.append(name, track, value);
+      list.appendChild(li);
+    }
+    block.appendChild(list);
+    return block;
+  }
+
+  function draw(days) {
+    const stats = computeStats(docs, days);
+    const periode = days ? `sur les ${days} derniers jours` : "toutes périodes confondues";
+    tilesEl.innerHTML = "";
+    chartsEl.innerHTML = "";
+
+    if (stats.total === 0) {
+      const empty = document.createElement("p");
+      empty.className = "stats-empty";
+      empty.textContent = `Aucune proposition déposée ${periode}.`;
+      tilesEl.appendChild(empty);
+      return;
+    }
+
+    tilesEl.append(
+      makeTile("Propositions déposées", stats.total, periode),
+      makeTile("Adoptées ou promulguées", stats.adopted, "état d'avancement actuel"),
+      makeTile("Résumés très fiables", stats.verified, `score de vérification ≥ ${QUALITY_BADGE_THRESHOLD}/100`),
+    );
+
+    // Rubriques : les 5 plus fournies, le reste regroupé dans « Autres ».
+    const cats = stats.byCategory.slice(0, 5).map(c => ({ label: c.short, title: c.categorie, count: c.count }));
+    const rest = stats.byCategory.slice(5).reduce((sum, c) => sum + c.count, 0);
+    if (rest > 0) cats.push({ label: "Autres rubriques", count: rest });
+    if (cats.length > 0) chartsEl.appendChild(makeBarChart("Par rubrique", cats));
+
+    const stages = stats.byStage.map(s => ({ label: s.label, count: s.count }));
+    if (stages.length > 0) chartsEl.appendChild(makeBarChart("Où en sont-elles ?", stages));
+  }
+
+  toggle.addEventListener("click", (event) => {
+    const btn = event.target.closest("button[data-days]");
+    if (!btn) return;
+    for (const b of toggle.querySelectorAll("button")) {
+      b.setAttribute("aria-pressed", String(b === btn));
+    }
+    draw(btn.dataset.days ? Number(btn.dataset.days) : null);
+  });
+
+  draw(30);
+  section.classList.remove("hidden");
 }
 
 function setupScrollSpy(tocLinks) {
@@ -361,17 +364,18 @@ function setupScrollSpy(tocLinks) {
   for (const section of sections) observer.observe(section);
 }
 
-function setupFilters(items, chipRow) {
+function setupFilters(items) {
   const input = document.getElementById("search");
   const une = document.getElementById("une");
+  const stats = document.getElementById("stats");
   const fil = document.getElementById("fil");
   const resultsBar = document.getElementById("resultsBar");
   const resultsText = document.getElementById("resultsText");
   const resetBtn = document.getElementById("resetFilters");
   input.disabled = false;
 
-  let activeCategory = "";
   const uneHasContent = document.getElementById("uneGrid").children.length > 0;
+  const statsHasContent = document.getElementById("statsTiles").children.length > 0;
 
   const emptyState = document.createElement("div");
   emptyState.className = "empty-state";
@@ -380,7 +384,7 @@ function setupFilters(items, chipRow) {
   const emptyBtn = document.createElement("button");
   emptyBtn.type = "button";
   emptyBtn.className = "btn-ghost";
-  emptyBtn.textContent = "Réinitialiser les filtres";
+  emptyBtn.textContent = "Réinitialiser la recherche";
   emptyBtn.addEventListener("click", reset);
   emptyState.append(emptyMsg, emptyBtn);
 
@@ -393,55 +397,45 @@ function setupFilters(items, chipRow) {
 
   function apply() {
     const q = input.value.trim().toLowerCase();
-    const filtering = Boolean(q || activeCategory);
+    const filtering = Boolean(q);
 
     if (uneHasContent) une.classList.toggle("hidden", filtering);
+    if (statsHasContent) stats.classList.toggle("hidden", filtering);
 
     let count = 0;
     for (const item of items) {
+      // Au repos, les entrées au-delà des FULL_ROWS premières de chaque
+      // rubrique restent masquées ; la recherche, elle, couvre tout.
       const matchesText = !q || item.dataset.searchIndex.includes(q);
-      const matchesCat = !activeCategory || item.dataset.category === activeCategory;
-      const match = matchesText && matchesCat;
-      item.classList.toggle("hidden", !match);
-      if (match) count++;
+      const hidden = !matchesText || (!filtering && item.classList.contains("law-row--extra"));
+      item.classList.toggle("hidden", hidden);
+      if (matchesText && filtering) count++;
     }
 
     for (const section of fil.querySelectorAll(".rubrique")) {
-      const anyVisible = [...section.querySelectorAll(".law-row, .breve")]
+      const anyVisible = [...section.querySelectorAll(".law-row")]
         .some(el => !el.classList.contains("hidden"));
       section.classList.toggle("hidden", !anyVisible);
-      const breves = section.querySelector(".breves");
-      if (breves) {
-        const anyBreve = [...breves.children].some(el => !el.classList.contains("hidden"));
-        breves.classList.toggle("hidden", !anyBreve);
-        const label = section.querySelector(".breves-label");
-        if (label) label.classList.toggle("hidden", !anyBreve);
-      }
+      // Pendant une recherche, le décompte du lien « Voir les N propositions »
+      // ne correspond plus à ce qui est affiché : on le masque.
+      const more = section.querySelector(".rubrique-more");
+      if (more) more.classList.toggle("hidden", filtering);
     }
 
     resultsBar.classList.toggle("hidden", !filtering);
     if (filtering) {
-      const parts = [];
-      if (q) parts.push(`pour « ${q} »`);
-      if (activeCategory) parts.push(`dans la rubrique ${activeCategory}`);
       resultsText.innerHTML = "";
       const strong = document.createElement("strong");
       strong.textContent = `${count} résultat${count > 1 ? "s" : ""}`;
-      resultsText.append(strong, ` ${parts.join(" ")}`);
+      resultsText.append(strong, ` pour « ${q} »`);
     }
 
     emptyState.remove();
-    if (count === 0) fil.appendChild(emptyState);
+    if (filtering && count === 0) fil.appendChild(emptyState);
   }
 
   function reset() {
     input.value = "";
-    activeCategory = "";
-    chipRow.querySelectorAll(".chip").forEach(c => {
-      const active = c.dataset.category === "";
-      c.classList.toggle("active", active);
-      c.setAttribute("aria-pressed", String(active));
-    });
     fadeFil();
     apply();
   }
@@ -449,20 +443,7 @@ function setupFilters(items, chipRow) {
   input.addEventListener("input", apply);
   resetBtn.addEventListener("click", reset);
 
-  chipRow.addEventListener("click", (event) => {
-    const chip = event.target.closest(".chip");
-    if (!chip) return;
-    activeCategory = chip.dataset.category;
-    chipRow.querySelectorAll(".chip").forEach(c => {
-      const active = c === chip;
-      c.classList.toggle("active", active);
-      c.setAttribute("aria-pressed", String(active));
-    });
-    fadeFil();
-    apply();
-  });
-
-  reset();
+  apply();
 }
 
 function setupChrome() {
@@ -525,10 +506,10 @@ async function main() {
   }
 
   renderUne(usable);
+  renderStats(usable);
   const items = renderSections(filEl, usable);
-  const chipRow = renderChips(usable);
   const tocLinks = renderSidebar(usable);
-  setupFilters(items, chipRow);
+  setupFilters(items);
   setupScrollSpy(tocLinks);
 }
 
