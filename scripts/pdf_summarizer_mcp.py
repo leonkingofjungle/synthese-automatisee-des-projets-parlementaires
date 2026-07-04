@@ -160,12 +160,17 @@ def process_document(doc: dict) -> dict:
                         "bad_claims": bad_claims,
                     }
 
+        # Lien vers le texte source : le mirroir HTML opendata quand il existe
+        # (c'est celui qui a servi au résumé), sinon le PDF officiel en repli.
+        link = AN_OPENDATA_HTML.format(uid=uid) if text else pdf_url
+
         return {
             "status": "ok",
             "uid": uid,
             "titre": titre,
             "date_depot": date_depot,
             "categorie": summary["categorie"],
+            "link": link,
             "accroche": summary["accroche"],
             "points": summary["points"],
             "quality_score": quality_score,
