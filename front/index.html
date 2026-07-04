@@ -175,6 +175,11 @@
     font-size: 0.76rem;
     color: var(--faint);
   }
+  .quality-badge {
+    color: var(--warn-text);
+    background: var(--warn-bg);
+    cursor: help;
+  }
 
   .card h3 {
     font-size: 1rem;
@@ -288,6 +293,7 @@
   <div class="wrap">
     <p>Source : API publique <a href="https://parlement.tricoteuses.fr" target="_blank" rel="noopener">parlement.tricoteuses.fr</a> (projet Tricoteuses) et textes officiels de l'Assemblée nationale.</p>
     <p>Les résumés sont générés automatiquement et peuvent contenir des erreurs ou des approximations ; ils ne remplacent pas la lecture du texte officiel.</p>
+    <p>Lorsqu'un score de fiabilité est affiché, il provient d'un second modèle d'IA qui vérifie que les affirmations du résumé figurent bien dans le texte officiel ; les résumés jugés trop peu fiables ne sont pas publiés. Les résumés sans score n'ont pas pu être vérifiés automatiquement.</p>
   </div>
 </footer>
 
@@ -295,6 +301,9 @@
 // Ordre d'affichage des sections thématiques (doit rester cohérent avec
 // CATEGORIES dans scripts/pdf_summarizer_mcp.py). Toute catégorie inconnue
 // (ancien cache, valeur inattendue) atterrit dans "Autre".
+// Seuil d'affichage du badge de fiabilité (le script rejette déjà sous 60).
+const QUALITY_BADGE_THRESHOLD = 85;
+
 const CATEGORY_ORDER = [
   "Institutions et démocratie",
   "Justice et sécurité",
@@ -328,6 +337,14 @@ function renderCard(doc) {
     <span class="pill">Proposition de loi</span>
     <span class="date">Déposée le ${formatDate(doc.date_depot)}</span>
   `;
+  const flagged = Array.isArray(doc.quality_flags) && doc.quality_flags.length > 0;
+  if (typeof doc.quality_score === "number" && (doc.quality_score < QUALITY_BADGE_THRESHOLD || flagged)) {
+    const badge = document.createElement("span");
+    badge.className = "pill quality-badge";
+    badge.textContent = `Fiabilité ${doc.quality_score}/100 ⓘ`;
+    badge.title = `Score calculé automatiquement : un second modèle d'IA, indépendant de celui qui rédige, vérifie que chaque affirmation du résumé figure bien dans le texte officiel (fidélité, neutralité, catégorie). Cette mention apparaît sous ${QUALITY_BADGE_THRESHOLD}/100 ou dès qu'une anomalie a été détectée.`;
+    meta.appendChild(badge);
+  }
   card.appendChild(meta);
 
   const h3 = document.createElement("h3");

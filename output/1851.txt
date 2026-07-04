@@ -1,0 +1,32 @@
+=== Document ===
+uid    : PIONANR5L17B1851
+titre  : Plusieurs mesures de justice pour limiter les frais bancaires injustes
+dépôt  : 2025-09-16
+source : mirroir HTML opendata (8598 caractères)
+
+=== Résumé (Gemini) ===
+{
+  "categorie": "Économie et travail",
+  "accroche": "Cette proposition de loi veut limiter les frais bancaires abusifs pour les particuliers, les entreprises et les associations, et mieux encadrer les banques.",
+  "points": [
+    "Interdit aux banques de facturer des frais supplémentaires pour la plupart des incidents de paiement aux particuliers et entreprises.",
+    "Plafonne strictement les frais de rejet de chèque sans provision à 15 ou 30 euros maximum, selon le montant.",
+    "Modifie le code monétaire et financier pour établir un plafond global des frais bancaires facturés aux particuliers.",
+    "Instaure une amende comprise entre 100 % et 200 % du surplus pour les banques dépassant les plafonds."
+  ]
+}
+
+=== Judge (Claude) ===
+[OK     ] Cette proposition de loi veut limiter les frais bancaires abusifs pour les particuliers, les entreprises et les associations, et mieux encadrer les banques.
+          citation : Les frais bancaires appliqués aux particuliers représentent une charge abusive, particulièrement pour les ménages en sit
+[OK     ] Interdit aux banques de facturer des frais supplémentaires pour la plupart des incidents de paiement aux particuliers et entreprises.
+          citation : Les établissements de crédit ne peuvent, en réponse à une irrégularité de fonctionnement ou à un incident de paiement su
+[OK     ] Plafonne strictement les frais de rejet de chèque sans provision à 15 ou 30 euros maximum, selon le montant.
+          citation : Les frais perçus par le tiré ne peuvent excéder la somme de 15 euros pour le rejet d'un chèque d'un montant inférieur ou
+[OK     ] Modifie le code monétaire et financier pour établir un plafond global des frais bancaires facturés aux particuliers.
+          citation : Le montant maximal des frais qu'un établissement bancaire peut facturer à une personne physique n'agissant pas pour des 
+[OK     ] Instaure une amende comprise entre 100 % et 200 % du surplus pour les banques dépassant les plafonds.
+          citation : Les établissements de crédit facturant des frais bancaires excédant les plafonds fixés par le présent code sont passible
+catégorie correcte : True / neutralité : True
+
+score : 100/100  flags : aucun  ->  PUBLIÉ

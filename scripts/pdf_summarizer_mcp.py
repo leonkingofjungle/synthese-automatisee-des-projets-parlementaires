@@ -2,6 +2,12 @@
 Résumés des dernières lois — liste via l'API parlement.tricoteuses.fr, résumé
 généré localement avec Gemini à partir du texte du document.
 
+Modules :
+  clients.py     connexions LLM (Gemini, Claude) et configuration .env
+  summarizer.py  prompt + schema du résumé Gemini (categorie / accroche / points)
+  judge.py       vérification extractive locale, score 0-100, seuils de publication
+  (ce fichier)   CLI : récupération des documents, cache, parallélisme, écriture
+
 Flux :
   parlement.tricoteuses.fr/documents   (liste, triée par date de dépôt, avec pdfUrl)
   -> texte du document, dans l'ordre de préférence :
@@ -9,95 +15,42 @@ Flux :
           texte intégral, léger, directement tokenisable par Gemini
        2. à défaut (mirroir absent, Sénat, ...), PDF officiel (tricoteuses-assets.s3.fr-par.scw.cloud),
           envoyé à Gemini en mode multimodal (plus lent : rendu page par page côté modèle)
-  -> Gemini, en sortie JSON structurée (prompt maison, voir SUMMARY_PROMPT_TEMPLATE) :
+  -> Gemini, en sortie JSON structurée (voir summarizer.py) :
        categorie (thème, pour le regroupement côté front), accroche, points
-  -> affichage console + écriture de front/resumes.json (lu par le front statique)
+  -> vérification par un judge local (voir judge.py) :
+       verdict extractif par affirmation -> quality_score 0-100 + quality_flags ;
+       score < 60 : non publié (retenté aux runs suivants, abandonné après
+       MAX_REJECT_ATTEMPTS rejets — compteur "rejets" dans resumes.json) ;
+       judge éteint, réponse inexploitable ou document PDF : publié sans score ;
+       texte tronqué (> 40k caractères) : jamais rejeté, badge seulement
+  -> affichage console + écriture (atomique) de front/resumes.json (lu par le front statique)
 
 Deux optimisations de vitesse :
   - cache : les uid déjà résumés dans front/resumes.json ne sont pas retraités
-    (utiliser --force pour tout régénérer) ;
+    (utiliser --force pour régénérer la fenêtre courante) ;
   - parallélisme : le téléchargement + l'appel Gemini par document sont des
     opérations réseau indépendantes, traitées par un pool de threads
     (--workers, défaut 5) plutôt que séquentiellement.
-
-Contrairement à la version précédente, on n'utilise plus le résumé déjà calculé
-par l'API tricoteuses (`/documents/{uid}/resume`) : on le régénère nous-mêmes
-pour garder la main sur le prompt. Toujours pas de base de données ni de bucket
-GCS à nous : uniquement l'API tricoteuses + assemblee-nationale.fr + Gemini.
 """
 
 import argparse
 import json
 import os
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
 
 import requests
-from dotenv import load_dotenv
-from google import genai
-from google.genai import types
 
-load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
+from judge import MAX_REJECT_ATTEMPTS, REJECT_THRESHOLD, compute_score, judge_summary
+from summarizer import SOURCE_END, SOURCE_START, summarize_pdf, summarize_text
 
 API_BASE = "https://parlement.tricoteuses.fr"
 AN_OPENDATA_HTML = "https://www.assemblee-nationale.fr/dyn/opendata/{uid}.html"
-MODEL_NAME = "gemini-2.5-flash"
 OUTPUT_PATH = Path(__file__).parent.parent / "front" / "resumes.json"
-
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-
-# Catégories thématiques utilisées pour regrouper les résumés dans le front.
-CATEGORIES = [
-    "Santé",
-    "Éducation et jeunesse",
-    "Environnement et énergie",
-    "Économie et travail",
-    "Logement et urbanisme",
-    "Justice et sécurité",
-    "Institutions et démocratie",
-    "Société et solidarités",
-    "Numérique",
-    "International et outre-mer",
-    "Autre",
-]
-
-SUMMARY_PROMPT_TEMPLATE = """Tu es un assistant spécialisé dans la vulgarisation de textes législatifs français à destination du grand public.
-
-Titre du document : {titre}
-
-Analyse ce texte et réponds uniquement avec l'objet JSON demandé, contenant :
-- "categorie" : le thème principal du texte, en choisissant la valeur la plus pertinente dans la liste autorisée.
-- "accroche" : une phrase neutre et factuelle (maximum 25 mots) qui résume l'essentiel du texte.
-- "points" : une liste de 3 à 5 points clés, dans un langage clair et sans jargon juridique, présentant les mesures ou dispositions principales.
-
-Consignes :
-- Base-toi uniquement sur le contenu du document fourni ; n'invente aucune information et ne suppose pas de contexte non mentionné dans le texte.
-- Reste factuel et neutre : ne donne aucune opinion, ne prends pas parti sur l'opportunité du texte, n'utilise pas de qualificatifs favorables ou défavorables absents du texte.
-- Ne commence pas l'accroche par "Ce texte" ou "Ce document" ; entre directement dans le sujet.
-- Si le texte est de nature constitutionnelle ou organique, ou modifie un code existant, précise-le brièvement dans un des points."""
-
-RESPONSE_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "categorie": {"type": "string", "enum": CATEGORIES},
-        "accroche": {"type": "string"},
-        "points": {
-            "type": "array",
-            "items": {"type": "string"},
-            "minItems": 3,
-            "maxItems": 5,
-        },
-    },
-    "required": ["categorie", "accroche", "points"],
-}
-
-GENERATION_CONFIG = types.GenerateContentConfig(
-    response_mime_type="application/json",
-    response_schema=RESPONSE_SCHEMA,
-)
 
 
 def get_recent_documents(type_codes: str, chambre: str, limit: int) -> list[dict]:
@@ -106,14 +59,26 @@ def get_recent_documents(type_codes: str, chambre: str, limit: int) -> list[dict
     page = 1
     per_page = min(limit, 50)
     while len(docs) < limit:
-        response = requests.get(f"{API_BASE}/documents", params={
-            "perPage": per_page,
-            "page": page,
-            "sort": "dateDepot.desc",
-            "typeCode": type_codes,
-            "chambre": chambre,
-        }, timeout=30)
-        response.raise_for_status()
+        # L'API coupe parfois la réponse en plein transfert (ChunkedEncodingError)
+        # ou renvoie un 5xx passager : erreurs transitoires, on retente.
+        for attempt in range(5):
+            try:
+                response = requests.get(f"{API_BASE}/documents", params={
+                    "perPage": per_page,
+                    "page": page,
+                    "sort": "dateDepot.desc",
+                    "typeCode": type_codes,
+                    "chambre": chambre,
+                }, timeout=30)
+                response.raise_for_status()
+                break
+            except (requests.exceptions.ChunkedEncodingError,
+                    requests.exceptions.ConnectionError,
+                    requests.exceptions.HTTPError) as e:
+                is_5xx = isinstance(e, requests.exceptions.HTTPError) and response.status_code >= 500
+                if attempt == 4 or (isinstance(e, requests.exceptions.HTTPError) and not is_5xx):
+                    raise
+                time.sleep(3 * (attempt + 1))
         batch = response.json()["data"]
         if not batch:
             break
@@ -124,15 +89,17 @@ def get_recent_documents(type_codes: str, chambre: str, limit: int) -> list[dict
     return docs[:limit]
 
 
-def load_cache() -> dict[str, dict]:
-    """uid -> résumé déjà écrit lors d'un run précédent (front/resumes.json)."""
+def load_output() -> tuple[dict[str, dict], dict[str, int]]:
+    """(uid -> résumé publié, uid -> nombre de rejets) depuis front/resumes.json."""
     if not OUTPUT_PATH.exists():
-        return {}
+        return {}, {}
     try:
         payload = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
-        return {d["uid"]: d for d in payload.get("documents", []) if d.get("accroche")}
-    except (json.JSONDecodeError, KeyError):
-        return {}
+        cache = {d["uid"]: d for d in payload.get("documents", []) if d.get("accroche")}
+        rejects = {uid: int(n) for uid, n in (payload.get("rejets") or {}).items()}
+        return cache, rejects
+    except (json.JSONDecodeError, KeyError, TypeError, ValueError, AttributeError):
+        return {}, {}
 
 
 def download_document_text(uid: str) -> str | None:
@@ -148,6 +115,8 @@ def download_document_text(uid: str) -> str | None:
     html = re.sub(r"<(style|script)[^>]*>.*?</\1>", " ", html, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<[^>]+>", " ", html)
     text = unescape(text)
+    # Anti-injection : un document ne doit pas pouvoir fermer le bloc délimité des prompts.
+    text = text.replace(SOURCE_START, " ").replace(SOURCE_END, " ")
     text = re.sub(r"\s+", " ", text).strip()
     return text or None
 
@@ -158,31 +127,8 @@ def download_pdf(pdf_url: str) -> bytes:
     return response.content
 
 
-def summarize_text(text: str, titre: str) -> dict:
-    prompt = SUMMARY_PROMPT_TEMPLATE.format(titre=titre)
-    response = client.models.generate_content(
-        model=MODEL_NAME,
-        contents=[text, prompt],
-        config=GENERATION_CONFIG,
-    )
-    return json.loads(response.text)
-
-
-def summarize_pdf(pdf_bytes: bytes, titre: str) -> dict:
-    prompt = SUMMARY_PROMPT_TEMPLATE.format(titre=titre)
-    response = client.models.generate_content(
-        model=MODEL_NAME,
-        contents=[
-            types.Part.from_bytes(data=pdf_bytes, mime_type="application/pdf"),
-            prompt,
-        ],
-        config=GENERATION_CONFIG,
-    )
-    return json.loads(response.text)
-
-
 def process_document(doc: dict) -> dict:
-    """Télécharge + résume un document. Ne lève jamais : le statut est dans le retour."""
+    """Télécharge + résume + vérifie un document. Ne lève jamais : le statut est dans le retour."""
     uid = doc["uid"]
     titre = doc.get("titrePrincipalCourt") or doc.get("titrePrincipal")
     date_depot = (doc.get("dateDepot") or "")[:10]
@@ -194,6 +140,26 @@ def process_document(doc: dict) -> dict:
 
     try:
         summary = summarize_text(text, titre) if text else summarize_pdf(download_pdf(pdf_url), titre)
+
+        # Le judge ne lit que du texte : les documents résumés depuis le PDF
+        # (Sénat, mirroir absent) sont publiés sans score plutôt que non vérifiés à tort.
+        quality_score: int | None = None
+        quality_flags: list[str] = []
+        if text:
+            judgment = judge_summary(text, summary)
+            if judgment is not None:
+                quality_score, quality_flags = compute_score(judgment)
+                # Texte tronqué : les "invente" peuvent viser la partie manquante — badge, pas de rejet.
+                if quality_score < REJECT_THRESHOLD and "texte_tronque" not in quality_flags:
+                    bad_claims = [v for v in judgment["verdicts"] if v.get("verdict") != "ok"]
+                    return {
+                        "uid": uid,
+                        "titre": titre,
+                        "status": "rejected",
+                        "quality_score": quality_score,
+                        "bad_claims": bad_claims,
+                    }
+
         return {
             "status": "ok",
             "uid": uid,
@@ -202,6 +168,8 @@ def process_document(doc: dict) -> dict:
             "categorie": summary["categorie"],
             "accroche": summary["accroche"],
             "points": summary["points"],
+            "quality_score": quality_score,
+            "quality_flags": quality_flags,
         }
     except Exception as e:
         return {"uid": uid, "titre": titre, "status": "error", "error": str(e)}
@@ -213,20 +181,27 @@ def main():
     parser.add_argument("--type", default="PION", help="typeCode(s) séparés par virgule (PION, PRJL, ...)")
     parser.add_argument("--chambre", default="AN", help="Chambre : AN ou SN (défaut AN)")
     parser.add_argument("--workers", type=int, default=5, help="Requêtes en parallèle (défaut 5)")
-    parser.add_argument("--force", action="store_true", help="Ignorer le cache et tout régénérer")
+    parser.add_argument("--force", action="store_true", help="Ignorer le cache et régénérer la fenêtre courante")
     args = parser.parse_args()
 
     docs = get_recent_documents(args.type, args.chambre, args.limit)
     print(f"\n{len(docs)} document(s) trouvé(s).\n")
 
-    cache = {} if args.force else load_cache()
-    to_fetch = [d for d in docs if d["uid"] not in cache]
-    cached_count = len(docs) - len(to_fetch)
-    if cached_count:
-        print(f"{cached_count} déjà en cache (front/resumes.json), {len(to_fetch)} à générer.\n")
+    # Le cache complet est chargé pour préserver les résumés hors fenêtre ; --force
+    # ne contrôle que la réutilisation des documents de la fenêtre courante.
+    cache, rejects = load_output()
+    reuse = {} if args.force else cache
+    abandoned = {d["uid"] for d in docs
+                 if d["uid"] not in reuse and rejects.get(d["uid"], 0) >= MAX_REJECT_ATTEMPTS}
+    to_fetch = [d for d in docs if d["uid"] not in reuse and d["uid"] not in abandoned]
+    cached_count = len(docs) - len(to_fetch) - len(abandoned)
+    if cached_count or abandoned:
+        print(f"{cached_count} déjà en cache, {len(abandoned)} abandonné(s) "
+              f"(≥ {MAX_REJECT_ATTEMPTS} rejets), {len(to_fetch)} à générer.\n")
 
     fresh_results: dict[str, dict] = {}
-    skipped = errors = 0
+    failed_uids: set[str] = set()
+    skipped = errors = rejected = 0
     if to_fetch:
         with ThreadPoolExecutor(max_workers=args.workers) as pool:
             futures = {pool.submit(process_document, doc): doc for doc in to_fetch}
@@ -234,36 +209,55 @@ def main():
                 result = future.result()
                 uid, titre = result["uid"], result["titre"]
                 if result["status"] == "ok":
-                    print(f"[OK] ({result['categorie']}) {uid} — {titre}")
+                    score = result.get("quality_score")
+                    score_label = f", fiabilité {score}/100" if score is not None else ""
+                    print(f"[OK] ({result['categorie']}{score_label}) {uid} — {titre}")
                     print(result["accroche"])
                     for point in result["points"]:
                         print(f"  - {point}")
                     print()
                     fresh_results[uid] = result
+                    rejects.pop(uid, None)
+                elif result["status"] == "rejected":
+                    rejects[uid] = rejects.get(uid, 0) + 1
+                    failed_uids.add(uid)
+                    print(f"[REJETÉ {rejects[uid]}/{MAX_REJECT_ATTEMPTS}] {uid} — {titre} "
+                          f"(score {result['quality_score']}/100, non publié)")
+                    for v in result["bad_claims"]:
+                        print(f"  - [{v.get('verdict')}] {v.get('claim')}")
+                    print()
+                    rejected += 1
                 elif result["status"] == "skipped":
+                    failed_uids.add(uid)
                     print(f"[SKIP] {uid} — {titre} (ni mirroir HTML ni PDF disponibles)\n")
                     skipped += 1
                 else:
+                    failed_uids.add(uid)
                     print(f"[ERREUR] {uid} — {titre} : {result['error']}\n")
                     errors += 1
 
-    # On réassemble dans l'ordre d'origine (date de dépôt décroissante), en
-    # combinant cache + résultats fraîchement générés.
-    results = []
-    for doc in docs:
-        uid = doc["uid"]
-        if uid in cache:
-            results.append(cache[uid])
-        elif uid in fresh_results:
-            results.append(fresh_results[uid])
+    # Fusion cache + frais. Un document dont la régénération vient d'échouer ou d'être
+    # rejetée ne doit pas être ressuscité depuis son ancienne version (cas --force).
+    merged = {**cache, **fresh_results}
+    for uid in failed_uids:
+        merged.pop(uid, None)
+    results = sorted(merged.values(), key=lambda d: d.get("date_depot") or "", reverse=True)
+    for entry in results:
+        entry.pop("status", None)
 
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps({
+    payload = json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "documents": results,
-    }, ensure_ascii=False, indent=2), encoding="utf-8")
+        "rejets": rejects,
+    }, ensure_ascii=False, indent=2)
+    # Écriture atomique : un crash en cours d'écriture ne doit pas tronquer le
+    # fichier, qui sert à la fois de cache et de source du front.
+    tmp_path = OUTPUT_PATH.with_name(OUTPUT_PATH.name + ".tmp")
+    tmp_path.write_text(payload, encoding="utf-8")
+    os.replace(tmp_path, OUTPUT_PATH)
     print(f"{len(results)} résumé(s) au total ({cached_count} en cache, {len(fresh_results)} générés) "
-          f"écrit(s) dans {OUTPUT_PATH} / {skipped} ignoré(s) / {errors} erreur(s).")
+          f"écrit(s) dans {OUTPUT_PATH} / {skipped} ignoré(s) / {rejected} rejeté(s) / {errors} erreur(s).")
 
 
 if __name__ == "__main__":
