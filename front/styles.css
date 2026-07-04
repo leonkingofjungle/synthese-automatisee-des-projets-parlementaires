@@ -25,6 +25,13 @@
   --error: #a3352d;
   --status-success: #2f6e4f;
 
+  /* Les 3 contrôles du score de fiabilité : couleurs distinctes mais de
+     même famille que le reste de la palette (pas de sémantique succès/alerte,
+     ce sont 3 vérifications différentes, pas une gradation de gravité). */
+  --check-fidelite: #2f5f8a;
+  --check-categorie: #6a4f8e;
+  --check-neutralite: #3d7a5c;
+
   /* Teintes de rubrique : versions foncées et désaturées, lisibles
      en petit corps sur fond pâle (AA). */
   --cat-institutions: #3f5c8a;
@@ -480,6 +487,9 @@ main { min-width: 0; }
 .method-verdicts li[data-tone="success"] { --tone: var(--status-success); }
 .method-verdicts li[data-tone="warn"]    { --tone: var(--warn-text); }
 .method-verdicts li[data-tone="danger"]  { --tone: var(--error); }
+.method-verdicts li[data-tone="fidelite"]   { --tone: var(--check-fidelite); }
+.method-verdicts li[data-tone="categorie"]  { --tone: var(--check-categorie); }
+.method-verdicts li[data-tone="neutralite"] { --tone: var(--check-neutralite); }
 .method-verdict-head {
   display: flex;
   align-items: baseline;
