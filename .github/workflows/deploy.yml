@@ -12,12 +12,12 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Deploy front folder to OVH
-      uses: burnett01/rsync-deployments@7.0.1
+    - name: Deploy via SFTP
+      uses: appleboy/scp-action@v0.1.7
       with:
-        switches: -avzr --delete
-        path: ./front/
-        remote_path: /home/hemiapr/www/synthese/
-        remote_host: ${{ secrets.FTP_HOST }}
-        remote_user: ${{ secrets.FTP_USER }}
-        remote_key: ${{ secrets.SSH_KEY }}
+        host: ${{ secrets.FTP_HOST }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        port: 22
+        source: "./front/*"
+        target: "/www/synthese"
