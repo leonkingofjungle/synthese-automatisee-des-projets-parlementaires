@@ -3,8 +3,9 @@
 .env.*
 !.env.example
 
-# Généré par scripts/pdf_summarizer_mcp.py
+# Généré par scripts/pdf_summarizer_mcp.py et scripts/judge.py, lus par le front
 !front/resumes.json
+!front/judge_report.json
 
 # Python
 __pycache__/
