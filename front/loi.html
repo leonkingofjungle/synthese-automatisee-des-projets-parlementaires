@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Résumé d'une proposition de loi de l'Assemblée nationale, généré par IA à partir du texte officiel.">
+<title>Résumé — Résumés parlementaires</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' fill='%23FDFCF9'/%3E%3Crect y='2' width='24' height='3' fill='%231E3A8A'/%3E%3Cpath d='M4 10h16M4 14h16M4 18h10' stroke='%231A1A1E' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/SourceSerif4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Inter-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="liserer" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="index.html">Résumés parlementaires</a>
+    <a class="back-link" href="index.html">← Tous les résumés</a>
+  </div>
+</header>
+
+<div class="wrap-narrow">
+  <main id="content">
+    <div class="skeleton-article">
+      <div class="sk-line w40"></div>
+      <div class="sk-line title" style="margin-top:0.9rem"></div>
+      <div class="sk-line w90" style="margin-top:1.4rem"></div>
+      <div class="sk-line w90" style="margin-top:0.6rem"></div>
+      <div class="sk-line w60" style="margin-top:0.6rem"></div>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap footer-inner">
+    <p class="footer-brand">Résumés parlementaires</p>
+    <p>Source : API publique <a href="https://parlement.tricoteuses.fr" target="_blank" rel="noopener">parlement.tricoteuses.fr</a> (projet Tricoteuses) et textes officiels de l'Assemblée nationale.</p>
+    <p>Les résumés sont générés automatiquement et peuvent contenir des erreurs ou des approximations ; ils ne remplacent pas la lecture du texte officiel.</p>
+  </div>
+</footer>
+
+<script type="module">
+import { getMeta, resolveCategory, formatDate, hasUsableResume, getResumes, renderNotice } from "./app.js";
+
+function renderArticle(doc) {
+  const meta = getMeta(doc.categorie);
+  const catFull = resolveCategory(doc.categorie);
+
+  const article = document.createElement("article");
+  article.className = "law-article";
+  article.dataset.cat = meta.slug;
+
+  const metaRow = document.createElement("div");
+  metaRow.className = "law-meta-row";
+  metaRow.innerHTML = `
+    <span class="pill" data-cat="${meta.slug}" title="${catFull}">${meta.short}</span>
+    <span class="date">Déposée le ${formatDate(doc.date_depot)}</span>
+  `;
+  article.appendChild(metaRow);
+
+  const h1 = document.createElement("h1");
+  h1.textContent = doc.titre;
+  article.appendChild(h1);
+
+  if (doc.accroche) {
+    const lede = document.createElement("p");
+    lede.className = "lede";
+    lede.textContent = doc.accroche;
+    article.appendChild(lede);
+  }
+
+  if (Array.isArray(doc.points) && doc.points.length > 0) {
+    const pointsBlock = document.createElement("div");
+    pointsBlock.className = "law-points";
+    const h2 = document.createElement("h2");
+    h2.textContent = "Points clés";
+    pointsBlock.appendChild(h2);
+
+    const ul = document.createElement("ul");
+    ul.className = "points";
+    for (const point of doc.points) {
+      const li = document.createElement("li");
+      li.textContent = point;
+      ul.appendChild(li);
+    }
+    pointsBlock.appendChild(ul);
+    article.appendChild(pointsBlock);
+  }
+
+  const footerMeta = document.createElement("div");
+  footerMeta.className = "law-footer-meta";
+  footerMeta.innerHTML = `
+    <div class="uid-tag">${doc.uid}</div>
+    <p class="source-note">Résumé généré automatiquement à partir du texte officiel, via l'API publique
+      <a href="https://parlement.tricoteuses.fr" target="_blank" rel="noopener">parlement.tricoteuses.fr</a>.
+      Peut contenir des erreurs ou des approximations ; ne remplace pas la lecture du texte officiel.</p>
+  `;
+  article.appendChild(footerMeta);
+
+  const backLink = document.createElement("a");
+  backLink.className = "back-link-bottom";
+  backLink.href = "index.html";
+  backLink.textContent = "← Retour à la liste des résumés";
+  article.appendChild(backLink);
+
+  return article;
+}
+
+async function main() {
+  const content = document.getElementById("content");
+  const uid = new URLSearchParams(location.search).get("uid");
+
+  if (!uid) {
+    content.innerHTML = "";
+    content.appendChild(renderNotice("warn", "Aucune proposition sélectionnée."));
+    const link = document.createElement("a");
+    link.className = "back-link-bottom";
+    link.href = "index.html";
+    link.textContent = "← Retour à la liste des résumés";
+    content.appendChild(link);
+    return;
+  }
+
+  let payload;
+  try {
+    payload = await getResumes();
+  } catch (err) {
+    content.innerHTML = "";
+    content.appendChild(renderNotice(
+      "error",
+      "Impossible de charger les résumés. Le fichier resumes.json est introuvable ou invalide."
+    ));
+    return;
+  }
+
+  const doc = (payload.documents || []).find(d => d.uid === uid && hasUsableResume(d));
+
+  if (!doc) {
+    content.innerHTML = "";
+    content.appendChild(renderNotice("warn", "Cette proposition de loi est introuvable ou ne dispose pas encore de résumé."));
+    const link = document.createElement("a");
+    link.className = "back-link-bottom";
+    link.href = "index.html";
+    link.textContent = "← Retour à la liste des résumés";
+    content.appendChild(link);
+    return;
+  }
+
+  document.title = `${doc.titre} — Résumés parlementaires`;
+  const descMeta = document.querySelector('meta[name="description"]');
+  if (descMeta) descMeta.setAttribute("content", doc.accroche || descMeta.getAttribute("content"));
+
+  content.innerHTML = "";
+  content.appendChild(renderArticle(doc));
+}
+
+main();
+</script>
+</body>
+</html>

@@ -5,445 +5,494 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Résumés des dernières propositions de loi de l'Assemblée nationale, générés par IA à partir du texte officiel.">
 <title>Résumés parlementaires</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%232953a6'/%3E%3Cpath d='M6 7h12M6 12h12M6 17h8' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
-<style>
-  :root {
-    color-scheme: light dark;
-    --bg: #f4f5f7;
-    --card: #ffffff;
-    --text: #1a1c20;
-    --muted: #656a72;
-    --faint: #8b909a;
-    --border: #e2e4e8;
-    --accent: #2953a6;
-    --accent-soft: #eaf0fb;
-    --warn-bg: #fdf3e7;
-    --warn-text: #8a5a12;
-    --error: #b3271e;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #14151a;
-      --card: #1d1f26;
-      --text: #eceef1;
-      --muted: #a2a7b0;
-      --faint: #767b85;
-      --border: #2d2f37;
-      --accent: #82a6e8;
-      --accent-soft: #1f2a40;
-      --warn-bg: #33290f;
-      --warn-text: #e0af68;
-      --error: #ff6b62;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #14151a; --card: #1d1f26; --text: #eceef1; --muted: #a2a7b0; --faint: #767b85;
-    --border: #2d2f37; --accent: #82a6e8; --accent-soft: #1f2a40; --warn-bg: #33290f;
-    --warn-text: #e0af68; --error: #ff6b62;
-  }
-  :root[data-theme="light"] {
-    --bg: #f4f5f7; --card: #ffffff; --text: #1a1c20; --muted: #656a72; --faint: #8b909a;
-    --border: #e2e4e8; --accent: #2953a6; --accent-soft: #eaf0fb; --warn-bg: #fdf3e7;
-    --warn-text: #8a5a12; --error: #b3271e;
-  }
-
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 1.25rem; }
-
-  header.site { border-bottom: 1px solid var(--border); }
-
-  /* --- Hero : allégé au maximum (eyebrow + titre + une ligne de meta) --- */
-  .hero {
-    background:
-      radial-gradient(120% 180% at 0% 0%, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0) 55%),
-      linear-gradient(135deg, #17284f 0%, #23478f 55%, #3d6fc9 100%);
-    color: #fff;
-  }
-  .hero-inner { padding: 2.1rem 1.25rem 1.75rem; }
-  .hero .eyebrow {
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    font-size: 0.72rem;
-    font-weight: 600;
-    color: #a9c4f5;
-    margin: 0 0 0.4rem;
-  }
-  .hero h1 {
-    font-size: 1.7rem;
-    line-height: 1.22;
-    margin: 0 0 0.6rem;
-    letter-spacing: -0.015em;
-    color: #fff;
-    max-width: 26ch;
-  }
-  .hero-meta {
-    font-size: 0.84rem;
-    color: rgba(255,255,255,0.72);
-  }
-  .hero-meta strong { color: #fff; font-weight: 600; }
-
-  .toolbar-bar {
-    background: var(--card);
-    border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 5;
-  }
-  .toolbar {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-    padding: 0.75rem 1.25rem;
-  }
-  #search {
-    flex: 1 1 220px;
-    min-width: 0;
-    padding: 0.5rem 0.8rem;
-    border-radius: 8px;
-    border: 1px solid var(--border);
-    background: var(--bg);
-    color: var(--text);
-    font-size: 0.9rem;
-  }
-  #search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
-  .count-badge {
-    font-size: 0.8rem;
-    color: var(--muted);
-    white-space: nowrap;
-  }
-
-  main { padding: 1.75rem 1.25rem 3.5rem; display: flex; flex-direction: column; gap: 2rem; }
-
-  /* --- Sections par thème --- */
-  .section-title {
-    display: flex;
-    align-items: baseline;
-    gap: 0.55rem;
-    margin: 0 0 0.9rem;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-  .section-title .section-count {
-    font-size: 0.78rem;
-    font-weight: 500;
-    color: var(--faint);
-  }
-
-  /* --- Grille responsive des cartes : 1 colonne en mobile, plus en large --- */
-  .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1rem;
-    align-items: start;
-  }
-
-  .card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 1.1rem 1.25rem;
-    transition: border-color 0.15s ease;
-    min-width: 0;
-  }
-  .card:hover { border-color: var(--accent); }
-
-  .card-meta {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
-    flex-wrap: wrap;
-  }
-  .pill {
-    font-size: 0.7rem;
-    font-weight: 600;
-    color: var(--accent);
-    background: var(--accent-soft);
-    padding: 0.15rem 0.55rem;
-    border-radius: 999px;
-  }
-  .date {
-    font-size: 0.76rem;
-    color: var(--faint);
-  }
-
-  .card h3 {
-    font-size: 1rem;
-    line-height: 1.35;
-    margin: 0 0 0.55rem;
-    font-weight: 600;
-  }
-
-  .lead {
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin: 0 0 0.65rem;
-  }
-  ul.points {
-    margin: 0;
-    padding-left: 1.1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-  }
-  ul.points li {
-    font-size: 0.86rem;
-    line-height: 1.48;
-    color: var(--text);
-  }
-  ul.points li::marker { color: var(--accent); }
-
-  .uid-tag {
-    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-    font-size: 0.7rem;
-    color: var(--faint);
-    margin-top: 0.7rem;
-  }
-
-  /* Loading skeleton */
-  .skeleton-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
-  .skeleton { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.1rem 1.25rem; }
-  .sk-line { height: 0.7rem; border-radius: 4px; background: var(--border); animation: pulse 1.3s ease-in-out infinite; }
-  .sk-line + .sk-line { margin-top: 0.6rem; }
-  .sk-line.w60 { width: 60%; height: 0.55rem; }
-  .sk-line.w90 { width: 90%; }
-  .sk-line.w40 { width: 40%; }
-  @keyframes pulse { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
-
-  .notice {
-    border-radius: 10px;
-    padding: 0.9rem 1.1rem;
-    font-size: 0.88rem;
-    line-height: 1.5;
-  }
-  .notice.info { background: var(--card); border: 1px solid var(--border); color: var(--muted); }
-  .notice.warn { background: var(--warn-bg); color: var(--warn-text); }
-  .notice.error { background: var(--card); border: 1px solid var(--error); color: var(--error); }
-
-  footer {
-    border-top: 1px solid var(--border);
-    padding: 1.5rem 1.25rem 2.5rem;
-  }
-  footer .wrap { padding: 0; max-width: 760px; margin: 0; }
-  footer p {
-    font-size: 0.78rem;
-    color: var(--faint);
-    line-height: 1.6;
-    margin: 0 0 0.4rem;
-  }
-  footer a { color: var(--muted); }
-
-  a { color: var(--accent); }
-
-  .hidden { display: none !important; }
-
-  @media (max-width: 480px) {
-    .hero-inner { padding: 1.75rem 1rem 1.4rem; }
-    .hero h1 { font-size: 1.4rem; }
-    main { padding: 1.25rem 1rem 2.5rem; gap: 1.5rem; }
-  }
-</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' fill='%23FDFCF9'/%3E%3Crect y='2' width='24' height='3' fill='%231E3A8A'/%3E%3Cpath d='M4 10h16M4 14h16M4 18h10' stroke='%231A1A1E' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/SourceSerif4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Inter-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="site">
-  <div class="hero">
-    <div class="wrap hero-inner">
-      <p class="eyebrow">Assemblée nationale · Propositions de loi</p>
-      <h1>L'essentiel des dernières propositions de loi</h1>
-      <p class="hero-meta">
-        <strong id="statCount">—</strong> résumés générés par IA · mis à jour le
-        <strong id="statDate">—</strong>
-      </p>
-    </div>
-  </div>
-  <div class="toolbar-bar">
-    <div class="wrap toolbar">
-      <input id="search" type="search" placeholder="Rechercher par mot-clé, titre…" aria-label="Rechercher un résumé" disabled>
-      <span class="count-badge" id="countBadge"></span>
-    </div>
-  </div>
+<div class="liserer" aria-hidden="true"></div>
+
+<header class="masthead" id="masthead">
+  <p class="masthead-kicker">Assemblée nationale · Propositions de loi</p>
+  <h1 class="masthead-title"><a href="index.html">Résumés parlementaires</a></h1>
+  <p class="masthead-meta">
+    <time id="todayDate"></time><span class="sep" aria-hidden="true">·</span><span id="statCount">—</span>&nbsp;résumés générés par IA<span class="sep" aria-hidden="true">·</span>mise à jour le <span id="statDate">—</span>
+  </p>
 </header>
 
-<div class="wrap">
-  <main id="list">
-    <div class="skeleton-grid">
-      <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
-      <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
-      <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+<nav class="kiosk" id="kiosk" aria-label="Rubriques et recherche">
+  <div class="wrap kiosk-inner">
+    <a class="kiosk-brand" href="#" id="kioskBrand">Résumés parlementaires</a>
+    <div class="chip-strip">
+      <div class="chip-row" id="chipRow" role="group" aria-label="Filtrer par rubrique"></div>
+    </div>
+    <div class="search-box">
+      <input id="search" type="search" placeholder="Rechercher une proposition…" aria-label="Rechercher un résumé" disabled>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap page">
+  <main>
+    <section class="une hidden" id="une" aria-labelledby="uneLabel">
+      <h2 class="une-label" id="uneLabel">À la une</h2>
+      <div class="une-grid" id="uneGrid"></div>
+    </section>
+
+    <div class="results-bar hidden" id="resultsBar">
+      <span id="resultsText"></span>
+      <button type="button" class="btn-ghost" id="resetFilters">Tout afficher</button>
+    </div>
+
+    <div id="fil">
+      <div class="skeleton-grid">
+        <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+        <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+        <div class="skeleton"><div class="sk-line w40"></div><div class="sk-line w90" style="margin-top:1rem"></div><div class="sk-line w60"></div></div>
+      </div>
     </div>
   </main>
+
+  <aside class="sidebar" aria-label="Sommaire et dernières propositions">
+    <section class="side-block" aria-labelledby="tocLabel">
+      <h2 class="side-label" id="tocLabel">Sommaire</h2>
+      <ol class="toc-list" id="tocList"></ol>
+    </section>
+    <section class="side-block" aria-labelledby="recentLabel">
+      <h2 class="side-label" id="recentLabel">Les plus récentes</h2>
+      <ol class="recent-list" id="recentList"></ol>
+    </section>
+  </aside>
 </div>
 
 <footer>
-  <div class="wrap">
+  <div class="wrap footer-inner">
+    <p class="footer-brand">Résumés parlementaires</p>
     <p>Source : API publique <a href="https://parlement.tricoteuses.fr" target="_blank" rel="noopener">parlement.tricoteuses.fr</a> (projet Tricoteuses) et textes officiels de l'Assemblée nationale.</p>
     <p>Les résumés sont générés automatiquement et peuvent contenir des erreurs ou des approximations ; ils ne remplacent pas la lecture du texte officiel.</p>
   </div>
 </footer>
 
-<script>
-// Ordre d'affichage des sections thématiques (doit rester cohérent avec
-// CATEGORIES dans scripts/pdf_summarizer_mcp.py). Toute catégorie inconnue
-// (ancien cache, valeur inattendue) atterrit dans "Autre".
-const CATEGORY_ORDER = [
-  "Institutions et démocratie",
-  "Justice et sécurité",
-  "Santé",
-  "Éducation et jeunesse",
-  "Environnement et énergie",
-  "Économie et travail",
-  "Logement et urbanisme",
-  "Société et solidarités",
-  "Numérique",
-  "International et outre-mer",
-  "Autre",
-];
+<button type="button" class="to-top away" id="toTop">↑ Haut de page</button>
 
-function formatDate(iso) {
-  if (!iso) return "date inconnue";
-  return new Date(iso).toLocaleDateString("fr-FR", { day: "2-digit", month: "long", year: "numeric" });
+<script type="module">
+import { CATEGORY_ORDER, getMeta, resolveCategory, formatDate, hasUsableResume, extractSubtitle, getResumes, renderNotice } from "./app.js";
+
+const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* Nombre d'entrées affichées en liste complète avant de basculer
+   le reste de la rubrique en brèves sur deux colonnes. */
+const FULL_ROWS = 6;
+const BREVES_MIN = 3;
+
+function byDateDesc(a, b) {
+  return (b.date_depot || "").localeCompare(a.date_depot || "");
 }
 
-function hasUsableResume(doc) {
-  return typeof doc.accroche === "string" && doc.accroche.trim().length > 0;
+function searchIndexOf(doc) {
+  return `${doc.titre} ${doc.accroche} ${(doc.points || []).join(" ")}`.toLowerCase();
 }
 
-function renderCard(doc) {
-  const card = document.createElement("article");
-  card.className = "card";
-
-  const meta = document.createElement("div");
-  meta.className = "card-meta";
-  meta.innerHTML = `
-    <span class="pill">Proposition de loi</span>
-    <span class="date">Déposée le ${formatDate(doc.date_depot)}</span>
-  `;
-  card.appendChild(meta);
-
-  const h3 = document.createElement("h3");
-  h3.textContent = doc.titre;
-  card.appendChild(h3);
-
+function metaLine(doc) {
+  const meta = getMeta(doc.categorie);
   const p = document.createElement("p");
-  p.className = "lead";
-  p.textContent = doc.accroche;
-  card.appendChild(p);
-
-  if (Array.isArray(doc.points) && doc.points.length > 0) {
-    const ul = document.createElement("ul");
-    ul.className = "points";
-    for (const point of doc.points) {
-      const li = document.createElement("li");
-      li.textContent = point;
-      ul.appendChild(li);
-    }
-    card.appendChild(ul);
-  }
-
-  const uidTag = document.createElement("div");
-  uidTag.className = "uid-tag";
-  uidTag.textContent = doc.uid;
-  card.appendChild(uidTag);
-
-  card.dataset.searchIndex = `${doc.titre} ${doc.accroche} ${(doc.points || []).join(" ")}`.toLowerCase();
-  return card;
+  p.className = "law-meta";
+  const badge = document.createElement("span");
+  badge.className = "badge";
+  badge.dataset.cat = meta.slug;
+  badge.title = resolveCategory(doc.categorie);
+  badge.textContent = meta.short;
+  const time = document.createElement("time");
+  if (doc.date_depot) time.dateTime = doc.date_depot;
+  time.textContent = formatDate(doc.date_depot);
+  p.append(badge, time);
+  return p;
 }
 
-function renderNotice(kind, text) {
-  const div = document.createElement("div");
-  div.className = `notice ${kind}`;
-  div.textContent = text;
-  return div;
+function baseLink(doc, className) {
+  const a = document.createElement("a");
+  a.className = className;
+  a.href = `loi.html?uid=${encodeURIComponent(doc.uid)}`;
+  a.dataset.cat = getMeta(doc.categorie).slug;
+  a.dataset.category = resolveCategory(doc.categorie);
+  a.dataset.searchIndex = searchIndexOf(doc);
+  return a;
+}
+
+function renderRow(doc) {
+  const row = baseLink(doc, "law-row");
+  const title = document.createElement("h3");
+  title.className = "law-title";
+  title.textContent = doc.titre;
+  row.appendChild(title);
+  const subtitle = extractSubtitle(doc.accroche);
+  if (subtitle) {
+    const p = document.createElement("p");
+    p.className = "law-excerpt";
+    p.textContent = subtitle;
+    row.appendChild(p);
+  }
+  row.appendChild(metaLine(doc));
+  return row;
+}
+
+function renderBreve(doc) {
+  const a = baseLink(doc, "breve");
+  const title = document.createElement("h3");
+  title.className = "law-title";
+  title.textContent = doc.titre;
+  const time = document.createElement("time");
+  if (doc.date_depot) time.dateTime = doc.date_depot;
+  time.textContent = formatDate(doc.date_depot);
+  a.append(title, time);
+  return a;
+}
+
+function renderUneItem(doc, isLead) {
+  const a = baseLink(doc, `une-item ${isLead ? "une-lead" : ""}`);
+  const article = document.createElement("article");
+  article.appendChild(metaLine(doc));
+  const title = document.createElement("h3");
+  title.className = "une-title";
+  title.textContent = doc.titre;
+  article.appendChild(title);
+  const excerptText = isLead ? (doc.accroche || "") : extractSubtitle(doc.accroche);
+  if (excerptText) {
+    const p = document.createElement("p");
+    p.className = "une-excerpt";
+    p.textContent = excerptText;
+    article.appendChild(p);
+  }
+  a.appendChild(article);
+  return a;
+}
+
+function renderUne(docs) {
+  const une = document.getElementById("une");
+  const grid = document.getElementById("uneGrid");
+  const featured = [...docs].sort(byDateDesc).slice(0, 3);
+  if (featured.length === 0) return;
+  grid.innerHTML = "";
+  grid.appendChild(renderUneItem(featured[0], true));
+  if (featured.length > 1) {
+    const aside = document.createElement("div");
+    aside.className = "une-aside";
+    for (const doc of featured.slice(1)) aside.appendChild(renderUneItem(doc, false));
+    grid.appendChild(aside);
+  }
+  une.classList.remove("hidden");
 }
 
 function groupByCategory(docs) {
   const groups = new Map();
   for (const doc of docs) {
-    const key = CATEGORY_ORDER.includes(doc.categorie) ? doc.categorie : "Autre";
+    const key = resolveCategory(doc.categorie);
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(doc);
   }
   return CATEGORY_ORDER
     .filter(cat => groups.has(cat))
-    .map(cat => ({ categorie: cat, docs: groups.get(cat) }));
+    .map(cat => ({ categorie: cat, docs: groups.get(cat).sort(byDateDesc) }));
 }
 
-function renderSections(listEl, docs) {
-  listEl.innerHTML = "";
-  const allCards = [];
+function renderSections(filEl, docs) {
+  filEl.innerHTML = "";
+  const items = [];
   for (const { categorie, docs: sectionDocs } of groupByCategory(docs)) {
+    const meta = getMeta(categorie);
     const section = document.createElement("section");
+    section.className = "rubrique";
+    section.id = `rub-${meta.slug}`;
+    section.dataset.category = categorie;
 
-    const title = document.createElement("h2");
-    title.className = "section-title";
-    title.innerHTML = `${categorie} <span class="section-count">${sectionDocs.length}</span>`;
-    section.appendChild(title);
+    const head = document.createElement("header");
+    head.className = "rubrique-head";
+    head.dataset.cat = meta.slug;
+    const h2 = document.createElement("h2");
+    h2.textContent = categorie;
+    const count = document.createElement("span");
+    count.className = "rubrique-count";
+    count.textContent = `${sectionDocs.length} proposition${sectionDocs.length > 1 ? "s" : ""}`;
+    head.append(h2, count);
+    section.appendChild(head);
 
-    const grid = document.createElement("div");
-    grid.className = "cards-grid";
-    for (const doc of sectionDocs) {
-      const card = renderCard(doc);
-      grid.appendChild(card);
-      allCards.push(card);
+    const useBreves = sectionDocs.length >= FULL_ROWS + BREVES_MIN;
+    const fullDocs = useBreves ? sectionDocs.slice(0, FULL_ROWS) : sectionDocs;
+    const breveDocs = useBreves ? sectionDocs.slice(FULL_ROWS) : [];
+
+    const list = document.createElement("div");
+    list.className = "law-list";
+    for (const doc of fullDocs) {
+      const row = renderRow(doc);
+      list.appendChild(row);
+      items.push(row);
     }
-    section.appendChild(grid);
+    section.appendChild(list);
 
-    listEl.appendChild(section);
+    if (breveDocs.length > 0) {
+      const label = document.createElement("p");
+      label.className = "breves-label";
+      label.textContent = "En bref";
+      section.appendChild(label);
+      const grid = document.createElement("div");
+      grid.className = "breves";
+      for (const doc of breveDocs) {
+        const breve = renderBreve(doc);
+        grid.appendChild(breve);
+        items.push(breve);
+      }
+      section.appendChild(grid);
+    }
+
+    filEl.appendChild(section);
   }
-  return allCards;
+  return items;
 }
 
-async function getResumes() {
-  const res = await fetch("resumes.json", { cache: "no-store" });
-  if (!res.ok) throw new Error(`http ${res.status}`);
-  return res.json();
+function renderChips(docs) {
+  const chipRow = document.getElementById("chipRow");
+  chipRow.innerHTML = "";
+
+  const counts = new Map();
+  for (const doc of docs) {
+    const cat = resolveCategory(doc.categorie);
+    counts.set(cat, (counts.get(cat) || 0) + 1);
+  }
+
+  function makeChip(category, label, count, slug) {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "chip";
+    chip.dataset.category = category;
+    if (slug) {
+      chip.dataset.cat = slug;
+      const dot = document.createElement("span");
+      dot.className = "dot";
+      chip.appendChild(dot);
+    }
+    chip.append(label, " ");
+    const countEl = document.createElement("span");
+    countEl.className = "chip-count";
+    countEl.textContent = count;
+    chip.appendChild(countEl);
+    chip.setAttribute("aria-pressed", "false");
+    return chip;
+  }
+
+  chipRow.appendChild(makeChip("", "Tout", docs.length, null));
+  for (const cat of CATEGORY_ORDER) {
+    const count = counts.get(cat);
+    if (!count) continue;
+    const meta = getMeta(cat);
+    chipRow.appendChild(makeChip(cat, meta.short, count, meta.slug));
+  }
+
+  const strip = chipRow.closest(".chip-strip");
+  function updateFades() {
+    strip.classList.toggle("fade-left", chipRow.scrollLeft > 4);
+    strip.classList.toggle("fade-right", chipRow.scrollLeft + chipRow.clientWidth < chipRow.scrollWidth - 4);
+  }
+  chipRow.addEventListener("scroll", updateFades, { passive: true });
+  window.addEventListener("resize", updateFades);
+  updateFades();
+
+  return chipRow;
 }
 
-function setupSearch(cards) {
+function renderSidebar(docs) {
+  const tocList = document.getElementById("tocList");
+  const recentList = document.getElementById("recentList");
+  tocList.innerHTML = "";
+  recentList.innerHTML = "";
+
+  const tocLinks = new Map();
+  for (const { categorie, docs: sectionDocs } of groupByCategory(docs)) {
+    const meta = getMeta(categorie);
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = `#rub-${meta.slug}`;
+    a.dataset.cat = meta.slug;
+    a.append(meta.short);
+    const count = document.createElement("span");
+    count.className = "toc-count";
+    count.textContent = sectionDocs.length;
+    a.appendChild(count);
+    li.appendChild(a);
+    tocList.appendChild(li);
+    tocLinks.set(`rub-${meta.slug}`, a);
+  }
+
+  for (const doc of [...docs].sort(byDateDesc).slice(0, 5)) {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = `loi.html?uid=${encodeURIComponent(doc.uid)}`;
+    const title = document.createElement("p");
+    title.className = "recent-title";
+    title.textContent = doc.titre;
+    const time = document.createElement("time");
+    if (doc.date_depot) time.dateTime = doc.date_depot;
+    time.textContent = formatDate(doc.date_depot);
+    a.append(title, time);
+    li.appendChild(a);
+    recentList.appendChild(li);
+  }
+
+  return tocLinks;
+}
+
+function setupScrollSpy(tocLinks) {
+  if (!("IntersectionObserver" in window) || tocLinks.size === 0) return;
+  const sections = [...document.querySelectorAll(".rubrique")];
+  const visible = new Set();
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) visible.add(entry.target.id);
+      else visible.delete(entry.target.id);
+    }
+    const current = sections.find(s => visible.has(s.id) && !s.classList.contains("hidden"));
+    for (const [id, link] of tocLinks) {
+      link.classList.toggle("current", current ? id === current.id : false);
+    }
+  }, { rootMargin: "-90px 0px -55% 0px" });
+  for (const section of sections) observer.observe(section);
+}
+
+function setupFilters(items, chipRow) {
   const input = document.getElementById("search");
-  const countBadge = document.getElementById("countBadge");
+  const une = document.getElementById("une");
+  const fil = document.getElementById("fil");
+  const resultsBar = document.getElementById("resultsBar");
+  const resultsText = document.getElementById("resultsText");
+  const resetBtn = document.getElementById("resetFilters");
   input.disabled = false;
+
+  let activeCategory = "";
+  const uneHasContent = document.getElementById("uneGrid").children.length > 0;
+
+  const emptyState = document.createElement("div");
+  emptyState.className = "empty-state";
+  const emptyMsg = document.createElement("p");
+  emptyMsg.textContent = "Aucune proposition ne correspond à votre recherche.";
+  const emptyBtn = document.createElement("button");
+  emptyBtn.type = "button";
+  emptyBtn.className = "btn-ghost";
+  emptyBtn.textContent = "Réinitialiser les filtres";
+  emptyBtn.addEventListener("click", reset);
+  emptyState.append(emptyMsg, emptyBtn);
+
+  function fadeFil() {
+    if (prefersReducedMotion) return;
+    fil.classList.remove("refresh");
+    void fil.offsetWidth;
+    fil.classList.add("refresh");
+  }
 
   function apply() {
     const q = input.value.trim().toLowerCase();
-    let visible = 0;
-    for (const card of cards) {
-      const match = !q || card.dataset.searchIndex.includes(q);
-      card.classList.toggle("hidden", !match);
-      if (match) visible++;
+    const filtering = Boolean(q || activeCategory);
+
+    if (uneHasContent) une.classList.toggle("hidden", filtering);
+
+    let count = 0;
+    for (const item of items) {
+      const matchesText = !q || item.dataset.searchIndex.includes(q);
+      const matchesCat = !activeCategory || item.dataset.category === activeCategory;
+      const match = matchesText && matchesCat;
+      item.classList.toggle("hidden", !match);
+      if (match) count++;
     }
-    document.querySelectorAll(".section-title").forEach(title => {
-      const grid = title.nextElementSibling;
-      const anyVisible = [...grid.children].some(c => !c.classList.contains("hidden"));
-      title.closest("section").classList.toggle("hidden", !anyVisible);
+
+    for (const section of fil.querySelectorAll(".rubrique")) {
+      const anyVisible = [...section.querySelectorAll(".law-row, .breve")]
+        .some(el => !el.classList.contains("hidden"));
+      section.classList.toggle("hidden", !anyVisible);
+      const breves = section.querySelector(".breves");
+      if (breves) {
+        const anyBreve = [...breves.children].some(el => !el.classList.contains("hidden"));
+        breves.classList.toggle("hidden", !anyBreve);
+        const label = section.querySelector(".breves-label");
+        if (label) label.classList.toggle("hidden", !anyBreve);
+      }
+    }
+
+    resultsBar.classList.toggle("hidden", !filtering);
+    if (filtering) {
+      const parts = [];
+      if (q) parts.push(`pour « ${q} »`);
+      if (activeCategory) parts.push(`dans la rubrique ${activeCategory}`);
+      resultsText.innerHTML = "";
+      const strong = document.createElement("strong");
+      strong.textContent = `${count} résultat${count > 1 ? "s" : ""}`;
+      resultsText.append(strong, ` ${parts.join(" ")}`);
+    }
+
+    emptyState.remove();
+    if (count === 0) fil.appendChild(emptyState);
+  }
+
+  function reset() {
+    input.value = "";
+    activeCategory = "";
+    chipRow.querySelectorAll(".chip").forEach(c => {
+      const active = c.dataset.category === "";
+      c.classList.toggle("active", active);
+      c.setAttribute("aria-pressed", String(active));
     });
-    document.querySelectorAll(".notice.empty-search").forEach(n => n.remove());
-    countBadge.textContent = q
-      ? `${visible} résultat${visible > 1 ? "s" : ""}`
-      : `${cards.length} résumé${cards.length > 1 ? "s" : ""}`;
-    if (visible === 0) {
-      document.getElementById("list").appendChild(
-        renderNotice("info empty-search", "Aucun résumé ne correspond à cette recherche.")
-      );
-    }
+    fadeFil();
+    apply();
   }
 
   input.addEventListener("input", apply);
-  apply();
+  resetBtn.addEventListener("click", reset);
+
+  chipRow.addEventListener("click", (event) => {
+    const chip = event.target.closest(".chip");
+    if (!chip) return;
+    activeCategory = chip.dataset.category;
+    chipRow.querySelectorAll(".chip").forEach(c => {
+      const active = c === chip;
+      c.classList.toggle("active", active);
+      c.setAttribute("aria-pressed", String(active));
+    });
+    fadeFil();
+    apply();
+  });
+
+  reset();
+}
+
+function setupChrome() {
+  const todayEl = document.getElementById("todayDate");
+  const today = new Date();
+  todayEl.dateTime = today.toISOString().slice(0, 10);
+  const label = today.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+  todayEl.textContent = label.charAt(0).toUpperCase() + label.slice(1);
+
+  const kiosk = document.getElementById("kiosk");
+  const masthead = document.getElementById("masthead");
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(([entry]) => {
+      kiosk.classList.toggle("stuck", !entry.isIntersecting);
+    }).observe(masthead);
+  }
+
+  const scrollTop = () => window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
+  document.getElementById("kioskBrand").addEventListener("click", (e) => { e.preventDefault(); scrollTop(); });
+
+  const toTop = document.getElementById("toTop");
+  window.addEventListener("scroll", () => {
+    toTop.classList.toggle("away", window.scrollY < 900);
+  }, { passive: true });
+  toTop.addEventListener("click", scrollTop);
 }
 
 async function main() {
-  const listEl = document.getElementById("list");
+  setupChrome();
+
+  const filEl = document.getElementById("fil");
   const statCount = document.getElementById("statCount");
   const statDate = document.getElementById("statDate");
 
@@ -451,10 +500,9 @@ async function main() {
   try {
     payload = await getResumes();
   } catch (err) {
-    listEl.innerHTML = "";
+    filEl.innerHTML = "";
     statCount.textContent = "0";
-    statDate.textContent = "—";
-    listEl.appendChild(renderNotice(
+    filEl.appendChild(renderNotice(
       "error",
       "Impossible de charger les résumés. Le fichier resumes.json est introuvable ou invalide — générez-le avec scripts/pdf_summarizer_mcp.py."
     ));
@@ -467,16 +515,20 @@ async function main() {
   statDate.textContent = payload.generated_at ? formatDate(payload.generated_at) : "—";
 
   if (usable.length === 0) {
-    listEl.innerHTML = "";
-    listEl.appendChild(renderNotice(
+    filEl.innerHTML = "";
+    filEl.appendChild(renderNotice(
       "warn",
       "Aucun résumé disponible pour le moment. Générez-en avec scripts/pdf_summarizer_mcp.py."
     ));
     return;
   }
 
-  const cards = renderSections(listEl, usable);
-  setupSearch(cards);
+  renderUne(usable);
+  const items = renderSections(filEl, usable);
+  const chipRow = renderChips(usable);
+  const tocLinks = renderSidebar(usable);
+  setupFilters(items, chipRow);
+  setupScrollSpy(tocLinks);
 }
 
 main();
