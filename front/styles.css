@@ -452,6 +452,74 @@ main { min-width: 0; }
   text-align: right;
 }
 
+/* ---------- Méthode : lecture du score de fiabilité ---------- */
+.method { margin-bottom: 3rem; }
+.method-intro {
+  margin: 1rem 0 1.4rem;
+  max-width: 70ch;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.method-verdicts {
+  list-style: none;
+  margin: 0 0 1.4rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+}
+@media (max-width: 700px) {
+  .method-verdicts { grid-template-columns: 1fr; gap: 0.9rem; }
+}
+.method-verdicts li {
+  --tone: var(--muted);
+  border-top: 2px solid var(--tone);
+  padding-top: 0.65rem;
+}
+.method-verdicts li[data-tone="success"] { --tone: var(--status-success); }
+.method-verdicts li[data-tone="warn"]    { --tone: var(--warn-text); }
+.method-verdicts li[data-tone="danger"]  { --tone: var(--error); }
+.method-verdict-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.35rem;
+}
+.method-verdict-head strong {
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--tone);
+}
+.method-points {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--tone);
+  border: 1px solid color-mix(in srgb, var(--tone) 40%, var(--paper));
+  border-radius: 3px;
+  padding: 0.1em 0.45em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.method-verdict-desc {
+  display: block;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.method-note {
+  margin: 0;
+  max-width: 70ch;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.method-note strong { color: var(--ink); font-weight: 650; }
+
 /* ---------- Barre de résultats de recherche ---------- */
 .results-bar {
   display: flex;
