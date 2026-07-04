@@ -1,0 +1,32 @@
+=== Document ===
+uid    : PIONANR5L17B0768
+titre  : Impôt plancher de 2 % sur le patrimoine des ultra riches
+dépôt  : 2025-01-07
+source : mirroir HTML opendata (27943 caractères)
+
+=== Résumé (Gemini) ===
+{
+  "categorie": "Économie et travail",
+  "accroche": "Instaure un impôt minimum de 2% sur le patrimoine des personnes les plus fortunées de France, générant ainsi 15 à 25 milliards d'euros pour l'État.",
+  "points": [
+    "Crée un impôt plancher sur la fortune de 2 % pour les personnes ayant plus de 100 millions d'euros de patrimoine.",
+    "Assure que les plus riches contribuent davantage en impôts, corrigeant la régressivité du système fiscal actuel.",
+    "S'applique aux quelque 4 000 contribuables les plus fortunés et génère 15 à 25 milliards d'euros de recettes.",
+    "Entre en vigueur au 1er janvier 2026 et modifie le code général des impôts pour sa mise en place."
+  ]
+}
+
+=== Judge (Claude) ===
+[OK     ] Instaure un impôt minimum de 2% sur le patrimoine des personnes les plus fortunées de France, générant ainsi 15 à 25 milliards d'euros pour l'État.
+          citation : créer un impôt plancher sur la fortune (IPF) pour les 0,01 % des contribuables les plus riches, possédant plus de 100 mi
+[OK     ] Crée un impôt plancher sur la fortune de 2 % pour les personnes ayant plus de 100 millions d'euros de patrimoine.
+          citation : créer un impôt plancher sur la fortune (IPF) pour les 0,01 % des contribuables les plus riches, possédant plus de 100 mi
+[OK     ] Assure que les plus riches contribuent davantage en impôts, corrigeant la régressivité du système fiscal actuel.
+          citation : Aujourd'hui, notre système d'imposition est régressif pour les 0,1 % les plus riches : ces derniers paient, proportionne
+[OK     ] S'applique aux quelque 4 000 contribuables les plus fortunés et génère 15 à 25 milliards d'euros de recettes.
+          citation : En France, seuls les quelques 4 000 contribuables dont le patrimoine est supérieur à 100 millions d'euros, soit 0,01 % d
+[OK     ] Entre en vigueur au 1er janvier 2026 et modifie le code général des impôts pour sa mise en place.
+          citation : Cette proposition de loi entre en vigueur au 1 er janvier 2026. Le chapitre I bis du titre IV de la première partie du l
+catégorie correcte : True / neutralité : True
+
+score : 100/100  flags : aucun  ->  PUBLIÉ

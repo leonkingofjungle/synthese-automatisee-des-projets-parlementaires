@@ -1,27 +1,55 @@
 # synthese-automatisee-des-projets-parlementaires
 
-## Structure
+Résumés en langage clair des dernières propositions de loi françaises, générés par
+IA à partir des textes officiels et publiés sur un site statique.
 
-- `front/index.html` — front statique (vanilla JS, sans backend) qui affiche les 10
-  dernières propositions de loi et leur résumé, en interrogeant directement l'API
-  publique `parlement.tricoteuses.fr`.
-  Se lancer **depuis le dossier `front/`**, jamais depuis la racine du repo :
-  `python3 -m http.server` sert tout le répertoire courant sans exception, y compris
-  `old/.env` si on le lance à la racine.
-  ```
-  cd front && python3 -m http.server 8000
-  ```
-  puis ouvrir `http://localhost:8000/`.
+## Fonctionnement
 
-- `scripts/pdf_summarizer_mcp.py` — script CLI qui affiche en console le résumé des
-  N dernières lois via la même API (`--limit`, `--type`, `--chambre`, `--wait`).
-  Aucune clé API, aucune base de données requise.
-  ```
-  pip install -r requirements.txt
-  python3 scripts/pdf_summarizer_mcp.py --limit 10
-  ```
+```
+API parlement.tricoteuses.fr (liste des textes)
+  -> texte intégral (mirroir HTML opendata de l'AN, sinon PDF officiel)
+  -> résumé structuré par Gemini (catégorie, accroche, points clés)
+  -> vérification par un second modèle IA local (LM Studio) : score de fiabilité 0-100
+  -> front/resumes.json, lu par le site statique front/index.html
+```
 
-- `old/` — ancienne pipeline (dépréciée) : télécharge les PDF depuis un bucket GCS
-  (table Cloud SQL `DOCUMENTS_LIENS`), les résume avec l'API Gemini directement, et
-  écrit le résultat dans Cloud SQL (`DOCUMENT_RESUMES`). Nécessite `old/.env`
-  (voir `old/.env.example`) et `pip install -r old/requirements.txt`.
+Le score de fiabilité est calculé par un modèle indépendant de celui qui rédige
+(vérification extractive : chaque affirmation du résumé doit figurer dans le texte
+source). Sous 60/100 le résumé n'est pas publié (3 tentatives maximum, puis le
+document est abandonné) ; sous 85/100 ou en cas d'anomalie détectée, le site
+affiche un badge de prudence. Sans LM Studio, tout fonctionne : les résumés sont
+simplement publiés sans score.
+
+## Prérequis
+
+- Python 3.11+ et `pip install -r requirements.txt`
+- Une clé Gemini dans `.env` à la racine : `GEMINI_API_KEY=...` (voir `.env.example`)
+- Optionnel — le judge local : [LM Studio](https://lmstudio.ai) en mode serveur avec
+  un modèle chargé (par défaut `mistral-nemo-instruct-2407`). Variables `.env`
+  optionnelles : `JUDGE_BASE_URL` (défaut `http://localhost:1234/v1`) et
+  `JUDGE_MODEL` (l'identifiant exact affiché par LM Studio). Prévoir une fenêtre de
+  contexte d'au moins 16k tokens.
+
+## Générer les résumés
+
+```bash
+python3 scripts/pdf_summarizer_mcp.py --limit 10                 # 10 derniers textes
+python3 scripts/pdf_summarizer_mcp.py --type PION --chambre AN   # défauts affichés
+python3 scripts/pdf_summarizer_mcp.py --force                    # régénère la fenêtre courante
+python3 scripts/pdf_summarizer_mcp.py --workers 10               # plus de parallélisme
+```
+
+`front/resumes.json` sert de cache : seuls les documents absents sont générés.
+`--force` régénère les documents de la fenêtre `--limit` courante ; les résumés
+hors fenêtre sont toujours préservés (pour tout régénérer : supprimer
+`front/resumes.json` ou passer un `--limit` couvrant tout le corpus).
+
+## Servir le site
+
+À lancer **depuis `front/`**, jamais depuis la racine (le serveur exposerait `.env`) :
+
+```bash
+cd front && python3 -m http.server 8000
+```
+
+puis ouvrir <http://localhost:8000/>.

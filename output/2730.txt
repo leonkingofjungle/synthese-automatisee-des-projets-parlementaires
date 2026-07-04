@@ -1,0 +1,32 @@
+=== Document ===
+uid    : PIONANR5L17B2730
+titre  : Mesures de justice pour limiter les frais bancaires
+dépôt  : 2026-04-28
+source : mirroir HTML opendata (10112 caractères)
+
+=== Résumé (Gemini) ===
+{
+  "categorie": "Économie et travail",
+  "accroche": "Cette proposition de loi vise à réduire significativement les frais bancaires abusifs, notamment ceux liés aux incidents de paiement et découverts, pour aider les ménages modestes.",
+  "points": [
+    "Supprime la plupart des frais d'incidents bancaires et commissions d'intervention pour les quatre premières irrégularités annuelles.",
+    "Plafonne les frais bancaires facturés pour une saisie-attribution à 10% du montant dû, avec un maximum fixé par décret (règlement).",
+    "Réduit les frais de rejet d'un chèque sans provision à 15 euros pour les petits montants et 30 euros pour les plus importants.",
+    "Étend l'application de ces nouvelles règles de plafonnement des frais bancaires aux territoires d'outre-mer."
+  ]
+}
+
+=== Judge (Claude) ===
+[DEFORME] Cette proposition de loi vise à réduire significativement les frais bancaires abusifs, notamment ceux liés aux incidents de paiement et découverts, pour aider les ménages modestes.
+          citation : L'article 1er prévoit la suppression de la majeure partie des frais d'incidents bancaires ainsi que des commissions liée
+[OK     ] Supprime la plupart des frais d'incidents bancaires et commissions d'intervention pour les quatre premières irrégularités annuelles.
+          citation : L'article 1er prévoit la suppression de la majeure partie des frais d'incidents bancaires ainsi que des commissions liée
+[OK     ] Plafonne les frais bancaires facturés pour une saisie-attribution à 10% du montant dû, avec un maximum fixé par décret (règlement).
+          citation : Le montant des frais bancaires afférents à la saisie‑attribution perçu par les établissements de crédit ne peut dépasser
+[OK     ] Réduit les frais de rejet d'un chèque sans provision à 15 euros pour les petits montants et 30 euros pour les plus importants.
+          citation : Les frais perçus par le tiré ne peuvent excéder la somme de 15 euros pour le rejet d'un chèque d'un montant inférieur ou
+[OK     ] Étend l'application de ces nouvelles règles de plafonnement des frais bancaires aux territoires d'outre-mer.
+          citation : L'article 3 permet l'application de ce texte en Kanaky‑Nouvelle‑Calédonie, à la Polynésie française et aux îles Wallis‑e
+catégorie correcte : True / neutralité : False
+
+score : 77/100  flags : ['deformation', 'neutralite_douteuse']  ->  PUBLIÉ

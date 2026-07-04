@@ -1,0 +1,32 @@
+=== Document ===
+uid    : PIONANR5L17B1943
+titre  : Moderniser et simplifier la protection juridique des majeurs
+dépôt  : 2025-10-14
+source : mirroir HTML opendata (21187 caractères)
+
+=== Résumé (Gemini) ===
+{
+  "categorie": "Société et solidarités",
+  "accroche": "Cette proposition de loi modernise et simplifie la protection juridique des adultes vulnérables, rendant le système plus efficace et clair.",
+  "points": [
+    "Modernise la gestion des biens immobiliers des personnes protégées, autorisant des contrats de gestion spécifiques.",
+    "Facilite l'échange d'informations entre services sociaux et juges, levant le secret professionnel pour mieux agir.",
+    "Crée des passerelles entre les mesures de protection, permettant au juge de prononcer l'aide la plus adaptée.",
+    "Renforce la continuité des mesures et étend le soutien aux familles qui protègent un proche."
+  ]
+}
+
+=== Judge (Claude) ===
+[OK     ] Cette proposition de loi modernise et simplifie la protection juridique des adultes vulnérables, rendant le système plus efficace et clair.
+          citation : La présente proposition de loi vise à moderniser et simplifier la protection juridique des majeurs, dans une logique d'a
+[OK     ] Modernise la gestion des biens immobiliers des personnes protégées, autorisant des contrats de gestion spécifiques.
+          citation : L'article 1er modernise la gestion des biens immobiliers des personnes protégées. Il répond à une demande des juges des 
+[DEFORME] Facilite l'échange d'informations entre services sociaux et juges, levant le secret professionnel pour mieux agir.
+          citation : L'article 2 facilite la communication d'informations entre les services sociaux, le procureur de la République et le jug
+[OK     ] Crée des passerelles entre les mesures de protection, permettant au juge de prononcer l'aide la plus adaptée.
+          citation : L'article 3 crée une passerelle procédurale entre les habilitations judiciaires entre époux et les autres mesures de pro
+[DEFORME] Renforce la continuité des mesures et étend le soutien aux familles qui protègent un proche.
+          citation : L'article 4 renforce la continuité des mesures de protection en cas de décès ou de placement sous protection du tuteur o
+catégorie correcte : True / neutralité : False
+
+score : 69/100  flags : ['deformation', 'neutralite_douteuse']  ->  PUBLIÉ
