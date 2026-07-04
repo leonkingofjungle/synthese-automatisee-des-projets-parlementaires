@@ -1,0 +1,87 @@
+# Grille utilisée par scripts/judge.py.
+# Les critères `criteria` sont notés par le LLM juge (un appel par critère,
+# température 0, sortie JSON {justification, score}).
+# Les critères `checks` sont vérifiés de façon déterministe en Python.
+
+ollama:
+  base_url: http://localhost:11434
+  model: qwen2.5:7b-instruct
+  options:
+    temperature: 0
+    num_ctx: 16384        # crucial : évite la troncature silencieuse du texte source
+  format: json
+
+scale:
+  min: 1
+  max: 5
+
+# Si exactitude <= 2, la note globale est plafonnée à `cap`.
+veto:
+  criterion: exactitude
+  threshold: 2
+  cap: 2
+
+criteria:
+  - name: exactitude
+    label: Exactitude factuelle
+    weight: 3
+    description: >
+      Toutes les informations du résumé sont vérifiables dans le texte
+      source, sans invention ni déformation.
+    anchors:
+      5: Tout est vérifiable dans le texte source.
+      3: Une imprécision mineure ou une reformulation ambiguë.
+      1: Au moins une information inventée ou contredite par le source.
+
+  - name: couverture
+    label: Couverture
+    weight: 2
+    description: >
+      Les points essentiels du texte source figurent dans le résumé ;
+      aucune omission qui changerait la compréhension du texte.
+    anchors:
+      5: Tous les points essentiels sont présents.
+      3: Un point secondaire manque, le sens global est préservé.
+      1: Un point central du texte est absent ou le sens est faussé.
+
+  - name: neutralite
+    label: Neutralité
+    weight: 2
+    description: >
+      Le résumé reste factuel : aucune opinion, jugement de valeur ou
+      qualificatif favorable/défavorable absent du texte source.
+    anchors:
+      5: Ton strictement factuel.
+      3: Un qualificatif discutable mais défendable.
+      1: Prise de position ou jugement de valeur manifeste.
+
+  - name: clarte
+    label: Clarté
+    weight: 2
+    description: >
+      Compréhensible par un citoyen non-spécialiste : jargon juridique
+      expliqué ou évité, phrases courtes et directes.
+    anchors:
+      5: Lisible sans aucune connaissance juridique.
+      3: Quelques termes techniques non expliqués.
+      1: Incompréhensible sans expertise juridique.
+
+  - name: categorisation
+    label: Catégorisation
+    weight: 1
+    description: >
+      La catégorie attribuée correspond au sujet principal du texte.
+      Le juge reçoit la liste des catégories autorisées dans le prompt.
+    anchors:
+      5: Catégorie exacte.
+      3: Catégorie voisine ou secondaire du texte.
+      1: Catégorie sans rapport avec le texte.
+
+# Vérifications déterministes (Python, pas de LLM) — pass/fail
+checks:
+  - name: accroche_longueur
+    rule: len(accroche.split()) <= 25
+  - name: accroche_incipit
+    rule: not accroche.startswith(("Ce texte", "Ce document"))
+  - name: nb_points_cles
+    rule: 3 <= len(points_cles) <= 5
