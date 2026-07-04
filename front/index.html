@@ -56,27 +56,34 @@
       <h2 class="une-label" id="methodLabel">Comment lire le score de fiabilité</h2>
       <p class="method-intro">
         Un second modèle d'intelligence artificielle, indépendant de celui qui rédige
-        le résumé, vérifie trois choses. Chacune vaut <strong>1 point si elle est
-        validée, 0 sinon</strong> :
+        le résumé, vérifie l'accroche et chaque point clé un par un, et attribue à
+        chacun l'une de ces trois notes :
       </p>
       <ul class="method-verdicts">
-        <li data-tone="fidelite">
-          <span class="method-verdict-head"><strong>Contenu fidèle</strong><span class="method-points">0 ou 1</span></span>
-          <span class="method-verdict-desc">L'accroche et les points clés se retrouvent bien dans le texte officiel.</span>
+        <li data-tone="success">
+          <span class="method-verdict-head"><strong>Vérifiée</strong><span class="method-points">1 pt</span></span>
+          <span class="method-verdict-desc">L'information figure bien telle quelle dans le texte officiel.</span>
         </li>
-        <li data-tone="categorie">
-          <span class="method-verdict-head"><strong>Catégorie correcte</strong><span class="method-points">0 ou 1</span></span>
-          <span class="method-verdict-desc">La rubrique attribuée correspond au sujet de la loi.</span>
+        <li data-tone="warn">
+          <span class="method-verdict-head"><strong>Approximative</strong><span class="method-points">0,4 pt</span></span>
+          <span class="method-verdict-desc">Elle s'appuie sur un passage réel, mais l'exagère ou l'extrapole.</span>
         </li>
-        <li data-tone="neutralite">
-          <span class="method-verdict-head"><strong>Ton neutre</strong><span class="method-points">0 ou 1</span></span>
-          <span class="method-verdict-desc">Aucune opinion ni qualificatif absent du texte source.</span>
+        <li data-tone="danger">
+          <span class="method-verdict-head"><strong>Inventée</strong><span class="method-points">0 pt</span></span>
+          <span class="method-verdict-desc">Elle ne se retrouve nulle part dans le texte officiel.</span>
         </li>
       </ul>
       <p class="method-note">
-        Le <strong>score sur 100</strong> est la moyenne de ces trois points. En dessous
-        de <strong>60/100</strong>, le résumé n'est pas publié ; entre 60 et 85, un badge
-        ambre signale un doute à vérifier.
+        Deux contrôles supplémentaires s'ajoutent, notés eux aussi 1 ou 0 point : la
+        catégorie attribuée correspond-elle bien à l'une des rubriques que nous avons
+        définies, et le ton reste-t-il neutre, sans opinion ni qualificatif absent du
+        texte source ?
+      </p>
+      <p class="method-note">
+        Le <strong>score sur 100</strong> est la moyenne de tous ces points (accroche,
+        points clés, catégorie, neutralité). En dessous de <strong>60/100</strong>, le
+        résumé n'est pas publié ; entre 60 et 85, un badge ambre signale un doute à
+        vérifier.
       </p>
     </section>
 
