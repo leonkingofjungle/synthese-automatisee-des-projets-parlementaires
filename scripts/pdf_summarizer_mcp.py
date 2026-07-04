@@ -26,6 +26,8 @@ Flux :
   -> état d'avancement (etat/statut du dossier législatif, GET /dossiers/{uid}) :
        re-synchronisé à chaque run pour toutes les entrées, cache compris
        (`--limit 0` = backfill statuts seul, sans aucun appel LLM)
+  -> dépositaire (auteur principal, GET /acteurs/{auteurPrincipalUid}) :
+       résolu une seule fois par entrée (contrairement à etat/statut, ne change pas)
   -> affichage console + écriture (atomique) de front/resumes.json (lu par le front statique)
 
 Deux optimisations de vitesse :
@@ -145,6 +147,74 @@ def _get_api_data(url: str) -> dict | None:
 
 def fetch_document_meta(uid: str) -> dict | None:
     return _get_api_data(f"{API_BASE}/documents/{uid}")
+
+
+def fetch_acteur(acteur_uid: str) -> dict | None:
+    return _get_api_data(f"{API_BASE}/acteurs/{acteur_uid}")
+
+
+def format_depositaire(acteur: dict) -> str:
+    nom = f"{acteur.get('prenom') or ''} {acteur.get('nom') or ''}".strip()
+    groupe = (acteur.get("groupeParlementaire") or {}).get("libelleAbrege")
+    return f"{nom} ({groupe})" if groupe else nom
+
+
+def resolve_depositaires(entries: list[dict], workers: int, known_auteurs: dict[str, str]) -> None:
+    """Résout le nom du dépositaire (auteur principal) de chaque entrée publiée.
+
+    Contrairement à etat/statut, le dépositaire d'un texte ne change pas dans le
+    temps : une entrée qui a déjà la clé "depositaire" n'est jamais retraitée.
+
+    Convention (comme dossier_uid) : clé absente = échec réseau, on réessaiera
+    au prochain run ; valeur None = l'API confirme qu'il n'y a pas d'auteur
+    principal pour ce document, on n'interroge plus jamais pour cette entrée.
+    """
+    to_resolve = [e for e in entries if "depositaire" not in e]
+    if not to_resolve:
+        return
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        # auteurPrincipalUid vient de la fenêtre courante si possible, sinon
+        # d'un GET /documents/{uid} (entrées hors fenêtre, jamais vues avant).
+        missing_meta = [e for e in to_resolve if e["uid"] not in known_auteurs]
+        metas = dict(zip(
+            (e["uid"] for e in missing_meta),
+            pool.map(lambda e: fetch_document_meta(e["uid"]), missing_meta),
+        ))
+
+        # auteur_uids[uid] : uid de l'acteur, ou None si l'API confirme l'absence
+        # d'auteur principal. uid absent du dict = résolution du document elle-même
+        # a échoué (réseau) : à retenter, distinct d'un "None" définitif.
+        auteur_uids: dict[str, str | None] = {}
+        for entry in to_resolve:
+            uid = entry["uid"]
+            if uid in known_auteurs:
+                auteur_uids[uid] = known_auteurs[uid]
+            elif metas.get(uid) is not None:
+                auteur_uids[uid] = metas[uid].get("auteurPrincipalUid")
+
+        distinct = sorted({v for v in auteur_uids.values() if v})
+        acteurs = dict(zip(distinct, pool.map(fetch_acteur, distinct)))
+
+    resolved = sans_auteur = failed = 0
+    for entry in to_resolve:
+        uid = entry["uid"]
+        if uid not in auteur_uids:
+            failed += 1
+            continue
+        auteur_uid = auteur_uids[uid]
+        if auteur_uid is None:
+            entry["depositaire"] = None
+            sans_auteur += 1
+            continue
+        acteur = acteurs.get(auteur_uid)
+        if acteur is None:
+            failed += 1
+            continue
+        entry["depositaire"] = format_depositaire(acteur)
+        resolved += 1
+    print(f"Dépositaires : {resolved} résolu(s), {sans_auteur} sans auteur principal, "
+          f"{failed} échec(s) réseau (retentés au prochain run).")
 
 
 def fetch_dossier_status(dossier_uid: str) -> tuple[str | None, str | None] | None:
@@ -335,6 +405,8 @@ def main():
     # complet sans aucun appel LLM.
     if not args.no_status_refresh:
         refresh_statuses(results, args.workers, {d["uid"]: d.get("dossierRefUid") for d in docs})
+
+    resolve_depositaires(results, args.workers, {d["uid"]: d.get("auteurPrincipalUid") for d in docs})
 
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
     payload = json.dumps({

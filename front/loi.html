@@ -72,6 +72,13 @@ function renderArticle(doc) {
   h1.textContent = doc.titre;
   article.appendChild(h1);
 
+  if (doc.depositaire) {
+    const byline = document.createElement("p");
+    byline.className = "law-byline";
+    byline.textContent = `Déposée par ${doc.depositaire}`;
+    article.appendChild(byline);
+  }
+
   if (doc.accroche) {
     const lede = document.createElement("p");
     lede.className = "lede";

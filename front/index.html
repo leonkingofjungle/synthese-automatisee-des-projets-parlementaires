@@ -19,7 +19,7 @@
   <p class="masthead-kicker">Assemblée nationale · Propositions de loi</p>
   <h1 class="masthead-title"><a href="index.html">Résumés parlementaires</a></h1>
   <p class="masthead-meta">
-    <time id="todayDate"></time><span class="sep" aria-hidden="true">·</span><span id="statCount">—</span>&nbsp;résumés générés par IA<span class="sep" aria-hidden="true">·</span>mise à jour le <span id="statDate">—</span>
+    <time id="todayDate"></time><span class="sep" aria-hidden="true">·</span><span id="statCount">…</span>&nbsp;résumés générés par IA<span class="sep" aria-hidden="true">·</span>mise à jour le <span id="statDate">…</span>
   </p>
 </header>
 
@@ -55,32 +55,28 @@
     <section class="method" id="method" aria-labelledby="methodLabel">
       <h2 class="une-label" id="methodLabel">Comment lire le score de fiabilité</h2>
       <p class="method-intro">
-        Chaque résumé est relu par un second modèle d'intelligence artificielle,
-        distinct de celui qui l'a rédigé. Ce vérificateur compare une à une toutes les
-        affirmations du résumé — l'accroche et chaque point clé — au texte officiel de
-        la loi, et attribue à chacune l'une de ces trois notes :
+        Un second modèle d'intelligence artificielle, indépendant de celui qui rédige
+        le résumé, vérifie trois choses. Chacune vaut <strong>1 point si elle est
+        validée, 0 sinon</strong> :
       </p>
       <ul class="method-verdicts">
         <li data-tone="success">
-          <span class="method-verdict-head"><strong>Vérifiée</strong><span class="method-points">1 pt</span></span>
-          <span class="method-verdict-desc">L'information figure bien telle quelle dans le texte officiel.</span>
+          <span class="method-verdict-head"><strong>Contenu fidèle</strong><span class="method-points">0 ou 1</span></span>
+          <span class="method-verdict-desc">L'accroche et les points clés se retrouvent bien dans le texte officiel.</span>
         </li>
-        <li data-tone="warn">
-          <span class="method-verdict-head"><strong>Approximative</strong><span class="method-points">0,4 pt</span></span>
-          <span class="method-verdict-desc">Elle s'appuie sur un passage réel, mais l'exagère ou le déforme.</span>
+        <li data-tone="success">
+          <span class="method-verdict-head"><strong>Catégorie correcte</strong><span class="method-points">0 ou 1</span></span>
+          <span class="method-verdict-desc">La rubrique attribuée correspond au sujet de la loi.</span>
         </li>
-        <li data-tone="danger">
-          <span class="method-verdict-head"><strong>Inventée</strong><span class="method-points">0 pt</span></span>
-          <span class="method-verdict-desc">Elle ne se retrouve nulle part dans le texte officiel.</span>
+        <li data-tone="success">
+          <span class="method-verdict-head"><strong>Ton neutre</strong><span class="method-points">0 ou 1</span></span>
+          <span class="method-verdict-desc">Aucune opinion ni qualificatif absent du texte source.</span>
         </li>
       </ul>
       <p class="method-note">
-        Deux contrôles supplémentaires, notés de la même façon, s'ajoutent : la rubrique
-        attribuée correspond-elle au sujet de la loi, et le résumé reste-t-il neutre ?
-        Le <strong>score sur 100</strong> est la moyenne de tous ces points — un résumé
-        entièrement vérifié, bien classé et neutre obtient 100/100. En dessous de
-        <strong>60/100</strong>, le résumé est jugé trop peu fiable et n'est pas publié ;
-        entre 60 et 85, un badge ambre signale les points à vérifier.
+        Le <strong>score sur 100</strong> est la moyenne de ces trois points. En dessous
+        de <strong>60/100</strong>, le résumé n'est pas publié ; entre 60 et 85, un badge
+        ambre signale un doute à vérifier.
       </p>
     </section>
 
@@ -520,7 +516,7 @@ async function main() {
     statCount.textContent = "0";
     filEl.appendChild(renderNotice(
       "error",
-      "Impossible de charger les résumés. Le fichier resumes.json est introuvable ou invalide — générez-le avec scripts/pdf_summarizer_mcp.py."
+      "Impossible de charger les résumés. Le fichier resumes.json est introuvable ou invalide : générez-le avec scripts/pdf_summarizer_mcp.py."
     ));
     return;
   }
@@ -528,7 +524,7 @@ async function main() {
   const usable = (payload.documents || []).filter(hasUsableResume);
 
   statCount.textContent = usable.length;
-  statDate.textContent = payload.generated_at ? formatDate(payload.generated_at) : "—";
+  statDate.textContent = payload.generated_at ? formatDate(payload.generated_at) : "date inconnue";
 
   if (usable.length === 0) {
     filEl.innerHTML = "";

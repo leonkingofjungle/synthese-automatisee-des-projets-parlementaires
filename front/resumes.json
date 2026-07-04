@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T12:53:01.454961+00:00",
+  "generated_at": "2026-07-04T13:58:15.635965+00:00",
   "documents": [
     {
       "uid": "PIONANR5L17BTC3004",
@@ -18,7 +18,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N52746",
       "etat": "En cours",
-      "statut": "Commission mixte paritaire"
+      "statut": "Commission mixte paritaire",
+      "depositaire": "Pierre Cazeneuve (EPR)"
     },
     {
       "uid": "PIONANR5L17B2989",
@@ -39,7 +40,8 @@
       ],
       "dossier_uid": "DLR5L17N54575",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Éric Michoux (UDR)"
     },
     {
       "uid": "PIONANR5L17B2967",
@@ -61,7 +63,8 @@
       ],
       "dossier_uid": "DLR5L17N54554",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Jérôme End (DR)"
     },
     {
       "uid": "PIONANR5L17B2968",
@@ -83,7 +86,8 @@
       ],
       "dossier_uid": "DLR5L17N54555",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Thomas Portes (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17B2972",
@@ -104,7 +108,8 @@
       ],
       "dossier_uid": "DLR5L17N54559",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Marie-José Allemand (SOC)"
     },
     {
       "uid": "PIONANR5L17B2964",
@@ -123,7 +128,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54551",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Antoine Vermorel-Marques (DR)"
     },
     {
       "uid": "PIONANR5L17B2963",
@@ -142,7 +148,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54550",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Nicolas Tryzna (DR)"
     },
     {
       "uid": "PIONANR5L17B2962",
@@ -161,7 +168,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54549",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Christelle D'Intorni (UDR)"
     },
     {
       "uid": "PIONANR5L17B2971",
@@ -180,7 +188,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54558",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Tiffany Joncour (RN)"
     },
     {
       "uid": "PIONANR5L17B2952",
@@ -199,7 +208,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54539",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Jérôme End (DR)"
     },
     {
       "uid": "PIONANR5L17B2969",
@@ -220,7 +230,8 @@
       ],
       "dossier_uid": "DLR5L17N54556",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Sébastien Saint-Pasteur (SOC)"
     },
     {
       "uid": "PIONANR5L17B2966",
@@ -241,7 +252,8 @@
       ],
       "dossier_uid": "DLR5L17N54553",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Guillaume Gouffier Valente (EPR)"
     },
     {
       "uid": "PIONANR5L17B2973",
@@ -262,7 +274,8 @@
       ],
       "dossier_uid": "DLR5L17N54560",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Marcellin Nadeau (GDR)"
     },
     {
       "uid": "PIONANR5L17B2974",
@@ -283,7 +296,8 @@
       ],
       "dossier_uid": "DLR5L17N54561",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Florence Herouin-Léautey (SOC)"
     },
     {
       "uid": "PIONANR5L17B2959",
@@ -304,7 +318,8 @@
       ],
       "dossier_uid": "DLR5L17N54546",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Catherine Rimbert (RN)"
     },
     {
       "uid": "PIONANR5L17B2953",
@@ -323,7 +338,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54540",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Sébastien Huyghe (EPR)"
     },
     {
       "uid": "PIONANR5L17B2960",
@@ -344,7 +360,8 @@
       ],
       "dossier_uid": "DLR5L17N54547",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Paul Vannier (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17B2961",
@@ -363,7 +380,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54548",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Marc Chavent (UDR)"
     },
     {
       "uid": "PIONANR5L17B2958",
@@ -384,7 +402,8 @@
       ],
       "dossier_uid": "DLR5L17N54545",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Éric Pauget (DR)"
     },
     {
       "uid": "PIONANR5L17B2970",
@@ -406,7 +425,8 @@
       ],
       "dossier_uid": "DLR5L17N54557",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Pierre Meurin (RN)"
     },
     {
       "uid": "PIONANR5L17B2957",
@@ -427,7 +447,8 @@
       ],
       "dossier_uid": "DLR5L17N54544",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Élisabeth de Maistre (DR)"
     },
     {
       "uid": "PIONANR5L17B2956",
@@ -446,7 +467,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54543",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Thibault Bazin (DR)"
     },
     {
       "uid": "PIONANR5L17B2965",
@@ -465,7 +487,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54552",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Anchya Bamana (RN)"
     },
     {
       "uid": "PIONANR5L17B2950",
@@ -484,7 +507,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54537",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "François Jolivet (HOR)"
     },
     {
       "uid": "PIONANR5L17B2951",
@@ -503,7 +527,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54538",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Thibault Bazin (DR)"
     },
     {
       "uid": "PIONANR5L17B2949",
@@ -522,7 +547,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54536",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Charles Fournier (EcoS)"
     },
     {
       "uid": "PIONANR5L17B2954",
@@ -544,7 +570,8 @@
       ],
       "dossier_uid": "DLR5L17N54541",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Carlos Martens Bilongo (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17B2948",
@@ -565,7 +592,8 @@
       ],
       "dossier_uid": "DLR5L17N54535",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Harold Huwart (LIOT)"
     },
     {
       "uid": "PIONANR5L17B2955",
@@ -586,7 +614,8 @@
       ],
       "dossier_uid": "DLR5L17N54542",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Bertrand Bouyx (HOR)"
     },
     {
       "uid": "PIONANR5L17B2947",
@@ -605,7 +634,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54534",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Laurent Croizier (Dem)"
     },
     {
       "uid": "PIONANR5L17B2944",
@@ -624,7 +654,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N50970",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17BTC2938",
@@ -646,7 +677,8 @@
       ],
       "dossier_uid": "DLR5L17N54313",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Gérault Verny (UDR)"
     },
     {
       "uid": "PIONANR5L17BTC2934",
@@ -667,7 +699,8 @@
       ],
       "dossier_uid": "DLR5L17N52781",
       "etat": "En cours",
-      "statut": "2ème lecture en séance publique"
+      "statut": "2ème lecture en séance publique",
+      "depositaire": "Ayda Hadizadeh (SOC)"
     },
     {
       "uid": "PIONANR5L17BTC2940",
@@ -688,7 +721,8 @@
       ],
       "dossier_uid": "DLR5L16N49364",
       "etat": "En cours",
-      "statut": "Commission mixte paritaire"
+      "statut": "Commission mixte paritaire",
+      "depositaire": "Anne-Cécile Violland (HOR)"
     },
     {
       "uid": "PIONANR5L17B2928",
@@ -707,7 +741,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N51330",
       "etat": "En cours",
-      "statut": "2ème lecture en commission"
+      "statut": "2ème lecture en commission",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17BTC2925",
@@ -726,7 +761,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54310",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Maxime Michelet (UDR)"
     },
     {
       "uid": "PIONANR5L17BTC2926",
@@ -747,7 +783,8 @@
       ],
       "dossier_uid": "DLR5L17N54311",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Olivier Fayssat (UDR)"
     },
     {
       "uid": "PIONANR5L17B2922",
@@ -766,7 +803,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54096",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2916",
@@ -787,7 +825,8 @@
       ],
       "dossier_uid": "DLR5L17N51909",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2917",
@@ -806,7 +845,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N52746",
       "etat": "En cours",
-      "statut": "Commission mixte paritaire"
+      "statut": "Commission mixte paritaire",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17BTC2915",
@@ -825,7 +865,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N51670",
       "etat": "En cours",
-      "statut": "Autre lecture"
+      "statut": "Autre lecture",
+      "depositaire": "Philippe Vigier (Dem)"
     },
     {
       "uid": "PIONANR5L17B2919",
@@ -846,7 +887,8 @@
       ],
       "dossier_uid": "DLR5L17N53851",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2907",
@@ -865,7 +907,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N51962",
       "etat": "En cours",
-      "statut": "2ème lecture en commission"
+      "statut": "2ème lecture en commission",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2906",
@@ -886,7 +929,8 @@
       ],
       "dossier_uid": "DLR5L17N53426",
       "etat": "En cours",
-      "statut": "Commission mixte paritaire"
+      "statut": "Commission mixte paritaire",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17BTC2912",
@@ -908,7 +952,8 @@
       ],
       "dossier_uid": "DLR5L17N50548",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": "Jean-Victor Castor (GDR)"
     },
     {
       "uid": "PIONANR5L17B2901",
@@ -929,7 +974,8 @@
       ],
       "dossier_uid": "DLR5L17N54454",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Denis Fégné (SOC)"
     },
     {
       "uid": "PIONANR5L17B2900",
@@ -950,7 +996,8 @@
       ],
       "dossier_uid": "DLR5L17N54453",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Alix Fruchon (DR)"
     },
     {
       "uid": "PIONANR5L17B2902",
@@ -971,7 +1018,8 @@
       ],
       "dossier_uid": "DLR5L17N54455",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Alexandre Dufosset (RN)"
     },
     {
       "uid": "PIONANR5L17B2897",
@@ -993,7 +1041,8 @@
       ],
       "dossier_uid": "DLR5L17N54450",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Denis Fégné (SOC)"
     },
     {
       "uid": "PIONANR5L17B2895",
@@ -1014,7 +1063,8 @@
       ],
       "dossier_uid": "DLR5L17N54448",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Steevy Gustave (EcoS)"
     },
     {
       "uid": "PIONANR5L17B2891",
@@ -1035,7 +1085,8 @@
       ],
       "dossier_uid": "DLR5L17N54444",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Jean-Louis Roumégas (EcoS)"
     },
     {
       "uid": "PIONANR5L17B2889",
@@ -1056,7 +1107,8 @@
       ],
       "dossier_uid": "DLR5L17N54442",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Karen Erodi (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17B2890",
@@ -1078,7 +1130,8 @@
       ],
       "dossier_uid": "DLR5L17N54443",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Thomas Ménagé (RN)"
     },
     {
       "uid": "PIONANR5L17B2886",
@@ -1100,7 +1153,8 @@
       ],
       "dossier_uid": "DLR5L17N54439",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Sébastien Peytavie (EcoS)"
     },
     {
       "uid": "PIONANR5L17B2896",
@@ -1119,7 +1173,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54449",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Matthieu Bloch (UDR)"
     },
     {
       "uid": "PIONANR5L17B2883",
@@ -1141,7 +1196,8 @@
       ],
       "dossier_uid": "DLR5L17N54436",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Julie Laernoes (EcoS)"
     },
     {
       "uid": "PIONANR5L17B2882",
@@ -1163,7 +1219,8 @@
       ],
       "dossier_uid": "DLR5L17N53976",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2885",
@@ -1185,7 +1242,8 @@
       ],
       "dossier_uid": "DLR5L17N54438",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Xavier Breton (DR)"
     },
     {
       "uid": "PIONANR5L17B2898",
@@ -1206,7 +1264,8 @@
       ],
       "dossier_uid": "DLR5L17N54451",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Danielle Simonnet (EcoS)"
     },
     {
       "uid": "PIONANR5L17B2892",
@@ -1227,7 +1286,8 @@
       ],
       "dossier_uid": "DLR5L17N54445",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Christophe Naegelen (LIOT)"
     },
     {
       "uid": "PIONANR5L17B2893",
@@ -1246,7 +1306,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54446",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Hadrien Clouet (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17B2888",
@@ -1267,7 +1328,8 @@
       ],
       "dossier_uid": "DLR5L17N54441",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Roger Chudeau (RN)"
     },
     {
       "uid": "PIONANR5L17B2887",
@@ -1286,7 +1348,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54440",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Christelle D'Intorni (UDR)"
     },
     {
       "uid": "PIONANR5L17BTC2878",
@@ -1307,7 +1370,8 @@
       ],
       "dossier_uid": "DLR5L17N54226",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Elsa Faucillon (GDR)"
     },
     {
       "uid": "PIONANR5L17BTC2879",
@@ -1329,7 +1393,8 @@
       ],
       "dossier_uid": "DLR5L17N53401",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Mereana Reid Arbelot (GDR)"
     },
     {
       "uid": "PIONANR5L17BTC2877",
@@ -1350,7 +1415,8 @@
       ],
       "dossier_uid": "DLR5L17N53284",
       "etat": "En cours",
-      "statut": "Saisine du conseil constitutionnel"
+      "statut": "Saisine du conseil constitutionnel",
+      "depositaire": "Charles Rodwell (EPR)"
     },
     {
       "uid": "PIONANR5L17BTC2866",
@@ -1369,7 +1435,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54248",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Frédéric Maillot (GDR)"
     },
     {
       "uid": "PIONANR5L17BTC2872",
@@ -1388,7 +1455,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N52977",
       "etat": "En cours",
-      "statut": "2ème lecture en commission"
+      "statut": "2ème lecture en commission",
+      "depositaire": "Aurélie Trouvé (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17BTC2856",
@@ -1412,7 +1480,8 @@
       ],
       "dossier_uid": "DLR5L17N53530",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": "Marie-Noëlle Battistel (SOC)"
     },
     {
       "uid": "PIONANR5L17BTC2864",
@@ -1433,7 +1502,8 @@
       ],
       "dossier_uid": "DLR5L17N53359",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Emmanuel Maurel (GDR)"
     },
     {
       "uid": "PIONANR5L17BTC2862",
@@ -1454,7 +1524,8 @@
       ],
       "dossier_uid": "DLR5L17N54229",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Soumya Bourouaha (GDR)"
     },
     {
       "uid": "PIONANR5L17B2855",
@@ -1473,7 +1544,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N53846",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2853",
@@ -1495,7 +1567,8 @@
       ],
       "dossier_uid": "DLR5L17N52781",
       "etat": "En cours",
-      "statut": "2ème lecture en séance publique"
+      "statut": "2ème lecture en séance publique",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2852",
@@ -1517,7 +1590,8 @@
       ],
       "dossier_uid": "DLR5L17N53276",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2848",
@@ -1538,7 +1612,8 @@
       ],
       "dossier_uid": "DLR5L17N53818",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2849",
@@ -1560,7 +1635,8 @@
       ],
       "dossier_uid": "DLR5L17N54057",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2851",
@@ -1582,7 +1658,8 @@
       ],
       "dossier_uid": "DLR5L17N53886",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17BTC2838",
@@ -1603,7 +1680,8 @@
       ],
       "dossier_uid": "DLR5L17N51775",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": "Graziella Melchior (EPR)"
     },
     {
       "uid": "PIONANR5L17BTC2837",
@@ -1622,7 +1700,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L16N49263",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": "Elie Califer (SOC)"
     },
     {
       "uid": "PIONANR5L17BTC2839",
@@ -1644,7 +1723,8 @@
       ],
       "dossier_uid": "DLR5L17N54148",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Benoît Biteau (EcoS)"
     },
     {
       "uid": "PIONANR5L17BTC2840",
@@ -1665,7 +1745,8 @@
       ],
       "dossier_uid": "DLR5L17N53159",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": "Jean-Luc Warsmann (LIOT)"
     },
     {
       "uid": "PIONANR5L17BTC2835",
@@ -1686,7 +1767,8 @@
       ],
       "dossier_uid": "DLR5L17N54227",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Violette Spillebout (EPR)"
     },
     {
       "uid": "PIONANR5L17BTC2842",
@@ -1707,7 +1789,8 @@
       ],
       "dossier_uid": "DLR5L17N51955",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": "Julien Brugerolles (GDR)"
     },
     {
       "uid": "PIONANR5L17B2833",
@@ -1729,7 +1812,8 @@
       ],
       "dossier_uid": "DLR5L17N54368",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Kévin Mauvieux (RN)"
     },
     {
       "uid": "PIONANR5L17B2832",
@@ -1751,7 +1835,8 @@
       ],
       "dossier_uid": "DLR5L17N54367",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Michel Guiniot (RN)"
     },
     {
       "uid": "PIONANR5L17B2834",
@@ -1772,7 +1857,8 @@
       ],
       "dossier_uid": "DLR5L17N54369",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Delphine Batho (EcoS)"
     },
     {
       "uid": "PIONANR5L17B2830",
@@ -1791,7 +1877,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54365",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Véronique Besse (NI)"
     },
     {
       "uid": "PIONANR5L17B2829",
@@ -1810,7 +1897,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54364",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Alexandra Martin (Alpes-Maritimes) (DR)"
     },
     {
       "uid": "PIONANR5L17B2831",
@@ -1829,7 +1917,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54366",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Thomas Ménagé (RN)"
     },
     {
       "uid": "PIONANR5L17B2826",
@@ -1851,7 +1940,8 @@
       ],
       "dossier_uid": "DLR5L17N54361",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "René Lioret (RN)"
     },
     {
       "uid": "PIONANR5L17B2827",
@@ -1870,7 +1960,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54362",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Sandrine Dogor-Such (RN)"
     },
     {
       "uid": "PIONANR5L17B2828",
@@ -1889,7 +1980,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54363",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Roger Chudeau (RN)"
     },
     {
       "uid": "PIONANR5L17B2825",
@@ -1910,7 +2002,8 @@
       ],
       "dossier_uid": "DLR5L17N54360",
       "etat": "Terminé",
-      "statut": "Retrait de l'initiative"
+      "statut": "Retrait de l'initiative",
+      "depositaire": "Christophe Naegelen (LIOT)"
     },
     {
       "uid": "PIONANR5L17B2821",
@@ -1932,7 +2025,8 @@
       ],
       "dossier_uid": "DLR5L17N54356",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Mereana Reid Arbelot (GDR)"
     },
     {
       "uid": "PIONANR5L17B2822",
@@ -1951,7 +2045,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54357",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Bérenger Cernon (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17B2824",
@@ -1973,7 +2068,8 @@
       ],
       "dossier_uid": "DLR5L17N54359",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Erwan Balanant (Dem)"
     },
     {
       "uid": "PIONANR5L17BTC2814",
@@ -1992,7 +2088,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N52517",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": "Jean-Luc Warsmann (LIOT)"
     },
     {
       "uid": "PIONANR5L17B2817",
@@ -2013,7 +2110,8 @@
       ],
       "dossier_uid": "DLR5L17N53284",
       "etat": "En cours",
-      "statut": "Saisine du conseil constitutionnel"
+      "statut": "Saisine du conseil constitutionnel",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17BTC2815",
@@ -2034,7 +2132,8 @@
       ],
       "dossier_uid": "DLR5L17N54014",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Michel Castellani (LIOT)"
     },
     {
       "uid": "PIONANR5L17BTC2816",
@@ -2055,7 +2154,8 @@
       ],
       "dossier_uid": "DLR5L17N54144",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Valérie Létard (LIOT)"
     },
     {
       "uid": "PIONANR5L17BTC2812",
@@ -2076,7 +2176,8 @@
       ],
       "dossier_uid": "DLR5L17N51791",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": "Stéphane Viry (LIOT)"
     },
     {
       "uid": "PIONANR5L17BTC2810",
@@ -2095,7 +2196,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N52767",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": "Max Mathiasin (LIOT)"
     },
     {
       "uid": "PIONANR5L17BTC2808",
@@ -2114,7 +2216,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54149",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Constance de Pélichy (LIOT)"
     },
     {
       "uid": "PIONANR5L17BTC2806",
@@ -2133,7 +2236,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N53357",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": "Christophe Naegelen (LIOT)"
     },
     {
       "uid": "PIONANR5L17BTC2807",
@@ -2154,7 +2258,8 @@
       ],
       "dossier_uid": "DLR5L17N52104",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": "Philippe Gosselin (DR)"
     },
     {
       "uid": "PIONANR5L17B2804",
@@ -2175,7 +2280,8 @@
       ],
       "dossier_uid": "DLR5L17N52104",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2803",
@@ -2196,7 +2302,8 @@
       ],
       "dossier_uid": "DLR5L17N50548",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17BTC2795",
@@ -2217,7 +2324,8 @@
       ],
       "dossier_uid": "DLR5L17N53879",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Florent Boudié (EPR)"
     },
     {
       "uid": "PIONANR5L17BTC2796",
@@ -2238,7 +2346,8 @@
       ],
       "dossier_uid": "DLR5L17N53878",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Florent Boudié (EPR)"
     },
     {
       "uid": "PIONANR5L17BTC2797",
@@ -2262,7 +2371,8 @@
       ],
       "dossier_uid": "DLR5L17N51732",
       "etat": "En cours",
-      "statut": "Commission mixte paritaire"
+      "statut": "Commission mixte paritaire",
+      "depositaire": "Lionel Duparay (DR)"
     },
     {
       "uid": "PIONANR5L17B2790",
@@ -2284,7 +2394,8 @@
       ],
       "dossier_uid": "DLR5L17N54314",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Éric Michoux (UDR)"
     },
     {
       "uid": "PIONANR5L17B2779",
@@ -2305,7 +2416,8 @@
       ],
       "dossier_uid": "DLR5L17N54303",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Nicolas Thierry (EcoS)"
     },
     {
       "uid": "PIONANR5L17B2778",
@@ -2327,7 +2439,8 @@
       ],
       "dossier_uid": "DLR5L17N54302",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Richard Ramos (Dem)"
     },
     {
       "uid": "PIONANR5L17B2780",
@@ -2349,7 +2462,8 @@
       ],
       "dossier_uid": "DLR5L17N54304",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Boris Vallaud (SOC)"
     },
     {
       "uid": "PIONANR5L17B2776",
@@ -2368,7 +2482,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54300",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Christophe Naegelen (LIOT)"
     },
     {
       "uid": "PIONANR5L17B2777",
@@ -2389,7 +2504,8 @@
       ],
       "dossier_uid": "DLR5L17N54301",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Christophe Naegelen (LIOT)"
     },
     {
       "uid": "PIONANR5L17B2781",
@@ -2410,7 +2526,8 @@
       ],
       "dossier_uid": "DLR5L17N54305",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Nathalie Colin-Oesterlé (HOR)"
     },
     {
       "uid": "PIONANR5L17B2784",
@@ -2432,7 +2549,8 @@
       ],
       "dossier_uid": "DLR5L17N54308",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Sophie Ricourt Vaginay (UDR)"
     },
     {
       "uid": "PIONANR5L17B2773",
@@ -2451,7 +2569,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N51670",
       "etat": "En cours",
-      "statut": "Autre lecture"
+      "statut": "Autre lecture",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2774",
@@ -2472,7 +2591,8 @@
       ],
       "dossier_uid": "DLR5L17N54298",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Marianne Maximi (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17B2785",
@@ -2494,7 +2614,8 @@
       ],
       "dossier_uid": "DLR5L17N54309",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Bartolomé Lenoir (UDR)"
     },
     {
       "uid": "PIONANR5L17B2775",
@@ -2513,7 +2634,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54299",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Agnès Firmin Le Bodo (HOR)"
     },
     {
       "uid": "PIONANR5L17B2782",
@@ -2532,7 +2654,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54306",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Paul Midy (EPR)"
     },
     {
       "uid": "PIONANR5L17B2783",
@@ -2554,7 +2677,8 @@
       ],
       "dossier_uid": "DLR5L17N54307",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "René Pilato (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17B2787",
@@ -2575,7 +2699,8 @@
       ],
       "dossier_uid": "DLR5L17N54311",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Olivier Fayssat (UDR)"
     },
     {
       "uid": "PIONANR5L17B2786",
@@ -2594,7 +2719,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54310",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Maxime Michelet (UDR)"
     },
     {
       "uid": "PIONANR5L17B2791",
@@ -2615,7 +2741,8 @@
       ],
       "dossier_uid": "DLR5L17N54315",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Charles Alloncle (UDR)"
     },
     {
       "uid": "PIONANR5L17B2788",
@@ -2637,7 +2764,8 @@
       ],
       "dossier_uid": "DLR5L17N54312",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Vincent Trébuchet (UDR)"
     },
     {
       "uid": "PIONANR5L17B2789",
@@ -2659,7 +2787,8 @@
       ],
       "dossier_uid": "DLR5L17N54313",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Gérault Verny (UDR)"
     },
     {
       "uid": "PIONANR5L17B2792",
@@ -2680,7 +2809,8 @@
       ],
       "dossier_uid": "DLR5L17N54316",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Sandrine Nosbé (LFI-NFP)"
     },
     {
       "uid": "PIONANR5L17B2793",
@@ -2702,7 +2832,8 @@
       ],
       "dossier_uid": "DLR5L17N54317",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Gérard Leseul (SOC)"
     },
     {
       "uid": "PIONANR5L17B2770",
@@ -2721,7 +2852,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N53427",
       "etat": "En cours",
-      "statut": "2ème lecture en commission"
+      "statut": "2ème lecture en commission",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2766",
@@ -2740,7 +2872,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54285",
       "etat": "Déposé",
-      "statut": "Texte déposé"
+      "statut": "Texte déposé",
+      "depositaire": "Éric Michoux (UDR)"
     },
     {
       "uid": "PIONANR5L17BTC2755",
@@ -2761,7 +2894,8 @@
       ],
       "dossier_uid": "DLR5L17N54006",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Jean-Pierre Vigier (DR)"
     },
     {
       "uid": "PIONANR5L17BTC2754",
@@ -2782,7 +2916,8 @@
       ],
       "dossier_uid": "DLR5L17N50444",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": "Vincent Thiébaut (HOR)"
     },
     {
       "uid": "PIONANR5L17BTC2756",
@@ -2803,7 +2938,8 @@
       ],
       "dossier_uid": "DLR5L17N52498",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Laurent Mazaury (LIOT)"
     },
     {
       "uid": "PIONANR5L17BTC2751",
@@ -2824,7 +2960,8 @@
       ],
       "dossier_uid": "DLR5L17N50686",
       "etat": "En cours",
-      "statut": "Autre lecture"
+      "statut": "Autre lecture",
+      "depositaire": "Julie Delpech (EPR)"
     },
     {
       "uid": "PIONANR5L17BTC2753",
@@ -2843,7 +2980,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N52958",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Annie Vidal (EPR)"
     },
     {
       "uid": "PIONANR5L17BTC2757",
@@ -2864,7 +3002,8 @@
       ],
       "dossier_uid": "DLR5L17N53429",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Natalia Pouzyreff (EPR)"
     },
     {
       "uid": "PIONANR5L17BTC2761",
@@ -2883,7 +3022,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N52743",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": "Laure Miller (EPR)"
     },
     {
       "uid": "PIONANR5L17B2752",
@@ -2905,7 +3045,8 @@
       ],
       "dossier_uid": "DLR5L17N53936",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2764",
@@ -2924,7 +3065,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N53956",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17B2743",
@@ -2945,7 +3087,8 @@
       ],
       "dossier_uid": "DLR5L17N53540",
       "etat": "En cours",
-      "statut": "1ère lecture en commission"
+      "statut": "1ère lecture en commission",
+      "depositaire": null
     },
     {
       "uid": "PIONANR5L17BTC2733",
@@ -2964,7 +3107,8 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N53192",
       "etat": "Terminé",
-      "statut": "Texte adopté"
+      "statut": "Texte adopté",
+      "depositaire": "Vincent Caure (EPR)"
     },
     {
       "uid": "PIONANR5L17B2742",
@@ -2985,7 +3129,8 @@
       ],
       "dossier_uid": "DLR5L17N52585",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique"
+      "statut": "1ère lecture en séance publique",
+      "depositaire": null
     }
   ],
   "rejets": {}
