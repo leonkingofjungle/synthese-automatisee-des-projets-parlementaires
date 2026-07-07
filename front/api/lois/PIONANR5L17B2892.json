@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2892",
+  "titre": "Moderniser et rééquilibrer le fonctionnement du titre-restaurant",
+  "date_depot": "2026-06-09",
+  "categorie": "Économie et travail",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2892.html",
+  "accroche": "Cette loi rend les titres-restaurant entièrement numériques, autorise l'achat de tous produits alimentaires et encadre mieux les frais pour les commerçants.",
+  "points": [
+    "Rend les titres-restaurant uniquement numériques à partir du 1er janvier 2028, supprimant ainsi le format papier.",
+    "Autorise l'utilisation des titres pour acheter tout produit alimentaire, sauf quelques exceptions définies par un décret (décision du gouvernement).",
+    "Interdit aux émetteurs de titres d'offrir des remises aux employeurs et impose la transparence des commissions.",
+    "Permet aux salariés de donner leurs titres-restaurant à des associations nationales d'aide alimentaire."
+  ],
+  "quality_score": 91,
+  "quality_flags": [
+    "deformation"
+  ],
+  "dossier_uid": "DLR5L17N54445",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Christophe Naegelen (LIOT)"
+}

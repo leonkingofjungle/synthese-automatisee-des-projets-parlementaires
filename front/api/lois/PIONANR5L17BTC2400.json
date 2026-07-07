@@ -1,0 +1,20 @@
+{
+  "uid": "PIONANR5L17BTC2400",
+  "titre": "Améliorer la protection des commerçants grâce à l’usage d’outils numériques",
+  "date_depot": "2026-01-28",
+  "categorie": "Numérique",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2400.html",
+  "accroche": "Cette proposition de loi permet aux commerçants d'utiliser des algorithmes sur la vidéoprotection pour prévenir les vols dans leurs établissements.",
+  "points": [
+    "Lance une expérimentation jusqu'au 31 décembre 2031 pour utiliser des algorithmes sur la vidéoprotection contre le vol.",
+    "Permet de détecter les risques de vol en temps réel mais interdit toute reconnaissance faciale ou biométrique.",
+    "Impone des règles strictes sur la conception des algorithmes et leur contrôle humain constant.",
+    "Oblige les commerçants à informer le public et à obtenir une autorisation préfectorale pour l'usage de ces systèmes."
+  ],
+  "quality_score": null,
+  "quality_flags": [],
+  "dossier_uid": "DLR5L17N51720",
+  "etat": "En cours",
+  "statut": "1ère lecture en séance publique",
+  "depositaire": "Paul Midy (EPR)"
+}

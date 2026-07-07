@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2790",
+  "titre": "Rétablir l’exemption d’impôt pour les primes accordées par l’obtention de la médaille honorifique du travail",
+  "date_depot": "2026-05-12",
+  "categorie": "Économie et travail",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2790.html",
+  "accroche": "Cette proposition de loi vise à rétablir l'exonération d'impôt sur le revenu pour les primes reçues avec la médaille d'honneur du travail.",
+  "points": [
+    "Rétablit l'exonération d'impôt sur le revenu pour les primes versées lors de l'attribution de la médaille du travail.",
+    "Annule la suppression de cette exemption qui avait été mise en place dans la loi de finances pour 2026.",
+    "Empêche cette prime de faire perdre des aides ou changer de tranche d'imposition pour ses bénéficiaires.",
+    "Modifie l'article 157 du code général des impôts pour aligner cette prime sur d'autres distinctions honorifiques."
+  ],
+  "quality_score": 60,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse"
+  ],
+  "dossier_uid": "DLR5L17N54314",
+  "etat": "En cours",
+  "statut": "1ère lecture en commission",
+  "depositaire": "Éric Michoux (UDR)"
+}

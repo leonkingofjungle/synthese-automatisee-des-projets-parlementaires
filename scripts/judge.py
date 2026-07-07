@@ -1,8 +1,9 @@
 """LLM-as-a-judge (Claude) : vérification extractive du résumé, score 0-100.
 
 Chaque affirmation du résumé (accroche + points) reçoit un verdict ok/deforme/invente
-avec citation, plus deux checks (catégorie, neutralité). Le judge n'est jamais une
-dépendance dure : indisponible ou réponse inexploitable -> None (publication sans score).
+avec citation, plus trois checks (catégorie, neutralité, correction du français). Le
+judge n'est jamais une dépendance dure : indisponible ou réponse inexploitable -> None
+(publication sans score).
 """
 
 import json
@@ -38,7 +39,8 @@ Pour CHAQUE affirmation, dans l'ordre, produis un objet avec :
 
 Indique aussi :
 - "categorie_correcte" : true si la catégorie attribuée correspond au thème principal du texte source ;
-- "neutralite" : true si aucune affirmation ne contient de qualificatif favorable ou défavorable absent du texte source.
+- "neutralite" : true si aucune affirmation ne contient de qualificatif favorable ou défavorable absent du texte source ;
+- "correction" : true si l'accroche et les points clés sont rédigés dans un français correct, sans faute d'orthographe, de grammaire ou de conjugaison.
 
 Ne corrige rien, ne reformule rien : signale uniquement les problèmes. Réponds uniquement avec l'objet JSON demandé."""
 
@@ -60,8 +62,9 @@ JUDGE_RESPONSE_SCHEMA = {
         },
         "categorie_correcte": {"type": "boolean"},
         "neutralite": {"type": "boolean"},
+        "correction": {"type": "boolean"},
     },
-    "required": ["verdicts", "categorie_correcte", "neutralite"],
+    "required": ["verdicts", "categorie_correcte", "neutralite", "correction"],
     "additionalProperties": False,
 }
 
@@ -115,11 +118,12 @@ def judge_summary(text: str, summary: dict) -> dict | None:
 
 
 def compute_score(judgment: dict) -> tuple[int, list[str]]:
-    """Score 0-100 dérivé des verdicts par affirmation + checks catégorie/neutralité."""
+    """Score 0-100 dérivé des verdicts par affirmation + checks catégorie/neutralité/correction."""
     verdicts = [v.get("verdict") for v in judgment.get("verdicts", [])]
     points = [VERDICT_POINTS.get(v, 0.0) for v in verdicts]
     points.append(1.0 if judgment.get("categorie_correcte") else 0.0)
     points.append(1.0 if judgment.get("neutralite") else 0.0)
+    points.append(1.0 if judgment.get("correction") else 0.0)
     score = round(100 * sum(points) / len(points))
 
     flags = []
@@ -131,6 +135,8 @@ def compute_score(judgment: dict) -> tuple[int, list[str]]:
         flags.append("categorie_incertaine")
     if not judgment.get("neutralite"):
         flags.append("neutralite_douteuse")
+    if not judgment.get("correction"):
+        flags.append("faute_francais")
     if judgment.get("texte_tronque"):
         flags.append("texte_tronque")
     return score, flags

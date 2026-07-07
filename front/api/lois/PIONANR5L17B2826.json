@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2826",
+  "titre": "Abroger le titre de séjour pour soins",
+  "date_depot": "2026-05-26",
+  "categorie": "Santé",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2826.html",
+  "accroche": "Cette proposition de loi prévoit d'abroger le titre de séjour pour soins, qui permet aux étrangers malades de vivre en France pour leur traitement médical.",
+  "points": [
+    "Abroge les articles L. 425-9 et L. 425-10 du Code de l'entrée et du séjour des étrangers.",
+    "Dénonce l'augmentation significative des demandes, avec 181 089 enregistrées entre 2017 et 2022.",
+    "Met en avant les coûts élevés pour la sécurité sociale, atteignant 90 millions d'euros par an, et des traitements onéreux.",
+    "Permet aux étrangers ayant déjà un titre de séjour pour soins d'obtenir un renouvellement pluriannuel sous conditions."
+  ],
+  "quality_score": 77,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse"
+  ],
+  "dossier_uid": "DLR5L17N54361",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "René Lioret (RN)"
+}

@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2832",
+  "titre": "Rétablir les particularités du scrutin majoritaire pour les communes de moins de 1 000 habitants",
+  "date_depot": "2026-05-26",
+  "categorie": "Institutions et démocratie",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2832.html",
+  "accroche": "Cette loi rétablit le scrutin majoritaire à deux tours pour les élections municipales des communes de moins de 1 000 habitants, annulant une réforme récente.",
+  "points": [
+    "Rétablit le mode de scrutin majoritaire pour les élections municipales dans les communes de moins de 1 000 habitants.",
+    "Précise que le premier tour exige la majorité absolue et 25 % des inscrits, puis la majorité relative au second tour.",
+    "Autorise les candidats à se présenter seuls ou en groupe, et réintroduit le panachage des votes.",
+    "Modifie le Code Général des Collectivités Territoriales pour clarifier l'élection des adjoints dans ces petites communes."
+  ],
+  "quality_score": 77,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse"
+  ],
+  "dossier_uid": "DLR5L17N54367",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Michel Guiniot (RN)"
+}

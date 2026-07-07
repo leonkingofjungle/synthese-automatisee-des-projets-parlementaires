@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17BTC2879",
+  "titre": "Pour l’égalité d’accès aux soins des ressortissants ultramarins en hexagone",
+  "date_depot": "2026-06-04",
+  "categorie": "Santé",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2879.html",
+  "accroche": "Cette proposition de loi assure une meilleure égalité d'accès aux soins pour les habitants des Outre-mer lors de leurs séjours en métropole.",
+  "points": [
+    "Permet aux Ultramarins d'obtenir une carte d'identification électronique pour leurs soins en métropole.",
+    "Garantit la délivrance de cette carte, par leur organisme, dans les mêmes conditions qu'en métropole.",
+    "Étend la protection de la santé aux personnes changeant de régime social entre Outre-mer et métropole.",
+    "Finance ces nouvelles mesures en augmentant la taxe sur le tabac pour l'État et la sécurité sociale."
+  ],
+  "quality_score": 60,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse"
+  ],
+  "dossier_uid": "DLR5L17N53401",
+  "etat": "En cours",
+  "statut": "1ère lecture en commission",
+  "depositaire": "Mereana Reid Arbelot (GDR)"
+}

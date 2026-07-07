@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2752",
+  "titre": "Visant à lutter contre l'entrisme islamiste en France",
+  "date_depot": "2026-05-06",
+  "categorie": "Justice et sécurité",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2752.html",
+  "accroche": "Ce texte renforce la lutte contre l'entrisme islamiste, en créant de nouvelles infractions, contrôlant lieux de culte et finançant moins les groupes séparatistes.",
+  "points": [
+    "Crée un nouveau délit, puni de 5 ans de prison, pour l'atteinte grave aux principes de la République via un organisme.",
+    "Élargit les motifs de dissolution administrative des associations et interdit les actions de groupes étrangers en France.",
+    "Exige l'accord conforme du préfet pour la création ou l'extension d'un lieu de culte en cas de menace grave.",
+    "Permet de geler les fonds de groupes menaçant l'ordre public et de récupérer les subventions des associations défaillantes."
+  ],
+  "quality_score": 69,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse"
+  ],
+  "dossier_uid": "DLR5L17N53936",
+  "etat": "En cours",
+  "statut": "1ère lecture en commission",
+  "depositaire": null
+}

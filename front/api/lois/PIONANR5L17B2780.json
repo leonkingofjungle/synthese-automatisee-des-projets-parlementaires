@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2780",
+  "titre": "La taxation des bénéfices exceptionnels liés aux crises",
+  "date_depot": "2026-05-12",
+  "categorie": "Économie et travail",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2780.html",
+  "accroche": "Cette proposition de loi taxe les bénéfices exceptionnels des grandes entreprises énergétiques pour aider les Français touchés par la hausse des prix du carburant.",
+  "points": [
+    "Crée une nouvelle taxe sur les profits exceptionnels des grandes entreprises du secteur de l'énergie.",
+    "Cible les entreprises avec plus de 750 millions d'euros de chiffre d'affaires et des profits 1,2 fois supérieurs à la moyenne.",
+    "Applique des taux d'imposition progressifs de 20%, 30% et 40% sur ces bénéfices supplémentaires.",
+    "Limite les déductions comptables et les salaires très élevés pour éviter l'optimisation fiscale jusqu'au 31 décembre 2029."
+  ],
+  "quality_score": 77,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse"
+  ],
+  "dossier_uid": "DLR5L17N54304",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Boris Vallaud (SOC)"
+}

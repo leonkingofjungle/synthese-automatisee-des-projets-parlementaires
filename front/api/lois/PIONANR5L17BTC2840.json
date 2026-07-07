@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17BTC2840",
+  "titre": "Visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire",
+  "date_depot": "2026-05-27",
+  "categorie": "Justice et sécurité",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2840.html",
+  "accroche": "Cette loi renforce les moyens de l'Agence de recouvrement des avoirs saisis et facilite la gestion des biens confisqués, dont les crypto-actifs.",
+  "points": [
+    "Oblige les officiers à informer les victimes sur les biens liés à l'infraction et la possibilité d'indemnisation sur les avoirs confisqués.",
+    "Permet de détruire les biens meubles saisis de faible valeur si leur conservation est trop coûteuse, jusqu'à 1500 euros.",
+    "Autorise l'Agence à vendre les crypto-actifs saisis avant le jugement, consignant le produit en attendant la décision finale.",
+    "Fixe un délai de 60 jours maximum pour le paiement des experts judiciaires, avec des intérêts en cas de retard."
+  ],
+  "quality_score": 91,
+  "quality_flags": [
+    "deformation"
+  ],
+  "dossier_uid": "DLR5L17N53159",
+  "etat": "En cours",
+  "statut": "1ère lecture en séance publique",
+  "depositaire": "Jean-Luc Warsmann (LIOT)"
+}

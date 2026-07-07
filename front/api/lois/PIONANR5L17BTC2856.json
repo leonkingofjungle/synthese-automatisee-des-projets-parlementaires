@@ -1,0 +1,25 @@
+{
+  "uid": "PIONANR5L17BTC2856",
+  "titre": "Relance des investissements dans l'hydroélectricité",
+  "date_depot": "2026-06-02",
+  "categorie": "Environnement et énergie",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2856.html",
+  "accroche": "Cette loi relance les investissements dans l'hydroélectricité et attribue de nouveaux droits pour une meilleure transition énergétique.",
+  "points": [
+    "Met fin aux anciens contrats de concession et attribue de nouveaux droits réels de 70 ans aux exploitants.",
+    "Crée un nouveau régime d'autorisation pour l'hydroélectricité, modifiant ainsi le code de l'énergie.",
+    "Définit de nouvelles redevances pour l'utilisation de l'eau dans la production d'électricité hydraulique.",
+    "Oblige Électricité de France à mettre à disposition des tiers 40% de sa capacité hydroélectrique virtuelle."
+  ],
+  "quality_score": 54,
+  "quality_flags": [
+    "invention",
+    "deformation",
+    "neutralite_douteuse",
+    "texte_tronque"
+  ],
+  "dossier_uid": "DLR5L17N53530",
+  "etat": "Terminé",
+  "statut": "Texte adopté",
+  "depositaire": "Marie-Noëlle Battistel (SOC)"
+}

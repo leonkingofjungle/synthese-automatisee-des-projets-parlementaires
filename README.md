@@ -46,15 +46,16 @@ chaque point clé un par un, et attribue à chacun l'une de ces trois notes :
 | Approximative | 0,4 | Elle s'appuie sur un passage réel, mais l'exagère ou l'extrapole |
 | Inventée | 0 | Elle ne se retrouve nulle part dans le texte officiel |
 
-Deux contrôles supplémentaires s'ajoutent, notés eux aussi 1 ou 0 point : la catégorie
-attribuée correspond-elle à l'une des rubriques définies, et le ton reste-t-il neutre
-(aucune opinion ni qualificatif absent du texte source) ?
+Trois contrôles supplémentaires s'ajoutent, notés eux aussi 1 ou 0 point : la catégorie
+attribuée correspond-elle à l'une des rubriques définies, le ton reste-t-il neutre
+(aucune opinion ni qualificatif absent du texte source), et le résumé est-il rédigé
+dans un français correct (orthographe, grammaire) ?
 
 Le score sur 100 est la moyenne de tous ces points (accroche, points clés, catégorie,
-neutralité). En dessous de 60/100, le résumé est jugé trop peu fiable et n'est pas
-publié (3 tentatives, puis le document est abandonné). Entre 60 et 85, il est publié
-avec un badge de prudence. Sans clé Claude, tout fonctionne quand même : les résumés
-sont simplement publiés sans score.
+neutralité, correction). En dessous de 60/100, le résumé est jugé trop peu fiable et
+n'est pas publié (3 tentatives, puis le document est abandonné). Entre 60 et 85, il
+est publié avec un badge de prudence. Sans clé Claude, tout fonctionne quand même :
+les résumés sont simplement publiés sans score.
 
 ## Structure du projet
 
@@ -74,9 +75,23 @@ front/                    site statique, aucune dépendance, aucun build
   app.js                  logique et rendu partagés entre les pages
   styles.css              toute la mise en forme
   resumes.json            données générées par le script, lues par le site
+  api/                    API statique (voir plus bas)
 
 .github/workflows/        déploiement automatique (voir plus bas)
 ```
+
+## API
+
+En plus de `resumes.json` (utilisé par le site), le script génère une API statique :
+de simples fichiers JSON à des URLs prévisibles, sans serveur applicatif.
+
+| URL | Contenu |
+| --- | --- |
+| `/api/lois.json` | Toutes les propositions (index complet) |
+| `/api/lois/{uid}.json` | Une seule proposition (ex. `/api/lois/PIONANR5L17BTC3004.json`) |
+
+Régénérée en entier à chaque run ; un document qui ne serait plus publié voit son
+fichier supprimé.
 
 ## Installation
 
@@ -168,9 +183,9 @@ The verifier (a Claude model independent from the one that writes summaries) rev
 | Approximate | 0.4 | It is based on a real passage but exaggerates or extrapolates it |
 | Invented | 0 | The information does not appear anywhere in the official text |
 
-Two additional checks are added, also scored 1 or 0: does the assigned category match one of the defined sections, and is the tone neutral (no opinion or added qualifiers not present in the source text)?
+Three additional checks are added, also scored 1 or 0: does the assigned category match one of the defined sections, is the tone neutral (no opinion or added qualifiers not present in the source text), and is the summary written in correct French (spelling, grammar)?
 
-The final score (out of 100) is the average of all these components (hook, key points, category, neutrality). Below 60/100, the summary is considered too unreliable and is not published (3 attempts, then the document is discarded). Between 60 and 85, it is published with a caution badge. Without a Claude key, everything still works, but summaries are published without a score.
+The final score (out of 100) is the average of all these components (hook, key points, category, neutrality, correctness). Below 60/100, the summary is considered too unreliable and is not published (3 attempts, then the document is discarded). Between 60 and 85, it is published with a caution badge. Without a Claude key, everything still works, but summaries are published without a score.
 
 ## Project structure
 
@@ -190,10 +205,23 @@ front/                    static site, no dependencies, no build step
   app.js                  shared logic and rendering across pages
   styles.css              all styling
   resumes.json            generated dataset consumed by the site
+  api/                    static API (see below)
 
 .github/workflows/        automatic deployment (see below)
 ```
 
+## API
+
+In addition to `resumes.json` (used by the site), the script generates a static API:
+plain JSON files at predictable URLs, no application server involved.
+
+| URL | Content |
+| --- | --- |
+| `/api/lois.json` | Every bill (full index) |
+| `/api/lois/{uid}.json` | A single bill (e.g. `/api/lois/PIONANR5L17BTC3004.json`) |
+
+Fully regenerated on every run; a document that is no longer published has its
+file removed.
 
 ## Installation
 

@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2902",
+  "titre": "Renforcer le contrôle de l’interdiction de détention d’un animal par la création d’un fichier national automatisé des auteurs d’infractions envers les animaux",
+  "date_depot": "2026-06-09",
+  "categorie": "Société et solidarités",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2902.html",
+  "accroche": "Un fichier national automatisé est créé pour mieux contrôler les interdictions de détention d'animaux par les personnes condamnées pour maltraitance.",
+  "points": [
+    "Crée un fichier judiciaire national automatisé pour recenser les personnes condamnées à une interdiction de détenir un animal.",
+    "Oblige l'acquéreur d'un animal de compagnie à prouver l'absence d'inscription au fichier avant toute cession.",
+    "Punit d'une amende de 3 500 euros la cession d'un animal sans contrôle préalable ou à une personne fichée.",
+    "Modifie le code de procédure pénale et le code rural afin d'inscrire ces nouvelles obligations."
+  ],
+  "quality_score": 91,
+  "quality_flags": [
+    "deformation"
+  ],
+  "dossier_uid": "DLR5L17N54455",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Alexandre Dufosset (RN)"
+}

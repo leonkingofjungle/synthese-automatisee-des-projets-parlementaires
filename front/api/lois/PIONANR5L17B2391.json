@@ -1,0 +1,20 @@
+{
+  "uid": "PIONANR5L17B2391",
+  "titre": "Autoriser l’accès aux bases de données génétiques récréatives pour l’identification d’auteurs de crimes et de délits graves",
+  "date_depot": "2026-01-27",
+  "categorie": "Justice et sécurité",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2391.html",
+  "accroche": "Cette proposition de loi permettrait d'utiliser les bases de données génétiques privées pour identifier les auteurs de crimes graves, sous conditions strictes.",
+  "points": [
+    "Autorise la comparaison des empreintes génétiques d'inconnus avec des bases de données privées.",
+    "Limite cet accès aux enquêtes sur les homicides, viols, enlèvements, séquestrations et actes de terrorisme.",
+    "Subordonne l'accès à une autorisation écrite et motivée d'un juge, après échec des autres recherches.",
+    "Exige que les données soient détruites après identification et ne servent pas à analyser la santé."
+  ],
+  "quality_score": null,
+  "quality_flags": [],
+  "dossier_uid": "DLR5L17N53678",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Virginie Duby-Muller (DR)"
+}

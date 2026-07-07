@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2882",
+  "titre": "Visant à garantir la neutralité financière du don d'organes par les vivants",
+  "date_depot": "2026-06-09",
+  "categorie": "Santé",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2882.html",
+  "accroche": "Cette loi assure que le don d'organes par des personnes vivantes n'entraîne aucun frais pour le donneur, favorisant ainsi la solidarité.",
+  "points": [
+    "Étend la prise en charge des frais liés au don d'organes et de tissus humains par l'assurance maladie.",
+    "Exempte les donneurs de nombreux frais médicaux et hospitaliers, incluant les dépassements d'honoraires.",
+    "Garantit aux donneurs une autorisation d'absence de leur employeur pour les examens et interventions.",
+    "Interdit aux assureurs de demander si une personne a fait un don d'organes, de cellules ou de gamètes."
+  ],
+  "quality_score": 77,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse"
+  ],
+  "dossier_uid": "DLR5L17N53976",
+  "etat": "En cours",
+  "statut": "1ère lecture en séance publique",
+  "depositaire": null
+}

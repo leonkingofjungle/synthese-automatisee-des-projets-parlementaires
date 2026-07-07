@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17BTC2842",
+  "titre": "Mesures de justice en faveur de la revalorisation des pensions de retraites agricoles",
+  "date_depot": "2026-05-27",
+  "categorie": "Société et solidarités",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2842.html",
+  "accroche": "Cette proposition de loi vise à revaloriser les pensions de retraite des agriculteurs non-salariés en modifiant plusieurs règles de calcul.",
+  "points": [
+    "Supprime les réductions de pensions complémentaires pour tous les non-salariés agricoles.",
+    "Étend les compléments de points de retraite aux conjoints collaborateurs et aides familiaux agricoles.",
+    "Exclut la pension de réversion et la bonification pour enfants du calcul du plafond des pensions.",
+    "Crée une taxe additionnelle de 0,1% sur les transactions financières pour financer les retraites agricoles."
+  ],
+  "quality_score": 91,
+  "quality_flags": [
+    "deformation"
+  ],
+  "dossier_uid": "DLR5L17N51955",
+  "etat": "En cours",
+  "statut": "1ère lecture en séance publique",
+  "depositaire": "Julien Brugerolles (GDR)"
+}

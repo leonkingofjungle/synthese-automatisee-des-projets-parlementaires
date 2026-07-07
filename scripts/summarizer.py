@@ -49,6 +49,7 @@ Règles de langage :
 - Recopie tels quels les chiffres, montants, dates et durées : ce sont souvent les informations les plus utiles.
 - Décris ce que le texte fait, de façon factuelle et neutre, sans opinion ni qualificatif favorable ou défavorable absent du texte.
 - Appuie-toi uniquement sur le contenu du document fourni, sans inventer ni supposer de contexte extérieur.
+- N'invente aucun mot, terme, chiffre, date ou nom propre qui ne figure pas dans le texte source. En cas de doute sur la formulation exacte d'un dispositif, reste plus général plutôt que d'inventer un mot ou un détail inexact.
 - {INJECTION_GUARD}
 - Si le texte est de nature constitutionnelle ou organique, ou modifie un code existant, dis-le simplement dans un des points.
 

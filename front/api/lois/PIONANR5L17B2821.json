@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2821",
+  "titre": "Le calcul de la pension civile des fonctionnaires de l’État dans les collectivités du Pacifique",
+  "date_depot": "2026-05-26",
+  "categorie": "International et outre-mer",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2821.html",
+  "accroche": "Cette loi vise à garantir aux fonctionnaires de l'État dans les collectivités du Pacifique une pension de retraite juste, en corrigeant l'assiette de calcul.",
+  "points": [
+    "Modifie une loi de 1974 pour que le coefficient de majoration s'applique avant les déductions pour pension civile.",
+    "Intègre la part majorée du salaire, soumise à retenues, dans le calcul des pensions des fonctionnaires des territoires.",
+    "Interdit le cumul de cette pension avec l'indemnité temporaire de retraite (ITR), mise en place en 1952.",
+    "Abroge la cotisation volontaire de retraite (CVR) et conserve les points déjà acquis par les fonctionnaires."
+  ],
+  "quality_score": 77,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse"
+  ],
+  "dossier_uid": "DLR5L17N54356",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Mereana Reid Arbelot (GDR)"
+}

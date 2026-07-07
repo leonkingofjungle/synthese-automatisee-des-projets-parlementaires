@@ -29,6 +29,10 @@ Flux :
   -> dépositaire (auteur principal, GET /acteurs/{auteurPrincipalUid}) :
        résolu une seule fois par entrée (contrairement à etat/statut, ne change pas)
   -> affichage console + écriture (atomique) de front/resumes.json (lu par le front statique)
+  -> API statique en plus (voir write_api) : front/api/lois.json (index) et
+     front/api/lois/{uid}.json (un fichier par document), pour des consommateurs
+     externes — de simples fichiers JSON déployés avec le reste de front/, pas de
+     serveur applicatif
 
 Deux optimisations de vitesse :
   - cache : les uid déjà résumés dans front/resumes.json ne sont pas retraités
@@ -56,6 +60,8 @@ from summarizer import SOURCE_END, SOURCE_START, summarize_pdf, summarize_text
 API_BASE = "https://parlement.tricoteuses.fr"
 AN_OPENDATA_HTML = "https://www.assemblee-nationale.fr/dyn/opendata/{uid}.html"
 OUTPUT_PATH = Path(__file__).parent.parent / "front" / "resumes.json"
+API_DIR = Path(__file__).parent.parent / "front" / "api"
+API_LOIS_DIR = API_DIR / "lois"
 
 
 def get_recent_documents(type_codes: str, chambre: str, limit: int) -> list[dict]:
@@ -328,6 +334,37 @@ def process_document(doc: dict) -> dict:
         return {"uid": uid, "titre": titre, "status": "error", "error": str(e)}
 
 
+def write_api(results: list[dict]) -> None:
+    """API statique en plus de resumes.json : un index (front/api/lois.json) et un
+    fichier par document (front/api/lois/{uid}.json). Purement additive : le front
+    (index.html/loi.html/...) continue de lire resumes.json, cette API sert à des
+    consommateurs externes qui veulent une URL par proposition plutôt qu'un seul
+    gros fichier. Toujours régénérée en entier (statut/score peuvent changer), et
+    les fichiers d'un document qui n'est plus publié sont supprimés.
+    """
+    API_LOIS_DIR.mkdir(parents=True, exist_ok=True)
+
+    index_tmp = API_DIR / "lois.json.tmp"
+    index_tmp.write_text(json.dumps({
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "count": len(results),
+        "documents": results,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(index_tmp, API_DIR / "lois.json")
+
+    current_uids = set()
+    for doc in results:
+        uid = doc["uid"]
+        current_uids.add(uid)
+        doc_tmp = API_LOIS_DIR / f"{uid}.json.tmp"
+        doc_tmp.write_text(json.dumps(doc, ensure_ascii=False, indent=2), encoding="utf-8")
+        os.replace(doc_tmp, API_LOIS_DIR / f"{uid}.json")
+
+    for existing in API_LOIS_DIR.glob("*.json"):
+        if existing.stem not in current_uids:
+            existing.unlink()
+
+
 def main():
     parser = argparse.ArgumentParser(description="Résumés des N dernières lois, générés avec Gemini.")
     parser.add_argument("--limit", type=int, default=10, help="Nombre de lois à résumer (défaut 10)")
@@ -419,8 +456,12 @@ def main():
     tmp_path = OUTPUT_PATH.with_name(OUTPUT_PATH.name + ".tmp")
     tmp_path.write_text(payload, encoding="utf-8")
     os.replace(tmp_path, OUTPUT_PATH)
+
+    write_api(results)
+
     print(f"{len(results)} résumé(s) au total ({cached_count} en cache, {len(fresh_results)} générés) "
           f"écrit(s) dans {OUTPUT_PATH} / {skipped} ignoré(s) / {rejected} rejeté(s) / {errors} erreur(s).")
+    print(f"API statique : {API_DIR / 'lois.json'} + {len(results)} fichier(s) dans {API_LOIS_DIR}/")
 
 
 if __name__ == "__main__":

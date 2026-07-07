@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17BTC2796",
+  "titre": "Rendre publics les avis du Conseil d’État sur les projets et sur les propositions de loi",
+  "date_depot": "2026-05-13",
+  "categorie": "Institutions et démocratie",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2796.html",
+  "accroche": "La loi rendra publics les avis du Conseil d'État sur les nouvelles lois, dès leur discussion au Parlement.",
+  "points": [
+    "Rend obligatoire la publication des avis du Conseil d'État concernant les propositions de loi.",
+    "Précise que ces avis sont rendus publics dès l'inscription à l'ordre du jour.",
+    "Concerne les propositions de loi examinées par l'assemblée concernée ou la commission.",
+    "Modifie une ordonnance de 1958 sur le fonctionnement des assemblées parlementaires."
+  ],
+  "quality_score": 91,
+  "quality_flags": [
+    "deformation"
+  ],
+  "dossier_uid": "DLR5L17N53878",
+  "etat": "En cours",
+  "statut": "1ère lecture en commission",
+  "depositaire": "Florent Boudié (EPR)"
+}

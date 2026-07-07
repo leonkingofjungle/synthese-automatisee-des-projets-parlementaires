@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17BTC2864",
+  "titre": "Relative à l'instauration d'une présomption d'exploitation des contenus culturels par les fournisseurs d'intelligence artificielle",
+  "date_depot": "2026-06-02",
+  "categorie": "Numérique",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2864.html",
+  "accroche": "Cette loi instaure une nouvelle règle : un fournisseur d'intelligence artificielle est supposé avoir utilisé des œuvres culturelles protégées.",
+  "points": [
+    "Modifie le code de la propriété intellectuelle pour y ajouter une nouvelle règle importante.",
+    "Crée une présomption d'utilisation pour les œuvres protégées par un droit d'auteur ou voisin.",
+    "Supposera qu'un fournisseur d'IA a utilisé du contenu si un indice le rend vraisemblable.",
+    "Applique cette présomption aux affaires civiles déjà en cours, sauf si un jugement définitif existe."
+  ],
+  "quality_score": 91,
+  "quality_flags": [
+    "deformation"
+  ],
+  "dossier_uid": "DLR5L17N53359",
+  "etat": "En cours",
+  "statut": "1ère lecture en commission",
+  "depositaire": "Emmanuel Maurel (GDR)"
+}

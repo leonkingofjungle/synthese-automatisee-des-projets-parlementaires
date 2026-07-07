@@ -1,0 +1,20 @@
+{
+  "uid": "PIONANR5L17B2592",
+  "titre": "Adapter la loi n° 2000-1208 du 13 décembre 2000 relative à la solidarité et au renouvellement urbains à la réalité des territoires ruraux",
+  "date_depot": "2026-03-27",
+  "categorie": "Logement et urbanisme",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2592.html",
+  "accroche": "La loi SRU est adaptée pour exempter des communes de plus de 15 000 habitants, mais peu denses, de leurs obligations de logement social.",
+  "points": [
+    "Introduit un critère de densité de population pour déterminer l'application des obligations de la loi SRU.",
+    "Exclut les communes de plus de 15 000 habitants ayant moins de 300 habitants par km² des obligations SRU.",
+    "Empêche l'assujettissement de communes voisines rurales aux obligations SRU par effet de seuil démographique.",
+    "Modifie l'article L. 302-5 du code de la construction et de l'habitation, ajoutant le critère de densité."
+  ],
+  "quality_score": null,
+  "quality_flags": [],
+  "dossier_uid": "DLR5L17N54003",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Corentin Le Fur (DR)"
+}

@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2742",
+  "titre": "Visant à rationaliser l'organisation des scrutins en cas de candidature unique au second tour",
+  "date_depot": "2026-04-29",
+  "categorie": "Institutions et démocratie",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2742.html",
+  "accroche": "Ce texte modifie le code électoral pour simplifier l'organisation des élections quand un seul candidat se présente au second tour.",
+  "points": [
+    "Simplifie les règles d'organisation des scrutins lorsque seul un candidat est en lice au second tour.",
+    "Modifie plusieurs articles du code électoral concernant la tenue des élections.",
+    "Supprime l'obligation de tenir un second tour si un candidat unique est désigné d'emblée.",
+    "Met à jour des références légales dans certains articles du code électoral concernant les lois."
+  ],
+  "quality_score": 91,
+  "quality_flags": [
+    "deformation"
+  ],
+  "dossier_uid": "DLR5L17N52585",
+  "etat": "En cours",
+  "statut": "1ère lecture en séance publique",
+  "depositaire": null
+}

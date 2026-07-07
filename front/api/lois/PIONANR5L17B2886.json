@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2886",
+  "titre": "Garantir l'exercice des droits fondamentaux des personnes handicapées",
+  "date_depot": "2026-06-09",
+  "categorie": "Société et solidarités",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2886.html",
+  "accroche": "Cette loi vise à garantir les droits fondamentaux des personnes handicapées en réformant leur définition, leur autonomie et l'accessibilité des logements.",
+  "points": [
+    "Modifie la définition du handicap dans le code de l'action sociale et des familles pour inclure les barrières environnementales.",
+    "Reconnaît le droit à l'autodétermination et à la vie autonome des personnes handicapées dans le code social.",
+    "Supprime la liste des emplois difficilement accessibles aux personnes handicapées pour favoriser leur inclusion professionnelle.",
+    "Rétablit l'obligation de 100% de logements neufs accessibles dans les bâtiments collectifs, modifiant le code du logement."
+  ],
+  "quality_score": 69,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse"
+  ],
+  "dossier_uid": "DLR5L17N54439",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Sébastien Peytavie (EcoS)"
+}

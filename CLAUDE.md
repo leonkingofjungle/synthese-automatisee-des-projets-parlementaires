@@ -65,7 +65,8 @@ There is no test suite, linter, or build step in this repo.
 - **LLM judge (quality score)**: after each Gemini summary, a Claude model
   (`JUDGE_MODEL` in `scripts/clients.py`, `CLAUDE_API_KEY` optional in `.env`)
   verifies each claim of the summary extractively against the source text
-  (`ok`/`deforme`/`invente` + category/neutrality checks). A 0–100 `quality_score`
+  (`ok`/`deforme`/`invente` + category/neutrality/correction checks, the last one
+  checking for French spelling and grammar mistakes). A 0–100 `quality_score`
   is derived (ok=1.0, deforme=0.4, invente=0.0). Publication policy: score < 60 →
   **not published** (status `rejected`; a `rejets` counter persisted at the top
   level of `resumes.json` caps retries at `MAX_REJECT_ATTEMPTS=3`, after which the
@@ -115,3 +116,9 @@ There is no test suite, linter, or build step in this repo.
   documents the required var). Clients are created lazily in `scripts/clients.py`
   (`lru_cache`), so the modules import fine without the key — it is only required
   when a Gemini call is actually made.
+- **Static API** (`write_api` in `pdf_summarizer_mcp.py`): additive to `resumes.json`,
+  written every run — `front/api/lois.json` (index: `generated_at`, `count`,
+  `documents`) and one `front/api/lois/{uid}.json` per document (the raw entry, same
+  shape as an item of `resumes.json`'s `documents` array). Plain static files, no
+  server; deployed like the rest of `front/`. Fully regenerated each run, and per-uid
+  files for documents no longer in `results` (abandoned/rejected) are deleted.
