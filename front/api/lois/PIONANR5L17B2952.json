@@ -4,14 +4,14 @@
   "date_depot": "2026-06-23",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2952.html",
-  "accroche": "Cette proposition de loi permet d'exonérer d'impôt les loyers de la résidence principale pour aider à payer le coût d'un EHPAD.",
+  "accroche": "Cette loi exempterait d'impôt les revenus locatifs de la résidence principale pour financer les frais d'EHPAD, sous conditions de ressources.",
   "points": [
-    "Exempte les loyers de la résidence principale des personnes en EHPAD, s'ils servent à couvrir les frais d'hébergement.",
-    "Applique cette exonération seulement si le total des revenus mensuels ne suffit pas à payer l'EHPAD.",
-    "Précise qu'un décret (texte du gouvernement) fixera le montant maximal des mensualités prises en compte par région.",
-    "Compense la perte de recettes pour l'État en créant une taxe additionnelle sur l'accise sur les tabacs."
+    "Exonérerait les revenus locatifs de l'ancienne résidence principale des personnes en EHPAD, sous certaines conditions.",
+    "Permettrait cette exonération si les revenus totaux ne couvriraient pas toutes les mensualités de l'établissement.",
+    "Un décret (texte d'application) fixerait le montant maximal des mensualités pris en compte par région.",
+    "Compenserait la perte de recettes publiques par une taxe additionnelle sur les tabacs pour l'État."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54539",
   "etat": "Déposé",

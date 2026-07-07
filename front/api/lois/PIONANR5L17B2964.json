@@ -4,14 +4,14 @@
   "date_depot": "2026-06-23",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2964.html",
-  "accroche": "Cette proposition crée un fichier de détection des prédateurs sexuels sur mineurs pour les éloigner plus vite grâce à des ordonnances de protection.",
+  "accroche": "Cette proposition créerait un fichier national pour identifier les risques d'atteintes sexuelles sur mineurs et permettrait d'éloigner les prédateurs plus rapidement.",
   "points": [
-    "Crée un fichier national pour agréger les informations sur les risques d'atteintes sexuelles sur mineurs.",
-    "Génère une alerte automatique au procureur dès deux sources distinctes sur une même personne en 10 ans.",
-    "Étend l'ordonnance de protection provisoire aux tiers dangereux pour interdire les contacts avec les mineurs.",
-    "Oblige les procureurs à coordonner leurs informations avant de classer sans suite une infraction sexuelle sur mineur."
+    "Modifierait le code de procédure pénale pour créer un fichier de détection des risques d'atteintes sexuelles sur mineurs.",
+    "Permettrait aux procureurs d'agir en 72 heures en ordonnant l'éloignement des personnes dangereuses pour les enfants.",
+    "Obligerait les procureurs à justifier par écrit toute décision de ne pas intervenir après une alerte du fichier.",
+    "Renforcerait la coordination entre les parquets avant tout classement sans suite pour une agression sexuelle sur mineur."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54551",
   "etat": "Déposé",

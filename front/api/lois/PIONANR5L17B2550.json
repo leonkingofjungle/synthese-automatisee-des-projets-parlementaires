@@ -4,12 +4,12 @@
   "date_depot": "2026-03-03",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2550.html",
-  "accroche": "Cette proposition de loi instaure une définition légale et des mesures concrètes pour limiter les aliments ultratransformés et protéger la santé.",
+  "accroche": "Cette proposition de loi définirait les aliments ultratransformés et prendrait des mesures concrètes pour limiter leur consommation en France.",
   "points": [
-    "Crée une définition légale des aliments ultratransformés, en s'appuyant sur la classification scientifique NOVA.",
-    "Rend obligatoire un étiquetage frontal sur les emballages pour clairement indiquer le niveau d'ultratransformation.",
-    "Interdit la publicité pour ces aliments sur les services numériques si une part importante est mineure et près des écoles.",
-    "Oblige les cantines publiques (écoles, hôpitaux) à proposer au moins 80% de repas sans aliments ultratransformés."
+    "Définirait légalement les aliments ultratransformés afin de mieux comprendre leur impact sur la santé publique.",
+    "Imposerait un étiquetage clair sur le devant des emballages, montrant le niveau d'ultratransformation des produits.",
+    "Interdirait la publicité pour ces aliments sur les plateformes numériques très utilisées par les jeunes et autour des écoles.",
+    "Obligerait la restauration collective publique à proposer des repas avec 80% d'aliments non transformés et sans distributeurs automatiques."
   ],
   "quality_score": null,
   "quality_flags": [],

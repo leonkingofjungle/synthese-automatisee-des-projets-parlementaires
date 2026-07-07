@@ -4,17 +4,15 @@
   "date_depot": "2026-06-23",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2948.html",
-  "accroche": "Désormais, un juge peut privilégier le maintien de l'emploi et de l'activité industrielle, même si une offre est légèrement moins rentable pour la liquidation.",
+  "accroche": "Cette proposition permettrait aux juges de prioriser le maintien de l'emploi et de l'activité industrielle lors des liquidations judiciaires, même face à une offre d'achat plus élevée.",
   "points": [
-    "Permet aux juges de choisir une offre de rachat moins coûteuse si elle maintient au moins 250 emplois.",
-    "Limite l'écart financier entre l'offre retenue et la meilleure offre à 15% pour préserver les créanciers.",
-    "Porte cet écart maximal à 33% pour les activités industrielles jugées essentielles aux intérêts de la Nation.",
-    "Nécessite l'avis du ministère public et permet un recours en appel dans un délai de dix jours."
+    "Permettrait aux juges de choisir une offre moins coûteuse si elle assure le maintien durable d'au moins 250 emplois industriels ou de services.",
+    "Limiterait l'écart entre l'offre retenue et la plus élevée à 15 % du montant net revenant à la liquidation de l'entreprise.",
+    "Porterait cet écart maximal à 33 % pour les activités industrielles jugées essentielles aux intérêts de la Nation.",
+    "Modifierait le Code de commerce en assurant des garanties, comme l'avis du ministère public et un droit d'appel."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54535",
   "etat": "Déposé",
   "statut": "Texte déposé",

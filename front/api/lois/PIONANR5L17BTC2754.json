@@ -4,17 +4,15 @@
   "date_depot": "2026-05-06",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2754.html",
-  "accroche": "Cette loi améliore la protection et l'accompagnement des parents d'enfants atteints de maladies graves ou d'un handicap.",
+  "accroche": "Cette proposition de loi améliorerait la protection et l'accompagnement des parents d'enfants atteints de cancer, de maladie grave ou de handicap, offrant de nouveaux soutiens.",
   "points": [
-    "Permet le remboursement anticipé de l'assurance vie et mutuelle pour les parents d'un enfant gravement malade ou handicapé.",
-    "Renforce la protection des parents salariés avec un enfant gravement malade, notamment contre le licenciement post-congé.",
-    "Prend en charge les frais d'hébergement des parents hospitalisés et les soins paramédicaux pour les mineurs malades.",
-    "Accélère les demandes d'aides pour enfants handicapés et crée un crédit d'impôt pour les aidants familiaux."
+    "Les établissements de santé pourraient héberger les parents d'enfants hospitalisés, dont les frais seraient pris en charge par l'assurance maladie.",
+    "L'assurance maladie couvrirait les séances d'ergothérapie, psychomotricité, diététique et bilans neuropsychologiques pour les mineurs malades.",
+    "Les décisions pour l'allocation enfant handicapé et la carte mobilité inclusion seraient accélérées, avec des avances automatiques.",
+    "La protection contre le licenciement des parents salariés serait renforcée et un crédit d'impôt pour la suppléance des aidants serait créé."
   ],
-  "quality_score": 74,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N50444",
   "etat": "Terminé",
   "statut": "Texte adopté",

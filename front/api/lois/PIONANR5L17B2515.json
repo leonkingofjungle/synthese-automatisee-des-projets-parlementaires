@@ -4,11 +4,12 @@
   "date_depot": "2026-02-19",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2515.html",
-  "accroche": "Cette proposition de loi permet aux candidats aux élections de se faire rembourser leurs frais d'expert-comptable pour leur compte de campagne.",
+  "accroche": "Cette proposition de loi permettrait aux candidats aux élections d'obtenir un remboursement de l'État pour leurs frais d'expert-comptable.",
   "points": [
-    "Rend les frais d'expert-comptable éligibles au remboursement par l'État pour les candidats.",
-    "Permet à la Commission des comptes de campagne de limiter ces remboursements en cas d'excès.",
-    "Modifie le code électoral pour intégrer ces nouvelles règles sur les dépenses de campagne."
+    "Modifierait le code électoral afin d'y ajouter de nouvelles règles concernant le financement des campagnes.",
+    "Inscrirait les dépenses d'expertise comptable dans les comptes de campagne des candidats, pour plus de clarté.",
+    "Rendrait ces frais éligibles à un remboursement forfaitaire par l'État, pour aider les candidats.",
+    "Permettrait à la Commission nationale des comptes de campagne de limiter les montants jugés excessifs."
   ],
   "quality_score": null,
   "quality_flags": [],

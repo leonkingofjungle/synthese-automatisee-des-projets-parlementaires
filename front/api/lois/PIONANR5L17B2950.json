@@ -4,14 +4,14 @@
   "date_depot": "2026-06-23",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2950.html",
-  "accroche": "Ce texte oblige employeurs et associations à écarter le personnel ou bénévole visé par une enquête pour infraction sexuelle sur mineurs.",
+  "accroche": "Un procureur informerait les employeurs et associations si un membre en contact avec des enfants était visé par une enquête sexuelle.",
   "points": [
-    "Oblige le procureur à informer l'employeur quand un salarié est visé par une information judiciaire pour infraction sexuelle sur mineurs.",
-    "Force l'employeur à écarter immédiatement ce salarié de toute activité professionnelle impliquant un contact avec des mineurs.",
-    "Étend cette obligation d'information et d'éloignement aux responsables d'associations pour leurs bénévoles au contact de mineurs.",
-    "Modifie le code de procédure pénale et le code du travail pour rendre ces mesures conservatoires obligatoires."
+    "Informerait les employeurs si un salarié en contact avec des mineurs de moins de 15 ans était visé par une enquête.",
+    "Obligerait l'employeur à écarter ce salarié de tout contact avec des enfants par des mesures conservatoires pendant l'enquête judiciaire.",
+    "Étendrait ce même mécanisme d'information aux responsables associatifs concernant leurs bénévoles en contact habituel avec des mineurs.",
+    "Soumettrait les destinataires à la confidentialité de l'information et modifierait la loi sur le fonctionnement de la justice."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54537",
   "etat": "Déposé",

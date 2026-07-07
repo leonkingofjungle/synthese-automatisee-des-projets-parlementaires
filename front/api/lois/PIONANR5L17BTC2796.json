@@ -4,17 +4,15 @@
   "date_depot": "2026-05-13",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2796.html",
-  "accroche": "La loi rendra publics les avis du Conseil d'État sur les nouvelles lois, dès leur discussion au Parlement.",
+  "accroche": "Cette proposition de loi rendrait publics les avis du Conseil d'État sur les projets et propositions de loi, augmentant ainsi la transparence démocratique.",
   "points": [
-    "Rend obligatoire la publication des avis du Conseil d'État concernant les propositions de loi.",
-    "Précise que ces avis sont rendus publics dès l'inscription à l'ordre du jour.",
-    "Concerne les propositions de loi examinées par l'assemblée concernée ou la commission.",
-    "Modifie une ordonnance de 1958 sur le fonctionnement des assemblées parlementaires."
+    "Rendrait publics les avis du Conseil d'État sur les propositions et projets de loi.",
+    "Obligerait cette publication au plus tard quand le texte est inscrit à l'ordre du jour.",
+    "Modifierait l'ordonnance (texte de loi non voté par le Parlement) sur le fonctionnement des assemblées.",
+    "Permettrait aux citoyens de connaître l'avis du Conseil d'État avant le débat parlementaire."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53878",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

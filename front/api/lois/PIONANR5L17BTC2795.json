@@ -4,17 +4,15 @@
   "date_depot": "2026-05-13",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2795.html",
-  "accroche": "Cette loi organique oblige le gouvernement à transmettre au Parlement les avis du Conseil d'État sur les projets de loi.",
+  "accroche": "Les avis du Conseil d'État sur les projets de loi seraient transmis au Parlement pour une meilleure information des députés.",
   "points": [
-    "Modifie une loi organique (qui précise la Constitution) datant du 15 avril 2009 sur les projets de loi.",
-    "Crée un nouvel article obligeant à déposer les avis du Conseil d’État au Parlement pour tout projet de loi.",
-    "Précise que ces avis doivent être transmis à la première assemblée saisie en même temps que les projets de loi.",
-    "Étend certaines règles de non-applicabilité existantes au nouvel article concernant la transmission des avis."
+    "Obligerait à déposer les avis du Conseil d'État (conseiller du gouvernement) au Parlement.",
+    "Déposerait ces avis sur le bureau de la première assemblée (Sénat ou Assemblée) saisie.",
+    "Modifierait une loi organique (qui précise l'organisation des pouvoirs publics) de 2009.",
+    "Exclurait cette règle pour certains cas, comme le prévoit l'article 11 de la loi."
   ],
-  "quality_score": 83,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53879",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

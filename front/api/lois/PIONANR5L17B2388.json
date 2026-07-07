@@ -4,12 +4,12 @@
   "date_depot": "2026-01-27",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2388.html",
-  "accroche": "Cette loi permet à l'assurance maladie de rembourser certains dispositifs médicaux reconditionnés, comme des orthèses, pour réduire les coûts et le gaspillage.",
+  "accroche": "Cette proposition de loi permettrait à l'assurance maladie de rembourser les dispositifs médicaux déjà utilisés et remis en bon état.",
   "points": [
-    "Définit les dispositifs médicaux remis en bon état d'usage comme des aides techniques ayant respecté des normes strictes.",
-    "Permet l'inscription de ces dispositifs reconditionnés sur la liste des produits remboursables par la Sécurité sociale.",
-    "Exige que ces dispositifs respectent des conditions précises de sécurité, performance et traçabilité pour être remboursés.",
-    "Prévoit un rapport du Gouvernement au Parlement sous deux ans pour évaluer l'impact économique et sanitaire."
+    "Établirait une définition juridique claire des dispositifs médicaux remis en bon état d'usage.",
+    "Permettrait à l'assurance maladie de rembourser les dispositifs médicaux réemployés, sous conditions de sécurité.",
+    "Exigerait la publication d'un arrêté fixant les catégories de dispositifs remboursables et leurs conditions.",
+    "Modifierait le code de la sécurité sociale pour inscrire ces dispositifs sur la liste des produits remboursables."
   ],
   "quality_score": null,
   "quality_flags": [],

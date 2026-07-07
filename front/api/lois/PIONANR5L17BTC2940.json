@@ -4,17 +4,15 @@
   "date_depot": "2026-06-17",
   "categorie": "Environnement et énergie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2940.html",
-  "accroche": "Cette loi s'attaque à la mode ultra-express en définissant ses pratiques, en imposant des pénalités financières aux marques et en interdisant sa promotion.",
+  "accroche": "Cette proposition de loi s'attaquerait à la mode ultra-express pour réduire l'impact environnemental de l'industrie textile.",
   "points": [
-    "Définit et encadre la \"mode ultra-express\", qui correspond à la mise sur le marché d'un grand nombre de nouveaux produits.",
-    "Fixe des pénalités financières par produit, de 0,25 euro en 2026 à 10 euros en 2030, pour la mode ultra-express.",
-    "Interdit la publicité pour les produits de mode ultra-express et l'utilisation du mot \"gratuit\" dans leur promotion.",
-    "Prohibe aux influenceurs de promouvoir la mode ultra-express, avec des amendes pouvant atteindre 100 000 euros."
+    "Définirait la mode ultra-express dans le code de l'environnement, basée sur le nombre de produits et la réparabilité.",
+    "Interdirait la publicité pour les produits de mode ultra-express et la promotion des marques concernées.",
+    "Instaurerait des pénalités financières progressives, de 25 centimes à 10 euros par produit, pour la mode ultra-express.",
+    "Obligerait l'affichage clair du lieu de fabrication et renforcerait la sensibilisation aux pratiques de consommation durable."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L16N49364",
   "etat": "En cours",
   "statut": "Commission mixte paritaire",

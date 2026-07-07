@@ -135,8 +135,9 @@ import {
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 /* Nombre de propositions affichées par rubrique au repos ; le reste est rendu
-   (pour que la recherche le couvre) mais masqué, la page rubrique affiche tout. */
-const FULL_ROWS = 5;
+   (pour que la recherche le couvre) mais masqué. La page rubrique (categorie.html)
+   en montre davantage, avec son propre bouton "Afficher plus" au-delà de 50. */
+const FULL_ROWS = 3;
 
 function renderUneItem(doc, isLead) {
   const a = baseLink(doc, `une-item ${isLead ? "une-lead" : ""}`);

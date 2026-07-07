@@ -4,12 +4,12 @@
   "date_depot": "2026-01-27",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2391.html",
-  "accroche": "Cette proposition de loi permettrait d'utiliser les bases de données génétiques privées pour identifier les auteurs de crimes graves, sous conditions strictes.",
+  "accroche": "Cette proposition de loi permettrait aux enquêteurs d'accéder aux bases de données génétiques privées pour identifier les auteurs de crimes graves non résolus.",
   "points": [
-    "Autorise la comparaison des empreintes génétiques d'inconnus avec des bases de données privées.",
-    "Limite cet accès aux enquêtes sur les homicides, viols, enlèvements, séquestrations et actes de terrorisme.",
-    "Subordonne l'accès à une autorisation écrite et motivée d'un juge, après échec des autres recherches.",
-    "Exige que les données soient détruites après identification et ne servent pas à analyser la santé."
+    "Autoriserait l'accès aux bases de données génétiques récréatives pour résoudre des crimes très graves, tels que les homicides.",
+    "Permettrait ce type de recherche uniquement si les autres méthodes d'identification génétique ont échoué.",
+    "Exigerait l'autorisation écrite d'un juge pour chaque utilisation et préciserait la durée de cette autorisation.",
+    "Prohiberait toute analyse des données génétiques concernant la santé ou les origines des personnes identifiées."
   ],
   "quality_score": null,
   "quality_flags": [],

@@ -4,14 +4,14 @@
   "date_depot": "2026-06-09",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2893.html",
-  "accroche": "Cette loi garantirait l'indexation automatique des salaires du secteur privé et public sur l'inflation pour une vie digne.",
+  "accroche": "Cette loi indexerait automatiquement les salaires de tous les travailleurs sur l'inflation, y compris ceux du public, pour protéger leur pouvoir d'achat.",
   "points": [
-    "Indexe automatiquement les salaires du secteur privé et public sur l'inflation, deux fois par an.",
-    "Oblige les branches professionnelles à revaloriser leurs salaires minimums pour qu'ils soient au-dessus du SMIC.",
-    "Revalorise le salaire minimum des apprentis et des jeunes en professionnalisation pour combattre leur précarité.",
-    "Crée une caisse financée par les grandes entreprises pour aider les petites entreprises à payer ces hausses de salaires."
+    "Les salaires du secteur privé seraient indexés deux fois par an sur l'inflation, protégeant le pouvoir d'achat jusqu'à deux fois le salaire médian.",
+    "Étendrait cette indexation automatique des salaires à tous les fonctionnaires et agents contractuels de la Fonction publique.",
+    "Obligerait les branches professionnelles à revaloriser les salaires minima pour qu'ils ne soient jamais inférieurs au SMIC.",
+    "Créerait une caisse de péréquation financée par les grandes entreprises pour aider les petites à payer les hausses de salaires."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54446",
   "etat": "Déposé",

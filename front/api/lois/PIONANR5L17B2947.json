@@ -4,14 +4,14 @@
   "date_depot": "2026-06-23",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2947.html",
-  "accroche": "Cette proposition de loi fixe à 24 élèves le nombre maximum d'élèves par classe, de la maternelle à la troisième au collège.",
+  "accroche": "Cette proposition de loi limiterait les effectifs de toutes les classes, de la maternelle à la troisième, à un maximum de 24 élèves, pour une meilleure réussite scolaire.",
   "points": [
-    "Modifie le code de l'éducation pour fixer à 24 élèves maximum les classes du primaire public et privé sous contrat.",
-    "Ajoute également au code de l'éducation cette limite de 24 élèves pour toutes les classes des collèges.",
-    "Cherche à favoriser l'égalité des chances et à améliorer le climat scolaire pour tous les élèves.",
-    "Compense les dépenses de l'État par la création d'une taxe supplémentaire sur l'accise du tabac."
+    "Limiterait à 24 élèves les classes des écoles maternelles et élémentaires, publiques et privées sous contrat.",
+    "Fixerait également à 24 élèves l'effectif maximal pour toutes les classes des collèges, publics et privés.",
+    "Engloberait toutes les classes, de la petite section de maternelle jusqu'à la troisième du collège.",
+    "Financerait les coûts de cette réforme par une nouvelle taxe additionnelle sur les produits du tabac."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54534",
   "etat": "Déposé",

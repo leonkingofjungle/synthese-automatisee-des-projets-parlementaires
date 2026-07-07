@@ -4,18 +4,15 @@
   "date_depot": "2026-06-10",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2912.html",
-  "accroche": "Ce texte organise la sortie des collections publiques françaises de restes humains et moulages kali'nas et arawaks pour des funérailles en Guyane.",
+  "accroche": "Cette proposition de loi permettrait de restituer des restes humains et des moulages de défunts Kali'nas et Arawaks, conservés au Muséum, à la Guyane pour des funérailles.",
   "points": [
-    "Autorise la sortie de restes humains et moulages kali’nas et arawaks des collections publiques nationales.",
-    "Concerne spécifiquement les éléments conservés jusqu'à présent au Muséum national d’histoire naturelle.",
-    "Prévoit que ces restes humains seront remis pour des funérailles sur le territoire de la commune d’Iracoubo en Guyane.",
-    "Déroge au principe d’inaliénabilité des collections publiques, avec un délai maximal de six mois."
+    "Retirerait des collections nationales du Muséum des restes humains Kali'nas et Arawaks, incluant des squelettes et des moulages.",
+    "Permettrait la sortie de ces éléments des collections pour qu'ils soient rendus à la commune d’Iracoubo en Guyane.",
+    "Dérogerait ainsi au principe d’inaliénabilité (impossibilité de vendre ou donner) des collections publiques françaises.",
+    "Exigerait que cette sortie des collections soit effective au plus tard six mois après l'entrée en vigueur de la loi."
   ],
-  "quality_score": 77,
-  "quality_flags": [
-    "invention",
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N50548",
   "etat": "Terminé",
   "statut": "Texte adopté",

@@ -4,17 +4,15 @@
   "date_depot": "2026-04-29",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2742.html",
-  "accroche": "Ce texte modifie le code électoral pour simplifier l'organisation des élections quand un seul candidat se présente au second tour.",
+  "accroche": "Cette proposition de loi simplifierait l'organisation des élections si un seul candidat se présentait au second tour, évitant un scrutin inutile.",
   "points": [
-    "Simplifie les règles d'organisation des scrutins lorsque seul un candidat est en lice au second tour.",
-    "Modifie plusieurs articles du code électoral concernant la tenue des élections.",
-    "Supprime l'obligation de tenir un second tour si un candidat unique est désigné d'emblée.",
-    "Met à jour des références légales dans certains articles du code électoral concernant les lois."
+    "Modifierait le code électoral pour rationaliser l'organisation de certains scrutins.",
+    "Permettrait d'annuler un second tour si un seul candidat restait en lice.",
+    "Appliquerait cette règle aux élections nécessitant un binôme unique au second tour.",
+    "Éviterait un scrutin inutile en cas d'absence d'adversaire pour le candidat unique."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N52585",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

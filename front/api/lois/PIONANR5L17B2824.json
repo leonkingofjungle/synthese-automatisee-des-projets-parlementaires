@@ -4,18 +4,15 @@
   "date_depot": "2026-05-26",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2824.html",
-  "accroche": "Cette proposition de loi renforce la protection des mineurs et des travailleurs du secteur culturel face aux violences sexistes et sexuelles, et facilite les poursuites.",
+  "accroche": "Cette proposition de loi renforcerait la lutte contre les violences sexistes et sexuelles dans le milieu culturel, protégeant mieux mineurs et adultes.",
   "points": [
-    "Interdit d'employer des mineurs comme mannequins ou artistes pour des promotions adultes ou des scènes sexuellement suggestives.",
-    "Exige un contrôle strict du casier judiciaire pour toute personne en contact habituel avec des mineurs dans la culture.",
-    "Encadre les castings et rend obligatoire la description des scènes intimes dans les contrats des artistes du spectacle.",
-    "Oblige les employeurs à enquêter en interne sur les faits de harcèlement sexuel et à signaler les infractions."
+    "Interdirait la sexualisation des mineurs dans la culture et renforcerait les contrôles de leur emploi.",
+    "Encadrerait strictement les castings et rendrait obligatoires des clauses sur les scènes intimes dans les contrats.",
+    "Obligerait les employeurs à mener des enquêtes internes et à signaler les faits de harcèlement sexuel.",
+    "Étendrait l'aide juridictionnelle aux victimes et imposerait une obligation d'assistance aux agents artistiques."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation",
-    "texte_tronque"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54359",
   "etat": "Déposé",
   "statut": "Texte déposé",

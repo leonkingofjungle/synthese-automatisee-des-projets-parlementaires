@@ -4,17 +4,15 @@
   "date_depot": "2026-06-16",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2926.html",
-  "accroche": "Pour lutter contre les occupations illégales, les fournisseurs d'électricité, de gaz et d'internet devront vérifier que les occupants ont un droit légitime sur le logement.",
+  "accroche": "Cette proposition de loi rendrait obligatoire la preuve d'un droit d'occupation légitime pour souscrire aux contrats essentiels de logement.",
   "points": [
-    "Renforce le code de la consommation en obligeant les fournisseurs à vérifier le droit d'occupation légitime.",
-    "Définit plusieurs documents valides comme preuve d'occupation légitime, tels qu'un bail écrit ou un titre de propriété.",
-    "Impose aux fournisseurs de conserver ces justificatifs et punit l'utilisation de faux documents transmis.",
-    "Rend les fournisseurs responsables des préjudices si un contrat est signé sans droit, le préfet peut le suspendre."
+    "Exigerait des occupants de logements de prouver leur droit pour souscrire un contrat d'électricité, gaz ou internet.",
+    "Obligerait les fournisseurs à vérifier et conserver les documents justifiant le droit d'occupation légitime.",
+    "Rendrait les fournisseurs responsables des préjudices si un contrat est conclu illégalement avec un occupant sans titre.",
+    "Permettrait au préfet d'ordonner la suspension des contrats si des faux documents d'occupation sont identifiés."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54311",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

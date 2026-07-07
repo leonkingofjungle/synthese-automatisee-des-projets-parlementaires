@@ -4,17 +4,15 @@
   "date_depot": "2026-05-19",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2807.html",
-  "accroche": "Cette loi organique permet aux natifs de Nouvelle-Calédonie de s'inscrire sur la liste électorale pour les élections locales.",
+  "accroche": "Cette proposition de loi permettrait aux personnes nées en Nouvelle-Calédonie de voter aux élections locales, élargissant ainsi le corps électoral.",
   "points": [
-    "Étend le droit de vote aux personnes nées en Nouvelle-Calédonie pour les élections locales du congrès et des provinces.",
-    "Intègre ces natifs au corps électoral déjà existant pour les élections au congrès et aux assemblées de province.",
-    "Modifie une loi organique (loi qui complète la Constitution) de 1999 relative spécifiquement à la Nouvelle-Calédonie.",
-    "Prévoit que cette loi organique entrera en vigueur le lendemain de sa publication au Journal officiel français."
+    "Inclurait les personnes nées en Nouvelle-Calédonie dans le corps électoral pour les élections provinciales et du Congrès.",
+    "Modifierait la loi organique (loi définissant les pouvoirs publics) de 1999 relative à la Nouvelle-Calédonie.",
+    "Préciserait que ces personnes devraient également être inscrites sur la liste électorale générale au moment du scrutin.",
+    "Entrerait en vigueur le lendemain de sa publication au Journal officiel de la République française."
   ],
-  "quality_score": 83,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N52104",
   "etat": "Terminé",
   "statut": "Texte adopté",

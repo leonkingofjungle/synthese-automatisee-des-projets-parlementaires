@@ -2,19 +2,17 @@
   "uid": "PIONANR5L17B2966",
   "titre": "Dématérialiser l’état civil des bénéficiaires de la protection internationale",
   "date_depot": "2026-06-23",
-  "categorie": "Société et solidarités",
+  "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2966.html",
-  "accroche": "Le texte vise à dématérialiser l'état civil des réfugiés et autres protégés, améliorant leur parcours administratif et réduisant les délais pour l'OFPRA.",
+  "accroche": "Cette proposition de loi dématérialiserait l'état civil des bénéficiaires de la protection internationale, améliorant ainsi leur parcours administratif et réduisant les délais pour leurs documents essentiels.",
   "points": [
-    "Instaure un système entièrement numérique pour l'établissement et la conservation des actes d'état civil.",
-    "Améliore significativement le parcours administratif des usagers en réduisant les délais et les retours de courriers.",
-    "Autorise la conversion des actes d'état civil papier déjà existants en doubles numériques fiables.",
-    "Entre en vigueur au plus tard le 1er janvier 2028 et modifie le code de l'entrée et du séjour des étrangers."
+    "Dématérialiserait l'établissement et la conservation des actes d'état civil des personnes protégées par l'OFPRA.",
+    "Instaurerait un registre électronique sécurisé pour ces actes, assurant leur intégrité et confidentialité.",
+    "Réduirait les délais d'obtention de 9 mois et permettrait la délivrance de copies numériques.",
+    "Permettrait aussi de numériser les anciens actes papier et modifierait le code des étrangers."
   ],
-  "quality_score": 83,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54553",
   "etat": "Déposé",
   "statut": "Texte déposé",

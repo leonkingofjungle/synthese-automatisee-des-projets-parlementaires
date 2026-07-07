@@ -4,14 +4,14 @@
   "date_depot": "2026-05-12",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2782.html",
-  "accroche": "Les réseaux sociaux devront respecter le pluralisme des opinions, comme la télévision et la radio, sous le contrôle de l'ARCOM.",
+  "accroche": "Cette proposition de loi étendrait aux réseaux sociaux numériques les règles de respect du pluralisme des opinions, déjà applicables aux médias traditionnels.",
   "points": [
-    "Définit clairement ce qu'est un service de réseaux sociaux pour une meilleure application de cette loi.",
-    "Étend les missions de l'ARCOM (Autorité de régulation) au contrôle du respect de l'expression pluraliste sur ces plateformes.",
-    "Oblige les fournisseurs de services de réseaux sociaux à transmettre des données sur l'exposition des contenus à l'ARCOM.",
-    "Permet à l'ARCOM d'appliquer des mises en demeure et des sanctions aux fournisseurs de services de réseaux sociaux."
+    "Définirait les services de réseaux sociaux au sein de la loi de 1986 sur la liberté de communication.",
+    "Étendrait les missions de l'ARCOM (Autorité de régulation) au contrôle du respect du pluralisme sur les réseaux sociaux.",
+    "Permettrait à l'ARCOM d'appliquer des sanctions aux fournisseurs de réseaux sociaux ne respectant pas ces obligations.",
+    "Inclurait dans ce contrôle les contenus diffusés ou recommandés par les systèmes algorithmiques des réseaux sociaux."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54306",
   "etat": "Déposé",

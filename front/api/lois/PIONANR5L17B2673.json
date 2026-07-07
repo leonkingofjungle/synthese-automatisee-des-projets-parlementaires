@@ -4,12 +4,12 @@
   "date_depot": "2026-04-14",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2673.html",
-  "accroche": "Cette loi donne aux communes le pouvoir de réguler l'installation des consignes automatiques de livraison et soutient les commerces de proximité.",
+  "accroche": "Cette proposition de loi encadrerait l'installation des consignes automatiques dans les communes et introduirait une taxe pour soutenir activement les commerces de proximité.",
   "points": [
-    "Oblige les opérateurs de consignes automatiques à signer un contrat avec un commerce de proximité dans un rayon de 15 kilomètres.",
-    "Interdit l'installation de casiers automatiques de livraison et distributeurs de nourriture dans les zones résidentielles ou habitations.",
-    "Crée une taxe de 1 euro par colis importé, livrés via un casier automatique, au profit des communes.",
-    "Soumet toute installation de dispositif automatique sur le domaine public à une autorisation et une redevance."
+    "Modifierait les codes de l'urbanisme, général des impôts et de la propriété publique pour ces régulations.",
+    "Interdirait l'implantation des dispositifs automatiques de colis ou de denrées alimentaires dans les zones résidentielles.",
+    "Soumettrait leur installation à une autorisation d'urbanisme conditionnée par un contrat avec un commerce local à 15 kilomètres.",
+    "Instaurerait une taxe d'un euro sur chaque colis importé et livré via consigne automatique, bénéficiant aux communes."
   ],
   "quality_score": null,
   "quality_flags": [],

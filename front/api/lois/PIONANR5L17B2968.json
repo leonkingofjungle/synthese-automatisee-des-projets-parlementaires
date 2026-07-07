@@ -4,18 +4,15 @@
   "date_depot": "2026-06-23",
   "categorie": "Environnement et énergie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2968.html",
-  "accroche": "Cette proposition de loi interdit l'accès et l'usage des superyachts de 50 mètres et plus dans les ports et eaux territoriales françaises.",
+  "accroche": "Cette proposition de loi interdirait l'accès et le stationnement des superyachts de plus de 50 mètres dans les ports et eaux françaises.",
   "points": [
-    "Interdit aux superyachts de 50 mètres et plus d'accéder et de stationner dans les ports et eaux françaises.",
-    "Punit les contrevenants d'une amende allant de 1% à 15% de la valeur du navire, et peut confisquer le yacht.",
-    "Renforce les obligations de transparence sur le pavillon, le propriétaire et l'équipage des superyachts en eaux françaises.",
-    "Modifie le code des transports pour intégrer ces nouvelles règles d'accès et d'usage des superyachts."
+    "Interdirait l'accès aux ports maritimes français pour les navires de plaisance de 50 mètres ou plus.",
+    "Interdirait le stationnement et le mouillage de ces superyachts dans les eaux intérieures et territoriales françaises.",
+    "Prévoirait des amendes jusqu'à 15% de la valeur du navire, sa confiscation et une interdiction de cinq à dix ans.",
+    "Modifierait le code des transports pour y ajouter des règles sur les superyachts et leur transparence."
   ],
-  "quality_score": 77,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54555",
   "etat": "Déposé",
   "statut": "Texte déposé",

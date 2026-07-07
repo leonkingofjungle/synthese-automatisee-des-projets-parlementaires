@@ -4,12 +4,12 @@
   "date_depot": "2026-03-03",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2560.html",
-  "accroche": "Cette loi vise à interdire les photos et noms de personnalités nationales sur les affiches électorales afin de mieux valoriser les candidats locaux.",
+  "accroche": "Cette proposition de loi viserait à empêcher les candidats locaux d'afficher le visage ou le nom de personnalités nationales sur leurs affiches électorales.",
   "points": [
-    "Interdit d'afficher sur les affiches électorales d'autres noms ou photos que ceux des candidats et remplaçants.",
-    "Défend l'usage de photographies ou de représentations d'animaux sur les affiches officielles de campagne électorale.",
-    "Punit d'une amende de 15 000 euros les affiches non conformes sur panneaux officiels et de 1 500 euros en dehors.",
-    "Modifie le code électoral en complétant un chapitre pour intégrer ces nouvelles règles d'affichage."
+    "Interdirait l'affichage sur les panneaux électoraux de noms ou photos de personnes autres que le candidat.",
+    "Permettrait des exceptions pour l'élection des conseillers d'arrondissement à Paris, Lyon et Marseille.",
+    "Punirait d'une amende de 15 000 euros les affiches officielles non conformes, ou 1 500 euros hors panneaux.",
+    "Renforcerait la sincérité des campagnes électorales en recentrant la propagande sur le candidat."
   ],
   "quality_score": null,
   "quality_flags": [],

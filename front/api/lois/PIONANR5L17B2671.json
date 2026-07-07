@@ -4,12 +4,12 @@
   "date_depot": "2026-04-14",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2671.html",
-  "accroche": "Cette proposition de loi veut mieux encadrer les sondages pour assurer des élections plus justes et une information citoyenne transparente.",
+  "accroche": "Cette proposition de loi rendrait les sondages d'opinion plus transparents et encadrés, afin de mieux informer les citoyens et protéger l'intégrité des élections.",
   "points": [
-    "Étend le contrôle de la commission des sondages à toutes les enquêtes politiques et électorales, même venues de l'étranger.",
-    "Interdit de payer les personnes qui participent aux sondages liés aux élections ou à la politique.",
-    "Oblige à publier le nombre de répondants par question, les méthodes et les marges d'erreur des sondages.",
-    "Rend publique l'ensemble des données brutes et les méthodes de correction des sondages pour plus de transparence."
+    "Étendrait le contrôle de la Commission des sondages à toutes les enquêtes liées au débat politique et électoral.",
+    "Obligerait les sondages à détailler les méthodes, les redressements effectués et présenter les résultats avec marges d'erreur.",
+    "Rendrait publique la notice experte et les données brutes des sondages sous 48 heures par la Commission des sondages.",
+    "Interdirait la publication des sondages d'intention de vote avant la clôture des candidatures et avant les résultats du premier tour."
   ],
   "quality_score": null,
   "quality_flags": [],

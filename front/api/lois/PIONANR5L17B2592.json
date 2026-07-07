@@ -4,12 +4,12 @@
   "date_depot": "2026-03-27",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2592.html",
-  "accroche": "La loi SRU est adaptée pour exempter des communes de plus de 15 000 habitants, mais peu denses, de leurs obligations de logement social.",
+  "accroche": "La loi SRU sur les logements sociaux ne s'appliquerait plus automatiquement aux communes rurales atteignant des seuils de population par fusion.",
   "points": [
-    "Introduit un critère de densité de population pour déterminer l'application des obligations de la loi SRU.",
-    "Exclut les communes de plus de 15 000 habitants ayant moins de 300 habitants par km² des obligations SRU.",
-    "Empêche l'assujettissement de communes voisines rurales aux obligations SRU par effet de seuil démographique.",
-    "Modifie l'article L. 302-5 du code de la construction et de l'habitation, ajoutant le critère de densité."
+    "Introduirait un nouveau critère de densité pour déterminer l'application des obligations de logements sociaux.",
+    "Exempterait les communes de plus de 15 000 habitants si leur densité de population est inférieure à 300 habitants par km².",
+    "Modifierait l'article L. 302-5 du code de la construction et de l'habitation (loi encadrant le bâtiment).",
+    "Supprimerait les prélèvements financiers et les obligations de construction inadaptées pour les communes rurales concernées."
   ],
   "quality_score": null,
   "quality_flags": [],

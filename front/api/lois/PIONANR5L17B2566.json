@@ -4,12 +4,12 @@
   "date_depot": "2026-03-03",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2566.html",
-  "accroche": "Cette loi propose d'expérimenter l'encadrement des loyers commerciaux pour soutenir les commerces en difficulté et revitaliser les centres-villes.",
+  "accroche": "Cette proposition de loi encadrerait les loyers des baux commerciaux pour soutenir les entreprises de proximité et redynamiser les centres-villes.",
   "points": [
-    "Met en place, pour cinq ans, une expérimentation pour encadrer les loyers des baux commerciaux dans certaines villes.",
-    "Crée des observatoires locaux chargés de collecter les données et de définir les loyers de référence plafonds.",
-    "Permet aux locataires de contester un loyer excessif, que le bail soit nouveau ou déjà en cours d'exécution.",
-    "Prévoit des compléments de loyer pour des locaux exceptionnels, mais les interdit si le commerce est en mauvais état."
+    "Instituerait, pour une durée expérimentale de cinq ans, l'encadrement des loyers commerciaux dans des zones ciblées.",
+    "Chargerait des observatoires locaux de collecter les données et de définir les loyers de référence plafonds.",
+    "Plafonnerait les loyers des nouveaux baux commerciaux, permettant un complément si la localisation est exceptionnelle.",
+    "Permettrait aux locataires de demander la révision des loyers actuels dépassant de 10% les loyers de référence."
   ],
   "quality_score": null,
   "quality_flags": [],

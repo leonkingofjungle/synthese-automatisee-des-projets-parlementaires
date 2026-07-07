@@ -4,12 +4,12 @@
   "date_depot": "2026-04-14",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2654.html",
-  "accroche": "Cette proposition de loi durcit les règles pour lutter contre la cyberpédocriminalité, y compris celle générée par intelligence artificielle, et protéger les enfants.",
+  "accroche": "Cette proposition renforcerait la loi contre la cyberpédocriminalité, en ciblant notamment les contenus générés par IA et en protégeant mieux les enfants.",
   "points": [
-    "Crée un délit spécifique pour la création ou la vente de modèles d'IA générant des contenus pédocriminels.",
-    "Allonge la durée de garde à vue pour les crimes sexuels commis en ligne et en bande organisée sur mineurs.",
-    "Oblige les condamnés pour ces crimes à déclarer tout voyage à l'étranger au moins 15 jours avant le départ.",
-    "Élargit la responsabilité pénale aux administrateurs de groupes en ligne qui diffusent ou tolèrent des contenus pédocriminels."
+    "Créerait une infraction spécifique pour la création ou la vente de modèles d'intelligence artificielle servant à produire du contenu pédocriminel.",
+    "Permettrait d'allonger la durée de garde à vue pour les crimes sexuels sur mineurs commis en ligne et en bande organisée.",
+    "Obligerait les personnes condamnées pour ces crimes à déclarer leurs déplacements à l'étranger quinze jours avant.",
+    "Étendrait la responsabilité pénale aux administrateurs ou modérateurs de groupes en ligne ne s'opposant pas à la diffusion de contenus pédocriminels."
   ],
   "quality_score": null,
   "quality_flags": [],

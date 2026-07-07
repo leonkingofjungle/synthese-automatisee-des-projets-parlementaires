@@ -4,12 +4,12 @@
   "date_depot": "2026-01-27",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2387.html",
-  "accroche": "Les personnes condamnées et détenues pourraient bientôt contribuer financièrement à une partie de leurs frais d'incarcération, à un taux fixe.",
+  "accroche": "Cette proposition de loi instaurerait une contribution financière obligatoire pour les personnes définitivement condamnées afin de couvrir leurs frais d'incarcération.",
   "points": [
-    "Instaure une contribution obligatoire pour les personnes définitivement condamnées, afin de couvrir une partie des frais d'incarcération.",
-    "Applique cette contribution sur les sommes disponibles du compte des détenus, y compris l'argent gagné en prison.",
-    "Exclut de cette contribution les mineurs, les prévenus, les personnes sans ressources et celles en maison d'arrêt.",
-    "Fixe le taux de la contribution à 5 % de chaque montant perçu par le détenu sur son compte disponible."
+    "Instaurerait une contribution obligatoire pour les personnes définitivement condamnées et affectées en établissement pour peines.",
+    "Fixerait cette contribution à 5 % des sommes versées sur le compte disponible des détenus, y compris leur travail.",
+    "Exclurait de cette obligation les mineurs, les prévenus, les personnes sans ressources et celles en maison d'arrêt.",
+    "Modifierait le code pénitentiaire pour ajouter un nouveau chapitre sur cette contribution financière."
   ],
   "quality_score": null,
   "quality_flags": [],

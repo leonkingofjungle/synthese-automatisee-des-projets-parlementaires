@@ -4,17 +4,15 @@
   "date_depot": "2026-06-23",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2959.html",
-  "accroche": "Cette proposition de loi renforce la protection des mineurs en multipliant les contrôles et les sanctions contre les auteurs de violences.",
+  "accroche": "Cette proposition de loi renforcerait les contrôles et les sanctions pour mieux protéger les enfants des violences et abus en dehors de l'école.",
   "points": [
-    "Crée un système d'alerte rapide pour les employeurs quand un salarié est mis en cause pour violences sur mineurs.",
-    "Exige que toute personne travaillant avec des mineurs prouve son absence du fichier des délinquants sexuels.",
-    "Rend obligatoire l'interdiction définitive d'exercer auprès de mineurs pour les personnes condamnées pour violences graves.",
-    "Supprime une exception qui empêchait l'inscription de décisions pénales concernant des victimes de moins de 13 ans."
+    "Informerais les employeurs, y compris bénévoles, dès qu'une personne employée serait suspectée ou condamnée pour des faits contre des mineurs.",
+    "Aggraverait les peines de prison et les amendes pour les fausses accusations de violences sexuelles impliquant un mineur.",
+    "Rendrait obligatoire l'interdiction définitive d'exercer auprès des mineurs pour les personnes coupables de crimes graves.",
+    "Exigerait un extrait du fichier national des auteurs d'infractions pour toute personne travaillant avec des enfants."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54546",
   "etat": "Déposé",
   "statut": "Texte déposé",

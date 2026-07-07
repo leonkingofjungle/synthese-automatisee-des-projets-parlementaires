@@ -4,17 +4,15 @@
   "date_depot": "2026-06-09",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2901.html",
-  "accroche": "Cette proposition de loi oblige les employeurs à envoyer les documents de fin de contrat aux travailleurs saisonniers, facilitant leur accès aux droits sociaux.",
+  "accroche": "Les employeurs de travailleurs saisonniers seraient obligés d'envoyer leurs documents de fin de contrat, facilitant ainsi l'accès rapide aux droits sociaux.",
   "points": [
-    "Rend obligatoire pour les employeurs l'envoi des documents de fin de contrat aux travailleurs saisonniers.",
-    "Ajoute une attestation spécifique pour l'exercice des droits aux allocations chômage, remise à l'expiration du contrat.",
-    "Exige l'envoi de ces documents par courrier ou voie électronique sécurisée, avec preuve de la date.",
-    "Modifie le Code du travail pour adapter la remise des documents à la réalité de l'emploi saisonnier."
+    "Créerait l'obligation pour l'employeur de délivrer une attestation pour les droits aux allocations chômage.",
+    "Obligerait les employeurs saisonniers à envoyer le certificat de travail et le solde de tout compte.",
+    "Préciserait que ces envois seraient faits sans délai, par courrier ou par voie électronique sécurisée.",
+    "Modifierait le Code du travail pour adapter les règles de remise des documents de fin de contrat."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54454",
   "etat": "Déposé",
   "statut": "Texte déposé",

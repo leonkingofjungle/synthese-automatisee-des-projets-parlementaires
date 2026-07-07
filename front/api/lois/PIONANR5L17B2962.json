@@ -4,14 +4,14 @@
   "date_depot": "2026-06-23",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2962.html",
-  "accroche": "Cette loi veut mieux reconnaître les maladies chroniques évolutives pour une prise en charge plus juste par la Sécurité sociale et les assureurs.",
+  "accroche": "Cette proposition de loi assurerait une meilleure prise en charge et une reconnaissance plus juste des maladies chroniques évolutives.",
   "points": [
-    "Reconnaît légalement les maladies chroniques évolutives, incluant leurs symptômes variables et invisibles, pour une meilleure prise en compte.",
-    "Instaure des critères d'évaluation médicale communs pour la Sécurité sociale, intégrant la variabilité des symptômes.",
-    "Oblige les assureurs à prendre en compte prioritairement les évaluations publiques de handicap, sauf justification médicale.",
-    "Renforce les expertises médicales pour qu'elles considèrent l'évolution et les symptômes invisibles des maladies."
+    "Reconnaîtrait officiellement les maladies chroniques évolutives comme une catégorie distincte avec des évaluations spécifiques.",
+    "Instaurerait des critères communs pour évaluer l'invalidité par la Sécurité sociale, incluant les symptômes invisibles.",
+    "Obligerait les assureurs à respecter les taux d'incapacité fixés par les organismes publics, sauf dérogation motivée.",
+    "Renforcerait les expertises médicales pour qu'elles considèrent la nature évolutive et les symptômes invisibles des maladies."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54549",
   "etat": "Déposé",

@@ -4,17 +4,15 @@
   "date_depot": "2026-05-26",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2834.html",
-  "accroche": "L'État remboursera désormais les frais de campagne électorale des candidats aux élections municipales dans toutes les communes, sans distinction de taille.",
+  "accroche": "Cette loi permettrait l'égalité de remboursement des frais de campagne municipale par l'État pour tous les candidats, quelle que soit la taille de leur commune.",
   "points": [
-    "Corrige une inégalité en permettant le remboursement des frais de campagne électorale dans les communes rurales.",
-    "Harmonise les règles de remboursement des frais de propagande pour toutes les communes, sans exception.",
-    "Modifie le code électoral pour garantir l'égalité de traitement des candidats peu importe la taille de leur commune.",
-    "S'appliquera au prochain renouvellement des conseils municipaux et sera financée par une nouvelle taxe sur le tabac."
+    "Étendrait le remboursement par l'État des frais de propagande électorale à toutes les communes de France.",
+    "Assurerait que les candidats des communes de moins de 1 000 habitants pourraient aussi obtenir le remboursement de leurs dépenses.",
+    "Modifierait le code électoral pour harmoniser les règles de remboursement des frais de campagne électorale.",
+    "Financerait ces remboursements par une taxe additionnelle sur le tabac, dès le prochain renouvellement des conseils municipaux."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54369",
   "etat": "Déposé",
   "statut": "Texte déposé",

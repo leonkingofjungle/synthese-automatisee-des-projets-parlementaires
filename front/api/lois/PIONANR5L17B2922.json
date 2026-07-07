@@ -4,14 +4,14 @@
   "date_depot": "2026-06-15",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2922.html",
-  "accroche": "La loi expérimente une nouvelle gouvernance unifiée pour le Centre de Ressources, d'Expertise et de Performance Sportive (CREPS) de Vichy jusqu'en 2033.",
+  "accroche": "La gouvernance du Centre de Ressources, d'Expertise et de Performance Sportive de Vichy serait expérimentée pour mieux l'intégrer au territoire local.",
   "points": [
-    "Débute une expérimentation d'une gouvernance unifiée pour le CREPS de Vichy jusqu'au 30 juin 2033, modifiant le Code du sport.",
-    "Étend les missions du CREPS, lui permettant de développer des offres universitaires, de recherche et de médecine du sport.",
-    "Autorise le CREPS à gérer des équipements sportifs locaux et à promouvoir le sport pour l'attractivité du territoire de Vichy.",
-    "Charge Vichy Communauté du recrutement des personnels, de l'entretien des infrastructures et de la compensation financière du CREPS."
+    "Lancerait une expérimentation de gouvernance unifiée pour le CREPS de Vichy jusqu'au 30 juin 2033.",
+    "Étendrait les missions du CREPS pour inclure des offres universitaires et le développement de la médecine sportive.",
+    "Confierait à Vichy Communauté la gestion et le financement des équipements sportifs locaux et de leurs personnels.",
+    "Modifierait la composition du conseil d'administration du CREPS en augmentant la représentation locale et sportive."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54096",
   "etat": "En cours",

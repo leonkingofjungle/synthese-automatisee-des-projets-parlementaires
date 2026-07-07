@@ -4,12 +4,12 @@
   "date_depot": "2026-04-14",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2678.html",
-  "accroche": "Cette loi propose d'interdire progressivement les engrais phosphatés contenant trop de cadmium pour protéger notre alimentation et notre santé.",
+  "accroche": "La France limiterait la présence de cadmium dans notre alimentation en interdisant certains engrais phosphatés contaminés.",
   "points": [
-    "Interdit progressivement l'importation et l'utilisation d'engrais phosphatés dépassant les limites de cadmium.",
-    "Établit une teneur maximale de 40 milligrammes de cadmium par kilo d'engrais dès 2027, puis 20 milligrammes en 2030.",
-    "Renforce les protections actuelles, la norme française autorisant 90 mg de cadmium, bien au-dessus des recommandations.",
-    "Vise à protéger les populations, en particulier les enfants, face à une contamination au cadmium en augmentation."
+    "Interdirait l'importation et l'utilisation d'engrais phosphatés inorganiques et organo-minéraux si leur teneur en cadmium est trop élevée.",
+    "Fixerait une teneur maximale de 40 milligrammes de cadmium par kilo d'anhydride phosphorique dès 2027.",
+    "Diminuerait cette limite à 20 milligrammes par kilo d'anhydride phosphorique à partir du 1er janvier 2030.",
+    "Modifierait le code rural et de la pêche maritime pour ajouter ces nouvelles restrictions sur les engrais."
   ],
   "quality_score": null,
   "quality_flags": [],

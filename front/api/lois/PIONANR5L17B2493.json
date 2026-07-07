@@ -4,12 +4,12 @@
   "date_depot": "2026-02-17",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2493.html",
-  "accroche": "Cette loi veut garantir que les aides destinées aux enfants placés hors du foyer familial soient versées à ceux qui s'en occupent réellement.",
+  "accroche": "Cette proposition de loi garantirait que les aides financières destinées aux enfants placés soient directement versées à ceux qui les prennent en charge.",
   "points": [
-    "Change le Code de la sécurité sociale pour que les allocations familiales aillent par défaut au tiers qui s'occupe de l'enfant.",
-    "Dirige l'allocation de rentrée scolaire directement vers le service ou la famille d'accueil pour les besoins immédiats.",
-    "Ajoute un article au Code social pour que la majoration du RSA due pour un enfant placé soit versée au tiers.",
-    "Exige que le juge reconsidère la pension alimentaire pour qu'elle profite à la personne qui prend en charge l'enfant."
+    "Verserait les allocations familiales au service ou tiers ayant la charge matérielle de l'enfant placé.",
+    "L'allocation de rentrée scolaire serait payée directement aux familles d'accueil ou aux structures responsables de l'enfant.",
+    "La majoration du revenu de solidarité active pour un enfant placé irait directement au tiers responsable.",
+    "Le juge devrait réévaluer le montant et les conditions de paiement de la pension alimentaire après un placement."
   ],
   "quality_score": null,
   "quality_flags": [],

@@ -4,17 +4,15 @@
   "date_depot": "2026-05-06",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2751.html",
-  "accroche": "Cette proposition de loi renforce le parcours inclusif des enfants en situation de handicap et à besoins éducatifs particuliers à l'école.",
+  "accroche": "Cette proposition de loi renforcerait le parcours inclusif des enfants à besoins éducatifs particuliers, assurant une meilleure coordination et un suivi adapté.",
   "points": [
-    "Crée un livret numérique de parcours inclusif pour suivre l'élève et partager les informations entre professionnels.",
-    "Intègre les accompagnants d'élèves en situation de handicap (AESH) à l'équipe pédagogique et leur impose une formation obligatoire.",
-    "Permet d'adapter les critères d'évaluation des examens nationaux pour les élèves en situation de handicap.",
-    "Oblige le Gouvernement à remettre un rapport annuel sur l'éducation inclusive et les délais d'affectation des accompagnants."
+    "Modifierait le code de l'éducation pour créer un outil numérique de partage d'informations pour les élèves.",
+    "Intégrerait les accompagnants d'élèves en situation de handicap (AESH) à l'équipe pédagogique.",
+    "Adapterait les critères d'évaluation des examens nationaux pour les élèves bénéficiant d'un plan personnalisé.",
+    "Exigerait du Gouvernement un rapport annuel évaluant les politiques d'éducation inclusive et les délais d'affectation."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N50686",
   "etat": "En cours",
   "statut": "Autre lecture",

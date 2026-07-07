@@ -4,18 +4,15 @@
   "date_depot": "2026-06-17",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2938.html",
-  "accroche": "Cette proposition de loi définit précisément le service de prise ferme pour mieux protéger les petits investisseurs et les entreprises des pratiques de certains fonds.",
+  "accroche": "Cette proposition de loi définirait le service de prise ferme, encadrant les transactions financières pour protéger petits porteurs et entreprises.",
   "points": [
-    "Insère un nouvel article (L. 321-1-1) dans le code monétaire et financier, définissant une pratique financière.",
-    "Définit la prise ferme comme l'acquisition d'instruments financiers directement de l'émetteur pour les revendre par la suite.",
-    "Précise que ces instruments peuvent donner accès au capital de l'entreprise par conversion, échange ou exercice.",
-    "Vise à renforcer la protection des petits porteurs et des entreprises face aux pratiques des fonds vautours."
+    "Définirait précisément ce qu'est le service de prise ferme dans le cadre des instruments financiers.",
+    "Préciserait que cela concernerait les titres donnant accès au capital ou à des unités environnementales.",
+    "Encadrerait l'acquisition directe d'instruments financiers auprès de l'émetteur ou du cédant en vue de leur vente.",
+    "Ajouterait cet article L. 321-1-1 au code monétaire et financier pour clarifier la régulation."
   ],
-  "quality_score": 77,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54313",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

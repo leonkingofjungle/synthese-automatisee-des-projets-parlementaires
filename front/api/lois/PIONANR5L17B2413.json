@@ -4,12 +4,12 @@
   "date_depot": "2026-01-30",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2413.html",
-  "accroche": "Cette proposition de loi instaure une procédure simplifiée permettant aux entreprises de récupérer plus facilement l'argent dû pour des factures non contestées.",
+  "accroche": "Une nouvelle procédure simplifiée permettrait aux entreprises de récupérer plus facilement leurs créances commerciales incontestées via un commissaire de justice.",
   "points": [
-    "Crée une nouvelle procédure simplifiée pour recouvrer les dettes commerciales incontestées entre professionnels et entreprises.",
-    "Confie au commissaire de justice la gestion de cette procédure, de la demande du créancier jusqu'à l'ordre de payer.",
-    "Permet au procès-verbal de non-contestation de devenir exécutoire après vérification par le greffier du tribunal de commerce.",
-    "Met les frais de recouvrement à la charge du débiteur et exclut ces dettes de l'ancienne procédure simplifiée."
+    "Créerait une procédure simplifiée pour le recouvrement des créances commerciales incontestées entre entreprises par un commissaire de justice.",
+    "Prévoirait un délai d'un mois pour le débiteur afin de payer ou contester la créance après réception d'un commandement.",
+    "Permettrait qu'un procès-verbal de non-contestation devienne exécutoire après vérification par un greffier de la juridiction.",
+    "Préciserait que les créances commerciales seraient exclues de la procédure simplifiée existante pour les non-commerçants."
   ],
   "quality_score": null,
   "quality_flags": [],

@@ -4,14 +4,14 @@
   "date_depot": "2026-05-26",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2830.html",
-  "accroche": "Cette proposition de loi facilite la création et l'intégration des centres de soins non programmés pour désengorger les urgences hospitalières et mieux soigner.",
+  "accroche": "Cette proposition de loi renforcerait l'accès aux soins non urgents en facilitant la création et le fonctionnement de centres de santé de proximité.",
   "points": [
-    "Crée un cadre juridique stable pour les centres de soins non programmés, permettant leur constitution sans autorisation préalable, sous conditions.",
-    "Intègre ces structures au service d'accès aux soins, leur permettant d'accueillir directement les patients sans orientation préalable.",
-    "Met en place une rémunération spécifique pour les actes de soins non programmés et une dotation pour leur fonctionnement.",
-    "Assouplit les règles pour l'implantation des structures et l'activité des infirmiers, sans régulation démographique."
+    "Créerait un cadre légal pour les structures de soins immédiats, sans autorisation préalable, pour une meilleure prise en charge.",
+    "Assurerait la participation de ces centres aux services d'accès aux soins, tout en permettant l'accueil direct des patients.",
+    "Mettrait en place une rémunération spécifique pour les soins non programmés et les aides au fonctionnement de ces centres.",
+    "Offrirait plus de flexibilité aux médecins et infirmiers, notamment sur les stages ou la gestion des médicaments."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54365",
   "etat": "Déposé",

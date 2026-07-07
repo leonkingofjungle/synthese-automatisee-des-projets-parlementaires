@@ -4,14 +4,14 @@
   "date_depot": "2026-06-17",
   "categorie": "Numérique",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2928.html",
-  "accroche": "La loi renforce les droits des éditeurs de presse et agences face aux plateformes numériques pour la juste rémunération de leurs contenus.",
+  "accroche": "Les plateformes en ligne seraient contraintes de mieux rémunérer la presse et de fournir des données sur l'utilisation des contenus.",
   "points": [
-    "Oblige les services en ligne à fournir aux éditeurs de presse des informations détaillées sur l'utilisation de leurs publications.",
-    "Permet à l'ARCOM de fixer le montant de la rémunération due par les plateformes aux éditeurs de presse.",
-    "Autorise l'ARCOM à prononcer des sanctions financières jusqu'à 1% du chiffre d'affaires mondial en cas de non-respect.",
-    "Étend les pouvoirs d'enquête de l'ARCOM, incluant la collecte automatisée de données publiques sur les plateformes."
+    "Obligerait les plateformes à communiquer aux éditeurs des informations détaillées sur l'utilisation de leurs articles.",
+    "Permettrait à l'ARCOM (l'Autorité de régulation du numérique) de fixer la rémunération si la négociation échoue après trois mois.",
+    "Permettrait à l'ARCOM de sanctionner financièrement les plateformes ne respectant pas les injonctions, jusqu'à 1% de leur chiffre d'affaires.",
+    "Autoriserait l'ARCOM à collecter automatiquement des données publiques sur l'utilisation des contenus, même derrière un compte."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N51330",
   "etat": "En cours",

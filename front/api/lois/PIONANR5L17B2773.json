@@ -4,14 +4,14 @@
   "date_depot": "2026-05-12",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2773.html",
-  "accroche": "Cette proposition de loi établit un cadre légal pour le droit à l'aide à mourir en France, définissant les conditions et la procédure.",
+  "accroche": "Une proposition de loi permettrait aux personnes gravement malades de demander une aide active à mourir sous certaines conditions strictes en France.",
   "points": [
-    "Modifie le code de la santé publique pour y inscrire le droit à l'aide à mourir sous conditions strictes.",
-    "Définit les critères d'accès à l'aide à mourir, exigeant une affection grave et incurable engageant le pronostic vital.",
-    "Détaille la procédure de demande, incluant un avis médical collégial et un délai de réflexion obligatoire.",
-    "Garantit la prise en charge par l'Assurance maladie et établit une commission de contrôle et d'évaluation."
+    "Instaurerait le droit à l'aide à mourir pour les adultes atteints d'une maladie grave incurable et souffrant.",
+    "Définirait une procédure stricte, impliquant plusieurs médecins pour valider la demande et la volonté éclairée.",
+    "Permettrait aux professionnels de santé de refuser d'y participer, tout en garantissant l'accès du patient.",
+    "Préciserait que les frais liés à cette aide seraient couverts par la Sécurité sociale et sans dépassement d'honoraires."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N51670",
   "etat": "En cours",

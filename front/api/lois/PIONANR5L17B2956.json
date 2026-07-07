@@ -4,14 +4,14 @@
   "date_depot": "2026-06-23",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2956.html",
-  "accroche": "Cette proposition de loi renforce le contrôle des ordres professionnels sur les investissements dans la santé et encadre les droits des investisseurs.",
+  "accroche": "Cette proposition de loi renforcerait les contrôles des autorités pour limiter l'influence de l'argent dans le secteur de la santé.",
   "points": [
-    "Étend l'obligation de communication des documents détaillés sur les sociétés aux ordres professionnels de santé.",
-    "Crée un registre national pour recenser les personnes et entreprises qui détiennent des parts dans les sociétés de santé.",
-    "Encadre strictement la durée des investissements et les droits financiers des non-professionnels dans le secteur de la santé.",
-    "Prévoit des sanctions disciplinaires et des amendes administratives en cas de non-respect de ces nouvelles règles."
+    "Créerait une cellule d'appui national pour aider les ordres professionnels à examiner les montages financiers.",
+    "Mettrait en place un registre national pour identifier les personnes détenant des parts dans les sociétés de santé.",
+    "Restreindrait l'usage des actions de préférence et imposerait une durée minimale de sept ans pour les investissements.",
+    "Instaurerait des sanctions disciplinaires et des amendes en cas de non-communication des documents requis."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54543",
   "etat": "Déposé",

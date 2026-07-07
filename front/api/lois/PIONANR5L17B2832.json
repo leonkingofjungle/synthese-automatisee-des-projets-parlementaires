@@ -4,18 +4,15 @@
   "date_depot": "2026-05-26",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2832.html",
-  "accroche": "Cette loi rétablit le scrutin majoritaire à deux tours pour les élections municipales des communes de moins de 1 000 habitants, annulant une réforme récente.",
+  "accroche": "Cette proposition de loi rétablirait le scrutin municipal majoritaire à deux tours pour les communes de moins de 1 000 habitants afin de renforcer la démocratie locale.",
   "points": [
-    "Rétablit le mode de scrutin majoritaire pour les élections municipales dans les communes de moins de 1 000 habitants.",
-    "Précise que le premier tour exige la majorité absolue et 25 % des inscrits, puis la majorité relative au second tour.",
-    "Autorise les candidats à se présenter seuls ou en groupe, et réintroduit le panachage des votes.",
-    "Modifie le Code Général des Collectivités Territoriales pour clarifier l'élection des adjoints dans ces petites communes."
+    "Rétablirait le scrutin majoritaire pour les élections municipales dans les communes de moins de 1 000 habitants.",
+    "Définirait les conditions d'élection pour le premier et le second tour, incluant la majorité absolue et relative.",
+    "Permettrait aux candidats de se présenter seuls ou en groupe, avec une déclaration obligatoire en préfecture.",
+    "Préciserait les règles d'élection des adjoints dans les communes de moins de 1 000 habitants en modifiant le code général des collectivités territoriales."
   ],
-  "quality_score": 77,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54367",
   "etat": "Déposé",
   "statut": "Texte déposé",

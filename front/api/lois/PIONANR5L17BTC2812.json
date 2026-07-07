@@ -4,17 +4,15 @@
   "date_depot": "2026-05-20",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2812.html",
-  "accroche": "Le contrat de professionnalisation expérimental devient permanent, permettant désormais d'acquérir des blocs de compétences spécifiques.",
+  "accroche": "Cette proposition pérenniserait un contrat de professionnalisation expérimental ciblant des blocs de compétences professionnelles.",
   "points": [
-    "Rend permanent le contrat de professionnalisation qui était jusqu'ici en phase d'expérimentation.",
-    "Étend la possibilité d'utiliser ce contrat pour obtenir des blocs de compétences de certification professionnelle.",
-    "Modifie le code du travail pour inclure ces nouvelles modalités dans les articles concernés.",
-    "Compense les éventuelles dépenses pour l'État par une nouvelle taxe sur le tabac."
+    "Le texte modifierait le code du travail concernant les modalités des contrats de professionnalisation.",
+    "Il pérenniserait le dispositif expérimental des contrats axés sur des blocs de compétences spécifiques.",
+    "Ces contrats permettraient aux bénéficiaires de valider une partie d'une certification professionnelle.",
+    "Les éventuels impacts financiers pour l'État seraient compensés par une taxe additionnelle sur le tabac."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N51791",
   "etat": "Terminé",
   "statut": "Texte adopté",

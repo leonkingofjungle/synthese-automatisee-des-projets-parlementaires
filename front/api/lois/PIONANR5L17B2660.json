@@ -4,12 +4,12 @@
   "date_depot": "2026-04-14",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2660.html",
-  "accroche": "Cette proposition de loi rend obligatoire le prélèvement d'ADN sur les corps non identifiés pour aider les familles de disparus à faire leur deuil.",
+  "accroche": "Cette proposition de loi rendrait systématique l'identification par empreintes génétiques des personnes décédées non identifiées, soulageant ainsi les familles.",
   "points": [
-    "Systématise la recherche d'identité par empreintes génétiques pour les défunts inconnus, sans autre recours.",
-    "Modifie le Code civil et le Code de procédure pénale pour cette nouvelle obligation.",
-    "Garantit l'inscription des empreintes génétiques des défunts non identifiés dans un fichier national.",
-    "Permet de recueillir l'ADN des proches, avec leur accord, pour aider à l'identification."
+    "Obligerait la recherche systématique d'identité par empreintes génétiques pour les défunts inconnus.",
+    "Inscrirait les empreintes génétiques de ces défunts dans le Fichier national automatisé des empreintes génétiques.",
+    "Permettrait aussi de recueillir les empreintes des proches avec leur consentement pour faciliter l'identification.",
+    "Compenserait les coûts pour l'État et les collectivités par une taxe additionnelle sur les tabacs."
   ],
   "quality_score": null,
   "quality_flags": [],

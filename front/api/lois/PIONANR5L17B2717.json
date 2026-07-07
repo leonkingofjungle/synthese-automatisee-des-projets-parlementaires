@@ -4,12 +4,12 @@
   "date_depot": "2026-04-28",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2717.html",
-  "accroche": "Cette loi simplifie le remplacement des élus au sein des commissions permanentes et des vice-présidents des conseils départementaux.",
+  "accroche": "Cette proposition de loi simplifierait le remplacement des membres des commissions permanentes des conseils départementaux pour assurer la continuité de l'action publique locale.",
   "points": [
-    "Rend automatique l'intégration du remplaçant d'un conseiller départemental démissionnaire à la commission permanente.",
-    "Permet au conseil départemental de choisir un autre membre pour le siège vacant si souhaité, respectant la proportionnalité politique.",
-    "Simplifie la procédure pour remplacer un vice-président en cas de vacance, sans renouveler toute la commission.",
-    "Modifie l'article L. 3122-6 du code général des collectivités territoriales pour ces ajustements pratiques."
+    "Remplacerait de plein droit le conseiller démissionnaire par son suppléant au sein de la commission permanente.",
+    "Permettrait au conseil départemental de désigner un autre membre pour le siège vacant, dans le respect de la représentation proportionnelle.",
+    "Simplifierait le remplacement des vice-présidents par une élection uninominale, évitant des procédures lourdes et disproportionnées.",
+    "Empêcherait le renouvellement complet de la commission permanente lors du remplacement d'un vice-président."
   ],
   "quality_score": null,
   "quality_flags": [],

@@ -4,11 +4,12 @@
   "date_depot": "2026-02-19",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2511.html",
-  "accroche": "Cette proposition de loi garantit un droit de visite aux parlementaires et bâtonniers dans les lieux de privation de liberté, y compris les locaux des juridictions.",
+  "accroche": "Cette proposition de loi étendrait le droit de visite des parlementaires et bâtonniers aux locaux judiciaires où des personnes sont privées de liberté.",
   "points": [
-    "Étend le droit de visite des parlementaires et bâtonniers aux locaux des juridictions judiciaires.",
-    "Cible les personnes privées de liberté dans ces locaux, en attente d'une présentation à un juge.",
-    "Modifie le code de procédure pénale pour intégrer officiellement ces nouvelles dispositions."
+    "Étendrait le droit de visite aux locaux des juridictions judiciaires (lieux où se rend la justice) abritant des personnes privées de liberté.",
+    "Concernerait les personnes en attente d'être présentées à un magistrat ou à une formation de jugement.",
+    "Donnerait ce droit de visite aux parlementaires et aux bâtonniers (responsables des avocats).",
+    "Modifierait le code de procédure pénale pour officialiser ces nouvelles possibilités d'accès."
   ],
   "quality_score": null,
   "quality_flags": [],

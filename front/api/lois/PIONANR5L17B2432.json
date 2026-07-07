@@ -2,14 +2,14 @@
   "uid": "PIONANR5L17B2432",
   "titre": "Lutte contre le piratage des événements sportifs",
   "date_depot": "2026-02-04",
-  "categorie": "Justice et sécurité",
+  "categorie": "Numérique",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2432.html",
-  "accroche": "Cette proposition de loi renforce la lutte contre le piratage des événements sportifs en direct, permettant des blocages rapides et des sanctions plus sévères.",
+  "accroche": "Cette proposition de loi permettrait de bloquer plus rapidement les sites diffusant illégalement des événements sportifs en direct, protégeant l'économie du sport français.",
   "points": [
-    "Renforce la capacité de bloquer en temps réel les accès aux services piratant les compétitions sportives en direct.",
-    "Crée des délits spécifiques punissant la mise à disposition de retransmissions illicites et l'incitation au piratage.",
-    "Confie à l'Arcom le contrôle strict des blocages en direct et la gestion du système automatisé d'exécution des mesures.",
-    "Augmente les peines de prison à sept ans et les amendes à 750 000 euros pour le piratage organisé."
+    "Permettrait aux ayants droit de bloquer en temps réel les diffusions illicites lors des événements sportifs en direct.",
+    "Confierait à l'Arcom la mission de contrôler et encadrer strictement ces mesures de blocage immédiates.",
+    "Créerait des sanctions pénales sévères pour la conception et la diffusion de services de piratage sportif.",
+    "Modifierait le code du sport pour y intégrer ces nouvelles dispositions applicables aux contenus sportifs."
   ],
   "quality_score": null,
   "quality_flags": [],

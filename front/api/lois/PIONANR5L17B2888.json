@@ -4,17 +4,15 @@
   "date_depot": "2026-06-09",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2888.html",
-  "accroche": "Cette loi permet au préfet d'intervenir sur les campus universitaires pour rétablir l'ordre et sanctionne les blocages d'accès.",
+  "accroche": "Le texte permettrait à l'État d'intervenir sur les campus pour garantir la continuité de l'enseignement supérieur et punirait les blocages des universités.",
   "points": [
-    "Modifie le code de l'éducation pour permettre au préfet d'intervenir sur les campus universitaires en cas de désordre.",
-    "Autorise le préfet à intervenir sans délai en cas d'urgence grave menaçant la sécurité des personnes ou un blocage total.",
-    "Crée un délit puni de 7 500 euros d'amende pour le blocage physique des accès universitaires.",
-    "Oblige les présidents d'université à élaborer un plan de sécurité et de continuité du service public."
+    "Le préfet pourrait ordonner l'intervention des forces de l'ordre si le président de l'université n'agissait pas après 48 heures.",
+    "Le préfet pourrait agir immédiatement sur les campus en cas d'urgence avec péril imminent pour la sécurité des personnes.",
+    "Créerait un délit puni de 7 500 euros d'amende pour le blocage physique des accès aux universités.",
+    "Obligerait les présidents d'université à élaborer un plan de sécurité et de continuité des services d'enseignement."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54441",
   "etat": "Déposé",
   "statut": "Texte déposé",

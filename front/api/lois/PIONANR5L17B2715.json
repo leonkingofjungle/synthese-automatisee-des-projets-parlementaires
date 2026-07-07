@@ -4,12 +4,12 @@
   "date_depot": "2026-04-28",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2715.html",
-  "accroche": "Cette proposition de loi renforce les règles de l'affichage électoral et encadre mieux la communication préélectorale pour des campagnes plus justes.",
+  "accroche": "Cette proposition de loi renforcerait les règles pour l'affichage et la communication des candidats, assurant une plus grande égalité pendant les campagnes électorales.",
   "points": [
-    "Reformule l'article L. 51 du code électoral pour encadrer strictement l'affichage et interdire les pratiques irrégulières.",
-    "Crée des amendes pénales jusqu'à 3 000 euros et administratives jusqu'à 7 500 euros pour l'affichage irrégulier.",
-    "Définit précisément ce qu'est une communication à caractère préélectoral, notamment si elle valorise un candidat.",
-    "Intègre les dépenses de communication numérique sponsorisée directement aux comptes de campagne électorale."
+    "Modifierait le code électoral pour encadrer strictement l'affichage des publicités de campagne.",
+    "Prévoirait des amendes pouvant atteindre 7 500 euros pour punir l'affichage électoral sauvage répété.",
+    "Exclurait du remboursement public les frais liés aux affichages de campagne irréguliers ou excessifs.",
+    "Intégrerait les dépenses de publicité numérique sponsorisée au compte de campagne des candidats."
   ],
   "quality_score": null,
   "quality_flags": [],

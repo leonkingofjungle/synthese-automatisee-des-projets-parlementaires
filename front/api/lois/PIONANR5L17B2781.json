@@ -4,17 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2781.html",
-  "accroche": "Réforme le versement des allocations familiales, de rentrée scolaire et du RSA pour les enfants placés afin d'assurer leur bien-être.",
+  "accroche": "Cette proposition de loi modifierait le versement de plusieurs prestations familiales pour les enfants placés, afin de mieux soutenir leur bien-être et leur autonomie future.",
   "points": [
-    "Modifie les règles de versement des allocations familiales pour les enfants placés de plus d'un an, en les redirigeant vers l'ASE ou le tiers de confiance.",
-    "Rétablit l'allocation de rentrée scolaire (ARS) pour couvrir directement les frais scolaires des enfants placés, supprimant le pécule actuel.",
-    "Transfère la majoration du revenu de solidarité active (RSA) pour un enfant placé à la personne qui l'héberge et assume ses dépenses.",
-    "Charge le Gouvernement de proposer un \"pécule universel\" pour les jeunes sortant de l'aide sociale à l'enfance d'ici septembre 2027."
+    "Mainiendrait le versement des allocations familiales à la famille pour un premier placement de moins d'un an, sauf décision contraire du juge.",
+    "Supprimerait le système actuel de consignation de l'allocation de rentrée scolaire pour la verser directement à ceux qui assument les frais.",
+    "Transférerait la majoration du RSA pour un enfant placé à la personne éligible qui prendrait effectivement en charge l'enfant.",
+    "Reconnaîtrait formellement le tiers digne de confiance comme bénéficiaire direct de ces prestations familiales pour l'enfant."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54305",
   "etat": "Déposé",
   "statut": "Texte déposé",

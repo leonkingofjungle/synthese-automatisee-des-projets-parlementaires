@@ -4,17 +4,15 @@
   "date_depot": "2026-06-10",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2906.html",
-  "accroche": "La France met en place une stratégie nationale pour lutter contre les maladies du cœur et des vaisseaux, en renforçant prévention et dépistage.",
+  "accroche": "Cette proposition de loi modifierait le code de la santé publique pour améliorer la prévention et le dépistage des maladies cardio-neuro-vasculaires en France.",
   "points": [
-    "Crée une stratégie nationale pluriannuelle pour réduire les maladies cardio-vasculaires, notamment par le dépistage.",
-    "Propose un dépistage précoce des maladies cardio-vasculaires et du diabète aux enfants de six ans.",
-    "Autorise les pharmaciens et kinésithérapeutes à mesurer la tension artérielle pour la prévention des risques.",
-    "Renforce l'information sur les risques cardio-vasculaires dans les entreprises et les établissements scolaires."
+    "Renforcerait le dépistage précoce des maladies cardio-vasculaires chez les enfants de six ans et plus.",
+    "Établirait une stratégie nationale pluriannuelle pour la prévention et le dépistage de ces maladies.",
+    "Étendrait les missions des pharmaciens et infirmiers pour la mesure de la pression artérielle.",
+    "Inclurait la sensibilisation aux risques cardio-vasculaires dans les actions de santé au travail et à l'école."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53426",
   "etat": "En cours",
   "statut": "Commission mixte paritaire",

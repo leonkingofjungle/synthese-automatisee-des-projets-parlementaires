@@ -4,18 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2790.html",
-  "accroche": "Cette proposition de loi vise à rétablir l'exonération d'impôt sur le revenu pour les primes reçues avec la médaille d'honneur du travail.",
+  "accroche": "Cette proposition de loi rétablirait l'exonération fiscale des primes versées pour la médaille du travail, facilitant ainsi la reconnaissance professionnelle.",
   "points": [
-    "Rétablit l'exonération d'impôt sur le revenu pour les primes versées lors de l'attribution de la médaille du travail.",
-    "Annule la suppression de cette exemption qui avait été mise en place dans la loi de finances pour 2026.",
-    "Empêche cette prime de faire perdre des aides ou changer de tranche d'imposition pour ses bénéficiaires.",
-    "Modifie l'article 157 du code général des impôts pour aligner cette prime sur d'autres distinctions honorifiques."
+    "Rétablirait l'exonération d'impôt sur le revenu pour les primes liées à l'obtention de la médaille d'honneur du travail.",
+    "Annulerait la suppression de cette exonération, votée lors de la loi de finances pour 2026.",
+    "Préserverait la portée symbolique de ces primes en évitant des impacts fiscaux négatifs pour les salariés.",
+    "Alignerait le régime fiscal de ces primes avec celui d'autres distinctions honorifiques déjà exonérées d'impôt."
   ],
-  "quality_score": 60,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54314",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

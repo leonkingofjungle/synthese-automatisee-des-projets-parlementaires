@@ -2,14 +2,14 @@
   "uid": "PIONANR5L17B2548",
   "titre": "Prévenir les occupations sans droit ni titre en encadrant la souscription des contrats essentiels",
   "date_depot": "2026-03-03",
-  "categorie": "Justice et sécurité",
+  "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2548.html",
-  "accroche": "Cette loi oblige les fournisseurs d'eau, énergie et internet à vérifier le droit d'occupation d'un logement pour lutter contre les squatteurs.",
+  "accroche": "Les fournisseurs d'eau, d'énergie ou d'internet devraient exiger un justificatif légal avant toute souscription, afin de freiner les occupations illicites de logements.",
   "points": [
-    "Interdit aux fournisseurs d'eau, électricité et internet de signer un contrat sans preuve légitime d'occupation.",
-    "Liste les preuves acceptées : bail, attestation propriétaire, titre de propriété, décision de justice, ou titre public.",
-    "Rend les fournisseurs civilement responsables des préjudices si un contrat est signé sans les vérifications requises.",
-    "Exige des fournisseurs de conserver une copie des justificatifs pour la durée totale du contrat souscrit."
+    "Interdirait aux fournisseurs d'eau, d'énergie, de gaz et d'internet de signer un contrat sans preuve légitime d'occupation.",
+    "Préciserait qu'un bail, une attestation du propriétaire ou un titre de propriété seraient des preuves acceptables.",
+    "Rendrait les fournisseurs civilement responsables des dommages si leur manquement permettait une occupation illicite.",
+    "Modifierait le code de la consommation pour intégrer ces nouvelles obligations aux fournisseurs de services essentiels."
   ],
   "quality_score": null,
   "quality_flags": [],

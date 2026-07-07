@@ -4,17 +4,14 @@
   "date_depot": "2026-04-30",
   "categorie": "Environnement et énergie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2743.html",
-  "accroche": "Les gestionnaires de réseau pourront bientôt prioriser le raccordement des installations d'énergies renouvelables aux réseaux d'électricité en France.",
+  "accroche": "Cette proposition de loi permettrait de mieux organiser le raccordement des installations d'énergies renouvelables aux réseaux électriques français.",
   "points": [
-    "Permet aux gestionnaires de réseaux d'électricité de décider l'ordre de raccordement des installations de production d'énergie renouvelable.",
-    "Subordonne cette priorisation à l'approbation de la Commission de régulation de l'énergie et à des critères fixés par décret (texte du gouvernement).",
-    "Modifie le code de l'énergie en ajoutant un article précis sur l'ordre de traitement des demandes de raccordement.",
-    "Précise que les articles 2 et 3 de cette proposition de loi ont été supprimés lors de l'examen au Sénat."
+    "Permettrait aux gestionnaires de réseaux d'électricité de décider de l'ordre de raccordement des énergies renouvelables.",
+    "Exigerait l'approbation de la Commission de régulation de l'énergie pour ces décisions de priorisation.",
+    "Modifierait le code de l'énergie pour préciser les critères de raccordement par décret (texte du gouvernement)."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53540",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -4,18 +4,15 @@
   "date_depot": "2026-06-23",
   "categorie": "Environnement et énergie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2970.html",
-  "accroche": "Cette proposition de loi vise à supprimer les Zones à Faibles Émissions-mobilités (ZFE-m) pour simplifier la vie des automobilistes et éviter les inégalités entre Français.",
+  "accroche": "Cette proposition de loi abrogerait les zones à faibles émissions-mobilités, ce qui mettrait fin aux restrictions de circulation pour les automobilistes.",
   "points": [
-    "Supprime l'ensemble des Zones à Faibles Émissions-mobilités (ZFE-m) de la législation française.",
-    "Abolit les articles du code général des collectivités territoriales qui autorisent les ZFE.",
-    "Met fin aux contrôles des véhicules liés aux ZFE-m, notamment pour les Crit'air 3 dès juillet 2026.",
-    "Modifie les codes de l'environnement et des transports pour retirer toutes les mentions des ZFE-m."
+    "Supprimerait complètement les zones à faibles émissions-mobilités (ZFE-m) de la législation française.",
+    "Interdirait les contrôles et les verbalisations liées aux restrictions des ZFE-m.",
+    "Mettrait fin à l'obligation pour les maires de transférer leurs compétences aux intercommunalités concernant les ZFE-m.",
+    "Modifierait les codes de l'environnement, des transports et des collectivités territoriales pour retirer toute mention des ZFE-m."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54557",
   "etat": "Déposé",
   "statut": "Texte déposé",

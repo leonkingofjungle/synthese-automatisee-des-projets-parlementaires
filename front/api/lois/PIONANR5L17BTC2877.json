@@ -4,17 +4,15 @@
   "date_depot": "2026-06-04",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2877.html",
-  "accroche": "Cette loi renforce la sécurité antiterroriste, autorisant des examens psychiatriques, prolongeant la rétention et créant de nouvelles mesures de surveillance.",
+  "accroche": "Cette proposition renforcerait les mesures de sécurité et prolongerait la rétention administrative pour prévenir les risques d'attentat.",
   "points": [
-    "Autorise les préfets à imposer un examen psychiatrique aux personnes soupçonnées de terrorisme et de troubles mentaux.",
-    "Crée une rétention de sûreté terroriste pour les condamnés présentant un risque élevé de récidive, avec un suivi médical permanent.",
-    "Instaure une mesure judiciaire de prévention pour les condamnés radicalisés, incluant un suivi et des obligations pour la réinsertion.",
-    "Allonge la durée maximale de rétention administrative des étrangers dangereux à 90 jours, pouvant aller jusqu'à 540 jours cumulés."
+    "Le préfet pourrait obliger une personne suspectée de terrorisme à un examen psychiatrique pour la sécurité publique.",
+    "Elle créerait une rétention de sûreté terroriste pour les condamnés à au moins 15 ans jugés très dangereux.",
+    "Elle établirait une mesure judiciaire pour prévenir les actes terroristes des condamnés radicalisés à 10 ans ou plus.",
+    "La durée maximale de rétention administrative des étrangers menaçant l'ordre public serait portée à 540 jours."
   ],
-  "quality_score": 83,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53284",
   "etat": "En cours",
   "statut": "Saisine du conseil constitutionnel",

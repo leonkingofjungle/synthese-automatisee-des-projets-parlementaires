@@ -4,12 +4,12 @@
   "date_depot": "2026-02-25",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2527.html",
-  "accroche": "Cette proposition de loi interdit la fabrication et la vente de produits alimentaires avec sucres ajoutés pour les nourrissons et jeunes enfants.",
+  "accroche": "Cette proposition interdirait la fabrication et la vente d'aliments spécifiquement destinés aux bébés et jeunes enfants contenant des sucres ajoutés.",
   "points": [
-    "Interdit de fabriquer ou vendre des préparations alimentaires contenant des sucres ajoutés pour les moins de trois ans.",
-    "Définit les nourrissons comme enfants de moins d'un an, et les jeunes enfants de un à trois ans.",
-    "Permet au ministre de la Santé d'autoriser certaines préparations via arrêté, après avis de l'ANSES.",
-    "Prévoit une amende de 30 000 euros, ou 5% du chiffre d'affaires, dès le 1er janvier 2028."
+    "Interdirait la fabrication, l'importation, la vente et la détention de préparations alimentaires pour nourrissons et enfants en bas âge avec sucres ajoutés.",
+    "Définirait les sucres ajoutés comme les monosaccharides, les disaccharides, le miel, les sirops ou les jus de fruits concentrés.",
+    "Prévoirait des amendes pouvant atteindre 30 000 € ou 5 % du chiffre d'affaires hors taxes pour les entreprises ne respectant pas la règle.",
+    "Modifierait le Code de la santé publique et s'appliquerait à partir du 1er janvier 2028."
   ],
   "quality_score": null,
   "quality_flags": [],

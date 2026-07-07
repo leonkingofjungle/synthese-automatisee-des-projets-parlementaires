@@ -4,18 +4,15 @@
   "date_depot": "2026-05-06",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2752.html",
-  "accroche": "Ce texte renforce la lutte contre l'entrisme islamiste, en créant de nouvelles infractions, contrôlant lieux de culte et finançant moins les groupes séparatistes.",
+  "accroche": "Cette proposition de loi renforcerait les outils de l'État pour combattre l'entrisme islamiste en France, notamment par des contrôles accrus et des sanctions financières.",
   "points": [
-    "Crée un nouveau délit, puni de 5 ans de prison, pour l'atteinte grave aux principes de la République via un organisme.",
-    "Élargit les motifs de dissolution administrative des associations et interdit les actions de groupes étrangers en France.",
-    "Exige l'accord conforme du préfet pour la création ou l'extension d'un lieu de culte en cas de menace grave.",
-    "Permet de geler les fonds de groupes menaçant l'ordre public et de récupérer les subventions des associations défaillantes."
+    "Créerait un nouveau délit punissant l'atteinte grave aux principes de la République par des organismes, avec 5 ans de prison.",
+    "Renforcerait les pouvoirs des préfets pour dissoudre des associations, y compris celles basées à l'étranger, et contrôlerait les lieux de culte.",
+    "Gèlerait les fonds des entités menaçant l'ordre public et forcerait la restitution des subventions non conformes.",
+    "Mettrait sous surveillance préfectorale les accueils de mineurs hors domicile et étendrait la prescription des délits de presse visant les mineurs."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53936",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

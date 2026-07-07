@@ -4,12 +4,12 @@
   "date_depot": "2026-02-27",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2541.html",
-  "accroche": "Cette proposition de loi constitutionnelle vise à améliorer l'examen des textes budgétaires et à renforcer le rôle du Parlement face aux ordonnances.",
+  "accroche": "Cette proposition de loi constitutionnelle préciserait les règles d'examen des budgets et renforcerait le contrôle du Parlement sur les ordonnances du Gouvernement.",
   "points": [
-    "Oblige l'ajout de l'avis du Conseil d'État aux projets de loi de finances et de sécurité sociale.",
-    "Précise l'entrée en vigueur des ordonnances budgétaires au deuxième jour après leur publication.",
-    "Oblige le Gouvernement à obtenir l'accord du Parlement pour emprunter si la loi de financement sécurité sociale est tardive.",
-    "Étend la possibilité pour le Conseil constitutionnel de contrôler les ordonnances budgétaires avant leur application."
+    "Exigerait que l'avis du Conseil d'État accompagne désormais les textes de loi de finance et de sécurité sociale.",
+    "Préciserait que les ordonnances budgétaires entreraient en vigueur le deuxième jour après leur publication officielle.",
+    "Autoriserait le gouvernement à recourir à l'emprunt pour les lois de finances et, sous condition, pour la Sécurité sociale.",
+    "Permettrait au Conseil constitutionnel de contrôler les ordonnances budgétaires avant leur application effective."
   ],
   "quality_score": null,
   "quality_flags": [],

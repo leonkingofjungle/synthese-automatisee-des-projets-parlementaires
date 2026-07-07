@@ -4,14 +4,14 @@
   "date_depot": "2026-06-11",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2917.html",
-  "accroche": "Ce texte transforme une société en un établissement public pour mieux gérer, entretenir et valoriser le patrimoine immobilier de l'État.",
+  "accroche": "Cette proposition transformerait une agence en établissement public pour optimiser la gestion et la rénovation du patrimoine immobilier de l'État.",
   "points": [
-    "Transforme l'Agence de gestion de l'immobilier de l'État en un Établissement public national avant le 1er janvier 2027.",
-    "Confie à ce nouvel établissement la gestion, l'entretien, la rénovation et la valorisation du patrimoine de l'État.",
-    "Permet le transfert gratuit de nombreux biens immobiliers de l'État vers cet établissement public.",
-    "Modifie plusieurs codes (Code général de la propriété, Code de l'urbanisme) pour encadrer ces transferts."
+    "Transformerait l'Agence de gestion de l'immobilier de l'État en un établissement public national.",
+    "Chargerait ce nouvel établissement de gérer, entretenir, rénover et valoriser les biens immobiliers de l'État.",
+    "Obligerait l'État à informer les collectivités locales avant de vendre des immeubles sur leur territoire.",
+    "Permettrait le transfert gratuit de biens immobiliers de l'État vers ce nouvel établissement public."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N52746",
   "etat": "En cours",

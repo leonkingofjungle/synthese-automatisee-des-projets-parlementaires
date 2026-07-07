@@ -4,17 +4,15 @@
   "date_depot": "2026-05-21",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2817.html",
-  "accroche": "Cette loi introduit des examens psychiatriques obligatoires et renforce la rétention de sûreté et administrative pour mieux lutter contre le terrorisme.",
+  "accroche": "Cette proposition de loi renforcerait les mesures de sécurité, la rétention administrative, et la prévention des attentats terroristes en France.",
   "points": [
-    "Autorise le préfet à imposer un examen psychiatrique pour prévenir le terrorisme lié à des troubles mentaux.",
-    "Établit une rétention de sûreté terroriste pour les condamnés à long terme présentant un risque très élevé de récidive terroriste.",
-    "Installe une mesure judiciaire de prévention pour les condamnés radicalisés très dangereux en fin de peine.",
-    "Allonge la durée maximale de rétention administrative des étrangers dangereux pour l'ordre public, de 30 à 90 jours."
+    "Autoriserait les préfets à imposer des examens psychiatriques pour prévenir des actes de terrorisme.",
+    "Mettrait en place une rétention de sûreté spécifique pour les condamnés terroristes très dangereux.",
+    "Introduirait une mesure judiciaire pour prévenir les actes terroristes de certains condamnés radicalisés.",
+    "Prolongerait la rétention administrative des étrangers dangereux pour l'ordre public à 90 jours."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53284",
   "etat": "En cours",
   "statut": "Saisine du conseil constitutionnel",

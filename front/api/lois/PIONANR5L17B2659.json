@@ -4,11 +4,12 @@
   "date_depot": "2026-04-14",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2659.html",
-  "accroche": "Cette proposition de loi instaure un arrêt de trois ans sur les fermetures de classes dans les écoles primaires publiques en France.",
+  "accroche": "Cette proposition de loi instaurerait un arrêt de trois ans sur les fermetures de classes dans les écoles primaires publiques en France.",
   "points": [
-    "Instaure un moratoire de trois ans pour suspendre les fermetures de classes dans les écoles primaires publiques.",
-    "Permet aux conseils d'école de donner leur avis officiel sur les décisions de fermeture de classes les concernant.",
-    "Finance cette mesure en créant une taxe additionnelle sur les produits du tabac pour l'État et les collectivités."
+    "Instaurerait un moratoire de trois ans suspendant les fermetures de classes dans les établissements d'enseignement public du premier degré.",
+    "Permettrait aux conseils d'école de donner un avis officiel sur les décisions de fermetures de classes qui les impactent.",
+    "Compenserait la charge pour l'État en créant une taxe additionnelle à l'accise (impôt indirect) sur les tabacs.",
+    "Compenserait les coûts pour les collectivités territoriales en augmentant la dotation globale de fonctionnement et la taxe sur les tabacs."
   ],
   "quality_score": null,
   "quality_flags": [],

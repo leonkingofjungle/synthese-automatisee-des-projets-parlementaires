@@ -4,12 +4,12 @@
   "date_depot": "2026-04-09",
   "categorie": "Numérique",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2634.html",
-  "accroche": "Cette loi instaure une présomption légale facilitant la preuve que les fournisseurs d'intelligence artificielle utilisent des œuvres culturelles protégées.",
+  "accroche": "Les fournisseurs d'intelligence artificielle seraient présumés avoir utilisé des œuvres protégées si un indice le suggérait, sauf preuve contraire.",
   "points": [
-    "Établit une présomption légale que les systèmes d'intelligence artificielle utilisent les œuvres culturelles protégées par droit d'auteur.",
-    "Applique cette présomption dès qu'un indice crédible suggère l'utilisation du contenu par le système d'IA.",
-    "Modifie le code de la propriété intellectuelle pour y inclure des dispositions spécifiques sur l'usage des contenus par l'IA.",
-    "Rend ces nouvelles règles applicables aux litiges civils déjà en cours lors de l'entrée en vigueur de la loi."
+    "Instaurerait une présomption d'utilisation des œuvres protégées par les fournisseurs d'intelligence artificielle.",
+    "Modifierait le code de la propriété intellectuelle pour y ajouter cette nouvelle règle.",
+    "Appliquerait cette présomption si un indice crédible laissait penser à une telle utilisation.",
+    "Rendrait cette nouvelle règle applicable aux affaires juridiques en cours lors de son entrée en vigueur."
   ],
   "quality_score": null,
   "quality_flags": [],

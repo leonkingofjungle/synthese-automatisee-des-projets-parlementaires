@@ -4,18 +4,15 @@
   "date_depot": "2026-06-04",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2879.html",
-  "accroche": "Cette proposition de loi assure une meilleure égalité d'accès aux soins pour les habitants des Outre-mer lors de leurs séjours en métropole.",
+  "accroche": "Cette proposition de loi garantirait aux Ultramarins un accès égal aux soins sur tout le territoire français grâce à une carte d'identité électronique.",
   "points": [
-    "Permet aux Ultramarins d'obtenir une carte d'identification électronique pour leurs soins en métropole.",
-    "Garantit la délivrance de cette carte, par leur organisme, dans les mêmes conditions qu'en métropole.",
-    "Étend la protection de la santé aux personnes changeant de régime social entre Outre-mer et métropole.",
-    "Finance ces nouvelles mesures en augmentant la taxe sur le tabac pour l'État et la sécurité sociale."
+    "Permettrait aux résidents de certains Outre-mer d'obtenir une identification électronique pour leurs soins en métropole et DOM.",
+    "Fonctionnerait cette identification dans les mêmes conditions que celles délivrées en France hexagonale et DOM-TOM.",
+    "Garantirait la protection de la santé lors des transferts entre régimes sociaux d'Outre-mer et ceux de l'Hexagone.",
+    "Compenserait les coûts pour la Sécurité sociale et l'État grâce à des augmentations des taxes sur le tabac."
   ],
-  "quality_score": 60,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53401",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

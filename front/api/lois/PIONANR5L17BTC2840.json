@@ -4,17 +4,15 @@
   "date_depot": "2026-05-27",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2840.html",
-  "accroche": "Cette loi renforce les moyens de l'Agence de recouvrement des avoirs saisis et facilite la gestion des biens confisqués, dont les crypto-actifs.",
+  "accroche": "Cette proposition de loi renforcerait les moyens de l'Agence de gestion des avoirs saisis et assurerait une meilleure rémunération des experts judiciaires.",
   "points": [
-    "Oblige les officiers à informer les victimes sur les biens liés à l'infraction et la possibilité d'indemnisation sur les avoirs confisqués.",
-    "Permet de détruire les biens meubles saisis de faible valeur si leur conservation est trop coûteuse, jusqu'à 1500 euros.",
-    "Autorise l'Agence à vendre les crypto-actifs saisis avant le jugement, consignant le produit en attendant la décision finale.",
-    "Fixe un délai de 60 jours maximum pour le paiement des experts judiciaires, avec des intérêts en cas de retard."
+    "Autoriserait la destruction rapide des biens saisis de faible valeur (moins de 1 500 euros) si leur conservation coûte trop cher.",
+    "Permettrait la vente de certains crypto-actifs saisis avant le jugement, avec restitution des fonds en cas de non-confiscation.",
+    "Instaurerait des enquêtes pour retrouver les biens des condamnés introuvables afin d'exécuter entièrement les peines de confiscation.",
+    "Garantirait la mise en paiement des experts judiciaires dans un délai de soixante jours, avec des intérêts de retard."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53159",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

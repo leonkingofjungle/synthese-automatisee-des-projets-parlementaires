@@ -4,14 +4,14 @@
   "date_depot": "2026-05-21",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2814.html",
-  "accroche": "Instaure une pension temporaire pour les nouveaux retraités du secteur public, agricole et général dont le versement de la retraite principale est retardé.",
+  "accroche": "Cette proposition créerait un « bouclier social » garantissant un revenu temporaire aux nouveaux retraités dont la pension serait retardée.",
   "points": [
-    "Crée une pension temporaire versée aux nouveaux retraités dont la pension principale est retardée.",
-    "Étend ce droit aux fonctionnaires, magistrats, militaires, agriculteurs et assurés du régime général.",
-    "Fixe le montant de cette aide temporaire à celui de l'allocation de solidarité aux personnes âgées (ASPA).",
-    "Modifie les codes des pensions, rural et de la sécurité sociale pour instaurer ce nouveau bouclier social."
+    "Instaurerait une pension temporaire pour les fonctionnaires, agriculteurs et salariés, si leur retraite est retardée.",
+    "Conditionnerait cette aide au dépôt de la demande de retraite au moins deux mois avant la date d'entrée en jouissance.",
+    "Égalerait le montant de cette pension temporaire à celui de l'allocation de solidarité aux personnes âgées (ASPA).",
+    "Prévoirait un arrêt de cette aide dès la réception de la pension, avec régularisation ou étalement du remboursement."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N52517",
   "etat": "En cours",

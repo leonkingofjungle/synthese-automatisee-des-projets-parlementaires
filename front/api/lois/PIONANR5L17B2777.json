@@ -4,17 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2777.html",
-  "accroche": "Cette proposition de loi crée un système où les citoyens peuvent aider à financer la construction de casernes de gendarmerie sur leur territoire.",
+  "accroche": "Les citoyens pourraient financer la construction de casernes de gendarmerie en devenant actionnaires de sociétés dédiées, percevant des loyers.",
   "points": [
-    "Crée un mécanisme permettant aux citoyens d'investir dans des sociétés pour construire des casernes de gendarmerie.",
-    "Permet aux actionnaires citoyens de toucher un loyer annuel jusqu'à 5% pendant 25 ans, avant le transfert gratuit à l'État.",
-    "Réduit le budget initial de l'État pour construire les casernes, en étalant les coûts sur un bail de 25 ans.",
-    "Plafonne l'investissement citoyen à 10 000 euros par actionnaire et exige un agrément du ministre de l'Intérieur."
+    "Permettrait aux citoyens d'investir jusqu'à 10 000 euros dans une société pour construire une caserne.",
+    "Assurerait aux actionnaires un loyer annuel versé par l'État pour 25 ans, avec un rendement jusqu'à 5 %.",
+    "Transférerait gratuitement la propriété des casernes à l'État après 25 ans de bail, sans indemnisation pour les actionnaires.",
+    "Modifierait le code général des impôts pour offrir une réduction de 18 % pour les investissements, plafonnée à 1 800 euros."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54301",
   "etat": "Déposé",
   "statut": "Texte déposé",

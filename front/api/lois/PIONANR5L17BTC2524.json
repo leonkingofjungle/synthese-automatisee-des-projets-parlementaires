@@ -2,14 +2,14 @@
   "uid": "PIONANR5L17BTC2524",
   "titre": "Simplifier la sortie de l'indivision successorale",
   "date_depot": "2026-02-25",
-  "categorie": "Justice et sécurité",
+  "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2524.html",
-  "accroche": "Cette loi simplifie la gestion des successions sans héritiers connus et facilite la vente de biens partagés entre plusieurs propriétaires, même en cas de désaccord.",
+  "accroche": "Cette loi faciliterait la vente de biens en indivision et la gestion des successions sans héritier, via des procédures simplifiées.",
   "points": [
-    "Permet aux communes de demander à l'administration fiscale des informations sur les immeubles sans propriétaire connu.",
-    "Autorise la publication numérique des annonces légales pour les successions, en plus de l'affichage dans les journaux habituels.",
-    "Facilite la vente d'un bien en indivision : les co-propriétaires majoritaires peuvent l'imposer aux autres, sous conditions.",
-    "Élargit la compétence du juge pour traiter des litiges et des ventes forcées pendant les opérations de partage de biens."
+    "Permettrait aux mairies d'obtenir des informations fiscales pour acquérir des biens sans propriétaire connu.",
+    "Autoriserait la publication numérique des annonces judiciaires et légales, en plus des journaux habituels.",
+    "Simplifierait les ventes de biens (meubles ou immeubles) par un curateur pour les successions vacantes.",
+    "Permettrait à la majorité (deux tiers) des co-propriétaires de décider de vendre un bien indivis."
   ],
   "quality_score": null,
   "quality_flags": [],

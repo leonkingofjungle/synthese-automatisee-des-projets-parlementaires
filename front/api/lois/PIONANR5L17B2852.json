@@ -2,20 +2,17 @@
   "uid": "PIONANR5L17B2852",
   "titre": "Reconnaître les victimes des essais nucléaires français",
   "date_depot": "2026-05-28",
-  "categorie": "Santé",
+  "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2852.html",
-  "accroche": "Cette loi améliore la reconnaissance et l'indemnisation des victimes des essais nucléaires français en simplifiant les démarches et en élargissant les critères d'éligibilité.",
+  "accroche": "Cette proposition de loi viserait à améliorer la reconnaissance et l'indemnisation des victimes des essais nucléaires français, en facilitant leurs démarches et en élargissant leurs droits.",
   "points": [
-    "Étend l'indemnisation intégrale aux victimes de pathologies radio-induites et à leurs ayants droit.",
-    "Charge l'État du remboursement des dépenses de santé liées aux maladies radio-induites reconnues.",
-    "Crée une présomption irréfutable (ne pouvant être contestée) d'exposition pour simplifier les demandes.",
-    "Définit un décret (texte du gouvernement) qui établit et actualise la liste des pathologies indemnisables."
+    "Étendrait le droit à une réparation intégrale aux personnes atteintes de pathologies radio-induites et à leurs ayants droit.",
+    "Obligerait l'État à prendre en charge le remboursement des dépenses de santé liées aux pathologies radio-induites.",
+    "Renforcerait le rôle de la commission de suivi des conséquences pour la mise à jour des pathologies reconnues.",
+    "Mettrait en place une présomption irréfutable d'exposition et offrirait l'assistance d'un traducteur aux demandeurs."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53276",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

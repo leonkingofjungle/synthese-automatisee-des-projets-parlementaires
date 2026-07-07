@@ -4,18 +4,15 @@
   "date_depot": "2026-05-27",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2839.html",
-  "accroche": "Cette proposition de loi vise à réduire les contaminations au cadmium dans l'alimentation en limitant la teneur en cadmium des engrais phosphatés.",
+  "accroche": "Cette loi réduirait les risques sanitaires en interdisant les engrais phosphatés avec trop de cadmium pour l'alimentation.",
   "points": [
-    "Interdit l'importation et la vente d'engrais phosphatés contenant plus de 40 milligrammes de cadmium par kilo.",
-    "Renforce cette interdiction en abaissant le seuil maximal de cadmium à 20 milligrammes par kilo dès 2030.",
-    "Met en vigueur le premier seuil de 40 milligrammes le 1er janvier 2027, puis le second dès 2030.",
-    "Modifie le code rural et de la pêche maritime pour instaurer ces nouvelles règles pour les fertilisants."
+    "Modifierait le code rural et de la pêche maritime pour inclure de nouvelles règles sur les engrais.",
+    "Interdirait l’importation et la vente d’engrais avec plus de 40 milligrammes de cadmium par kilo.",
+    "Rabaisserait cette limite de cadmium à 20 milligrammes par kilo d’anhydride phosphorique au 1er janvier 2030.",
+    "Entrerait en vigueur progressivement, d'abord le 1er janvier 2027, puis la limite plus stricte en 2030."
   ],
-  "quality_score": 63,
-  "quality_flags": [
-    "invention",
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54148",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

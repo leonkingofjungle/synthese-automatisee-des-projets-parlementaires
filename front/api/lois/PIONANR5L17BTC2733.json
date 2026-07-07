@@ -4,14 +4,14 @@
   "date_depot": "2026-04-29",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2733.html",
-  "accroche": "Cette loi facilite l'exercice de la médecine en France pour les docteurs diplômés au Royaume-Uni avant le Brexit.",
+  "accroche": "Cette proposition de loi permettrait aux médecins formés au Royaume-Uni avant le Brexit d'exercer plus facilement en France.",
   "points": [
-    "Permet aux médecins diplômés au Royaume-Uni d'exercer en France sous certaines conditions.",
-    "Applique cette mesure aux formations médicales commencées avant le 31 décembre 2020.",
-    "Concerne spécifiquement les ressortissants français, andorrans, européens et du Royaume-Uni.",
-    "Modifie le code de la santé publique pour inclure ces nouvelles règles d'exercice."
+    "Reconnaîtrait les diplômes de médecine du Royaume-Uni pour l'exercice en France.",
+    "Permettrait aux médecins diplômés du Royaume-Uni avant fin 2020 d'exercer en France.",
+    "Appliquerait ces mesures aux ressortissants français, andorrans, européens ou du Royaume-Uni.",
+    "Modifierait le code de la santé publique pour intégrer ces nouvelles dispositions concernant les médecins."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N53192",
   "etat": "Terminé",

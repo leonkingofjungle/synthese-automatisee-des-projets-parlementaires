@@ -4,12 +4,12 @@
   "date_depot": "2026-03-03",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2570.html",
-  "accroche": "Cette loi organique impose la transmission des avis du Conseil d'État sur les projets de loi au Parlement, garantissant plus de transparence.",
+  "accroche": "Cette proposition de loi organique rendrait obligatoire la transmission au Parlement des avis du Conseil d'État sur les projets de loi.",
   "points": [
-    "Modifie la loi organique (loi d'organisation des pouvoirs) de 2009 pour ajouter une obligation de transmission d'avis.",
-    "Exige que les avis du Conseil d'État soient déposés au Parlement en même temps que les projets de loi concernés.",
-    "Empêche le Gouvernement de choisir de ne pas rendre publics certains avis du Conseil d'État sur les projets de loi.",
-    "Ne s'applique pas aux projets de loi concernant les traités internationaux, afin de ne pas gêner la diplomatie."
+    "Obligerait le Gouvernement à déposer les avis du Conseil d'État (conseiller juridique) au Parlement avec chaque projet de loi.",
+    "Modifierait une loi organique (qui organise les pouvoirs publics) de 2009 sur la procédure législative.",
+    "Assurerait que ces avis ne pourraient plus être cachés ou leur publication interrompue par le Gouvernement.",
+    "Exclurait de cette obligation les projets de loi concernant les traités et relations internationales."
   ],
   "quality_score": null,
   "quality_flags": [],

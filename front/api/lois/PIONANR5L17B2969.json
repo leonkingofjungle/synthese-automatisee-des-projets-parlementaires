@@ -4,17 +4,15 @@
   "date_depot": "2026-06-23",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2969.html",
-  "accroche": "Cette proposition de loi veut faciliter l'accès à l'emploi des personnes handicapées en adaptant les règles de leur allocation avec le travail.",
+  "accroche": "Cette proposition mettrait fin aux discriminations dans l'accès à l'emploi des personnes handicapées en adaptant les conditions de l'AAH.",
   "points": [
-    "Modifie le code de la sécurité sociale pour mieux définir la restriction d'accès à l'emploi due au handicap.",
-    "Permet aux personnes handicapées de cumuler l'AAH avec un emploi, même au-delà du mi-temps, sans perdre leurs droits.",
-    "Assure que l'absence de recherche d'emploi, due à une incapacité liée au handicap, ne bloque plus l'Allocation Adulte Handicapé.",
-    "Harmonise les pratiques des maisons départementales du handicap (MDPH) afin de garantir une application plus juste de la loi."
+    "Redéfinirait la restriction substantielle d'accès à l'emploi, incluant davantage de types de handicaps et situations.",
+    "Autoriserait le cumul de l'AAH avec des revenus professionnels, même au-delà d'un mi-temps.",
+    "Assurerait l'octroi de l'AAH même sans recherche d'emploi active, si le handicap le justifie.",
+    "Sécuriserait et harmoniserait les décisions des CDAPH (commissions des droits et de l'autonomie) pour l'AAH."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54556",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -4,12 +4,12 @@
   "date_depot": "2026-04-28",
   "categorie": "Environnement et énergie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2723.html",
-  "accroche": "Cette proposition de loi veut améliorer la gestion des déchets de construction en réorganisant leur collecte, leur recyclage et leur financement.",
+  "accroche": "Cette proposition de loi refonderait la gestion des déchets de construction pour mieux répartir les coûts et créer de nouveaux points de collecte.",
   "points": [
-    "Généralise les points de collecte sélective pour les déchets de construction et assure la reprise gratuite des petits apports.",
-    "Oblige les éco-organismes à prendre en charge la résorption des dépôts sauvages de matériaux dès le 1er janvier 2027.",
-    "Crée trois catégories de matériaux (gravats, bois, autres) avec des contributions financières adaptées à leur bilan écologique.",
-    "Rend obligatoire l'affichage de l'éco-contribution sur les factures, sans négociation ou majoration possible."
+    "Développerait un réseau régional de points de collecte pour les déchets de chantier, allégeant ainsi les déchetteries publiques.",
+    "Assurerait la reprise gratuite des petits volumes de déchets de matériaux pour les ménages et les artisans volontaires.",
+    "Prendrait en charge la gestion des dépôts sauvages de matériaux, actuellement entièrement supportée par les communes.",
+    "Créerait trois catégories distinctes de matériaux (gravats, bois, autres) pour adapter les contributions des producteurs."
   ],
   "quality_score": null,
   "quality_flags": [],

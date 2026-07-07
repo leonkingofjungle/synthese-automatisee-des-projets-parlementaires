@@ -4,12 +4,12 @@
   "date_depot": "2026-03-30",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2605.html",
-  "accroche": "Cette proposition de loi simplifie les règles des marchés publics pour les acheteurs et soutient les petites et moyennes entreprises.",
+  "accroche": "Cette proposition de loi simplifierait la gestion de la commande publique pour les acheteurs publics et les entreprises.",
   "points": [
-    "Assouplit les règles des accords-cadres, permettant aux acheteurs de solliciter d'autres entreprises si nécessaire.",
-    "Permet aux acheteurs de faire réaliser les travaux urgents par un tiers si l'entreprise est défaillante.",
-    "Fixe un taux d'avance minimal de 30% pour les petites et moyennes entreprises dans les marchés publics.",
-    "Oblige les centrales d'achat à déclarer leur activité et publier un rapport annuel si leurs achats sont élevés."
+    "Rendrait les accords-cadres non exclusifs par défaut, sauf si les documents contractuels en décidaient autrement.",
+    "Permettrait aux acheteurs publics de confier des prestations à un tiers en cas de défaillance de l'entreprise titulaire.",
+    "Fixerait à 30% le taux minimal de l'avance pour les petites et moyennes entreprises dans certains marchés publics.",
+    "Obligerait les centrales d'achat à déclarer leur activité et à publier un rapport annuel si leurs achats dépassent un seuil."
   ],
   "quality_score": null,
   "quality_flags": [],

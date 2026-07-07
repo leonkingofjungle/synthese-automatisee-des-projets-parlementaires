@@ -4,18 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2780.html",
-  "accroche": "Cette proposition de loi taxe les bénéfices exceptionnels des grandes entreprises énergétiques pour aider les Français touchés par la hausse des prix du carburant.",
+  "accroche": "Une taxe frapperait les bénéfices exceptionnels des grandes entreprises de l'énergie afin de financer une aide aux Français affectés par la hausse du carburant.",
   "points": [
-    "Crée une nouvelle taxe sur les profits exceptionnels des grandes entreprises du secteur de l'énergie.",
-    "Cible les entreprises avec plus de 750 millions d'euros de chiffre d'affaires et des profits 1,2 fois supérieurs à la moyenne.",
-    "Applique des taux d'imposition progressifs de 20%, 30% et 40% sur ces bénéfices supplémentaires.",
-    "Limite les déductions comptables et les salaires très élevés pour éviter l'optimisation fiscale jusqu'au 31 décembre 2029."
+    "Assujettirait les grandes entreprises de l'énergie dont les bénéfices excéderaient 1,2 fois leur moyenne sur trois ans.",
+    "Appliquerait des taux progressifs de 20%, 30% ou 40% sur la part des bénéfices exceptionnels.",
+    "Limiterait la déduction de certaines charges et des salaires très élevés pour calculer le bénéfice imposable.",
+    "Intégrerait ce nouveau dispositif temporaire au code général des impôts (règles fiscales)."
   ],
-  "quality_score": 77,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54304",
   "etat": "Déposé",
   "statut": "Texte déposé",

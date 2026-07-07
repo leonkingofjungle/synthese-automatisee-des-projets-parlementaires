@@ -4,12 +4,12 @@
   "date_depot": "2026-01-28",
   "categorie": "Numérique",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2400.html",
-  "accroche": "Cette proposition de loi permet aux commerçants d'utiliser des algorithmes sur la vidéoprotection pour prévenir les vols dans leurs établissements.",
+  "accroche": "Des commerçants pourraient utiliser, à titre expérimental, des caméras avec intelligence artificielle pour détecter les risques de vol en temps réel.",
   "points": [
-    "Lance une expérimentation jusqu'au 31 décembre 2031 pour utiliser des algorithmes sur la vidéoprotection contre le vol.",
-    "Permet de détecter les risques de vol en temps réel mais interdit toute reconnaissance faciale ou biométrique.",
-    "Impone des règles strictes sur la conception des algorithmes et leur contrôle humain constant.",
-    "Oblige les commerçants à informer le public et à obtenir une autorisation préfectorale pour l'usage de ces systèmes."
+    "Permettrait d'utiliser des traitements algorithmiques sur la vidéoprotection jusqu'au 31 décembre 2031, pour détecter les vols.",
+    "Interdirait l'usage de la reconnaissance faciale ou des données biométriques avec ces traitements algorithmiques.",
+    "Obligerait d'informer le public de l'utilisation de ces systèmes, après avis de la CNIL (autorité indépendante).",
+    "Prévoirait un rapport d'évaluation au Parlement d'ici le 31 décembre 2029, supervisé par la CNIL."
   ],
   "quality_score": null,
   "quality_flags": [],

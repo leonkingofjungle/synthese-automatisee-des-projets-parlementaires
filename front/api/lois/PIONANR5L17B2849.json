@@ -4,18 +4,15 @@
   "date_depot": "2026-05-28",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2849.html",
-  "accroche": "Cette proposition de loi réforme les critères d'attribution de l'éducation prioritaire pour une meilleure équité et égalité territoriale des résultats scolaires.",
+  "accroche": "Cette proposition de loi réformerait les critères d'attribution de l'éducation prioritaire pour mieux tenir compte des inégalités territoriales.",
   "points": [
-    "Modifie le code de l'éducation pour redéfinir la politique d'éducation prioritaire en France.",
-    "Exige que la répartition des moyens éducatifs tienne compte des situations économiques, territoriales et sociales diverses.",
-    "Définit l'éducation prioritaire comme une politique territoriale renforçant l'action pédagogique dans certaines zones.",
-    "Prévoit une révision tous les cinq ans de la répartition des moyens et des établissements concernés par cette politique."
+    "Renforcerait la prise en compte des situations économiques, territoriales et sociales pour répartir les moyens.",
+    "Définirait l'éducation prioritaire comme une politique territoriale renforçant l'action pédagogique et éducative.",
+    "Imposerait une révision des moyens et des écoles concernées par l'éducation prioritaire au moins tous les cinq ans.",
+    "Étendrait les zones d'application de l'éducation prioritaire aux territoires éloignés en plus des zones dispersées."
   ],
-  "quality_score": 77,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54057",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

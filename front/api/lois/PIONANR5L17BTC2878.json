@@ -2,19 +2,17 @@
   "uid": "PIONANR5L17BTC2878",
   "titre": "Renforcer la protection des mineurs en formation professionnelle",
   "date_depot": "2026-06-04",
-  "categorie": "Économie et travail",
+  "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2878.html",
-  "accroche": "Cette loi renforce la sécurité et la prévention des violences pour les mineurs en stage ou en apprentissage, les protégeant mieux au travail.",
+  "accroche": "Cette proposition de loi renforcerait la sécurité et les droits des mineurs en stage ou apprentissage face aux accidents et violences au travail.",
   "points": [
-    "Interdit aux entreprises ayant trop d'accidents de travail d'accueillir des stagiaires ou des apprentis mineurs.",
-    "Oblige les entreprises à informer les mineurs des risques professionnels et de leurs droits, y compris le droit de retrait.",
-    "Renforce la prévention et le signalement des violences, discriminations et harcèlements pour les jeunes en formation.",
-    "Augmente les amendes pour les employeurs ne respectant pas la sécurité des mineurs et permet de suspendre des aides financières."
+    "Renforcerait la protection des mineurs en stage ou apprentissage en interdisant des travaux dangereux, comme le travail en hauteur.",
+    "Permettrait de consulter la sinistralité des entreprises et refuserait les stages ou apprentissages dans les plus risquées.",
+    "Obligerait les entreprises à définir des mesures de prévention et de signalement contre les violences et le harcèlement.",
+    "Augmenterait les amendes pour infractions de sécurité concernant des mineurs, jusqu'à 45 000 euros en cas de récidive."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54226",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

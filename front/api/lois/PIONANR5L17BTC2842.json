@@ -4,17 +4,15 @@
   "date_depot": "2026-05-27",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2842.html",
-  "accroche": "Cette proposition de loi vise à revaloriser les pensions de retraite des agriculteurs non-salariés en modifiant plusieurs règles de calcul.",
+  "accroche": "Cette proposition de loi revaloriserait les pensions de retraite agricoles en supprimant certains plafonds et en étendant les aides à plus de bénéficiaires.",
   "points": [
-    "Supprime les réductions de pensions complémentaires pour tous les non-salariés agricoles.",
-    "Étend les compléments de points de retraite aux conjoints collaborateurs et aides familiaux agricoles.",
-    "Exclut la pension de réversion et la bonification pour enfants du calcul du plafond des pensions.",
-    "Crée une taxe additionnelle de 0,1% sur les transactions financières pour financer les retraites agricoles."
+    "Elle supprimerait la réduction des pensions complémentaires pour les non-salariés agricoles, augmentant ainsi leur montant.",
+    "Elle étendrait l'accès au complément de points de retraite aux conjoints collaborateurs et aux aides familiaux.",
+    "Elle exclurait la pension de réversion et la bonification pour enfants du calcul du plafond des pensions.",
+    "Elle créerait une nouvelle taxe sur les transactions financières pour financer l'assurance vieillesse agricole."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N51955",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

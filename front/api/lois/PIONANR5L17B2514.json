@@ -4,12 +4,12 @@
   "date_depot": "2026-02-19",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2514.html",
-  "accroche": "Cette proposition de loi durcit les règles contre les retards de paiement pour protéger les entreprises, notamment les PME, et éviter leurs faillites.",
+  "accroche": "Cette proposition de loi renforcerait la lutte contre les retards de paiement en augmentant les amendes et en aidant les petites entreprises.",
   "points": [
-    "Renforce les amendes pour retards de paiement jusqu'à 2 millions d'euros ou 1% du chiffre d'affaires, doublées en cas de récidive.",
-    "Applique ces nouvelles amendes administratives également aux marchés publics et aux contrats de concession.",
-    "Remplace la date d'émission par la date de réception pour les délais de paiement et annule la renonciation aux pénalités.",
-    "Crée un fonds public expérimental pour payer gratuitement les factures impayées des micro-entreprises et PME."
+    "Porterait les amendes pour retards de paiement jusqu'à 75 000 € pour une personne et 1% du chiffre d'affaires mondial pour une entreprise.",
+    "Modifierait le code de commerce pour que le délai de paiement débute à la date de réception de la facture.",
+    "Créerait un fonds public pour payer rapidement les factures des petites et moyennes entreprises en cas de retards des marchés publics.",
+    "Rendrait nulle toute renonciation au paiement des pénalités de retard, pour mieux protéger les créanciers."
   ],
   "quality_score": null,
   "quality_flags": [],

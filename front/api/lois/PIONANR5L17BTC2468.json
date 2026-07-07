@@ -4,12 +4,12 @@
   "date_depot": "2026-02-11",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2468.html",
-  "accroche": "Cette loi renforce la prévention du terrorisme, la rétention administrative et la surveillance des individus considérés comme une menace grave pour la sécurité publique.",
+  "accroche": "Cette proposition renforcerait les outils de l'État pour prévenir le terrorisme, notamment par un suivi psychiatrique et une nouvelle forme de rétention.",
   "points": [
-    "Permet au préfet d'imposer un examen psychiatrique aux individus présentant une menace grave liée au terrorisme et à des troubles.",
-    "Établit une rétention de sûreté terroriste pour les condamnés dangereux atteints de troubles de la personnalité.",
-    "Prolonge la durée maximale de la rétention administrative des étrangers menaçant l'ordre public à deux cent dix jours.",
-    "Interdit les changements de nom ou prénom pour les personnes condamnées pour certaines infractions terroristes."
+    "Permettrait au préfet d'imposer un examen psychiatrique aux personnes menaçant la sécurité publique par leur idéologie terroriste.",
+    "Instaurerait une rétention de sûreté terroriste pour les condamnés à de lourdes peines présentant une très forte probabilité de récidive.",
+    "Améliorerait la transmission d'informations au préfet sur les personnes suivies en soins psychiatriques présentant un risque pour l'ordre.",
+    "Allongerait la durée maximale de rétention administrative des étrangers dangereux et permettrait des placements répétés jusqu'à 540 jours."
   ],
   "quality_score": null,
   "quality_flags": [],

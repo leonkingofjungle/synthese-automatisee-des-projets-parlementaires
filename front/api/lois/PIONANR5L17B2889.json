@@ -2,19 +2,17 @@
   "uid": "PIONANR5L17B2889",
   "titre": "Garantir des droits sociaux et professionnels aux personnes atteintes d’algie vasculaire de la face par l’intégration de la pathologie dans les dispositifs de solidarité et d’handicap",
   "date_depot": "2026-06-09",
-  "categorie": "Santé",
+  "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2889.html",
-  "accroche": "Une loi est proposée pour mieux intégrer l'algie vasculaire de la face dans les dispositifs sociaux et de handicap.",
+  "accroche": "Cette proposition de loi reconnaîtrait l'algie vasculaire de la face comme un handicap, octroyant des droits sociaux et professionnels spécifiques aux malades.",
   "points": [
-    "Reconnaît automatiquement l'algie vasculaire de la face comme affection de longue durée pour une prise en charge à 100%.",
-    "Accorde l'allocation aux adultes handicapés de plein droit aux formes chroniques et facilite son accès aux formes épisodiques.",
-    "Facilite la reconnaissance du statut de travailleur handicapé et garantit des aménagements de poste et horaires.",
-    "Instaure des absences courtes justifiables après coup sans jour de carence, et 30 jours d'arrêt annuel."
+    "Reconnaîtrait automatiquement l'algie vasculaire de la face comme affection de longue durée, remboursant intégralement les soins.",
+    "Accorderait l'Allocation Adulte Handicapé aux formes chroniques et faciliterait son accès pour les formes épisodiques sévères.",
+    "Faciliterait la reconnaissance du statut de travailleur handicapé et les aménagements professionnels, incluant le télétravail.",
+    "Permettrait des absences justifiables après coup sans jour de carence et jusqu'à trente jours d'arrêt par an."
   ],
-  "quality_score": 86,
-  "quality_flags": [
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54442",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -4,14 +4,14 @@
   "date_depot": "2026-05-26",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2831.html",
-  "accroche": "Les assurés ne trouvant pas de médecin traitant dans les déserts médicaux seront exonérés de la majoration financière sur leurs consultations.",
+  "accroche": "Cette proposition de loi permettrait aux personnes ne trouvant pas de médecin traitant dans les zones sous-dotées de ne plus subir de majoration sur leurs remboursements de soins.",
   "points": [
-    "Modifie le code de la sécurité sociale pour exonérer les assurés habitant une zone médicale sous-dotée.",
-    "Considère que l'assuré respecte le parcours de soins s'il est adressé par un médecin consulté.",
-    "S'appuie sur des zonages géographiques officiels pour définir les zones où l'offre de soins est insuffisante.",
-    "Prévoit que cette mesure est temporaire et cessera lorsque l'offre médicale redeviendra suffisante sur le territoire."
+    "Exonérerait les assurés domiciliés en zone sous-dotée de la majoration pour absence de médecin traitant.",
+    "Permettrait ainsi un meilleur remboursement des consultations médicales pour ces personnes.",
+    "Réputerait le parcours de soins coordonnés respecté lorsque ces assurés seraient orientés vers un spécialiste.",
+    "Modifierait l'article L. 162-5-3 du code de la sécurité sociale pour inscrire cette nouvelle dérogation."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54366",
   "etat": "Déposé",

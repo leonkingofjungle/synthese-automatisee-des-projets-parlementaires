@@ -4,18 +4,15 @@
   "date_depot": "2026-06-09",
   "categorie": "Environnement et énergie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2885.html",
-  "accroche": "Cette proposition de loi simplifie les procédures juridiques pour les projets d'infrastructures publiques, en particulier celles liées à l'environnement, pour accélérer leur construction.",
+  "accroche": "Cette proposition de loi rendrait plus sûrs les projets d'infrastructures publiques nécessaires, en simplifiant les procédures juridiques et réduisant les délais.",
   "points": [
-    "Modifie le code de l'environnement pour définir les solutions alternatives acceptables face aux atteintes aux espèces protégées.",
-    "Crée de nouvelles règles dans le code de justice administrative pour accélérer les recours contre les autorisations environnementales.",
-    "Fixe des délais plus courts pour le dépôt des documents et l'organisation des audiences pour ces affaires.",
-    "Étend la possibilité d'annuler seulement une partie de l'autorisation ou de suspendre le jugement pour les projets concernés."
+    "Inscrirait dans la loi (code de l'environnement) les conditions pour qu'une alternative à un projet soit considérée satisfaisante.",
+    "Accorderait aux tribunaux administratifs la priorité pour juger les recours contre les autorisations des projets locaux importants.",
+    "Prévoirait une inscription rapide au rôle des juges et un calendrier judiciaire resserré pour ces affaires.",
+    "Étendrait l'annulation partielle et le sursis à statuer (suspension provisoire) aux recours contre ces autorisations."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54438",
   "etat": "Déposé",
   "statut": "Texte déposé",

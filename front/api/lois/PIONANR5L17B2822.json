@@ -4,14 +4,14 @@
   "date_depot": "2026-05-26",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2822.html",
-  "accroche": "Cette proposition de loi crée un observatoire national indépendant pour évaluer précisément les conséquences de l'ouverture à la concurrence du transport ferroviaire.",
+  "accroche": "Cette proposition de loi créerait un observatoire indépendant pour évaluer les impacts de l'ouverture à la concurrence du transport ferroviaire.",
   "points": [
-    "Insère un nouveau chapitre dans le code des transports pour créer un Observatoire national du ferroviaire.",
-    "Charge cet Observatoire d'évaluer les impacts de la concurrence sur la qualité du service et la sécurité.",
-    "Examine les conséquences de l'ouverture à la concurrence sur l'emploi, les coûts et la transition écologique.",
-    "Demande au Gouvernement de rendre compte au Parlement des suites données aux recommandations de l'Observatoire."
+    "Créerait un Observatoire national chargé d'analyser les effets de la concurrence sur le rail de voyageurs et de marchandises.",
+    "Analyserait l'impact de l'ouverture sur la qualité, la sécurité et l'accessibilité du service public ferroviaire.",
+    "Évaluerait les conséquences économiques, financières et sociales pour l'État, les usagers et les travailleurs du secteur.",
+    "Obligerait le Gouvernement à présenter au Parlement les suites données aux recommandations de cet Observatoire."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54357",
   "etat": "Déposé",

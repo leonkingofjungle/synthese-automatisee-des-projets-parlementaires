@@ -4,17 +4,15 @@
   "date_depot": "2026-05-20",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2815.html",
-  "accroche": "Ce texte facilite la création et la reprise d'entreprises sous forme coopérative en offrant des aides financières et des avantages fiscaux.",
+  "accroche": "Cette proposition de loi favoriserait la création et la reprise d'entreprises coopératives et participatives en leur offrant des aides financières et fiscales.",
   "points": [
-    "Crée une aide financière de l'État pour la création ou la reprise d'entreprises coopératives, avec un minimum de 3000 euros.",
-    "Institue un fonds de développement coopératif pour soutenir la création, la reprise et la transmission d'entreprises.",
-    "Modifie le code général des impôts pour accorder une réduction d'impôt de 25% sur les souscriptions en coopératives.",
-    "Compense les coûts financiers pour l'État et les collectivités par une nouvelle taxe sur le tabac."
+    "Accorderait aux personnes physiques une aide financière de l'État jusqu'à 3 000 ou 5 000 euros pour créer ou transformer une coopérative.",
+    "Instituerait un fonds de développement coopératif pour soutenir la création, la transmission et la reprise d'entreprises coopératives.",
+    "Fixerait une réduction d'impôt sur le revenu à 25 % pour les souscriptions au capital des sociétés coopératives.",
+    "Compenserait les pertes de recettes pour l'État et collectivités par une taxe additionnelle sur les produits du tabac."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54014",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

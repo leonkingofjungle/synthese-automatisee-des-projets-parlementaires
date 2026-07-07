@@ -2,14 +2,14 @@
   "uid": "PIONANR5L17B2718",
   "titre": "Interdire les mécanismes numériques favorisant l’addiction des mineurs",
   "date_depot": "2026-04-28",
-  "categorie": "Éducation et jeunesse",
+  "categorie": "Numérique",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2718.html",
-  "accroche": "Cette loi interdira les mécanismes numériques rendant les mineurs accros et impose un mode non addictif par défaut pour les moins de 15 ans.",
+  "accroche": "Une loi interdirait aux plateformes numériques les mécanismes favorisant l'addiction des mineurs et imposerait un mode non addictif par défaut pour les moins de quinze ans.",
   "points": [
-    "Interdit aux plateformes d'utiliser des mécanismes numériques favorisant un usage addictif chez les mineurs.",
-    "Impone aux plateformes d'activer un \"mode non addictif\" par défaut pour les utilisateurs de moins de quinze ans.",
-    "Permet la désactivation de ce mode non addictif uniquement par le titulaire de l'autorité parentale (les parents).",
-    "Prévoit une amende administrative allant jusqu'à 4 % du chiffre d'affaires mondial en cas de non-respect."
+    "Interdirait aux plateformes numériques d'utiliser des mécanismes favorisant un usage prolongé, excessif ou addictif chez les mineurs.",
+    "Imposerait un mode d'utilisation \"non addictif\" par défaut pour tous les utilisateurs âgés de moins de quinze ans.",
+    "Ce mode désactiverait le défilement continu, la lecture automatique et les systèmes de valorisation publique des contenus.",
+    "Permettrait aux parents de désactiver ce mode protecteur et punirait les non-conformités d'une amende administrative."
   ],
   "quality_score": null,
   "quality_flags": [],

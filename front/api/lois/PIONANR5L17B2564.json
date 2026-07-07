@@ -4,12 +4,12 @@
   "date_depot": "2026-03-03",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2564.html",
-  "accroche": "Cette loi empêche le gouvernement d'augmenter les frais médicaux et confie cette décision aux conseils d'administration de l'assurance maladie.",
+  "accroche": "Cette proposition confierait aux conseils d'administration de la Sécurité sociale le pouvoir de fixer les frais médicaux, tout en plafonnant leurs montants.",
   "points": [
-    "Confie au conseil d'administration de l'assurance maladie la décision sur le forfait journalier hospitalier, en bloquant son montant actuel.",
-    "Transfère au conseil d'administration de l'assurance maladie la fixation du coût des passages aux urgences, sans pouvoir l'augmenter.",
-    "Attribue au conseil d'administration de l'assurance maladie la décision sur la participation aux soins lourds et coûteux, interdisant toute hausse.",
-    "Compense les coûts pour la Sécurité sociale en augmentant la taxe sur le tabac, assurant ainsi l'équilibre financier."
+    "Confierait au conseil d'administration de l'assurance maladie la fixation du forfait journalier, le bloquant au niveau du 1er janvier 2026.",
+    "Attribuerait à ce même conseil la détermination de la participation aux urgences, sans dépasser le niveau du 1er janvier 2026.",
+    "Placerait sous le contrôle du conseil la participation forfaitaire aux soins lourds et coûteux, au montant du 1er janvier 2026.",
+    "Compenserait les coûts pour la Sécurité sociale en augmentant la taxe sur le tabac."
   ],
   "quality_score": null,
   "quality_flags": [],

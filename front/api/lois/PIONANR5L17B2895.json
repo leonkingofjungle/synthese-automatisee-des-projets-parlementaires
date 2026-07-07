@@ -2,19 +2,17 @@
   "uid": "PIONANR5L17B2895",
   "titre": "La réparation des préjudices résultant de la traite et de l'esclavage",
   "date_depot": "2026-06-09",
-  "categorie": "Justice et sécurité",
+  "categorie": "International et outre-mer",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2895.html",
-  "accroche": "La loi créerait des comités pour évaluer et organiser la réparation des préjudices liés à la traite, l'esclavage et la rançon imposée à Haïti.",
+  "accroche": "Cette proposition de loi permettrait d'étudier et de proposer des réparations pour les préjudices liés à la traite et à l'esclavage.",
   "points": [
-    "Institue un comité d'experts chargé de déterminer les préjudices subis et les modalités de réparation pour la traite et l'esclavage.",
-    "Crée un comité spécifique pour évaluer la rançon de 150 millions de francs or imposée à Haïti en 1825.",
-    "Charge ce comité d'étudier les modalités de restitution par la France des sommes dues au peuple haïtien.",
-    "Compense les éventuelles pertes de recettes de l'État par une taxe additionnelle sur le tabac."
+    "Créerait un comité pour évaluer les préjudices de l'esclavage et de la traite négrière.",
+    "Ce comité examinerait les conditions de réparation pour ces crimes contre l'humanité reconnus.",
+    "Instituerait un comité pour évaluer la rançon de 150 millions de francs or imposée à Haïti en 1825.",
+    "Ce comité étudierait comment l'État français restituerait ces sommes au peuple haïtien."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54448",
   "etat": "Déposé",
   "statut": "Texte déposé",

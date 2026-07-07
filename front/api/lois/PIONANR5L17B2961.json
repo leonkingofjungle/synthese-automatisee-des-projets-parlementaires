@@ -4,14 +4,14 @@
   "date_depot": "2026-06-23",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2961.html",
-  "accroche": "Cette proposition de loi donne aux maires un pouvoir décisionnel renforcé sur l'attribution des logements sociaux dans leur commune.",
+  "accroche": "Cette proposition de loi rendrait aux maires un pouvoir décisionnel central pour l'attribution des logements sociaux sur leur commune, en renforçant leur rôle.",
   "points": [
-    "Renforce le rôle du maire en lui donnant la présidence et une voix prépondérante dans la commission d'attribution des logements.",
-    "Permet aux conseils municipaux de définir des critères de priorité locaux pour l'attribution des logements sociaux sur leur territoire.",
-    "Institue l'accord obligatoire du maire pour chaque attribution et lui confère un droit de désignation directe et d'évocation.",
-    "Transfère aux communes les droits de réservation de l'État sur une partie des logements sociaux situés sur leur territoire."
+    "Confierait au maire la présidence de la commission d'attribution des logements sociaux, lui donnant une voix prépondérante.",
+    "Permettrait aux conseils municipaux de définir des critères locaux de priorité pour les attributions, primant sur les orientations intercommunales.",
+    "Donnerait au maire un droit de désignation directe et un pouvoir d'accord ou de refus pour toute attribution de logement social.",
+    "Transférerait aux communes des droits de réservation de l'État et punirait les bailleurs ne respectant pas ses décisions."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54548",
   "etat": "Déposé",

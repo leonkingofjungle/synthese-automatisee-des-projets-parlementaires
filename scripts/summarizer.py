@@ -37,10 +37,15 @@ Titre du document : {{titre}}
 
 Ton lecteur est un adulte pressé, sans aucune connaissance juridique, avec un niveau de lecture d'un élève de troisième : chaque phrase doit être comprise à la première lecture.
 
+Ce texte est une proposition de loi : elle n'est pas encore adoptée, ses effets ne sont
+donc pas certains. Utilise systématiquement le conditionnel pour décrire ce qu'elle
+ferait si elle était votée — jamais le présent ou le futur, qui présenteraient ses
+effets comme acquis.
+
 Réponds uniquement avec l'objet JSON demandé, contenant :
 - "categorie" : le thème principal du texte, choisi dans la liste autorisée.
-- "accroche" : une seule phrase de 15 à 25 mots qui dit ce que le texte change concrètement. Entre directement dans le sujet.
-- "points" : exactement 4 points (3 seulement si le texte est très court). Chaque point est une seule phrase de 12 à 22 mots, qui commence par un verbe conjugué au présent (Crée, Interdit, Oblige, Étend, Renforce...).
+- "accroche" : une seule phrase de 15 à 25 mots, au conditionnel, qui dit ce que le texte changerait concrètement. Entre directement dans le sujet.
+- "points" : exactement 4 points (3 seulement si le texte est très court). Chaque point est une seule phrase de 12 à 22 mots, qui commence par un verbe conjugué au conditionnel présent (Créerait, Interdirait, Obligerait, Étendrait, Renforcerait...).
 
 Règles de langage :
 - Utilise le vocabulaire de la vie courante : « argent public » plutôt que « deniers publics », « entreprise » plutôt que « personne morale », « punir » plutôt que « sanctionner pénalement ».
@@ -54,7 +59,7 @@ Règles de langage :
 - Si le texte est de nature constitutionnelle ou organique, ou modifie un code existant, dis-le simplement dans un des points.
 
 Exemple du style et des longueurs attendus (pour un autre texte) :
-{{"categorie": "Économie et travail", "accroche": "Les livreurs des plateformes numériques obtiendraient un salaire minimal garanti et une assurance accident payée par les plateformes.", "points": ["Garantit aux livreurs et chauffeurs des plateformes un revenu minimal pour chaque heure travaillée.", "Oblige les plateformes à financer une assurance couvrant les accidents survenus pendant le travail.", "Crée un droit à refuser des courses sans risquer de sanction de la plateforme.", "Modifie le code du travail pour rapprocher le statut de ces travailleurs de celui des salariés."]}}"""
+{{"categorie": "Économie et travail", "accroche": "Les livreurs des plateformes numériques obtiendraient un salaire minimal garanti et une assurance accident payée par les plateformes.", "points": ["Garantirait aux livreurs et chauffeurs des plateformes un revenu minimal pour chaque heure travaillée.", "Obligerait les plateformes à financer une assurance couvrant les accidents survenus pendant le travail.", "Créerait un droit à refuser des courses sans risquer de sanction de la plateforme.", "Modifierait le code du travail pour rapprocher le statut de ces travailleurs de celui des salariés."]}}"""
 
 RESPONSE_SCHEMA = {
     "type": "object",

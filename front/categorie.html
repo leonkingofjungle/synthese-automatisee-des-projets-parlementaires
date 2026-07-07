@@ -44,6 +44,10 @@
 <script type="module">
 import { CATEGORY_META, resolveCategory, hasUsableResume, getResumes, renderNotice, byDateDesc, renderRow } from "./app.js";
 
+// Au-delà de ce nombre de propositions dans la rubrique, le reste est masqué
+// derrière un bouton "Afficher plus" plutôt que rendu d'un coup.
+const PAGE_SIZE = 50;
+
 function backLink() {
   const link = document.createElement("a");
   link.className = "back-link-bottom";
@@ -101,8 +105,27 @@ async function main() {
 
   const list = document.createElement("div");
   list.className = "law-list";
-  for (const doc of docs) list.appendChild(renderRow(doc));
-  content.append(list, backLink());
+  docs.forEach((doc, index) => {
+    const row = renderRow(doc);
+    if (index >= PAGE_SIZE) row.classList.add("hidden");
+    list.appendChild(row);
+  });
+  content.appendChild(list);
+
+  if (docs.length > PAGE_SIZE) {
+    const hiddenCount = docs.length - PAGE_SIZE;
+    const showMore = document.createElement("button");
+    showMore.type = "button";
+    showMore.className = "btn-ghost show-more";
+    showMore.textContent = `Afficher plus (${hiddenCount} restante${hiddenCount > 1 ? "s" : ""})`;
+    showMore.addEventListener("click", () => {
+      for (const row of list.querySelectorAll(".law-row.hidden")) row.classList.remove("hidden");
+      showMore.remove();
+    });
+    content.appendChild(showMore);
+  }
+
+  content.appendChild(backLink());
 }
 
 main();

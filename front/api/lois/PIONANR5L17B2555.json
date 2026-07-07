@@ -4,12 +4,12 @@
   "date_depot": "2026-03-03",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2555.html",
-  "accroche": "Cette proposition de loi encourage le développement du logement abordable en offrant des avantages fiscaux aux propriétaires et de nouveaux leviers aux communes.",
+  "accroche": "Cette proposition de loi viserait à faciliter l'accès au logement abordable en renforçant le soutien fiscal et communal au logement conventionné.",
   "points": [
-    "Étend le dispositif de conventionnement aux logements meublés pour les propriétaires privés, et augmente la réduction d'impôt de 15 % à 25 %.",
-    "Permet aux communes d'offrir des aides financières aux propriétaires privés qui louent des logements conventionnés.",
-    "Autorise les communes à déduire de leur pénalité SRU (Solidarité et Renouvellement Urbain) les dépenses pour le logement locatif.",
-    "Intègre les logements locatifs intermédiaires dans le calcul SRU des communes, jusqu'à 20 % de l'objectif."
+    "Étendrait le dispositif de réduction d'impôt aux logements meublés pour encourager leur conventionnement par les propriétaires.",
+    "Augmenterait la réduction d'impôt de 15 % à 25 % sur les revenus bruts des logements conventionnés pour les propriétaires.",
+    "Permettrait aux communes de financer des aides au conventionnement et de les déduire des pénalités SRU (Solidarité et Renouvellement Urbains).",
+    "Intégrerait les logements locatifs intermédiaires dans le décompte SRU, dans la limite de 20 % de l'objectif."
   ],
   "quality_score": null,
   "quality_flags": [],

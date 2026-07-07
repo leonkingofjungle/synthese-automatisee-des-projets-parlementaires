@@ -4,17 +4,15 @@
   "date_depot": "2026-05-18",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2803.html",
-  "accroche": "La loi autorise la restitution de restes humains et moulages Kali'na et Arawak, retirés des collections publiques, pour des funérailles en Guyane.",
+  "accroche": "Cette proposition de loi permettrait de rendre des restes humains et des moulages Kali’nas et Arawaks à la Guyane pour y être inhumés.",
   "points": [
-    "Déroge au principe d'inaliénabilité (interdiction de céder) des collections publiques du code du patrimoine.",
-    "Concerne des restes humains (squelettes, crânes) et des moulages de membres des communautés Kali'na et Arawak.",
-    "Retire ces éléments des collections nationales conservées au Muséum national d’histoire naturelle.",
-    "Le transfert de ces restes vers la commune d'Iracoubo en Guyane doit se faire sous six mois maximum."
+    "Sortirait des collections nationales du Muséum d'histoire naturelle des restes humains et moulages précis.",
+    "Permettrait le retour de ces restes d'individus Kali'nas et Arawaks sur le territoire de la Guyane.",
+    "Dérogerait ainsi au principe d’inaliénabilité des collections publiques, inscrit dans le code du patrimoine.",
+    "Exigerait que la remise soit effectuée au plus tard six mois après l'entrée en vigueur de la loi."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N50548",
   "etat": "Terminé",
   "statut": "Texte adopté",

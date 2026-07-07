@@ -4,17 +4,14 @@
   "date_depot": "2026-06-23",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2972.html",
-  "accroche": "Cette proposition de loi simplifie l'exercice du métier d'agriculteur en zone de montagne en adaptant certaines règles actuelles.",
+  "accroche": "Cette proposition de loi simplifierait l'exercice du métier d'agriculteur en zone de montagne en adaptant les règles existantes.",
   "points": [
-    "Adapte la période d'interdiction de taille des haies et arbres à 17 semaines pour les agriculteurs de montagne.",
-    "Dispense les agriculteurs de montagne de justificatifs écrits pour l'exploitation de parcelles de moins d'un hectare.",
-    "Plafonne par décret l'indemnité compensatoire de défrichement pour les agriculteurs en zone de montagne.",
-    "Compense la perte de recettes pour l'État par une taxe additionnelle sur les tabacs."
+    "Permettrait aux agriculteurs de montagne de réduire la période d’interdiction de taille des haies de 21 à 17 semaines.",
+    "Dispenserait les agriculteurs de montagne de fournir un justificatif écrit pour les parcelles de moins d’un hectare.",
+    "Plafonnerait, par décret (texte du gouvernement), le montant de l’indemnité de défrichement pour les agriculteurs de montagne."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54559",
   "etat": "Déposé",
   "statut": "Texte déposé",

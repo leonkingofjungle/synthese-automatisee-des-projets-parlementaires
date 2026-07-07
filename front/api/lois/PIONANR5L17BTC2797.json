@@ -2,22 +2,17 @@
   "uid": "PIONANR5L17BTC2797",
   "titre": "Relative à l'organisation, à la gestion et au financement du sport professionnel",
   "date_depot": "2026-05-13",
-  "categorie": "Économie et travail",
+  "categorie": "Autre",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2797.html",
-  "accroche": "Cette proposition de loi réorganise le sport professionnel français en renforçant le contrôle financier, la transparence et la lutte contre le piratage sportif.",
+  "accroche": "Cette proposition réformerait l'organisation, la gestion et le financement du sport professionnel, renforçant la transparence et la lutte contre le piratage.",
   "points": [
-    "Renforce le contrôle financier des fédérations, ligues et clubs par la Cour des comptes et un organisme indépendant dédié.",
-    "Encadre l'activité des agents sportifs par une carte professionnelle, des incompatibilités et un plafond de rémunération de 10%.",
-    "Durcit la lutte contre le piratage sportif avec de nouvelles mesures de blocage en direct et des peines de prison et amendes lourdes.",
-    "Favorise le sport féminin professionnel par des ligues spécifiques, une solidarité financière et une meilleure représentation des femmes dirigeantes."
+    "Renforcerait la démocratie et la transparence au sein des fédérations et ligues sportives professionnelles, en limitant certaines influences.",
+    "Un organisme indépendant contrôlerait la viabilité économique des clubs et la transparence des agents sportifs, avec un plafond salarial.",
+    "Durcirait la lutte contre le piratage de contenus sportifs, en bloquant rapidement les retransmissions illégales et en punissant lourdement.",
+    "Promouvrait la solidarité financière entre sport masculin et féminin et entre clubs, tout en renforçant le rôle des supporters."
   ],
-  "quality_score": 49,
-  "quality_flags": [
-    "invention",
-    "deformation",
-    "neutralite_douteuse",
-    "texte_tronque"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N51732",
   "etat": "En cours",
   "statut": "Commission mixte paritaire",

@@ -4,18 +4,15 @@
   "date_depot": "2026-06-23",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2954.html",
-  "accroche": "Une proposition de loi vise à interdire totalement la publicité pour les paris sportifs, afin de protéger la santé publique et les jeunes de l'addiction au jeu.",
+  "accroche": "Les publicités pour les paris sportifs seraient interdites pour freiner l'explosion des mises, protéger les jeunes et combattre les pratiques déloyales des opérateurs.",
   "points": [
-    "Propose de modifier deux lois pour interdire toute publicité pour les paris sportifs et les jeux d'argent liés au sport.",
-    "Sanctionne l'opérateur contrevenant par le retrait immédiat de son agrément, l'empêchant d'exercer.",
-    "Souligne l'impact négatif de la publicité agressive des paris sportifs sur les jeunes et les personnes vulnérables.",
-    "Montre que 40% du chiffre d'affaires des opérateurs provient de joueurs ayant des pratiques excessives et addictives."
+    "Interdirait toute publicité pour les jeux d'argent liés au sport, y compris sur internet et à la télévision.",
+    "Prévoirait la perte d'agrément (autorisation d'exercer) pour les entreprises ne respectant pas cette interdiction.",
+    "Protégerait les jeunes adultes et les populations vulnérables ciblées par les campagnes, réduisant ainsi les addictions.",
+    "Lutterait contre les pratiques commerciales trompeuses des opérateurs, qui dépendent trop des joueurs les plus fragiles."
   ],
-  "quality_score": 77,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54541",
   "etat": "Déposé",
   "statut": "Texte déposé",

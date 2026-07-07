@@ -4,12 +4,12 @@
   "date_depot": "2026-06-01",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2855.html",
-  "accroche": "Cette proposition de loi réorganise la manière dont la représentativité des syndicats des professionnels de santé est mesurée pour les unions régionales.",
+  "accroche": "Cette proposition de loi réformerait en profondeur la manière de mesurer la représentativité des syndicats de professionnels de santé en région.",
   "points": [
-    "Crée un nouveau système électoral pour mesurer la représentativité des syndicats de professionnels de santé libéraux.",
-    "Définit que la représentativité sera établie par des élections régionales ou par le nombre d'adhérents pour les petites professions.",
-    "Intègre Mayotte dans le dispositif général des unions régionales des professionnels de santé et modifie le code de la santé publique.",
-    "Met à jour le code de la sécurité sociale pour que les négociations s'appuient sur ce nouveau mode de calcul d'audience."
+    "Mettrait en place une élection pour évaluer l'audience des organisations syndicales des professionnels de santé libéraux.",
+    "Permettrait de désigner les membres des unions régionales des professionnels de santé selon leur audience régionale.",
+    "Préciserait que pour les petites professions, l'audience serait mesurée par le nombre d'adhérents des syndicats.",
+    "Modifierait plusieurs articles des codes de la santé publique et de la sécurité sociale pour intégrer ces règles."
   ],
   "quality_score": null,
   "quality_flags": [],

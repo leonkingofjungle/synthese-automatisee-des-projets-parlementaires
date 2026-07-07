@@ -4,18 +4,15 @@
   "date_depot": "2026-06-09",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2897.html",
-  "accroche": "La cystite interstitielle serait officiellement reconnue comme une affection longue durée, améliorant ainsi la prise en charge des patients.",
+  "accroche": "Cette proposition de loi permettrait de reconnaître la cystite interstitielle comme affection de longue durée, améliorant ainsi la prise en charge des patients.",
   "points": [
-    "Reconnaît la cystite interstitielle comme une affection de longue durée (ALD) pour mieux couvrir les frais médicaux.",
-    "Précise que cette reconnaissance s'applique aux formes chroniques, invalidantes et nécessitant des traitements coûteux.",
-    "Assure une meilleure égalité d'accès aux soins et une prise en charge plus adaptée pour les patients concernés.",
-    "Compense les dépenses de l'assurance maladie par l'ajout d'une taxe supplémentaire sur le tabac."
+    "Reconnaîtrait officiellement la cystite interstitielle comme affection de longue durée (ALD) si elle est chronique et invalidante.",
+    "Permettrait aux patients concernés de bénéficier d'une meilleure prise en charge par l'assurance maladie, réduisant leurs frais.",
+    "Améliorerait la reconnaissance de cette maladie chronique douloureuse, souvent méconnue, et réduirait les inégalités d'accès aux soins.",
+    "Modifierait le code de la sécurité sociale pour inclure explicitement la cystite interstitielle dans la liste des ALD."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54450",
   "etat": "Déposé",
   "statut": "Texte déposé",

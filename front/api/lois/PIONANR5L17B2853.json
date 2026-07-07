@@ -2,20 +2,16 @@
   "uid": "PIONANR5L17B2853",
   "titre": "Droit de chaque enfant à disposer d'un avocat",
   "date_depot": "2026-05-29",
-  "categorie": "Justice et sécurité",
+  "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2853.html",
-  "accroche": "Cette proposition de loi veut assurer le droit de chaque enfant d'être assisté par un avocat dans les mesures d'aide à l'enfance.",
+  "accroche": "Cette proposition de loi permettrait à chaque enfant d'avoir un avocat pour l'assister lors des mesures d'aide éducative et de protection.",
   "points": [
-    "Garantit à chaque enfant le droit d'être aidé par un avocat dans les mesures d'assistance éducative.",
-    "Étend cette assistance légale spécifique aux procédures de protection de l'enfance, renforçant la défense.",
-    "Intègre les modifications faites par le Sénat, visant à améliorer la proposition de loi initiale.",
-    "Fixe la date d'entrée en vigueur de l'article clé (article 2) au 6 janvier 2027."
+    "Accorderait à chaque enfant le droit fondamental d'être assisté par un avocat lors des mesures de protection.",
+    "Garantirait cette assistance juridique précieuse pour les enfants dans le cadre des procédures d'aide éducative.",
+    "Établirait que l'application de cette mesure importante commencerait officiellement à partir du 6 janvier 2027."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N52781",
   "etat": "En cours",
   "statut": "2ème lecture en séance publique",

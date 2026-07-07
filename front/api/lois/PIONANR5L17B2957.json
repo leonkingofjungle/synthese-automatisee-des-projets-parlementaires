@@ -4,17 +4,15 @@
   "date_depot": "2026-06-23",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2957.html",
-  "accroche": "Cette proposition de loi permet aux habitants de mieux encadrer les commerces générant des nuisances dans les immeubles d'habitation, en imposant des règles ou en les interdisant.",
+  "accroche": "Cette proposition de loi permettrait aux copropriétaires d'encadrer ou d'interdire les activités commerciales bruyantes dans les immeubles d'habitation.",
   "points": [
-    "Permet à l'assemblée générale des copropriétaires d'imposer des conditions d'exploitation aux commerces bruyants ou gênants.",
-    "Autorise l'interdiction d'une activité commerciale spécifique si les nuisances persistent malgré les règles établies.",
-    "Oblige les propriétaires à informer le syndic pour toute nouvelle activité commerciale risquant de perturber les habitants.",
-    "Modifie la loi de 1965 sur la copropriété pour renforcer la tranquillité des résidents face aux nuisances commerciales."
+    "Conférerait aux assemblées générales de copropriétaires le pouvoir d'encadrer ou d'interdire des activités commerciales.",
+    "Permettrait d'abord d'établir des règles spécifiques sur les horaires ou les nuisances, l'interdiction étant un dernier recours.",
+    "Instituerait un devoir d'information pour le copropriétaire ou l'exploitant concernant les nouvelles activités potentiellement gênantes.",
+    "Modifierait la loi de 1965 sur la copropriété pour mieux protéger la jouissance paisible des logements."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54544",
   "etat": "Déposé",
   "statut": "Texte déposé",

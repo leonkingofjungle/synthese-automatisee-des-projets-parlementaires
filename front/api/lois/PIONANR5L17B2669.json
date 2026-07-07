@@ -4,12 +4,12 @@
   "date_depot": "2026-04-14",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2669.html",
-  "accroche": "Cette proposition de loi annule la réforme de 2025 sur le mode de scrutin dans les communes rurales pour relancer la participation citoyenne.",
+  "accroche": "Cette proposition de loi annulerait la réforme de 2025 sur le mode de scrutin des communes rurales pour relancer la participation citoyenne.",
   "points": [
-    "Rétablit le scrutin majoritaire dans les communes de moins de 1 000 habitants, permettant de voter pour des candidats individuels.",
-    "Permet aux électeurs de rayer des noms et d'ajouter des candidats pour composer librement leur conseil municipal.",
-    "Facilite les candidatures individuelles pour diversifier la vie municipale rurale, en mettant fin aux listes uniques.",
-    "Combat l'abstention croissante et le malaise démocratique en restaurant la liberté de choix des électeurs."
+    "Rétablirait le scrutin majoritaire permettant aux électeurs de modifier les listes dans les communes de moins de 1 000 habitants.",
+    "Définirait les conditions d'élection au premier tour avec la majorité absolue et au second tour avec la majorité relative.",
+    "Permettrait aux candidats de se présenter isolément ou en groupe, avec une déclaration de candidature obligatoire.",
+    "Modifierait plusieurs articles du code électoral et du code général des collectivités territoriales."
   ],
   "quality_score": null,
   "quality_flags": [],

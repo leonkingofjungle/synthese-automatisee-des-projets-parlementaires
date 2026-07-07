@@ -4,12 +4,12 @@
   "date_depot": "2026-03-03",
   "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2569.html",
-  "accroche": "Cette proposition de loi vise à rendre systématique la publication des avis du Conseil d'État sur les projets et propositions de loi.",
+  "accroche": "Cette proposition de loi rendrait obligatoires et systématiques les avis du Conseil d'État sur les projets de loi du gouvernement et sur les propositions de loi du Parlement.",
   "points": [
-    "Rend obligatoire la publication des avis du Conseil d'État sur les projets de loi débattus en Conseil des ministres.",
-    "Modifie le Code des relations entre le public et l'administration pour graver cette obligation dans la loi.",
-    "Garantit la publication des avis du Conseil d'État sur les propositions de loi à l'ordre du jour parlementaire.",
-    "Exclut de cette obligation de transparence les projets de loi liés aux traités internationaux (article 53 de la Constitution)."
+    "Rendrait communicables et publics les avis du Conseil d'État sur les projets de loi délibérés en Conseil des ministres.",
+    "Obligerait à publier les avis du Conseil d'État sur les propositions de loi inscrites à l'ordre du jour du Parlement.",
+    "Modifierait le code des relations entre le public et l'administration (CRPA) pour ancrer cette transparence.",
+    "Exclurait toutefois les avis du Conseil d'État sur les projets de loi liés aux relations internationales de la France."
   ],
   "quality_score": null,
   "quality_flags": [],

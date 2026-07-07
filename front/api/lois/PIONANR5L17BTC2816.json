@@ -4,17 +4,15 @@
   "date_depot": "2026-05-20",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2816.html",
-  "accroche": "Cette proposition de loi encourage la rénovation énergétique des logements existants et facilite les emprunts pour les travaux en copropriété.",
+  "accroche": "Cette proposition de loi faciliterait la rénovation énergétique des logements existants et sécuriserait les emprunts des copropriétés pour leurs travaux.",
   "points": [
-    "Accorde une déduction fiscale aux propriétaires rénovant énergétiquement leur logement loué et aux locaux transformés en habitations.",
-    "Modifie le code de la construction pour clarifier la responsabilité individuelle des entreprises dans l'exécution des travaux.",
-    "Renforce la garantie des prêts contractés par les copropriétés pour des travaux, assurant une couverture totale aux prêteurs.",
-    "Simplifie la gestion financière des emprunts des copropriétés en supprimant certaines mentions obligatoires de frais."
+    "Permettrait aux propriétaires de déduire de leurs impôts les travaux de rénovation énergétique d'au moins 20% du prix d'achat.",
+    "Étendraient ces déductions fiscales aux locaux qui seraient transformés en logements pour être loués comme résidence principale.",
+    "Clarifierait les responsabilités de chaque entreprise dans un contrat de travaux, sans solidarité juridique entre les différents intervenants.",
+    "Garantirait les prêts accordés aux copropriétés pour leurs travaux, par un cautionnement ou une assurance, sans franchise ni délai de carence."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54144",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

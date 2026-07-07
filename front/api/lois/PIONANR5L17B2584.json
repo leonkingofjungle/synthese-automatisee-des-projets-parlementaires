@@ -4,12 +4,12 @@
   "date_depot": "2026-03-26",
   "categorie": "Numérique",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2584.html",
-  "accroche": "Cette loi encadre l'implantation des centres de données en France, en tenant compte de l'énergie, de l'environnement et de l'attractivité territoriale.",
+  "accroche": "Cette proposition de loi encadrerait l'installation des centres de données en France, en tenant compte de leur impact énergétique et territorial.",
   "points": [
-    "Modifie le code de l'urbanisme pour encadrer l'implantation des centres de données, intégrant énergie et attractivité des territoires.",
-    "Qualifie certains centres de données de \"projet d'intérêt national majeur\" (projet essentiel pour la nation) selon leur importance pour le numérique ou l'écologie.",
-    "Permet de refuser des permis de construire pour les centres de données situés dans des zones manquant structurellement d'eau.",
-    "Autorise le ministre de l'énergie à réserver des capacités de raccordement électrique pour les projets numériques gourmands en énergie."
+    "Intégrerait les centres de données dans les plans locaux d'urbanisme, en considérant leurs besoins énergétiques et l'occupation des sols.",
+    "Qualifierait certains centres de données de \"projets d’intérêt national majeur\" par décret (décision du gouvernement), après consultation locale.",
+    "Autoriserait le refus de permis de construire pour les centres de données dans les territoires connaissant des tensions sur l'eau.",
+    "Permettrait au ministre de l'énergie de réserver une capacité du réseau électrique pour les grandes infrastructures numériques."
   ],
   "quality_score": null,
   "quality_flags": [],

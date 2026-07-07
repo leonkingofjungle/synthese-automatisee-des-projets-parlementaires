@@ -4,18 +4,15 @@
   "date_depot": "2026-05-26",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2833.html",
-  "accroche": "Cette proposition de loi généralise la délivrance des médicaments à l'unité pour réduire le gaspillage, les risques sanitaires et faire des économies.",
+  "accroche": "Cette proposition de loi viserait à distribuer les médicaments à l'unité pour réduire le gaspillage, les coûts et les risques sanitaires.",
   "points": [
-    "Adapte les conditionnements des médicaments pour qu'ils correspondent aux durées de traitement les plus fréquentes.",
-    "Généralise progressivement la vente des médicaments à l'unité pour éviter les excès et les gaspillages.",
-    "Réduit les risques d'automédication, l'antibiorésistance et la pollution liée aux médicaments non utilisés.",
-    "Modifie le code de la santé publique pour rendre obligatoire la délivrance de médicaments à l'unité d'ici trois ans."
+    "Adapterait les conditionnements des médicaments aux prescriptions les plus courantes pour réduire le gaspillage initial.",
+    "Modifierait le code de la santé publique pour rendre obligatoire la délivrance des médicaments à l'unité.",
+    "Permettrait de réaliser 550 millions d'euros d'économies en évitant le gaspillage de 120 millions de boîtes.",
+    "Diminuerait les risques d'automédication, d'erreurs et la pollution liés aux médicaments non utilisés."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54368",
   "etat": "Déposé",
   "statut": "Texte déposé",

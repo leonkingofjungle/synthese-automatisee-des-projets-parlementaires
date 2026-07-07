@@ -4,12 +4,12 @@
   "date_depot": "2026-03-27",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2587.html",
-  "accroche": "Cette proposition de loi rétablit les anciennes règles de la taxe d'aménagement pour garantir des recettes stables aux collectivités locales.",
+  "accroche": "Elle annulerait le décalage de l'exigibilité de la taxe d'aménagement, permettant aux communes de recouvrer plus vite ces fonds essentiels.",
   "points": [
-    "Rétablit l'exigibilité de la taxe d'aménagement à la date d'émission du titre de perception.",
-    "Assure aux collectivités locales une meilleure visibilité budgétaire pour le financement de leurs équipements publics.",
-    "Définit que les titres de perception sont émis douze et vingt-quatre mois après l'autorisation de construire.",
-    "Permet une exonération de taxe si le projet de construction est abandonné ou si son montant diminue."
+    "Rétablirait les règles d'exigibilité de la taxe d'aménagement, la rendant due plus tôt aux communes.",
+    "Modifierait le code général des impôts pour exiger la taxe dès l'émission du titre de perception.",
+    "Préciserait les situations où la taxe ne serait pas due, comme l'absence de suite à l'autorisation.",
+    "Fixerait les nouvelles échéances des paiements à douze et vingt-quatre mois après l'autorisation de construire."
   ],
   "quality_score": null,
   "quality_flags": [],

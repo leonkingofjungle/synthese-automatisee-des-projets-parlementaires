@@ -4,14 +4,14 @@
   "date_depot": "2026-06-03",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2872.html",
-  "accroche": "Ce texte propose la nationalisation d'ArcelorMittal France afin de protéger l'indépendance industrielle du pays.",
+  "accroche": "Si cette proposition était votée, l'État français achèterait la société ArcelorMittal France pour préserver la souveraineté industrielle du pays.",
   "points": [
-    "Nationalise l'entreprise ArcelorMittal France pour garantir la souveraineté industrielle du pays.",
-    "Crée une commission pour déterminer le prix d'achat par l'État, basé sur la valeur moyenne des actions en 2024-2025.",
-    "Précise que cette commission sera composée de membres de la Cour des comptes, de la Banque de France et d'autres institutions.",
-    "Finance cette nationalisation par l'instauration d'une taxe supplémentaire sur les produits du tabac."
+    "L'État deviendrait propriétaire de l'entreprise ArcelorMittal France pour garantir la souveraineté industrielle.",
+    "Une commission définirait le prix d'achat, basé sur la valeur moyenne des actions entre octobre 2024 et septembre 2025.",
+    "Cette commission serait composée de membres de la Cour des comptes, Banque de France, Conseil d'État et d'autres institutions.",
+    "Les coûts seraient compensés par l'instauration d'une nouvelle taxe additionnelle sur les produits du tabac."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N52977",
   "etat": "En cours",

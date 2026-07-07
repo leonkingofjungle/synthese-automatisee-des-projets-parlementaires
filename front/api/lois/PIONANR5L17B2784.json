@@ -4,18 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2784.html",
-  "accroche": "Les établissements de restauration collective publique devront prioriser l'achat de denrées issues de producteurs situés à moins de 250 kilomètres.",
+  "accroche": "Cette proposition de loi obligerait la restauration collective publique à s'approvisionner majoritairement auprès de producteurs locaux, renforçant ainsi la souveraineté et la durabilité alimentaire du pays.",
   "points": [
-    "Oblige la restauration collective publique à acheter au moins 60 % de ses denrées auprès de producteurs situés à 250 kilomètres maximum.",
-    "Prévoit une exception pour 20 % des denrées non produisibles localement, dont la liste sera définie par décret (règlement du gouvernement).",
-    "Permet aux acheteurs publics de signer des contrats pluriannuels directement avec les producteurs locaux, sans publicité ni mise en concurrence.",
-    "Autorise ces contrats directs jusqu'à 100 000 euros hors taxes par an et par fournisseur, pour simplifier les achats."
+    "Modifierait le code rural pour exiger 60 % d'approvisionnement local pour la restauration collective publique.",
+    "Permettrait d'exempter certaines denrées non produisibles en France, jusqu'à 20 % des approvisionnements annuels.",
+    "Compléterait le code de la commande publique pour autoriser des marchés pluriannuels directs avec les producteurs.",
+    "Dispenserait ces marchés directs de publicité et de mise en concurrence jusqu'à 100 000 euros par fournisseur."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54308",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

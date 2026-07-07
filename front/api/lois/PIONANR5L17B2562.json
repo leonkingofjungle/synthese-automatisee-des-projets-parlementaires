@@ -4,12 +4,12 @@
   "date_depot": "2026-03-03",
   "categorie": "Environnement et énergie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2562.html",
-  "accroche": "Ce texte instaure une taxe kilométrique pour les poids lourds, finançant les infrastructures routières et ferroviaires et la décarbonation des transports.",
+  "accroche": "Une contribution kilométrique poids lourds financerait les infrastructures ferroviaires et routières en France, et soutiendrait la décarbonation du transport routier.",
   "points": [
-    "Crée une contribution pour les poids lourds utilisant les autoroutes, routes nationales et principales routes départementales.",
-    "Détermine un taux kilométrique basé sur le nombre d'essieux, le poids et les émissions du véhicule, minimum 0,1 € par kilomètre.",
-    "Affecte les recettes au budget de l'État, des régions et départements pour financer routes, rail et décarbonation.",
-    "Modifie le code des impositions sur les biens et services pour intégrer cette nouvelle contribution d'ici le 1er janvier 2028."
+    "Instaurerait une nouvelle taxe kilométrique sur les poids lourds circulant sur les autoroutes et principales routes.",
+    "Calculerait le montant en fonction des kilomètres parcourus, du poids, du nombre d'essieux et des émissions du véhicule.",
+    "Affecterait les recettes au budget de l'État, des régions et des départements pour financer les mobilités.",
+    "Entrerait en vigueur au plus tard le 1er janvier 2028, avec des exceptions pour les véhicules de secours et agricoles."
   ],
   "quality_score": null,
   "quality_flags": [],

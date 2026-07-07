@@ -4,12 +4,12 @@
   "date_depot": "2026-04-01",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2613.html",
-  "accroche": "Cette loi rend plus difficile aux occupants illégaux d'obtenir des contrats d'énergie, d'eau et d'assurance habitation.",
+  "accroche": "Les occupants illégaux auraient plus de difficultés à obtenir des contrats d'énergie, d'eau ou d'assurance habitation en justifiant leur droit au logement.",
   "points": [
-    "Exige des fournisseurs d'électricité et de gaz que les consommateurs prouvent leur droit d'occuper un logement.",
-    "Oblige les assureurs à vérifier l'identité et le droit d'occupation avant de souscrire une assurance habitation.",
-    "Étend cette obligation de justificatif aux fournisseurs d'eau pour tout nouvel abonné.",
-    "Permet au préfet d'ordonner la coupure d'électricité ou de gaz pour les locaux occupés illégalement."
+    "Exigerait des consommateurs qu'ils justifient d'un titre d'occupation pour souscrire un contrat d'électricité ou de gaz.",
+    "Obligerait les assurés à prouver leur identité et leur droit d'occuper le logement avant de souscrire une assurance habitation.",
+    "Étendrait cette obligation de justificatif aux contrats d'eau et punirait l'usage de faux documents d'identité.",
+    "Permettrait au préfet d'ordonner la coupure d'électricité et de gaz en cas d'occupation illicite du logement."
   ],
   "quality_score": null,
   "quality_flags": [],

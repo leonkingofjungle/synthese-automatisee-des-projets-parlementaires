@@ -4,12 +4,12 @@
   "date_depot": "2026-04-02",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2620.html",
-  "accroche": "Ce texte assure que les familles monoparentales recevront une pension alimentaire fixée et garantie par un organisme, même sans décision de justice immédiate.",
+  "accroche": "Les familles monoparentales verraient leurs pensions alimentaires garanties et fixées automatiquement par l'organisme des prestations familiales, simplifiant ainsi les démarches.",
   "points": [
-    "Fixe le montant de la pension alimentaire via un organisme dès la séparation, sans attendre une décision judiciaire.",
-    "Définit que cet organisme détermine la pension selon un barème officiel, la rendant immédiatement exécutoire.",
-    "Prévoit une révision annuelle ou triennale du montant de la pension par l'organisme, selon les situations.",
-    "Punit le fait de ne pas déclarer à l'organisme les informations nécessaires au calcul de la pension alimentaire."
+    "L'organisme des prestations familiales fixerait le montant de la pension alimentaire dès la séparation des parents.",
+    "La pension ainsi fixée deviendrait immédiatement un titre exécutoire (document applicable de force), facilitant son recouvrement.",
+    "L'organisme réévaluerait le montant de la pension tous les trois ans ou annuellement à la demande des parents.",
+    "Ne pas déclarer les informations nécessaires au calcul de la pension deviendrait une infraction inscrite au code pénal."
   ],
   "quality_score": null,
   "quality_flags": [],

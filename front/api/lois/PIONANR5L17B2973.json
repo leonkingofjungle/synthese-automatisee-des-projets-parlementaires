@@ -4,17 +4,15 @@
   "date_depot": "2026-06-23",
   "categorie": "Environnement et énergie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2973.html",
-  "accroche": "La loi propose de donner une personnalité juridique à des sites naturels, notamment en Outre-mer, pour renforcer leur protection.",
+  "accroche": "Cette proposition de loi permettrait de reconnaître des sites naturels comme sujets juridiques, protégeant ainsi activement leurs écosystèmes, notamment en outre-mer.",
   "points": [
-    "Modifie le code de l'environnement pour reconnaître aux entités naturelles un statut juridique spécifique.",
-    "Permet à ces entités d'agir en justice, via un collège de gardiens, pour défendre leurs intérêts écologiques.",
-    "Concerne d'abord les Salines de Sainte-Anne et la Montagne Pelée en Martinique, à titre expérimental.",
-    "N'affecte pas le droit de propriété ni les compétences existantes de l'État et des collectivités locales."
+    "Modifierait le code de l'environnement pour définir un statut juridique aux entités naturelles remarquables.",
+    "Instituerait un collège de gardiens chargé de représenter ces entités naturelles et de défendre leurs intérêts.",
+    "Permettrait à ces entités d'agir en justice pour la préservation, la restauration ou la réparation de leur intégrité écologique.",
+    "Préciserait que cette reconnaissance n'affecterait ni la propriété des biens ni les compétences des collectivités."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54560",
   "etat": "Déposé",
   "statut": "Texte déposé",

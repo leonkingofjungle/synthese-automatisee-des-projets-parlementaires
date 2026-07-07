@@ -4,17 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2774.html",
-  "accroche": "Cette proposition de loi prolonge l'aide aux jeunes sortant de la protection de l'enfance jusqu'à 25 ans et renforce leur droit à un accompagnement.",
+  "accroche": "Cette proposition de loi rendrait obligatoire un accompagnement durable des jeunes de l'aide sociale jusqu'à 25 ans, améliorant leur insertion.",
   "points": [
-    "Modifie le code de l'action sociale et des familles pour étendre l'accompagnement des jeunes majeurs jusqu'à 25 ans.",
-    "Supprime les conditions de ressources et les exclusions, y compris pour les jeunes sous obligation de quitter la France.",
-    "Crée un fonds national pour aider les départements à financer l'accompagnement durable de ces jeunes majeurs.",
-    "Renforce le droit à un accompagnement opposable et oblige à co-construire le projet de vie avec les jeunes."
+    "Rendrait opposable l'accompagnement de tous les jeunes majeurs protégés quel que soit leur parcours de vie jusqu'à 25 ans.",
+    "Créerait un fonds de mobilisation départementale, financé par l'État, pour inciter les départements à engager les dépenses.",
+    "Supprimerait les exclusions pour les jeunes de la protection judiciaire et ceux sous OQTF (obligation de quitter le territoire français).",
+    "Permettrait aux jeunes d'exercer un recours amiable ou contentieux si l'accompagnement par le département n'est pas respecté."
   ],
-  "quality_score": 83,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54298",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -4,17 +4,15 @@
   "date_depot": "2026-05-27",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2835.html",
-  "accroche": "Cette loi renforce la protection des enfants contre les violences en milieu scolaire, institue un fonds d'indemnisation et durcit les contrôles du personnel et des établissements.",
+  "accroche": "Cette proposition de loi renforcerait la protection des enfants contre les violences scolaires et mettrait en place un fonds d'indemnisation pour les victimes.",
   "points": [
-    "Crée un fonds national d'indemnisation et d'accompagnement pour les enfants victimes de violences scolaires.",
-    "Institue une journée nationale d'hommage le 19 novembre pour les enfants ayant subi des violences physiques ou psychologiques.",
-    "Modifie le Code de l'éducation pour interdire aux personnes condamnées pour violences sexuelles d'intervenir en milieu scolaire.",
-    "Renforce le contrôle de l'État sur les établissements privés et leur personnel, notamment par des vérifications régulières."
+    "Instituerait une journée nationale le 19 novembre pour rendre hommage aux enfants victimes de violences.",
+    "Créerait un fonds national pour indemniser et accompagner les victimes de violences en milieu scolaire.",
+    "Interdirait l'intervention en milieu scolaire à toute personne inscrite aux fichiers des délinquants sexuels ou terroristes.",
+    "Renforcerait le contrôle de l'État sur les établissements privés, exigeant des formations contre les violences."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54227",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

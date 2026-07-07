@@ -4,14 +4,14 @@
   "date_depot": "2026-05-19",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2808.html",
-  "accroche": "Un nouveau prêt à taux zéro est créé pour faciliter l'accès à la propriété des familles, même si elles ont déjà été propriétaires.",
+  "accroche": "Les familles avec jeunes enfants pourraient obtenir un prêt à taux zéro pour leur logement, même si elles ne sont pas primo-accédantes.",
   "points": [
-    "Étend le prêt à taux zéro aux personnes enceintes ou ayant un enfant de moins de cinq ans.",
-    "Finance sans frais l'acquisition, la construction ou l'agrandissement de la résidence principale.",
-    "Limite le montant du prêt entre 20% et 50% du coût total, avec un maximum de 100 000 euros.",
-    "Compense la perte de recettes pour l'État par l'instauration d'une taxe additionnelle sur le tabac."
+    "Ouvrirait l'accès à ce prêt sans intérêt aux familles déclarant une grossesse ou ayant un enfant de moins de cinq ans.",
+    "Permettrait de financer l'achat, la construction ou l'agrandissement de la résidence principale sans payer aucun intérêt ni frais.",
+    "Couvrirait entre 20 % et 50 % du coût total de l'opération, plafonné à 100 000 euros au maximum.",
+    "Compenserait la perte de recettes publiques pour l'État par une taxe additionnelle sur le tabac."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54149",
   "etat": "En cours",

@@ -2,19 +2,17 @@
   "uid": "PIONANR5L17B2804",
   "titre": "Portant actualisation du corps électoral pour les élections au congrès et aux assemblées de province de la Nouvelle-Calédonie",
   "date_depot": "2026-05-18",
-  "categorie": "International et outre-mer",
+  "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2804.html",
-  "accroche": "Ce texte étend le droit de vote aux élections locales de Nouvelle-Calédonie aux personnes qui y sont nées et inscrites.",
+  "accroche": "Cette proposition de loi organique permettrait d'inclure les personnes nées en Nouvelle-Calédonie sur la liste électorale locale pour les élections provinciales.",
   "points": [
-    "Élargit le corps électoral pour les élections au Congrès et aux assemblées de province de Nouvelle-Calédonie.",
-    "Permet aux personnes nées en Nouvelle-Calédonie de s'inscrire sur la liste électorale générale locale.",
-    "Modifie une loi organique (loi d'application de la Constitution) de 1999 concernant la Nouvelle-Calédonie.",
-    "Applique ce changement dès le lendemain de la publication de la loi au Journal officiel."
+    "Permettrait aux natifs de Nouvelle-Calédonie de s'inscrire sur la liste électorale pour les élections locales, sous certaines conditions.",
+    "Modifierait la loi organique (loi sur l'organisation des pouvoirs) de 1999 concernant le statut de la Nouvelle-Calédonie.",
+    "Exigerait que ces personnes soient déjà inscrites sur la liste électorale générale pour pouvoir voter localement.",
+    "Entrerait en vigueur le lendemain de sa publication officielle au Journal officiel de la République française."
   ],
-  "quality_score": 83,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N52104",
   "etat": "Terminé",
   "statut": "Texte adopté",

@@ -4,14 +4,14 @@
   "date_depot": "2026-06-11",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2915.html",
-  "accroche": "Cette proposition de loi établit un cadre légal strict pour l'aide à mourir, permettant l'accès à une substance létale sous conditions.",
+  "accroche": "Cette proposition de loi créerait un droit à l'aide à mourir en France, encadrant strictement les conditions d'accès et la procédure pour les personnes gravement malades.",
   "points": [
-    "Instaure le droit pour une personne majeure, souffrant d'une maladie grave et incurable, de demander l'aide à mourir.",
-    "Décrit une procédure médicale rigoureuse et collégiale pour évaluer la demande et les conditions d'accès.",
-    "Garantit une clause de conscience pour les professionnels de santé, tout en assurant l'accès au dispositif.",
-    "Prévoit la couverture des frais liés à cette procédure par la sécurité sociale et l'assurance en cas de décès."
+    "Modifierait le code de la santé publique pour créer un droit à l'aide à mourir, strictement encadré par des conditions.",
+    "Définirait les conditions d'accès, réservant l'aide aux majeurs souffrant d'une affection grave, incurable, engageant le pronostic vital.",
+    "Instaurerait une procédure exigeante avec demande au médecin, évaluation collégiale, information complète et un délai de réflexion.",
+    "Prévoirait le remboursement des frais par la Sécurité sociale, une clause de conscience et une commission de contrôle dédiée."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N51670",
   "etat": "En cours",

@@ -4,18 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2783.html",
-  "accroche": "Protège les salariés des filiales contre les licenciements économiques abusifs des grands groupes, en renforçant la responsabilité des entreprises dominantes.",
+  "accroche": "Cette proposition de loi empêcherait les grands groupes de licencier abusivement en fermant des filiales rentables, renforçant la protection des salariés.",
   "points": [
-    "Apprécie désormais la cessation d'activité pour licenciement économique au niveau du groupe, et non plus de la seule filiale.",
-    "Reconnaît plus facilement le co-emploi quand une société mère contrôle excessivement une filiale, la rendant co-responsable des salariés.",
-    "Rend l'appel du Comité Social et Économique (CSE) ou des représentants du personnel suspensif en cas de liquidation judiciaire.",
-    "Assimile les salariés licenciés à des demandeurs d'emploi durant l'appel en liquidation, leur garantissant l'assurance chômage."
+    "Modifierait le code du travail pour que les licenciements économiques soient évalués au niveau du groupe entier.",
+    "Définirait le co-emploi en cas d'immixtion d'une société mère, les rendant solidaires envers les salariés.",
+    "Permettrait aux représentants des salariés d'appeler de manière suspensive une décision de liquidation judiciaire.",
+    "Assimilerait les salariés en attente d'un jugement d'appel de liquidation à des demandeurs d'emploi."
   ],
-  "quality_score": 77,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54307",
   "etat": "Déposé",
   "statut": "Texte déposé",

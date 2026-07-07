@@ -4,14 +4,14 @@
   "date_depot": "2026-05-26",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2829.html",
-  "accroche": "Ce texte durcit les peines et crée de nouvelles infractions pour protéger les mineurs des violences sexuelles et de la pédocriminalité en ligne.",
+  "accroche": "Cette proposition de loi renforcerait la lutte contre la pédocriminalité et les violences sexuelles en ligne sur les mineurs, en créant de nouvelles infractions et en alourdissant les peines.",
   "points": [
-    "Renforce les peines pour les crimes commis contre des mineurs de moins de 15 ans, surtout en bande organisée.",
-    "Interdit la création et la diffusion de deepfakes sexuels et de contenus pornographiques générés par intelligence artificielle représentant des mineurs.",
-    "Criminalise l'envoi non sollicité d'images sexuelles (cyberflashing) et l'exploitation sexuelle de mineurs en ligne.",
-    "Crée un délit d'apologie publique des actes pédocriminels et des violences sexuelles sur mineurs, même fictifs."
+    "Renforcerait les peines pour les infractions sexuelles commises en ligne, surtout si la victime a moins de 15 ans.",
+    "Criminaliserait la création de deepfakes sexuels et l'envoi non sollicité d'images intimes à des mineurs.",
+    "Obligerait les plateformes numériques à marquer clairement les contenus générés par intelligence artificielle.",
+    "Créerait l'infraction d'exploitation sexuelle en ligne et punirait l'apologie des actes pédocriminels."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54364",
   "etat": "Déposé",

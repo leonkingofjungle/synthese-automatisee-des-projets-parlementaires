@@ -4,17 +4,15 @@
   "date_depot": "2026-05-06",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2757.html",
-  "accroche": "Cette loi permet aux personnes nées d'un don et aux donneurs d'accéder à des informations sur leurs origines via des tests génétiques généalogiques.",
+  "accroche": "Cette proposition de loi permettrait de mieux garantir l'accès aux origines personnelles en encadrant la communication d'informations via les tests génétiques généalogiques.",
   "points": [
-    "Modifie le code civil pour garantir le droit d'accès aux origines via des tests génétiques à visée généalogique.",
-    "Permet aux personnes nées d'une assistance médicale à la procréation et aux donneurs d'échanger des informations.",
-    "Précise que le principe d'anonymat du don n'empêche pas cette communication d'informations génétiques.",
-    "Exige deux rapports du Gouvernement au Parlement sur le dispositif et l'accès général aux origines personnelles."
+    "Permettrait aux personnes nées d'un don de gamètes de connaître leurs ascendants via des tests génétiques.",
+    "Autoriserait les donneurs de gamètes à obtenir des informations sur leurs descendants, s'ils le souhaitaient.",
+    "Obligerait le Gouvernement à évaluer ce dispositif et ses risques sur les données personnelles en deux ans.",
+    "Demanderait un rapport sur l'accès aux origines des personnes nées sous X ou adoptées, sous trois mois."
   ],
-  "quality_score": 83,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53429",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

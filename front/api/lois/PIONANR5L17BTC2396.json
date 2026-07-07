@@ -2,14 +2,14 @@
   "uid": "PIONANR5L17BTC2396",
   "titre": "Extension de la possibilité de préemption de baux commerciaux dans les mairies aux sociétés civiles immobilières",
   "date_depot": "2026-01-28",
-  "categorie": "Logement et urbanisme",
+  "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2396.html",
-  "accroche": "Cette loi étend la possibilité pour les mairies de racheter des commerces, même si c'est la société propriétaire qui est vendue majoritairement.",
+  "accroche": "Les municipalités pourraient exercer un droit de préemption sur la vente de parts majoritaires de sociétés possédant un fonds de commerce local.",
   "points": [
-    "Modifie le code de l'urbanisme pour étendre le droit de préemption commercial des mairies aux ventes de sociétés.",
-    "Permet aux communes de racheter un fonds de commerce si la majorité des parts de sa société propriétaire est cédée.",
-    "S'applique si la valeur du fonds de commerce dépasse celle de chaque autre bien de la société cédée.",
-    "Exclut les cessions de parts de sociétés familiales, constituées entre parents et alliés jusqu'au quatrième degré inclus."
+    "Étendrait aux mairies la possibilité d'acheter en priorité des parts majoritaires d'une société commerciale locale.",
+    "Appliquerait cette nouvelle règle quand le fonds de commerce constituerait l'actif principal de la société vendue.",
+    "Concernerait toute cession de titres qui permettrait à un acquéreur de détenir une majorité dans l'entreprise concernée.",
+    "Exclurait de ce dispositif les parts de sociétés familiales, constituées entre proches parents jusqu'au quatrième degré."
   ],
   "quality_score": null,
   "quality_flags": [],

@@ -4,12 +4,12 @@
   "date_depot": "2026-04-01",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2611.html",
-  "accroche": "Cette loi encadre les regroupements pédagogiques intercommunaux pour assurer un accès équitable à l'école en milieu rural.",
+  "accroche": "Cette proposition de loi encadrerait les regroupements scolaires entre communes pour mieux garantir l'accès égalitaire à l'école en milieu rural.",
   "points": [
-    "Définit les regroupements pédagogiques intercommunaux comme des structures mutualisant les moyens entre communes.",
-    "Exige que leur convention détaille la durée, les conditions de retrait et la répartition des charges.",
-    "Permet le retrait d'une commune avec un préavis de deux années scolaires et la dissolution par accord.",
-    "Modifie le code de l'éducation pour évaluer la capacité d'accueil scolaire au niveau du regroupement intercommunal."
+    "Créerait une section dans le code de l'éducation définissant les regroupements pédagogiques intercommunaux (RPI) et leur fonctionnement.",
+    "Détaillerait les éléments obligatoires des conventions entre communes pour les RPI, comme la durée et le partage des charges.",
+    "Établirait les conditions de retrait d'une commune, avec un préavis de deux années scolaires, et de dissolution d'un RPI.",
+    "Modifierait le code de l'éducation pour préciser la scolarisation hors RPI et la représentation des communes."
   ],
   "quality_score": null,
   "quality_flags": [],

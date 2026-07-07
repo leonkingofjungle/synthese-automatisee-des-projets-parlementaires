@@ -4,14 +4,14 @@
   "date_depot": "2026-05-12",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2776.html",
-  "accroche": "Cette proposition de loi veut rétablir la possibilité d'instruire les enfants à la maison sans demander une autorisation préalable à l'administration.",
+  "accroche": "Cette proposition de loi rétablirait la liberté d'instruire ses enfants à domicile, en remplaçant l'autorisation par une simple déclaration.",
   "points": [
-    "Rétablit le droit pour les parents de déclarer annuellement l'instruction en famille, au lieu de demander une autorisation.",
-    "Maintient les contrôles pédagogiques annuels par l'État et les enquêtes biennales de la mairie sur les familles.",
-    "Modifie le code de l'éducation en remplaçant l'obligation scolaire par l'obligation d'instruction pour chaque enfant.",
-    "Adapte les conditions d'accès aux allocations familiales pour les familles qui instruisent leurs enfants à domicile."
+    "Rétablirait la possibilité d'instruire ses enfants à domicile par une simple déclaration annuelle, sans autorisation préalable.",
+    "Mettrait fin aux autorisations préalables et aux sanctions pénales pour ceux qui choisiraient l'instruction en famille.",
+    "Organiserait une enquête de la mairie tous les deux ans et un contrôle pédagogique annuel par l'État.",
+    "Simplifierait l'obtention des allocations familiales, remplaçant l'autorisation par une attestation d'instruction en famille."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54300",
   "etat": "Déposé",

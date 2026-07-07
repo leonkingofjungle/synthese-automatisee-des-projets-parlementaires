@@ -4,17 +4,15 @@
   "date_depot": "2026-06-02",
   "categorie": "Numérique",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2864.html",
-  "accroche": "Cette loi instaure une nouvelle règle : un fournisseur d'intelligence artificielle est supposé avoir utilisé des œuvres culturelles protégées.",
+  "accroche": "Cette proposition de loi établirait une présomption d'utilisation des œuvres culturelles par les fournisseurs d'IA, facilitant les actions en justice.",
   "points": [
-    "Modifie le code de la propriété intellectuelle pour y ajouter une nouvelle règle importante.",
-    "Crée une présomption d'utilisation pour les œuvres protégées par un droit d'auteur ou voisin.",
-    "Supposera qu'un fournisseur d'IA a utilisé du contenu si un indice le rend vraisemblable.",
-    "Applique cette présomption aux affaires civiles déjà en cours, sauf si un jugement définitif existe."
+    "Modifierait le code de la propriété intellectuelle pour y ajouter de nouvelles règles.",
+    "Instaurerait une présomption que les œuvres protégées sont utilisées par les systèmes d'intelligence artificielle.",
+    "Appliquerait cette présomption si des indices crédibles montrent l'utilisation par l'IA ou ses résultats.",
+    "Concernerait les œuvres soumises au droit d'auteur ou aux droits voisins et les affaires en cours."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N53359",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

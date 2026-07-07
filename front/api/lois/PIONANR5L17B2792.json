@@ -4,17 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2792.html",
-  "accroche": "Cette proposition de loi réduit de 30 à 10 ans le délai permettant aux communes de récupérer des biens immobiliers sans propriétaire connu, afin de créer des logements sociaux.",
+  "accroche": "Cette proposition de loi permettrait aux communes d'acquérir plus rapidement les logements abandonnés pour les transformer en habitations sociales.",
   "points": [
-    "Réduit le délai légal de 30 à 10 ans pour que les communes puissent récupérer les biens sans maître.",
-    "Oblige les communes à utiliser ces biens récupérés pour construire des logements sociaux ou étudiants.",
-    "Modifie la méthode de calcul de l'indemnisation due aux anciens propriétaires pour alléger la charge des communes.",
-    "Aligne la procédure d'acquisition de biens sans maître sur le délai de 10 ans du droit des successions."
+    "Réduirait de 30 à 10 ans le délai permettant aux communes d'acquérir les biens immobiliers sans propriétaire connu.",
+    "Dédierait ces propriétés récupérées à la construction de logements sociaux ou étudiants, favorisant ainsi le droit au logement.",
+    "Ajusterait le droit à indemnisation des anciens propriétaires pour ne pas pénaliser financièrement les communes.",
+    "Modifierait le Code général de la propriété des personnes publiques pour faciliter la procédure et l'aligner sur d'autres lois."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54316",
   "etat": "Déposé",
   "statut": "Texte déposé",

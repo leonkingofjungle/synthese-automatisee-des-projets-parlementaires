@@ -4,17 +4,15 @@
   "date_depot": "2026-06-09",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2898.html",
-  "accroche": "Cette proposition de loi interdit l'utilisation, la captivité et le dressage des animaux sauvages pour toute création artistique, y compris au cinéma et dans la publicité.",
+  "accroche": "Cette proposition interdirait d'utiliser des animaux non domestiques, qu'ils soient en captivité ou dressés, dans la plupart des œuvres artistiques.",
   "points": [
-    "Interdit l'utilisation, la captivité et le dressage de tous les animaux non domestiques pour les œuvres artistiques.",
-    "Ceci concerne les films, publicités, photos, installations et tout événement artistique utilisant des animaux.",
-    "Protège les animaux sauvages des souffrances causées par la captivité, le dressage et les exigences des productions.",
-    "Étend les interdictions existantes sur les animaux non domestiques dans le code de l'environnement."
+    "Interdirait d'utiliser des animaux non domestiques, captifs ou dressés, pour l'élaboration de créations artistiques.",
+    "Étendrait cette interdiction aux œuvres audiovisuelles, photographiques, installations et événements artistiques.",
+    "Punirait les violations de cette nouvelle règle de 2 ans de prison et 75 000 euros d'amende.",
+    "Entrerait en vigueur seulement deux ans après sa promulgation pour permettre une transition."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54451",
   "etat": "Déposé",
   "statut": "Texte déposé",

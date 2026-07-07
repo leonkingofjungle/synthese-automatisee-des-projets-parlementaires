@@ -4,14 +4,14 @@
   "date_depot": "2026-05-20",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2810.html",
-  "accroche": "Cette proposition de loi vise à abroger le « code noir » et à analyser les répercussions persistantes des lois coloniales.",
+  "accroche": "Cette proposition de loi abrogerait le \"code noir\" de 1685 et demanderait un rapport sur les conséquences du droit colonial.",
   "points": [
-    "Abroge le Code noir de mars 1685 et toutes les règles liées à son application dans tous les territoires.",
-    "Exige que le Gouvernement identifie les lois coloniales encore actives un an après la promulgation de la loi.",
-    "Analyse les effets du droit colonial sur le développement économique, social et culturel des outre-mer.",
-    "Évalue l'enseignement de l'histoire de l'esclavage et propose de nouveaux lieux de mémoire et de recherche."
+    "Abrogerait le \"code noir\" de mars 1685 et toutes les dispositions liées à son application ou extension.",
+    "Obligerait le Gouvernement à remettre un rapport sur le droit colonial encore en vigueur outre-mer dans un an.",
+    "Analyserait les conséquences du droit colonial sur le développement économique, social et culturel des territoires concernés.",
+    "Évaluerait la place de l'esclavage dans les programmes scolaires et analyserait les discriminations actuelles et sur les descendants."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N52767",
   "etat": "En cours",

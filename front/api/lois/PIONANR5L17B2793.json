@@ -4,18 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2793.html",
-  "accroche": "Cette loi reconnaît la fibromyalgie comme une affection de longue durée, assurant ainsi une prise en charge complète par l'Assurance maladie.",
+  "accroche": "Cette proposition de loi permettrait de reconnaître la fibromyalgie comme une affection longue durée, assurant ainsi une prise en charge intégrale des soins.",
   "points": [
-    "Inscrit la fibromyalgie sur la liste des affections longue durée (ALD 30) pour une prise en charge à 100 %.",
-    "Assure aux patients un remboursement intégral des soins nécessaires à la gestion de cette maladie chronique invalidante.",
-    "Met fin à la prise en charge partielle et inégale de la fibromyalgie, souvent source d'errance médicale et sociale.",
-    "Modifie le code de la sécurité sociale pour ajouter la fibromyalgie à la liste des maladies concernées."
+    "Inscrirait la fibromyalgie sur la liste des affections de longue durée (ALD 30) pour une meilleure reconnaissance.",
+    "Permettrait aux patients atteints de bénéficier d'une prise en charge intégrale de leurs soins par l'assurance maladie.",
+    "Mettrait fin aux procédures aléatoires de reconnaissance au cas par cas selon les territoires.",
+    "Modifierait le code de la sécurité sociale pour inclure explicitement la fibromyalgie dans la liste."
   ],
-  "quality_score": 77,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54317",
   "etat": "Déposé",
   "statut": "Texte déposé",

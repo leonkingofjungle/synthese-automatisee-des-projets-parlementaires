@@ -2,14 +2,14 @@
   "uid": "PIONANR5L17B2374",
   "titre": "Empêcher la reconstitution d’associations dissoutes portant atteinte aux principes de la République et renforcer le gel administratif des avoirs",
   "date_depot": "2026-01-27",
-  "categorie": "Justice et sécurité",
+  "categorie": "Institutions et démocratie",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2374.html",
-  "accroche": "Cette proposition de loi veut empêcher les associations dissoutes pour atteinte aux principes républicains de se reformer, et renforce le gel des avoirs financiers.",
+  "accroche": "Cette proposition empêcherait la reconstitution d'associations dissoutes menaçant les principes républicains et renforcerait les mesures de gel des avoirs.",
   "points": [
-    "Crée une procédure pour que les biens d'associations dissoutes ne financent pas de nouvelles structures similaires.",
-    "Étend le gel des avoirs aux personnes faisant l'apologie du terrorisme ou appelant à la haine publique.",
-    "Permet le gel des avoirs pour les individus menaçant l'ordre public ou les principes de la République.",
-    "Autorise le gel des avoirs d'un fonds de dotation en cas de suspension administrative pour éviter les transferts."
+    "Instaurerait une procédure spécifique pour transférer les biens d'associations dissoutes à des structures ne poursuivant pas leurs anciens buts.",
+    "Soumettrait le transfert des biens d'une association dissoute à l'approbation préalable du représentant de l'État.",
+    "Étendrait le gel des avoirs aux personnes physiques faisant l'apologie du terrorisme ou menaçant gravement l'ordre public.",
+    "Permettrait le gel administratif des avoirs d'un fonds de dotation (organisme à but non lucratif) pendant sa suspension."
   ],
   "quality_score": null,
   "quality_flags": [],

@@ -4,14 +4,14 @@
   "date_depot": "2026-05-12",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2786.html",
-  "accroche": "Les collectivités locales devront désormais rendre publics les détails du calcul de leurs contributions aux écoles privées sous contrat.",
+  "accroche": "Cette proposition de loi rendrait public le calcul des sommes que les collectivités verseraient aux établissements d'enseignement privé sous contrat.",
   "points": [
-    "Oblige les collectivités locales à publier chaque année les montants et les méthodes de calcul de leurs contributions aux écoles privées sous contrat.",
-    "Étend cette obligation de transparence aux contributions pour les dépenses de fonctionnement de tous les niveaux d'enseignement.",
-    "Exige que ces informations sur le financement des écoles soient validées par un comptable public.",
-    "Modifie le code de l'éducation pour garantir une plus grande transparence dans le financement des écoles privées sous contrat."
+    "Obligerait les collectivités territoriales à publier annuellement le montant et les modalités de calcul de leurs contributions.",
+    "Permettrait aux établissements privés de vérifier et contester plus facilement les sommes reçues des collectivités locales.",
+    "Renforcerait le contrôle des citoyens sur l'utilisation de l'argent public pour le financement des écoles privées.",
+    "Modifierait le code de l'éducation en ajoutant un article sur la publication de ces informations financières attestées."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54310",
   "etat": "En cours",

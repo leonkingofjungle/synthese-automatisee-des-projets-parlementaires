@@ -4,18 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2778.html",
-  "accroche": "Cette proposition de loi permettrait aux produits moins sucrés d'être nommés « confiture », en abaissant le seuil minimal de sucre.",
+  "accroche": "Le seuil de sucre minimal pour qu'un produit puisse être appelé « confiture » baisserait de 55 % à 20 %.",
   "points": [
-    "Abaisse le seuil minimal de matière sèche soluble pour les confitures de 55 % à seulement 20 %.",
-    "Étend la dénomination « confiture » aux produits à faible teneur en sucre, répondant aux attentes des consommateurs.",
-    "Encourage les producteurs à innover en créant des recettes de confitures avec moins de sucre ajouté.",
-    "Modifie le code de la consommation pour entériner cette nouvelle réglementation des confitures allégées."
+    "Permettrait aux fabricants de nommer « confiture » des produits contenant seulement 20 % de matière sèche soluble.",
+    "Rendrait disponibles davantage de confitures avec une teneur en sucre réduite pour les consommateurs.",
+    "Encouragerait l'innovation chez les producteurs en leur permettant de développer des recettes moins sucrées.",
+    "Modifierait le code de la consommation en ajoutant un article sur ce nouveau seuil pour les confitures."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54302",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -4,12 +4,12 @@
   "date_depot": "2026-03-23",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2578.html",
-  "accroche": "Cette loi instaure une nouvelle procédure plus rapide pour les entreprises afin de récupérer les sommes dues non contestées par leurs clients professionnels.",
+  "accroche": "Cette proposition de loi créerait une nouvelle procédure simplifiée pour les entreprises afin de récupérer plus rapidement les sommes qui leur sont dues.",
   "points": [
-    "Crée une procédure accélérée pour les entreprises afin de récupérer les créances commerciales incontestées (non payées).",
-    "Charge un commissaire de justice de notifier la demande de paiement au débiteur professionnel concerné.",
-    "Accorde un délai d'un mois au débiteur pour contester ou régler la somme demandée.",
-    "Autorise le greffier du tribunal à rendre le constat d'absence de contestation exécutoire, avec frais à charge du débiteur."
+    "Instaurerait une procédure accélérée permettant aux commerçants de recouvrer leurs créances commerciales impayées plus facilement.",
+    "Permettrait à un commissaire de justice d'engager la procédure et de signifier un commandement de payer avec un délai d'un mois.",
+    "Rendrait exécutoire le procès-verbal de non-contestation si la dette n'est pas contestée ou payée dans le mois imparti.",
+    "Préciserait que tous les frais liés à cette procédure simplifiée seraient à la charge du débiteur de la créance."
   ],
   "quality_score": null,
   "quality_flags": [],

@@ -4,17 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2779.html",
-  "accroche": "Cette proposition de loi prévoit d'étendre le paquet neutre, déjà en place pour les cigarettes classiques, à tous les produits du tabac et de vapotage.",
+  "accroche": "Cette proposition de loi étendrait le paquet neutre à tous les produits du tabac et de vapotage pour protéger les jeunes et la santé publique.",
   "points": [
-    "Étend le principe du paquet neutre à l'ensemble des produits du tabac et du vapotage, qu'ils contiennent ou non de la nicotine.",
-    "Interdit tout élément sur les emballages pouvant promouvoir le produit ou suggérer des effets bénéfiques sur la santé.",
-    "Modifie le code de la santé publique pour inclure ces nouvelles règles concernant les emballages de produits.",
-    "Fixe au 1er janvier 2027 la date limite pour fabriquer les nouveaux emballages et au 1er juin 2027 pour les vendre."
+    "Étalerait le paquet neutre à l'ensemble des produits du tabac et du vapotage, qu'ils contiennent ou non de la nicotine.",
+    "Obligerait les unités de conditionnement des produits du vapotage à être neutres et uniformisées par décret (règlement précis).",
+    "Interdirait tout élément promotionnel ou incitant à la consommation sur les emballages de vapotage dès son application.",
+    "Interdirait la vente de produits non conformes à partir du 1er juin 2027 et punirait les infractions d'une amende administrative."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54303",
   "etat": "Déposé",
   "statut": "Texte déposé",

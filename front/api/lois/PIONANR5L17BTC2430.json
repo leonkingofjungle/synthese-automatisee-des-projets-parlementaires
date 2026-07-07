@@ -4,12 +4,12 @@
   "date_depot": "2026-02-04",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2430.html",
-  "accroche": "Cette loi interdit l'importation et l'utilisation d'engrais contenant du cadmium pour protéger notre alimentation des contaminations à partir du 1er janvier 2027.",
+  "accroche": "Cette proposition de loi interdirait l'utilisation d'engrais au cadmium pour protéger l'alimentation des Français contre les risques sanitaires.",
   "points": [
-    "Interdit l'importation, la vente et l'utilisation d'engrais contenant du cadmium sur le territoire national.",
-    "Vise tous les engrais inorganiques ou organo-minéraux phosphatés, définis par la réglementation européenne.",
-    "Prendra effet et s'appliquera sur l'ensemble du territoire national dès le 1er janvier 2027.",
-    "Modifie le code rural et de la pêche maritime en y insérant un nouvel article L. 255-2-1."
+    "Interdirait l'importation, la détention et l'utilisation d'engrais phosphatés contenant du cadmium.",
+    "Concernerait spécifiquement les engrais inorganiques ou organo-minéraux selon une définition européenne.",
+    "Prendrait effet à compter du 1er janvier 2027 pour tous les produits fertilisants concernés.",
+    "Ajouterait un article au code rural et de la pêche maritime pour cette nouvelle interdiction."
   ],
   "quality_score": null,
   "quality_flags": [],

@@ -4,17 +4,15 @@
   "date_depot": "2026-06-09",
   "categorie": "Santé",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2891.html",
-  "accroche": "Cette proposition de loi supprime le délai de 10 ans pour agir en justice et garantit l'indemnisation des victimes du Distilbène.",
+  "accroche": "Cette proposition de loi abolirait la prescription pour les victimes du Distilbène et assurerait la réparation de leurs préjudices liés à cette exposition.",
   "points": [
-    "Rend imprescriptible toute action en justice civile pour les victimes exposées au diéthylstilbestrol ou hormones similaires, modifiant le Code civil.",
-    "Ouvre aux victimes du Distilbène un droit à indemnisation par la solidarité nationale, répondant ainsi à leurs difficultés à prouver le dommage.",
-    "Précise que la liste des maladies ouvrant droit à indemnisation sera fixée par décret (texte du gouvernement) après avis médical.",
-    "Financera ces indemnisations et la compensation pour l'État avec une nouvelle taxe sur les produits du tabac."
+    "Abolirait la limite de 10 ans pour les actions en justice des personnes exposées au Diéthylstilbestrol et hormones similaires.",
+    "Ouvrirait aux victimes du Diéthylstilbestrol un droit à être indemnisées par l'argent public pour les pathologies reconnues.",
+    "Financerait cette réparation pour l'État et la Sécurité sociale via une taxe supplémentaire sur le tabac.",
+    "Définirait par décret (règlement du gouvernement) la liste précise des maladies donnant droit à indemnisation."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54444",
   "etat": "Déposé",
   "statut": "Texte déposé",

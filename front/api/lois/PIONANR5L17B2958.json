@@ -4,17 +4,15 @@
   "date_depot": "2026-06-23",
   "categorie": "Économie et travail",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2958.html",
-  "accroche": "Les salariés pourront convertir jusqu'à cinq jours de congés payés par an en salaire, augmentant leur pouvoir d'achat et évitant la perte de jours non utilisés.",
+  "accroche": "Cette loi permettrait aux salariés de monétiser une partie de leurs congés payés pour augmenter leur pouvoir d'achat.",
   "points": [
-    "Autorise les salariés à convertir cinq jours de leurs congés payés annuels en salaire, sur accord écrit.",
-    "Rend les revenus de cette monétisation défiscalisés et exemptés de charges sociales pour trois ans.",
-    "Amende le code du travail, le code de la sécurité sociale et le code général des impôts.",
-    "Renforce le pouvoir d'achat des travailleurs et garantit que les jours de congés ne soient plus perdus."
+    "Autoriserait les salariés à convertir jusqu'à cinq jours de leur cinquième semaine de congés payés en salaire.",
+    "Exonérerait de charges sociales et d'impôts les sommes perçues pour la monétisation des congés, pour salariés et employeurs.",
+    "Fixerait à 10 000 euros la limite annuelle pour ces revenus défiscalisés, en modifiant le code des impôts.",
+    "Compenserait la perte de recettes pour l'État et la Sécurité sociale par une taxe additionnelle sur les tabacs."
   ],
-  "quality_score": 86,
-  "quality_flags": [
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54545",
   "etat": "Déposé",
   "statut": "Texte déposé",

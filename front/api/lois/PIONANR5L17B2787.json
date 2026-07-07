@@ -4,17 +4,15 @@
   "date_depot": "2026-05-12",
   "categorie": "Logement et urbanisme",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2787.html",
-  "accroche": "Cette proposition de loi rend plus difficile l'occupation illégale de logements en obligeant les fournisseurs de services essentiels à vérifier le droit d'occupation.",
+  "accroche": "Elle obligerait les fournisseurs d'énergie et d'internet à vérifier le droit d'occupation d'un logement pour signer un contrat.",
   "points": [
-    "Interdit aux fournisseurs de services essentiels de signer un contrat sans que le demandeur prouve son droit d'occupation.",
-    "Définit le droit d'occupation par un bail, un titre de propriété, une attestation du propriétaire ou une décision judiciaire.",
-    "Rend les fournisseurs civilement responsables s'ils signent un contrat illégal qui prolonge une occupation sans droit.",
-    "Modifie le Code de la consommation et entrera en vigueur six mois après la promulgation de cette loi."
+    "Obligerait les fournisseurs d'eau, d'énergie et d'internet à vérifier le droit d'occupation avant tout contrat.",
+    "Établirait une liste claire des justificatifs acceptés, comme un bail ou une attestation du propriétaire.",
+    "Rendrait les fournisseurs responsables des préjudices subis par le propriétaire en cas de manquement.",
+    "Insérerait ces nouvelles obligations dans le Code de la consommation pour les rendre applicables."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54311",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

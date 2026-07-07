@@ -4,14 +4,14 @@
   "date_depot": "2026-05-26",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2828.html",
-  "accroche": "Cette proposition de loi crée un corps spécifique de directeurs des écoles publiques pour leur donner une vraie autorité et des moyens de pilotage.",
+  "accroche": "Cette proposition de loi créerait un corps de directeurs des écoles publiques pour renforcer leur autorité et décharger l'enseignement.",
   "points": [
-    "Modifie le code de l'éducation pour créer un corps de directeurs des écoles publiques avec un statut propre.",
-    "Accorde aux directeurs une décharge totale d'enseignement, mais ils pourront enseigner si l'intérêt du service le permet.",
-    "Permet au directeur d'exercer son autorité sur un réseau d'écoles regroupant au minimum 12 enseignants.",
-    "Renforce leurs missions : ils dirigeront les équipes, piloteront la pédagogie, et géreront la sécurité et les relations institutionnelles."
+    "Modifierait l'article L. 411-2 du code de l'éducation pour créer un corps de directeurs.",
+    "Déchargerait intégralement les directeurs d'école de l'enseignement, avec possibilité d'activités pédagogiques.",
+    "Donnerait au directeur autorité sur un réseau d'écoles regroupant au moins 12 emplois d'enseignants.",
+    "Définirait les missions du directeur, incluant l'autorité sur les personnels et le pilotage éducatif."
   ],
-  "quality_score": 100,
+  "quality_score": null,
   "quality_flags": [],
   "dossier_uid": "DLR5L17N54363",
   "etat": "Déposé",

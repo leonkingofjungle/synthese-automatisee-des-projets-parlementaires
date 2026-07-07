@@ -4,17 +4,15 @@
   "date_depot": "2026-06-09",
   "categorie": "Justice et sécurité",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2900.html",
-  "accroche": "Cette proposition de loi renforce l'encadrement de l'usage des trottinettes électriques pour améliorer la sécurité de tous les usagers.",
+  "accroche": "Cette proposition de loi renforcerait l'encadrement de l'usage des trottinettes électriques pour améliorer la sécurité de tous les usagers.",
   "points": [
-    "Rend le port du casque et d'un gilet rétroréfléchissant obligatoire pour les utilisateurs de trottinettes électriques.",
-    "Exige la détention du brevet de sécurité routière (BSR) pour toute utilisation d'une trottinette électrique.",
-    "Double les amendes existantes pour les infractions et renforce les sanctions, incluant la confiscation des engins trafiqués.",
-    "Ouvre aux policiers municipaux la possibilité d'immobiliser les trottinettes électriques et de constater les infractions."
+    "Rendrait obligatoire le port du casque et du gilet rétroréfléchissant pour tous les utilisateurs de trottinettes.",
+    "Exigerait la détention du brevet de sécurité routière pour utiliser une trottinette électrique sur la voie publique.",
+    "Doublerait les amendes pour les infractions et confisquerait l'engin en cas de récidive ou de trafic pour augmenter sa vitesse.",
+    "Autoriserait les policiers municipaux à immobiliser les trottinettes électriques et à constater les infractions."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54453",
   "etat": "Déposé",
   "statut": "Texte déposé",

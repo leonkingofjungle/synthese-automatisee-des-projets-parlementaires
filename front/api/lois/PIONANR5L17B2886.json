@@ -4,18 +4,15 @@
   "date_depot": "2026-06-09",
   "categorie": "Société et solidarités",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2886.html",
-  "accroche": "Cette loi vise à garantir les droits fondamentaux des personnes handicapées en réformant leur définition, leur autonomie et l'accessibilité des logements.",
+  "accroche": "Cette proposition de loi améliorerait les droits fondamentaux des personnes handicapées en France, en garantissant leur autodétermination et l'accès universel au logement.",
   "points": [
-    "Modifie la définition du handicap dans le code de l'action sociale et des familles pour inclure les barrières environnementales.",
-    "Reconnaît le droit à l'autodétermination et à la vie autonome des personnes handicapées dans le code social.",
-    "Supprime la liste des emplois difficilement accessibles aux personnes handicapées pour favoriser leur inclusion professionnelle.",
-    "Rétablit l'obligation de 100% de logements neufs accessibles dans les bâtiments collectifs, modifiant le code du logement."
+    "Modifierait la définition légale du handicap pour se focaliser sur l'interaction entre la personne et l'environnement.",
+    "Inscrirait le droit à l'autodétermination et à la vie autonome des personnes handicapées dans la loi française.",
+    "Supprimerait la liste des catégories d'emplois réputés difficiles pour les personnes handicapées, favorisant l'égalité.",
+    "Rétablirait l'obligation de 100% de logements neufs accessibles dans les bâtiments d'habitation collectifs."
   ],
-  "quality_score": 69,
-  "quality_flags": [
-    "deformation",
-    "neutralite_douteuse"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54439",
   "etat": "Déposé",
   "statut": "Texte déposé",

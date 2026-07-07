@@ -4,17 +4,15 @@
   "date_depot": "2026-06-02",
   "categorie": "Éducation et jeunesse",
   "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2862.html",
-  "accroche": "Cette proposition de loi assure une revalorisation annuelle des bourses étudiantes et leur versement en douze mensualités pour mieux lutter contre la précarité.",
+  "accroche": "Cette proposition de loi réformerait les bourses étudiantes pour mieux lutter contre la précarité et s'assurerait d'une revalorisation annuelle des montants.",
   "points": [
-    "Garantit la revalorisation annuelle des montants des bourses étudiantes, basée sur l'inflation hors tabac.",
-    "Assure que les bourses sur critères sociaux sont désormais versées chaque année en douze mensualités.",
-    "Intègre de nouvelles dispositions sur les bourses étudiantes au sein du Code de l'éducation.",
-    "Finance ces mesures par une nouvelle taxe additionnelle appliquée sur les produits du tabac."
+    "Revaloriserait annuellement le montant des bourses sur critères sociaux et les plafonds de ressources en fonction de l'inflation.",
+    "Verserait les bourses d'enseignement supérieur sur critères sociaux en douze mensualités, sur une base annuelle.",
+    "Compenserait le coût pour l'État en créant une taxe additionnelle sur l'accise (taxe) sur les tabacs existante.",
+    "Modifierait le code de l'éducation en y insérant un nouvel article pour ces dispositions sur les bourses."
   ],
-  "quality_score": 91,
-  "quality_flags": [
-    "deformation"
-  ],
+  "quality_score": null,
+  "quality_flags": [],
   "dossier_uid": "DLR5L17N54229",
   "etat": "En cours",
   "statut": "1ère lecture en commission",
