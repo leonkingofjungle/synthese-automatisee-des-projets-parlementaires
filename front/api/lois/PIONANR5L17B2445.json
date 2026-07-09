@@ -11,8 +11,10 @@
     "Exigerait des agences la signature de contrats de moyens avec l'État, précisant les ressources allouées.",
     "Assurerait à l'État la majorité dans la gouvernance des agences qu'il finance principalement, hors enseignement supérieur."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53720",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

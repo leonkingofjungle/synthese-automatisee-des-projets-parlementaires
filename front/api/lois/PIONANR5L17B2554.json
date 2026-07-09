@@ -11,8 +11,10 @@
     "Aménagerait l'exigence de preuve d’appartenance des demandeurs aux groupes sociaux LGBTI (lesbiennes, gays, trans et intersexes).",
     "Préciserait que le doute profiterait à la personne demandeuse d'asile concernant son appartenance réelle ou supposée."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53863",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Comblerait une faille juridique actuelle ne qualifiant pas ces lieux de domicile pour les intrusions.",
     "Permettrait de punir les intrusions illégales comme une violation de domicile, sans entraver les contrôles légaux."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53769",
   "etat": "Déposé",
   "statut": "Texte déposé",

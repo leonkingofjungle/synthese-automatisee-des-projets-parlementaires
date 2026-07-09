@@ -11,8 +11,10 @@
     "Chargerait le ministre des Armées et des Anciens combattants de fixer les montants de ces indemnités.",
     "Financerait ces indemnisations par une nouvelle taxe additionnelle sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54235",
   "etat": "Déposé",
   "statut": "Texte déposé",

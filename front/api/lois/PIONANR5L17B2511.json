@@ -11,8 +11,11 @@
     "Donnerait ce droit de visite aux parlementaires et aux bâtonniers (responsables des avocats).",
     "Modifierait le code de procédure pénale pour officialiser ces nouvelles possibilités d'accès."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 88,
+  "quality_flags": [
+    "invention",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52230",
   "etat": "Terminé",
   "statut": "Texte adopté",

@@ -11,8 +11,12 @@
     "Financerait une partie de la rémunération des personnes employées par ces entreprises, via l'État et les collectivités.",
     "Habiliterait ces territoires pour cinq ans et mettrait en place un suivi par une commission dédiée."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "invention",
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51962",
   "etat": "En cours",
   "statut": "2ème lecture en commission",

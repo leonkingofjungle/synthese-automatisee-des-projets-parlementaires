@@ -11,8 +11,10 @@
     "Définirait par décret (règlement administratif) les modalités d'organisation du fonds et les critères d'éligibilité.",
     "Compenserait les conséquences financières pour les collectivités territoriales par une majoration de la dotation globale de fonctionnement."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53851",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

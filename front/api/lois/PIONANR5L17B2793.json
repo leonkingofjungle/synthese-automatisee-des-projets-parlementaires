@@ -11,8 +11,10 @@
     "Mettrait fin aux procédures aléatoires de reconnaissance au cas par cas selon les territoires.",
     "Modifierait le code de la sécurité sociale pour inclure explicitement la fibromyalgie dans la liste."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54317",
   "etat": "Déposé",
   "statut": "Texte déposé",

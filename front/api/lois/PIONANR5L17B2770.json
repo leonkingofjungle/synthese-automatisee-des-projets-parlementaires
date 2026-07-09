@@ -11,8 +11,10 @@
     "Punirait la révélation de l'identité ou de l'adresse d'une personne protégée de cinq ans d'emprisonnement et 75 000 euros d'amende.",
     "Financerait ces nouvelles mesures de protection grâce à une taxe additionnelle sur l'accise sur les tabacs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53427",
   "etat": "En cours",
   "statut": "2ème lecture en commission",

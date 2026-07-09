@@ -11,8 +11,10 @@
     "Supprimerait la liste des catégories d'emplois réputés difficiles pour les personnes handicapées, favorisant l'égalité.",
     "Rétablirait l'obligation de 100% de logements neufs accessibles dans les bâtiments d'habitation collectifs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54439",
   "etat": "Déposé",
   "statut": "Texte déposé",

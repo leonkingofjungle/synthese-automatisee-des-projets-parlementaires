@@ -11,8 +11,12 @@
     "Protégerait ainsi les petits actionnaires et les entreprises des pratiques de dilution boursière jugées abusives.",
     "Modifierait le Code monétaire et financier pour renforcer l'encadrement des instruments de financement risqués."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54313",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -10,8 +10,10 @@
     "Établirait des règles sur l'exercice du mandat d'un député remplacé temporairement.",
     "Concernerait spécifiquement les conditions de remplacement provisoire des parlementaires."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54171",
   "etat": "Terminé",
   "statut": "Retrait de l'initiative",

@@ -11,8 +11,12 @@
     "Modifierait le code de la santé publique pour y inscrire ces nouvelles dispositions.",
     "Entrerait en vigueur et appliquerait ses effets à partir du 1er janvier 2031."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 75,
+  "quality_flags": [
+    "invention",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N50604",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

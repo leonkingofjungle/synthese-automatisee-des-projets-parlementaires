@@ -11,8 +11,10 @@
     "Mettrait en place une rémunération spécifique pour les soins non programmés et les aides au fonctionnement de ces centres.",
     "Offrirait plus de flexibilité aux médecins et infirmiers, notamment sur les stages ou la gestion des médicaments."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54365",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T14:34:20.831095+00:00",
+  "generated_at": "2026-07-09T11:24:32.487374+00:00",
   "count": 405,
   "documents": [
     {
@@ -850,8 +850,10 @@
         "Permettrait une indemnisation financière aux victimes si ce préjudice est reconnu par le tribunal.",
         "Renforcerait les pouvoirs du président d'audience pour assurer la dignité des débats et éviter ces préjudices."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54542",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -870,8 +872,11 @@
         "Engloberait toutes les classes, de la petite section de maternelle jusqu'à la troisième du collège.",
         "Financerait les coûts de cette réforme par une nouvelle taxe additionnelle sur les produits du tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54534",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -890,8 +895,10 @@
         "Fixerait des objectifs obligatoires de collecte et recyclage des déchets si les performances sont insuffisantes outre-mer.",
         "Autoriserait l'inspection de bagages sans consentement en outre-mer si un risque sanitaire est suspecté."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N50970",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -910,8 +917,10 @@
         "Encadrerait l'acquisition directe d'instruments financiers auprès de l'émetteur ou du cédant en vue de leur vente.",
         "Ajouterait cet article L. 321-1-1 au code monétaire et financier pour clarifier la régulation."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54313",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -930,8 +939,12 @@
         "Fixerait l'entrée en vigueur de ces dispositions au 6 janvier 2027.",
         "Renforcerait ainsi la protection juridique des mineurs au sein de ces dispositifs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 75,
+      "quality_flags": [
+        "invention",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52781",
       "etat": "En cours",
       "statut": "2ème lecture en séance publique",
@@ -950,8 +963,10 @@
         "Instaurerait des pénalités financières progressives, de 25 centimes à 10 euros par produit, pour la mode ultra-express.",
         "Obligerait l'affichage clair du lieu de fabrication et renforcerait la sensibilisation aux pratiques de consommation durable."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L16N49364",
       "etat": "En cours",
       "statut": "Commission mixte paritaire",
@@ -970,8 +985,12 @@
         "Permettrait à l'ARCOM de sanctionner financièrement les plateformes ne respectant pas les injonctions, jusqu'à 1% de leur chiffre d'affaires.",
         "Autoriserait l'ARCOM à collecter automatiquement des données publiques sur l'utilisation des contenus, même derrière un compte."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51330",
       "etat": "En cours",
       "statut": "2ème lecture en commission",
@@ -990,8 +1009,10 @@
         "Imposerait aux établissements privés sous contrat de tenir une comptabilité analytique pour les dépenses et revenus.",
         "Entrerait en vigueur pour la comptabilité analytique trois ans après la promulgation de la loi."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54310",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1010,8 +1031,10 @@
         "Rendrait les fournisseurs responsables des préjudices si un contrat est conclu illégalement avec un occupant sans titre.",
         "Permettrait au préfet d'ordonner la suspension des contrats si des faux documents d'occupation sont identifiés."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54311",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1030,11 +1053,14 @@
         "Confierait à Vichy Communauté la gestion et le financement des équipements sportifs locaux et de leurs personnels.",
         "Modifierait la composition du conseil d'administration du CREPS en augmentant la représentation locale et sportive."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54096",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique",
+      "statut": "1ère lecture en commission",
       "depositaire": null
     },
     {
@@ -1050,8 +1076,10 @@
         "Simplifierait l'accès aux œuvres numériques adaptées pour les personnes en situation de handicap en centralisant les fichiers.",
         "Obligerait les éditeurs à déposer des fichiers numériques pour faciliter l'adaptation et permettrait à l'ARCOM de gérer les litiges."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51909",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1070,8 +1098,10 @@
         "Obligerait l'État à informer les collectivités locales avant de vendre des immeubles sur leur territoire.",
         "Permettrait le transfert gratuit de biens immobiliers de l'État vers ce nouvel établissement public."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52746",
       "etat": "En cours",
       "statut": "Commission mixte paritaire",
@@ -1090,8 +1120,10 @@
         "Instaurerait une procédure exigeante avec demande au médecin, évaluation collégiale, information complète et un délai de réflexion.",
         "Prévoirait le remboursement des frais par la Sécurité sociale, une clause de conscience et une commission de contrôle dédiée."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51670",
       "etat": "Terminé",
       "statut": "Texte rejeté",
@@ -1110,8 +1142,10 @@
         "Définirait par décret (règlement administratif) les modalités d'organisation du fonds et les critères d'éligibilité.",
         "Compenserait les conséquences financières pour les collectivités territoriales par une majoration de la dotation globale de fonctionnement."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53851",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -1130,8 +1164,12 @@
         "Financerait une partie de la rémunération des personnes employées par ces entreprises, via l'État et les collectivités.",
         "Habiliterait ces territoires pour cinq ans et mettrait en place un suivi par une commission dédiée."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "invention",
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51962",
       "etat": "En cours",
       "statut": "2ème lecture en commission",
@@ -1150,8 +1188,13 @@
         "Étendrait les missions des pharmaciens et infirmiers pour la mesure de la pression artérielle.",
         "Inclurait la sensibilisation aux risques cardio-vasculaires dans les actions de santé au travail et à l'école."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 68,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "faute_francais",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53426",
       "etat": "En cours",
       "statut": "Commission mixte paritaire",
@@ -1170,8 +1213,10 @@
         "Dérogerait ainsi au principe d’inaliénabilité (impossibilité de vendre ou donner) des collections publiques françaises.",
         "Exigerait que cette sortie des collections soit effective au plus tard six mois après l'entrée en vigueur de la loi."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N50548",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -1190,8 +1235,10 @@
         "Préciserait que ces envois seraient faits sans délai, par courrier ou par voie électronique sécurisée.",
         "Modifierait le Code du travail pour adapter les règles de remise des documents de fin de contrat."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54454",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1210,8 +1257,11 @@
         "Doublerait les amendes pour les infractions et confisquerait l'engin en cas de récidive ou de trafic pour augmenter sa vitesse.",
         "Autoriserait les policiers municipaux à immobiliser les trottinettes électriques et à constater les infractions."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54453",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1230,8 +1280,10 @@
         "Punirait de 3 500 euros d'amende toute cession d'animal sans vérification du fichier ou à une personne inscrite.",
         "Imposerait aux personnes inscrites de justifier leur adresse annuellement aux services de police ou de gendarmerie."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54455",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1250,8 +1302,11 @@
         "Améliorerait la reconnaissance de cette maladie chronique douloureuse, souvent méconnue, et réduirait les inégalités d'accès aux soins.",
         "Modifierait le code de la sécurité sociale pour inclure explicitement la cystite interstitielle dans la liste des ALD."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54450",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1270,8 +1325,10 @@
         "Instituerait un comité pour évaluer la rançon de 150 millions de francs or imposée à Haïti en 1825.",
         "Ce comité étudierait comment l'État français restituerait ces sommes au peuple haïtien."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54448",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1290,8 +1347,10 @@
         "Financerait cette réparation pour l'État et la Sécurité sociale via une taxe supplémentaire sur le tabac.",
         "Définirait par décret (règlement du gouvernement) la liste précise des maladies donnant droit à indemnisation."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54444",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1310,8 +1369,10 @@
         "Faciliterait la reconnaissance du statut de travailleur handicapé et les aménagements professionnels, incluant le télétravail.",
         "Permettrait des absences justifiables après coup sans jour de carence et jusqu'à trente jours d'arrêt par an."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54442",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1330,8 +1391,10 @@
         "Réduirait le coût de l'indemnisation de ces accidents, actuellement supporté par tous les assurés.",
         "Défavoriserait la participation à ces événements en responsabilisant les spectateurs des dangers encourus."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54443",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1350,8 +1413,10 @@
         "Supprimerait la liste des catégories d'emplois réputés difficiles pour les personnes handicapées, favorisant l'égalité.",
         "Rétablirait l'obligation de 100% de logements neufs accessibles dans les bâtiments d'habitation collectifs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54439",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1370,8 +1435,10 @@
         "Adapterait le calcul de la pension militaire d'invalidité sur l'indice de salaire pour ceux qui restent en activité.",
         "Prendrait en compte l'ancienneté de service des militaires dans le calcul de leur pension pour une réparation plus juste."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54449",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1390,8 +1457,10 @@
         "Exclurait les opérations d'autoconsommation collective de l'obligation d'obtenir une autorisation de fourniture d'électricité.",
         "Réduirait les tarifs d'utilisation du réseau public pour les participants à l'autoconsommation collective, favorisant ainsi les projets."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54436",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1410,8 +1479,10 @@
         "Interdirait aux assureurs de demander des informations sur d'éventuels dons d'organes ou de cellules aux assurés.",
         "Financerait ces nouvelles dépenses de sécurité sociale via une taxe additionnelle sur l'accise sur les tabacs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53976",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -1430,8 +1501,11 @@
         "Prévoirait une inscription rapide au rôle des juges et un calendrier judiciaire resserré pour ces affaires.",
         "Étendrait l'annulation partielle et le sursis à statuer (suspension provisoire) aux recours contre ces autorisations."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54438",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1450,8 +1524,10 @@
         "Punirait les violations de cette nouvelle règle de 2 ans de prison et 75 000 euros d'amende.",
         "Entrerait en vigueur seulement deux ans après sa promulgation pour permettre une transition."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54451",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1470,8 +1546,10 @@
         "Interdirait aux émetteurs d'octroyer des rabais aux employeurs et exigerait la transparence des commissions marchands.",
         "Autoriserait les salariés à donner leurs titres-restaurant non utilisés à des associations d'aide alimentaire."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54445",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1490,8 +1568,11 @@
         "Obligerait les branches professionnelles à revaloriser les salaires minima pour qu'ils ne soient jamais inférieurs au SMIC.",
         "Créerait une caisse de péréquation financée par les grandes entreprises pour aider les petites à payer les hausses de salaires."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54446",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1510,8 +1591,10 @@
         "Créerait un délit puni de 7 500 euros d'amende pour le blocage physique des accès aux universités.",
         "Obligerait les présidents d'université à élaborer un plan de sécurité et de continuité des services d'enseignement."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54441",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1530,8 +1613,10 @@
         "Exigerait une expertise médicale et un décret (texte du gouvernement) pour encadrer précisément cette reconnaissance.",
         "Modifierait le code des pensions pour garantir l'accès aux droits de réparation en cas de reconnaissance."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54440",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1550,8 +1635,10 @@
         "Empêcherait les opérateurs de paris sportifs de nommer les infrastructures ou compétitions sportives nationales.",
         "Permettrait aux associations de lutte contre les addictions et aux consommateurs d'agir en justice contre les abus publicitaires."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54452",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1570,8 +1657,11 @@
         "Imposerait de contrôler cette honorabilité non seulement au début, mais aussi régulièrement durant l'exercice des fonctions.",
         "Appliquerait également ces nouvelles règles de vérification aux personnes proposant des services d'animation ou garde à domicile."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54447",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -1612,8 +1702,10 @@
         "Obligerait les entreprises à définir des mesures de prévention et de signalement contre les violences et le harcèlement.",
         "Augmenterait les amendes pour infractions de sécurité concernant des mineurs, jusqu'à 45 000 euros en cas de récidive."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54226",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1632,8 +1724,11 @@
         "Garantirait la protection de la santé lors des transferts entre régimes sociaux d'Outre-mer et ceux de l'Hexagone.",
         "Compenserait les coûts pour la Sécurité sociale et l'État grâce à des augmentations des taxes sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53401",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1674,8 +1769,10 @@
         "Renforcerait le soutien aux infrastructures culturelles et à la production locale dans les collectivités d'outre-mer.",
         "Instaurerait un rapport public annuel pour évaluer l'accès des intermittents aux droits sociaux en Outre-mer."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54248",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1694,8 +1791,10 @@
         "Cette commission serait composée de membres de la Cour des comptes, Banque de France, Conseil d'État et d'autres institutions.",
         "Les coûts seraient compensés par l'instauration d'une nouvelle taxe additionnelle sur les produits du tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52977",
       "etat": "En cours",
       "statut": "2ème lecture en commission",
@@ -1714,8 +1813,13 @@
         "Imposerait à Électricité de France de céder une capacité hydroélectrique virtuelle pour ouvrir au moins 40 % du marché.",
         "Instaurerait des comités de suivi pour les installations de plus de 500 mégawatts, associant les riverains à la gestion de l'eau."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 68,
+      "quality_flags": [
+        "invention",
+        "deformation",
+        "judge_non_independant",
+        "texte_tronque"
+      ],
       "dossier_uid": "DLR5L17N53530",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -1734,8 +1838,12 @@
         "Appliquerait cette présomption si des indices crédibles montrent l'utilisation par l'IA ou ses résultats.",
         "Concernerait les œuvres soumises au droit d'auteur ou aux droits voisins et les affaires en cours."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53359",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1754,8 +1862,12 @@
         "Compenserait le coût pour l'État en créant une taxe additionnelle sur l'accise (taxe) sur les tabacs existante.",
         "Modifierait le code de l'éducation en y insérant un nouvel article pour ces dispositions sur les bourses."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54229",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1774,8 +1886,10 @@
         "Préciserait que pour les petites professions, l'audience serait mesurée par le nombre d'adhérents des syndicats.",
         "Modifierait plusieurs articles des codes de la santé publique et de la sécurité sociale pour intégrer ces règles."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53846",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -1793,8 +1907,12 @@
         "Garantirait cette assistance juridique précieuse pour les enfants dans le cadre des procédures d'aide éducative.",
         "Établirait que l'application de cette mesure importante commencerait officiellement à partir du 6 janvier 2027."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 60,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52781",
       "etat": "En cours",
       "statut": "2ème lecture en séance publique",
@@ -1813,8 +1931,10 @@
         "Renforcerait le rôle de la commission de suivi des conséquences pour la mise à jour des pathologies reconnues.",
         "Mettrait en place une présomption irréfutable d'exposition et offrirait l'assistance d'un traducteur aux demandeurs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53276",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -1833,8 +1953,10 @@
         "Rendrait obligatoire et immédiate la transmission des informations concernant les risques liés au personnel.",
         "Obligerait à prendre des mesures conservatoires face à des risques pour la sécurité physique ou morale des mineurs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53818",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1853,8 +1975,10 @@
         "Imposerait une révision des moyens et des écoles concernées par l'éducation prioritaire au moins tous les cinq ans.",
         "Étendrait les zones d'application de l'éducation prioritaire aux territoires éloignés en plus des zones dispersées."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54057",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1873,8 +1997,10 @@
         "Modifierait l'article L. 313-7 du code de l'action sociale et des familles.",
         "Subordonnerait le renouvellement et l'autorisation permanente à des évaluations positives des projets."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53886",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -1893,8 +2019,10 @@
         "Compenserait la charge financière pour l'État par une taxe additionnelle sur les produits du tabac.",
         "Compenserait les collectivités territoriales en augmentant leur dotation globale de fonctionnement."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51775",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -1913,8 +2041,10 @@
         "Viserait la dépollution des terres et eaux contaminées, avec la recherche scientifique comme priorité nationale.",
         "Évaluerait l'opportunité d'étendre le fonds d'indemnisation des victimes de pesticides aux maladies liées au chlordécone."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L16N49263",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -1933,8 +2063,11 @@
         "Rabaisserait cette limite de cadmium à 20 milligrammes par kilo d’anhydride phosphorique au 1er janvier 2030.",
         "Entrerait en vigueur progressivement, d'abord le 1er janvier 2027, puis la limite plus stricte en 2030."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54148",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1953,8 +2086,11 @@
         "Instaurerait des enquêtes pour retrouver les biens des condamnés introuvables afin d'exécuter entièrement les peines de confiscation.",
         "Garantirait la mise en paiement des experts judiciaires dans un délai de soixante jours, avec des intérêts de retard."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53159",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -1973,8 +2109,10 @@
         "Interdirait l'intervention en milieu scolaire à toute personne inscrite aux fichiers des délinquants sexuels ou terroristes.",
         "Renforcerait le contrôle de l'État sur les établissements privés, exigeant des formations contre les violences."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54227",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -1993,8 +2131,10 @@
         "Elle exclurait la pension de réversion et la bonification pour enfants du calcul du plafond des pensions.",
         "Elle créerait une nouvelle taxe sur les transactions financières pour financer l'assurance vieillesse agricole."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51955",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -2013,8 +2153,10 @@
         "Permettrait de réaliser 550 millions d'euros d'économies en évitant le gaspillage de 120 millions de boîtes.",
         "Diminuerait les risques d'automédication, d'erreurs et la pollution liés aux médicaments non utilisés."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54368",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2033,8 +2175,10 @@
         "Permettrait aux candidats de se présenter seuls ou en groupe, avec une déclaration obligatoire en préfecture.",
         "Préciserait les règles d'élection des adjoints dans les communes de moins de 1 000 habitants en modifiant le code général des collectivités territoriales."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54367",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2053,8 +2197,12 @@
         "Modifierait le code électoral pour harmoniser les règles de remboursement des frais de campagne électorale.",
         "Financerait ces remboursements par une taxe additionnelle sur le tabac, dès le prochain renouvellement des conseils municipaux."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "faute_francais",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54369",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2073,8 +2221,10 @@
         "Mettrait en place une rémunération spécifique pour les soins non programmés et les aides au fonctionnement de ces centres.",
         "Offrirait plus de flexibilité aux médecins et infirmiers, notamment sur les stages ou la gestion des médicaments."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54365",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2093,8 +2243,10 @@
         "Obligerait les plateformes numériques à marquer clairement les contenus générés par intelligence artificielle.",
         "Créerait l'infraction d'exploitation sexuelle en ligne et punirait l'apologie des actes pédocriminels."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54364",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2113,8 +2265,10 @@
         "Réputerait le parcours de soins coordonnés respecté lorsque ces assurés seraient orientés vers un spécialiste.",
         "Modifierait l'article L. 162-5-3 du code de la sécurité sociale pour inscrire cette nouvelle dérogation."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54366",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2133,8 +2287,10 @@
         "Viserait à alléger la charge sur le système de santé français, déjà confronté aux déserts médicaux et urgences saturées.",
         "Prévoirait une période transitoire pour que les bénéficiaires actuels puissent obtenir un autre titre de séjour."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54361",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2153,8 +2309,10 @@
         "Obligerait les agences régionales de santé à établir des plans d'action sur trois ans pour améliorer le dépistage localement.",
         "Assurerait une évaluation annuelle publique des plans d'action pour vérifier l'amélioration du dépistage et de l'accès aux examens."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54362",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2173,8 +2331,10 @@
         "Donnerait au directeur autorité sur un réseau d'écoles regroupant au moins 12 emplois d'enseignants.",
         "Définirait les missions du directeur, incluant l'autorité sur les personnels et le pilotage éducatif."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54363",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2192,8 +2352,12 @@
         "Réduirait la charge financière pour les professionnels acceptant ce moyen de paiement.",
         "Soutiendrait les petits commerces en diminuant leurs coûts de transaction liés aux titres."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 57,
+      "quality_flags": [
+        "invention",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54360",
       "etat": "Terminé",
       "statut": "Retrait de l'initiative",
@@ -2212,8 +2376,11 @@
         "Abrogerait la cotisation volontaire de retraite et interdirait le cumul avec l'indemnité temporaire de retraite.",
         "Les nouvelles règles s'appliqueraient aux pensions prenant effet à partir du 1er janvier 2026 ou 2027 selon les cas."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54356",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2232,8 +2399,10 @@
         "Évaluerait les conséquences économiques, financières et sociales pour l'État, les usagers et les travailleurs du secteur.",
         "Obligerait le Gouvernement à présenter au Parlement les suites données aux recommandations de cet Observatoire."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54357",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2252,8 +2421,11 @@
         "Obligerait les employeurs à mener des enquêtes internes et à signaler les faits de harcèlement sexuel.",
         "Étendrait l'aide juridictionnelle aux victimes et imposerait une obligation d'assistance aux agents artistiques."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant",
+        "texte_tronque"
+      ],
       "dossier_uid": "DLR5L17N54359",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2294,8 +2466,10 @@
         "Égalerait le montant de cette pension temporaire à celui de l'allocation de solidarité aux personnes âgées (ASPA).",
         "Prévoirait un arrêt de cette aide dès la réception de la pension, avec régularisation ou étalement du remboursement."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52517",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -2314,8 +2488,10 @@
         "Introduirait une mesure judiciaire pour prévenir les actes terroristes de certains condamnés radicalisés.",
         "Prolongerait la rétention administrative des étrangers dangereux pour l'ordre public à 90 jours."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53284",
       "etat": "En cours",
       "statut": "Saisine du conseil constitutionnel",
@@ -2334,8 +2510,11 @@
         "Fixerait une réduction d'impôt sur le revenu à 25 % pour les souscriptions au capital des sociétés coopératives.",
         "Compenserait les pertes de recettes pour l'État et collectivités par une taxe additionnelle sur les produits du tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54014",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2354,8 +2533,11 @@
         "Clarifierait les responsabilités de chaque entreprise dans un contrat de travaux, sans solidarité juridique entre les différents intervenants.",
         "Garantirait les prêts accordés aux copropriétés pour leurs travaux, par un cautionnement ou une assurance, sans franchise ni délai de carence."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54144",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2374,8 +2556,10 @@
         "Ces contrats permettraient aux bénéficiaires de valider une partie d'une certification professionnelle.",
         "Les éventuels impacts financiers pour l'État seraient compensés par une taxe additionnelle sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51791",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -2394,8 +2578,10 @@
         "Analyserait les conséquences du droit colonial sur le développement économique, social et culturel des territoires concernés.",
         "Évaluerait la place de l'esclavage dans les programmes scolaires et analyserait les discriminations actuelles et sur les descendants."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52767",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -2414,8 +2600,10 @@
         "Couvrirait entre 20 % et 50 % du coût total de l'opération, plafonné à 100 000 euros au maximum.",
         "Compenserait la perte de recettes publiques pour l'État par une taxe additionnelle sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54149",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2434,8 +2622,10 @@
         "Inclurait aussi les intercommunalités ou syndicats mixtes gérant ces services de petite enfance.",
         "Compenserait les coûts pour l'État par une taxe additionnelle sur le tabac dès le 1er janvier 2027."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53357",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -2454,8 +2644,11 @@
         "Préciserait que ces personnes devraient également être inscrites sur la liste électorale générale au moment du scrutin.",
         "Entrerait en vigueur le lendemain de sa publication au Journal officiel de la République française."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 88,
+      "quality_flags": [
+        "invention",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52104",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -2474,8 +2667,10 @@
         "Exigerait que ces personnes soient déjà inscrites sur la liste électorale générale pour pouvoir voter localement.",
         "Entrerait en vigueur le lendemain de sa publication officielle au Journal officiel de la République française."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52104",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -2494,8 +2689,10 @@
         "Dérogerait ainsi au principe d’inaliénabilité des collections publiques, inscrit dans le code du patrimoine.",
         "Exigerait que la remise soit effectuée au plus tard six mois après l'entrée en vigueur de la loi."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N50548",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -2514,8 +2711,12 @@
         "Modifierait une loi organique (qui précise l'organisation des pouvoirs publics) de 2009.",
         "Exclurait cette règle pour certains cas, comme le prévoit l'article 11 de la loi."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 38,
+      "quality_flags": [
+        "invention",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53879",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2534,8 +2735,12 @@
         "Modifierait l'ordonnance (texte de loi non voté par le Parlement) sur le fonctionnement des assemblées.",
         "Permettrait aux citoyens de connaître l'avis du Conseil d'État avant le débat parlementaire."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 62,
+      "quality_flags": [
+        "invention",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53878",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2554,8 +2759,12 @@
         "Durcirait la lutte contre le piratage de contenus sportifs, en bloquant rapidement les retransmissions illégales et en punissant lourdement.",
         "Promouvrait la solidarité financière entre sport masculin et féminin et entre clubs, tout en renforçant le rôle des supporters."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 62,
+      "quality_flags": [
+        "invention",
+        "judge_non_independant",
+        "texte_tronque"
+      ],
       "dossier_uid": "DLR5L17N51732",
       "etat": "En cours",
       "statut": "Commission mixte paritaire",
@@ -2574,8 +2783,10 @@
         "Préserverait la portée symbolique de ces primes en évitant des impacts fiscaux négatifs pour les salariés.",
         "Alignerait le régime fiscal de ces primes avec celui d'autres distinctions honorifiques déjà exonérées d'impôt."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54314",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2594,8 +2805,10 @@
         "Interdirait tout élément promotionnel ou incitant à la consommation sur les emballages de vapotage dès son application.",
         "Interdirait la vente de produits non conformes à partir du 1er juin 2027 et punirait les infractions d'une amende administrative."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54303",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2614,8 +2827,10 @@
         "Encouragerait l'innovation chez les producteurs en leur permettant de développer des recettes moins sucrées.",
         "Modifierait le code de la consommation en ajoutant un article sur ce nouveau seuil pour les confitures."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54302",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2634,8 +2849,10 @@
         "Limiterait la déduction de certaines charges et des salaires très élevés pour calculer le bénéfice imposable.",
         "Intégrerait ce nouveau dispositif temporaire au code général des impôts (règles fiscales)."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54304",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2677,8 +2894,10 @@
         "Transférerait gratuitement la propriété des casernes à l'État après 25 ans de bail, sans indemnisation pour les actionnaires.",
         "Modifierait le code général des impôts pour offrir une réduction de 18 % pour les investissements, plafonnée à 1 800 euros."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54301",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2697,8 +2916,11 @@
         "Transférerait la majoration du RSA pour un enfant placé à la personne éligible qui prendrait effectivement en charge l'enfant.",
         "Reconnaîtrait formellement le tiers digne de confiance comme bénéficiaire direct de ces prestations familiales pour l'enfant."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 88,
+      "quality_flags": [
+        "faute_francais",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54305",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2717,8 +2939,10 @@
         "Compléterait le code de la commande publique pour autoriser des marchés pluriannuels directs avec les producteurs.",
         "Dispenserait ces marchés directs de publicité et de mise en concurrence jusqu'à 100 000 euros par fournisseur."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54308",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2737,8 +2961,10 @@
         "Permettrait aux professionnels de santé de refuser d'y participer, tout en garantissant l'accès du patient.",
         "Préciserait que les frais liés à cette aide seraient couverts par la Sécurité sociale et sans dépassement d'honoraires."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51670",
       "etat": "Terminé",
       "statut": "Texte rejeté",
@@ -2757,8 +2983,10 @@
         "Supprimerait les exclusions pour les jeunes de la protection judiciaire et ceux sous OQTF (obligation de quitter le territoire français).",
         "Permettrait aux jeunes d'exercer un recours amiable ou contentieux si l'accompagnement par le département n'est pas respecté."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54298",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2777,8 +3005,10 @@
         "Permettrait des admissions exceptionnelles au regroupement ou à la réunification familiale en cas d'extrême urgence.",
         "Exigerait du Gouvernement un rapport pour évaluer la suspension et envisager sa pérennisation."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54309",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2797,8 +3027,10 @@
         "Protégerait l'emploi des parents en offrant la suspension du contrat ou des aménagements d'horaires et le télétravail.",
         "Désignerait un référent unique en CAF pour informer les familles et faciliter toutes les démarches administratives."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54299",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2817,8 +3049,10 @@
         "Permettrait à l'ARCOM d'appliquer des sanctions aux fournisseurs de réseaux sociaux ne respectant pas ces obligations.",
         "Inclurait dans ce contrôle les contenus diffusés ou recommandés par les systèmes algorithmiques des réseaux sociaux."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54306",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2837,8 +3071,10 @@
         "Permettrait aux représentants des salariés d'appeler de manière suspensive une décision de liquidation judiciaire.",
         "Assimilerait les salariés en attente d'un jugement d'appel de liquidation à des demandeurs d'emploi."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54307",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2857,8 +3093,10 @@
         "Rendrait les fournisseurs responsables des préjudices subis par le propriétaire en cas de manquement.",
         "Insérerait ces nouvelles obligations dans le Code de la consommation pour les rendre applicables."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54311",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2877,8 +3115,10 @@
         "Renforcerait le contrôle des citoyens sur l'utilisation de l'argent public pour le financement des écoles privées.",
         "Modifierait le code de l'éducation en ajoutant un article sur la publication de ces informations financières attestées."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54310",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2897,8 +3137,10 @@
         "Permettrait à cette autorité d'évaluer la compatibilité de leurs nouvelles activités pendant trois ans après leur départ.",
         "Viserait à renforcer la confiance des contribuables dans l'utilisation des 4 milliards d'euros de financements publics."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54315",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2917,8 +3159,10 @@
         "Réduirait la dépendance nationale aux importations de matières premières nécessaires à la production d'engrais.",
         "Exigerait que ces projets utilisent des méthodes de production respectant les critères de performance environnementale et climatique définis par décret."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54312",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2937,8 +3181,12 @@
         "Protégerait ainsi les petits actionnaires et les entreprises des pratiques de dilution boursière jugées abusives.",
         "Modifierait le Code monétaire et financier pour renforcer l'encadrement des instruments de financement risqués."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54313",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -2957,8 +3205,10 @@
         "Ajusterait le droit à indemnisation des anciens propriétaires pour ne pas pénaliser financièrement les communes.",
         "Modifierait le Code général de la propriété des personnes publiques pour faciliter la procédure et l'aligner sur d'autres lois."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54316",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2977,8 +3227,10 @@
         "Mettrait fin aux procédures aléatoires de reconnaissance au cas par cas selon les territoires.",
         "Modifierait le code de la sécurité sociale pour inclure explicitement la fibromyalgie dans la liste."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54317",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2997,8 +3249,10 @@
         "Punirait la révélation de l'identité ou de l'adresse d'une personne protégée de cinq ans d'emprisonnement et 75 000 euros d'amende.",
         "Financerait ces nouvelles mesures de protection grâce à une taxe additionnelle sur l'accise sur les tabacs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53427",
       "etat": "En cours",
       "statut": "2ème lecture en commission",
@@ -3017,8 +3271,11 @@
         "Permettrait au législateur de mieux protéger juridiquement l'autonomie stratégique et les capacités de production françaises.",
         "Réduirait la dépendance de la France envers des puissances étrangères pour des productions et services vitaux."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54285",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3037,8 +3294,10 @@
         "Assouplirait les règles d'urbanisme pour les zones de montagne et favoriserait une gestion partagée de la ressource en eau.",
         "Soutiendrait les filières agricoles et forestières locales, notamment les abattoirs de montagne, et les loisirs de nature."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54006",
       "etat": "En cours",
       "statut": "2ème lecture en commission",
@@ -3057,8 +3316,11 @@
         "Les décisions pour l'allocation enfant handicapé et la carte mobilité inclusion seraient accélérées, avec des avances automatiques.",
         "La protection contre le licenciement des parents salariés serait renforcée et un crédit d'impôt pour la suppléance des aidants serait créé."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N50444",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -3077,8 +3339,10 @@
         "Exigerait un décret du gouvernement et une ordonnance de justice, si les biens sont gelés pour violation grave du droit international.",
         "Prévoirait qu'un rapport évalue l'impact de ce mécanisme sur l'attractivité financière française dans un délai d'un an."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52498",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3097,8 +3361,10 @@
         "Adapterait les critères d'évaluation des examens nationaux pour les élèves bénéficiant d'un plan personnalisé.",
         "Exigerait du Gouvernement un rapport annuel évaluant les politiques d'éducation inclusive et les délais d'affectation."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N50686",
       "etat": "En cours",
       "statut": "Autre lecture",
@@ -3117,8 +3383,12 @@
         "Renforcerait le mandat de protection future, adaptant son contenu à l'évolution des facultés du bénéficiaire.",
         "Améliorerait l'habilitation familiale en permettant la désignation anticipée de membres de la famille remplaçants."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 65,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52958",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3137,8 +3407,12 @@
         "Obligerait le Gouvernement à évaluer ce dispositif et ses risques sur les données personnelles en deux ans.",
         "Demanderait un rapport sur l'accès aux origines des personnes nées sous X ou adoptées, sous trois mois."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53429",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3157,8 +3431,11 @@
         "Assortirait systématiquement la libération d'interdictions de contact, de paraître ou de résider près de la victime.",
         "Créerait un guichet unique départemental pour suivre et orienter les victimes vers les aides adaptées."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52743",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3177,8 +3454,11 @@
         "Gèlerait les fonds des entités menaçant l'ordre public et forcerait la restitution des subventions non conformes.",
         "Mettrait sous surveillance préfectorale les accueils de mineurs hors domicile et étendrait la prescription des délits de presse visant les mineurs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53936",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3197,8 +3477,10 @@
         "Accroîtrait les pouvoirs des maires et préfets pour agir contre l'urbanisation illégale, allongeant la prescription à dix ans.",
         "Définirait comme infraction l'installation prolongée de caravanes ou résidences mobiles hors zones dédiées sans autorisation."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53956",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -3216,8 +3498,10 @@
         "Exigerait l'approbation de la Commission de régulation de l'énergie pour ces décisions de priorisation.",
         "Modifierait le code de l'énergie pour préciser les critères de raccordement par décret (texte du gouvernement)."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53540",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3236,8 +3520,11 @@
         "Appliquerait ces mesures aux ressortissants français, andorrans, européens ou du Royaume-Uni.",
         "Modifierait le code de la santé publique pour intégrer ces nouvelles dispositions concernant les médecins."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53192",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -3256,8 +3543,10 @@
         "Appliquerait cette règle aux élections nécessitant un binôme unique au second tour.",
         "Éviterait un scrutin inutile en cas d'absence d'adversaire pour le candidat unique."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52585",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -3276,8 +3565,10 @@
         "Assurerait la présence d'un avocat pour les mineurs dans toutes les instances civiles et les mesures de protection.",
         "Financerait cette mesure pour l'État par une taxe additionnelle sur les tabacs, après douze mois."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54222",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3296,8 +3587,10 @@
         "Réduirait à 15 euros ou 30 euros maximum les frais en cas de rejet d'un chèque selon son montant.",
         "Plafonnerait les frais bancaires pour une saisie-attribution à 10% du montant dû, dans une limite fixée par décret."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54249",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3316,8 +3609,10 @@
         "Encadrerait précisément les contrats de production entre auteurs et producteurs d'œuvres sonores.",
         "Étendrait les droits voisins aux organismes exploitant des services sonores non linéaires, comme les podcasts."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54232",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3336,8 +3631,11 @@
         "Exclurait du remboursement public les frais liés aux affichages de campagne irréguliers ou excessifs.",
         "Intégrerait les dépenses de publicité numérique sponsorisée au compte de campagne des candidats."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54234",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3356,8 +3654,10 @@
         "Renforcerait l'obligation des employeurs d'informer les salariés sur les reprises et punirait les non-respects de cette règle.",
         "Mettrait en place un fonds coopératif financé par une taxe sur les fortunes de plus de 100 millions d'euros."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54246",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3376,8 +3676,10 @@
         "Mettrait en place un dispositif public en Martinique pour aider à reconstituer les titres de propriété et exploiter les archives.",
         "Prolongerait jusqu'au 31 décembre 2038 les dispositifs facilitant la sortie de l'indivision successorale en Polynésie française."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54241",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3396,8 +3698,11 @@
         "Mettrait en place un suivi annuel des obligations et demanderait un rapport au Parlement sous 12 mois.",
         "Renforcerait l'accompagnement des gestionnaires avec des outils et modifierait le Code rural et de la pêche maritime."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54243",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3416,8 +3721,11 @@
         "Éliminerait les problèmes de fraudes et la surestimation des économies d'énergie réelles.",
         "Modifierait plusieurs codes existants et entrerait en vigueur un an après son adoption."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54250",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3436,8 +3744,11 @@
         "Prendrait en charge la gestion des dépôts sauvages de matériaux, actuellement entièrement supportée par les communes.",
         "Créerait trois catégories distinctes de matériaux (gravats, bois, autres) pour adapter les contributions des producteurs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54242",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3456,8 +3767,11 @@
         "Obligerait ces structures à pratiquer le tiers-payant et interdirait toute facturation de dépassements d'honoraires aux patients.",
         "Financerait les coûts pour la Sécurité sociale grâce à une augmentation de la taxe sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54223",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3476,8 +3790,10 @@
         "Instituerait un \"permis d'entreprendre\" obligatoire pour créer ou reprendre un restaurant, assurant une formation préalable des gérants.",
         "Permettrait aux municipalités de réguler l'ouverture de nouveaux restaurants pour préserver la diversité commerciale locale."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54224",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3496,8 +3812,10 @@
         "Permettrait aux régions d'Outre-mer de gérer des aides pour l'assurance-récolte contre les aléas climatiques locaux.",
         "Renforcerait l'accompagnement et la formation des petits producteurs pour développer les circuits courts et l'élevage local."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54240",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3516,8 +3834,11 @@
         "Confierait aux chambres de métiers et de l'artisanat l'organisation ou l'encadrement de ces évaluations.",
         "Viserait à renforcer la protection des consommateurs et à lutter contre la concurrence déloyale dans l'artisanat."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54225",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3536,8 +3857,11 @@
         "Renforcerait le contrôle de l'honorabilité de tout le personnel, y compris les bénévoles, dans les établissements scolaires.",
         "Obligerait les ministres du culte à dénoncer les violences sur mineurs, même s'ils l'apprennent par la confession."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant",
+        "texte_tronque"
+      ],
       "dossier_uid": "DLR5L17N54227",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3556,8 +3880,11 @@
         "Renforcerait le droit de retrait des apprentis sans incidence sur leur formation, et améliorerait l'enseignement de leurs droits.",
         "Confierait au Haut Conseil à l'égalité le suivi annuel des violences subies par les apprentis et stagiaires."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 88,
+      "quality_flags": [
+        "invention",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54226",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3576,8 +3903,10 @@
         "Chargerait le ministre des Armées et des Anciens combattants de fixer les montants de ces indemnités.",
         "Financerait ces indemnisations par une nouvelle taxe additionnelle sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54235",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3596,8 +3925,10 @@
         "Créerait un fonds souverain, France Souveraine Énergie, pour sécuriser l'approvisionnement pétrolier national à l'étranger.",
         "Modifierait le code général des impôts pour instituer une taxe sur les bénéfices exceptionnels des grandes entreprises."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54230",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3616,8 +3947,10 @@
         "Adapterait le code de l'urbanisme pour limiter les constructions et permettre la relocalisation des activités.",
         "Autoriserait des expérimentations pendant cinq ans pour tester des dispositifs innovants d'adaptation territoriale."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54244",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3636,8 +3969,10 @@
         "Interdirait aux emballages de vapotage de suggérer des bienfaits, des avantages économiques ou de ressembler à des aliments.",
         "Entrerait en vigueur le 1er janvier 2027 pour la plupart des mesures, et le 1er juin 2027 pour d'autres."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54245",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3656,8 +3991,10 @@
         "Exigerait que ces projets contribuent à sécuriser l'approvisionnement en intrants agricoles stratégiques.",
         "Imposerait l'utilisation de procédés de production décarbonés, conformes aux objectifs climatiques nationaux définis par décret (règlement du gouvernement)."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54247",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3676,8 +4013,10 @@
         "Soutiendrait le développement des infrastructures culturelles et la production artistique locale en Outre-mer.",
         "Assurerait qu'aucune évolution des règles ne dégrade la situation sociale des intermittents d'Outre-mer."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54248",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3718,8 +4057,10 @@
         "Obligerait l'autorité administrative française à organiser le transfert de ce monument commémoratif à l'Algérie.",
         "Contribuerait à refonder les relations entre la France et l'Algérie sur des bases égalitaires, reconnaissant une justice historique."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54239",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3738,8 +4079,10 @@
         "Alignerait la transparence des tickets de carburant sur celle des factures de gaz et d'électricité.",
         "Compléterait l'article 289 du code général des impôts pour inclure ces nouvelles obligations d'affichage."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54238",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3758,8 +4101,11 @@
         "Ce mode désactiverait le défilement continu, la lecture automatique et les systèmes de valorisation publique des contenus.",
         "Permettrait aux parents de désactiver ce mode protecteur et punirait les non-conformités d'une amende administrative."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54237",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3800,8 +4146,10 @@
         "Assurerait la transmission de ces informations aux organismes de défense et de gestion des appellations.",
         "Exigerait un rapport au Parlement sous deux ans pour évaluer l'efficacité de ces nouvelles mesures."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54228",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3820,8 +4168,10 @@
         "Imposerait des critères objectifs et transparents pour l'accès aux financements, avec une motivation des décisions.",
         "Assurerait un accès effectif au financement pour tout candidat déclaré, tout en gérant prudemment les risques."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54233",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3840,8 +4190,10 @@
         "Modifierait le code de l'éducation en ajoutant un article pour encadrer le financement des établissements privés.",
         "Compenserait la charge des communes par une augmentation de la dotation et une taxe sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54231",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3860,8 +4212,11 @@
         "Permettrait aux personnes publiques de céder des terrains avec 50 % de décote pour construire des logements.",
         "Autoriserait des dérogations aux règles d'urbanisme pour construire des logements réservés aux agents publics."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51968",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -3879,8 +4234,10 @@
         "Établirait des règles sur l'exercice du mandat d'un député remplacé temporairement.",
         "Concernerait spécifiquement les conditions de remplacement provisoire des parlementaires."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54171",
       "etat": "Terminé",
       "statut": "Retrait de l'initiative",
@@ -3899,8 +4256,10 @@
         "Diminuerait cette limite à 20 milligrammes par kilo d'anhydride phosphorique à partir du 1er janvier 2030.",
         "Modifierait le code rural et de la pêche maritime pour ajouter ces nouvelles restrictions sur les engrais."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54148",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3919,8 +4278,10 @@
         "S'appliquerait dès le 1er janvier 2027, mais seulement aux affaires non encore prescrites à cette date.",
         "Financerait les dépenses liées à cette loi par une taxe supplémentaire sur les ventes de tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54147",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3939,8 +4300,10 @@
         "Autoriserait les bâtonniers à être accompagnés d'un avocat désigné lors de leurs visites.",
         "Modifierait le code de procédure pénale et le code de la santé publique pour ces dispositions."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52230",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -3959,8 +4322,11 @@
         "Créerait un fonds de 800 millions d'euros pour aider les départements à financer cet accompagnement.",
         "Modifierait le code de l'action sociale et des familles ainsi que le code général des collectivités."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54151",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3979,8 +4345,11 @@
         "Accorderait des réductions de peine exceptionnelles de six mois maximum aux détenus de courte peine en cas de surpopulation générale.",
         "Exclurait les condamnés pour crimes ou terrorisme de ces réductions, et modifierait les codes pénitentiaire et pénal."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54142",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -3999,8 +4368,10 @@
         "Soumettrait leur installation à une autorisation d'urbanisme conditionnée par un contrat avec un commerce local à 15 kilomètres.",
         "Instaurerait une taxe d'un euro sur chaque colis importé et livré via consigne automatique, bénéficiant aux communes."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54143",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4019,8 +4390,10 @@
         "Fixerait le montant maximal de ce prêt à 100 000 euros, sans conditions de revenus pour les demandeurs.",
         "Modifierait le code de la construction et de l'habitation afin d'y ajouter ce nouveau dispositif d'aide."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54149",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -4039,8 +4412,12 @@
         "Calculerait l'assiette de cette taxe sur la part des bénéfices excédant 120 % de la moyenne des résultats de 2021 à 2024.",
         "Interdirait aux entreprises de répercuter cette contribution sur les prix de vente au consommateur, sous peine d'une amende importante."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54145",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4058,8 +4435,11 @@
         "Concernerait potentiellement une large gamme de produits au-delà du tabac traditionnel.",
         "Modifierait la législation existante concernant le conditionnement des articles nicotinés."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 83,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54139",
       "etat": "Terminé",
       "statut": "Retrait de l'initiative",
@@ -4078,8 +4458,10 @@
         "Permettrait aux candidats de se présenter isolément ou en groupe, avec une déclaration de candidature obligatoire.",
         "Modifierait plusieurs articles du code électoral et du code général des collectivités territoriales."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54140",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4098,8 +4480,10 @@
         "Fixerait la durée de ces créneaux à au moins celle de l'amortissement comptable, sans dépasser trente ans.",
         "Définirait par décret (texte réglementaire) la part maximale de subvention à 50% du coût total de l'équipement."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54138",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -4118,8 +4502,10 @@
         "Corrigerait une inégalité de traitement avec les réservistes de la police ou de la gendarmerie.",
         "Compenserait les pertes de recettes pour l'État et la Sécurité sociale via une taxe sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54135",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4138,8 +4524,11 @@
         "Redonnerait à l'État la maîtrise des recettes de péage pour financer la transition écologique et les mobilités du quotidien.",
         "Renforcerait la capacité de l'Agence de financement des infrastructures de transport (AFITF) à soutenir les projets durables."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 88,
+      "quality_flags": [
+        "invention",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54136",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4158,8 +4547,11 @@
         "Autoriserait les éleveurs à utiliser des lunettes de tir nocturne et les lieutenants de louveterie des appareils thermiques.",
         "Confierait à l'État le rôle d'indemniser les éleveurs à 100% pour les animaux prédatés, incluant leur valeur ajoutée."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54137",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4178,8 +4570,10 @@
         "Prévoirait des contrôles renforcés et des amendes importantes pour les entreprises ne respectant pas les plafonds de prix ou de marges.",
         "Diminuerait temporairement la TVA à 5,5% sur le gaz et les carburants, et pourrait l'étendre à l'électricité si nécessaire."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54150",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4198,8 +4592,10 @@
         "Conditionnerait le bénéfice des exonérations et réductions de cotisations sociales au respect de l'assiduité des apprentis.",
         "Rétablirait la possibilité pour les apprentis d'utiliser leur compte personnel de formation pour financer le permis de conduire."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54134",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4218,8 +4614,10 @@
         "Rendrait publique la notice experte et les données brutes des sondages sous 48 heures par la Commission des sondages.",
         "Interdirait la publication des sondages d'intention de vote avant la clôture des candidatures et avant les résultats du premier tour."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54141",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4238,8 +4636,10 @@
         "Compléterait l'article L. 1111-13 du code général des collectivités territoriales sur le statut de l'élu.",
         "Étendrait cette obligation de neutralité déjà en vigueur pour les députés de l'Assemblée nationale."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54128",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4258,8 +4658,10 @@
         "Simplifierait l'accès aux prêts collectifs pour les copropriétés en élargissant les mécanismes de garantie acceptés par les banques.",
         "Compenserait les pertes de recettes pour l'État et la Sécurité sociale en créant une taxe additionnelle sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54144",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -4278,8 +4680,10 @@
         "Modifierait les règles d'élection au premier tour, exigeant la majorité absolue et 25 % des électeurs inscrits.",
         "Réintroduirait des élections partielles complémentaires pour pourvoir les sièges vacants de conseillers municipaux."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54119",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4298,8 +4702,10 @@
         "Obligerait les personnes condamnées pour ces crimes à déclarer leurs déplacements à l'étranger quinze jours avant.",
         "Étendrait la responsabilité pénale aux administrateurs ou modérateurs de groupes en ligne ne s'opposant pas à la diffusion de contenus pédocriminels."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54125",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4318,8 +4724,12 @@
         "Exigerait d'EDF qu'elle mette à disposition des tiers au moins 6 gigawatts de capacité hydroélectrique virtuelle.",
         "Instaurerait des comités de suivi obligatoires pour les grandes installations, associant collectivités et riverains."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 75,
+      "quality_flags": [
+        "invention",
+        "judge_non_independant",
+        "texte_tronque"
+      ],
       "dossier_uid": "DLR5L17N53530",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -4338,8 +4748,10 @@
         "Autoriserait l'Agence nationale de l'habitat à subventionner les travaux de raccordement fibre en zones rurales.",
         "Relancerait le Fonds pour la société numérique pour financer en priorité la fibre dans les zones peu denses."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54124",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4358,8 +4770,10 @@
         "Revaloriserait la PCH aide animalière de 6 000 euros à 10 000 euros sur dix ans et l'indexerait sur l'inflation.",
         "Instaurerait une signalétique nationale obligatoire pour autoriser les chiens guides et créerait un congé de formation de 10 jours."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54126",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4378,8 +4792,10 @@
         "Voudrait mieux protéger les animaux de compagnie, de travail, d'élevage et de chasse reconnus sensibles.",
         "Permettrait de vérifier si un animal recueilli dans une fourrière a été précédemment volé."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54121",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4398,8 +4814,10 @@
         "Permettrait des solutions alternatives exceptionnellement, et consulterait usagers pour les interruptions de plus de 30 jours.",
         "Exigerait du Gouvernement un rapport annuel détaillé au Parlement sur l'application de ces nouvelles mesures."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54132",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5616,8 +6034,10 @@
         "Criminaliserait le fait de faciliter l'entrée ou le séjour illégal d'un étranger visé par des mesures restrictives de l'Union européenne.",
         "Instaurerait pour ces faits jusqu'à 10 ans d'emprisonnement et 750 000 euros d'amende, notamment en cas de bande organisée."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53853",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5636,8 +6056,10 @@
         "Permettrait aux éleveurs de défendre plus facilement leurs troupeaux face aux attaques de loups de plus en plus nombreuses.",
         "Insérerait un nouvel article dans le code de l'environnement pour établir cette présomption légale."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53855",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5656,8 +6078,10 @@
         "Viserait à améliorer l'accès aux soins et à réduire les déserts médicaux, notamment pour les spécialistes.",
         "Compenserait la charge pour les régions par une majoration de la dotation globale de fonctionnement."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53856",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5676,8 +6100,11 @@
         "Rendrait les fournisseurs civilement responsables des dommages si leur manquement permettait une occupation illicite.",
         "Modifierait le code de la consommation pour intégrer ces nouvelles obligations aux fournisseurs de services essentiels."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53857",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5696,8 +6123,12 @@
         "Garantirait des conditions d'hébergement et de sécurité adaptées, avec un fonds pour rénover les cabanes.",
         "Instituerait un certificat de spécialisation pour les bergers d'alpage et encouragerait leur formation professionnelle."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53860",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5716,8 +6147,10 @@
         "Revaloriserait l'aide couplée caprine et créerait un fonds de soutien pour les productions sous appellations d'origine.",
         "Reconnaîtrait l'élevage caprin pour la prévention des incendies et soutiendrait les projets d'irrigation pour les troupeaux."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53861",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5736,8 +6169,11 @@
         "Affecterait les recettes au budget de l'État, des régions et des départements pour financer les mobilités.",
         "Entrerait en vigueur au plus tard le 1er janvier 2028, avec des exceptions pour les véhicules de secours et agricoles."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53871",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5756,8 +6192,11 @@
         "Augmenterait à 5 ans de prison et 75 000 euros d'amende les peines des parents de mineurs récidivistes.",
         "Doublerait les peines des parents déjà condamnés pour ne pas avoir respecté leurs obligations parentales."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53870",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5776,8 +6215,11 @@
         "Mettrait les frais d'intervention des entreprises privées à la charge des occupants illégaux, avec avance éventuelle du propriétaire.",
         "Modifierait le Code des procédures civiles d'exécution et le Code de la sécurité intérieure pour encadrer cette nouvelle mesure."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53858",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5796,8 +6238,11 @@
         "Mutualiserait les ressources, réduirait les pertes d'eau et garantirait l'accès universel à l'eau potable de qualité.",
         "Instaurerait une politique tarifaire unique et solidaire incluant un tarif social de l'eau pour tous."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53854",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5816,8 +6261,10 @@
         "Modifierait le code de procédure pénale, article 41-2, pour intégrer cette nouvelle disposition.",
         "Renforcerait la réponse pénale face aux infractions et réduirait le sentiment d'impunité."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53872",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5836,8 +6283,10 @@
         "Interdirait aux employeurs de demander une justification écrite ou orale pour une demande d'acompte.",
         "Limiterait les acomptes à cinq par mois et leur montant total à la moitié du salaire brut."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53862",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5856,8 +6305,11 @@
         "Interdirait la publicité pour ces aliments sur les plateformes numériques très utilisées par les jeunes et autour des écoles.",
         "Obligerait la restauration collective publique à proposer des repas avec 80% d'aliments non transformés et sans distributeurs automatiques."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53859",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5876,8 +6328,10 @@
         "Punirait d'une amende de 15 000 euros les affiches officielles non conformes, ou 1 500 euros hors panneaux.",
         "Renforcerait la sincérité des campagnes électorales en recentrant la propagande sur le candidat."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53869",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5896,8 +6350,11 @@
         "Renforcerait considérablement les amendes de la loi de blocage de 1968, les portant jusqu'à 5 millions d'euros pour les entreprises.",
         "Interdirait aux banques de refuser de financer les exportations d'armes autorisées par l'État, sauf motifs financiers clairs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53867",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5916,8 +6373,10 @@
         "Aménagerait l'exigence de preuve d’appartenance des demandeurs aux groupes sociaux LGBTI (lesbiennes, gays, trans et intersexes).",
         "Préciserait que le doute profiterait à la personne demandeuse d'asile concernant son appartenance réelle ou supposée."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53863",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5936,8 +6395,10 @@
         "Exempterait certains projets majeurs du décompte local de l'artificialisation s'ils acquièrent des crédits équivalents.",
         "Financerait la mise en place de ces mesures grâce à une taxe additionnelle sur les produits du tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53868",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5956,8 +6417,10 @@
         "Placerait sous le contrôle du conseil la participation forfaitaire aux soins lourds et coûteux, au montant du 1er janvier 2026.",
         "Compenserait les coûts pour la Sécurité sociale en augmentant la taxe sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53873",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5976,8 +6439,10 @@
         "Financerait ces actions grâce à une taxe additionnelle sur les produits du tabac.",
         "Contribuerait ainsi à réduire l'incidence et la mortalité liées aux cancers évitables."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53865",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -5996,8 +6461,11 @@
         "Améliorerait le bien-être et la santé des jeunes animaux en évitant les conditions stressantes des expositions.",
         "Soutiendrait les éleveurs français respectueux des règles et la traçabilité des animaux vendus."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53866",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6016,8 +6484,10 @@
         "Permettrait aux communes de financer des aides au conventionnement et de les déduire des pénalités SRU (Solidarité et Renouvellement Urbains).",
         "Intégrerait les logements locatifs intermédiaires dans le décompte SRU, dans la limite de 20 % de l'objectif."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53864",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6036,8 +6506,11 @@
         "Interdirait de placer les aliments trop gras, salés ou sucrés près des caisses ou entrées dès 2027.",
         "Modifierait le code de la santé publique pour y intégrer ces nouvelles obligations de vente."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53874",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6056,8 +6529,10 @@
         "Autoriserait le gouvernement à recourir à l'emprunt pour les lois de finances et, sous condition, pour la Sécurité sociale.",
         "Permettrait au Conseil constitutionnel de contrôler les ordonnances budgétaires avant leur application effective."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53385",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6076,8 +6551,10 @@
         "Limiterait la valeur d'achat à la moyenne réelle des actions entre le 1er octobre 2024 et le 30 septembre 2025.",
         "Compenserait le coût pour l'État par la création d'une taxe supplémentaire sur les produits du tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52977",
       "etat": "En cours",
       "statut": "2ème lecture en commission",
@@ -6096,8 +6573,10 @@
         "Punirait d'une amende de 1 500 € le fait d'abandonner des récipients de protoxyde d'azote sur la voie publique.",
         "Intégrerait dans les programmes scolaires une sensibilisation aux dangers du protoxyde d'azote dès le cycle 2."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53160",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -6116,8 +6595,11 @@
         "Les établissements de santé pourraient proposer un hébergement aux parents d'enfants hospitalisés, dont les frais seraient pris en charge.",
         "Un délai de deux mois serait instauré pour les demandes d'allocation enfant handicapé, avec une avance automatique."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N50444",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -6136,8 +6618,10 @@
         "Créerait une sous-direction santé pour intégrer ces professionnels au sein des services d'incendie et de secours.",
         "Rendrait ces dispositions applicables aux personnels de santé de la brigade de sapeurs-pompiers de Paris et de Marseille."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51346",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -6156,8 +6640,11 @@
         "Prévoirait des amendes pouvant atteindre 30 000 € ou 5 % du chiffre d'affaires hors taxes pour les entreprises ne respectant pas la règle.",
         "Modifierait le Code de la santé publique et s'appliquerait à partir du 1er janvier 2028."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53717",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6176,8 +6663,10 @@
         "Simplifierait les procédures d'entretien des cours d'eau et de restauration des milieux aquatiques, accélérant certains travaux.",
         "Faciliterait l'acquisition ou l'utilisation de terrains privés pour réaliser des travaux urgents de prévention des inondations."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51175",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -6196,8 +6685,12 @@
         "Définirait le contenu de cet enseignement grâce à un référentiel établi par le ministre de l'éducation.",
         "Financerait ces nouvelles mesures par une taxe additionnelle sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53672",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6216,8 +6709,11 @@
         "Simplifierait les ventes de biens (meubles ou immeubles) par un curateur pour les successions vacantes.",
         "Permettrait à la majorité (deux tiers) des co-propriétaires de décider de vendre un bien indivis."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51329",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -6236,8 +6732,10 @@
         "Permettrait de modifier les limites territoriales des départements ou cantons pour intégrer une commune nouvelle.",
         "Allongerait la période de calcul de l'aide financière de l'État pour les nouvelles communes, passant à six ans."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53456",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6301,8 +6799,10 @@
         "Considérerait les activités agricoles adaptant leurs horaires aux aléas climatiques comme normalement continues.",
         "Modifierait des articles du code de l'urbanisme et du code rural et de la pêche maritime."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53715",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -6321,8 +6821,12 @@
         "Rendrait ces frais éligibles à un remboursement forfaitaire par l'État, pour aider les candidats.",
         "Permettrait à la Commission nationale des comptes de campagne de limiter les montants jugés excessifs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 72,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53690",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -6341,8 +6845,11 @@
         "Donnerait ce droit de visite aux parlementaires et aux bâtonniers (responsables des avocats).",
         "Modifierait le code de procédure pénale pour officialiser ces nouvelles possibilités d'accès."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 88,
+      "quality_flags": [
+        "invention",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52230",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -6385,8 +6892,11 @@
         "Instituerait de nouvelles obligations d'entretien pour les bailleurs sociaux afin de maintenir un cadre de vie digne.",
         "Garantirait aux locataires le droit de rester dans leur logement pendant les travaux ou d'être relogés dans le neuf."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53764",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6405,8 +6915,10 @@
         "Mettrait en place une plateforme nationale sécurisée pour que les employeurs puissent vérifier ces certificats facilement.",
         "Rendrait obligatoire une formation sur la prévention des violences et les signalements, à renouveler tous les cinq ans."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53779",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6425,8 +6937,10 @@
         "Prévoirait une mise en demeure avec un délai d'exécution d'au moins vingt-quatre heures avant une évacuation forcée.",
         "Modifierait la loi de 2000 sur l'accueil des gens du voyage pour inclure les terrains privés dans le dispositif."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53781",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6445,8 +6959,10 @@
         "Organiserait une coordination entre l'État et les collectivités via des plans d'urgence locaux pour prévenir les risques.",
         "Permettrait de financer la recherche et la valorisation des sargasses, via commande publique et une nouvelle contribution."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53780",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6465,8 +6981,12 @@
         "Créerait une caisse pour accompagner les agriculteurs vers le bio et augmenterait les taxes pour les pollueurs.",
         "Réglementerait plus strictement les polluants comme les PFAS dans l'eau et les déchets industriels."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 88,
+      "quality_flags": [
+        "neutralite_douteuse",
+        "judge_non_independant",
+        "texte_tronque"
+      ],
       "dossier_uid": "DLR5L17N53777",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6485,8 +7005,10 @@
         "Permettrait aux boulangeries d'organiser le repos hebdomadaire des employés par roulement, même en semaine.",
         "Modifierait le code du travail pour intégrer ces nouvelles règles, et les préfets auraient trois mois pour agir."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53782",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6505,8 +7027,10 @@
         "Obligerait les professionnels de santé des SECPA à pratiquer le tiers payant et à ne pas facturer de dépassements d'honoraires.",
         "Permettrait aux équipes pluriprofessionnelles de proposer un accompagnement médico-psycho-social, de la médiation et des services d'interprétariat."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53783",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6525,8 +7049,10 @@
         "Appliquerait ces règles à diverses associations à but non lucratif, en permettant le cumul des années même non consécutives.",
         "Validerait l'exercice des fonctions par la déclaration en préfecture et financerait la mesure via une taxe sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53776",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6545,8 +7071,11 @@
         "Interdirait d'utiliser un local commercial comme simple espace de stockage pour échapper à la taxe sur les friches.",
         "Étendreait le droit de préemption des mairies aux locaux commerciaux vacants et taxés depuis plus de 24 mois."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53778",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6565,8 +7094,10 @@
         "Développerait une stratégie nationale pour la souveraineté de l'élevage, modernisant les pratiques et prévenant les crises sanitaires.",
         "Rendrait obligatoire l'affichage de la rémunération des producteurs agricoles sur tous les produits pour plus de transparence."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53784",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6585,8 +7116,10 @@
         "Permettrait aux RPI de mutualiser leurs places, évitant aux communes de payer pour des écoles externes.",
         "Garantirait la représentation de toutes les communes membres aux conseils d'école des regroupements pédagogiques."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53775",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -6605,8 +7138,10 @@
         "Comblerait une faille juridique actuelle ne qualifiant pas ces lieux de domicile pour les intrusions.",
         "Permettrait de punir les intrusions illégales comme une violation de domicile, sans entraver les contrôles légaux."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53769",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6625,8 +7160,10 @@
         "Instituerait un label \"achat public local et responsable\" pour orienter les choix des acheteurs.",
         "Rendrait la commande publique plus accessible aux petites et moyennes entreprises en France."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53770",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6645,8 +7182,10 @@
         "Exigerait des documents comme un titre de propriété, un contrat de bail, ou une attestation du bailleur.",
         "Modifierait le code de la consommation en y ajoutant un nouvel article L. 224-8-1 pour ces conditions."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53771",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -6665,8 +7204,10 @@
         "La majoration du revenu de solidarité active pour un enfant placé irait directement au tiers responsable.",
         "Le juge devrait réévaluer le montant et les conditions de paiement de la pension alimentaire après un placement."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53772",
       "etat": "Terminé",
       "statut": "Retrait de l'initiative",
@@ -6685,8 +7226,10 @@
         "Rendrait le port d'un casque de protection homologué obligatoire pour toutes les personnes pratiquant les sports de glisse sur neige.",
         "Prévoirait la confiscation du matériel de ski pour les skieurs en infraction, et de lourdes peines en cas d'accident."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53768",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6705,8 +7248,11 @@
         "Allongerait de deux à neuf ans la durée de l'usufruit restant à courir permettant l'intervention de la SAFER.",
         "Étendraitt le droit de préemption de la SAFER aux ventes en viager afin d'éviter les contournements de la loi."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 88,
+      "quality_flags": [
+        "faute_francais",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53765",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6725,8 +7271,10 @@
         "Obligerait les parents à signaler tout changement de situation à l'organisme des prestations familiales.",
         "Punirait le fait de ne pas déclarer l'évolution des ressources au service des pensions alimentaires."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53773",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6745,8 +7293,12 @@
         "Préciserait que les réductions seraient progressives selon la taille de la famille, définies par décret (texte réglementaire).",
         "Compenserait la perte de revenus pour l'État et les collectivités par une taxe additionnelle sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "invention",
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53774",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6765,8 +7317,11 @@
         "Baserait la sélection des candidats, en cas de places limitées, sur les notes finales obtenues au baccalauréat.",
         "Chargerait les rectorats de proposer des formations alternatives avant le 14 juillet, si les vœux sont refusés."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53767",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6785,8 +7340,10 @@
         "Modifierait le Code général de la fonction publique (CGFP) pour ajouter cette disposition.",
         "Financerait les coûts de cette mesure par une nouvelle taxe additionnelle sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53766",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -6805,8 +7362,10 @@
         "Prévoirait des amendes jusqu'à 15 000 euros et une interdiction de diriger pour cinq ans en cas de non-respect.",
         "Garantirait aux apprentis le remboursement des frais en cas de départ anticipé ou de conclusion rapide d'un contrat."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52116",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6825,8 +7384,12 @@
         "Modifierait le code de la santé publique pour y inscrire ces nouvelles dispositions.",
         "Entrerait en vigueur et appliquerait ses effets à partir du 1er janvier 2031."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 75,
+      "quality_flags": [
+        "invention",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N50604",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -6845,8 +7408,10 @@
         "Accorderait aux magistrats un droit de se taire lors de procédures disciplinaires et étendrait la limite d'âge à 70 ans.",
         "Modifierait une loi organique (loi fondamentale sur l'organisation des pouvoirs) et reporterait une échéance à 2028."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53225",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -6865,8 +7430,10 @@
         "Instaurerait des peines d'un an de prison et 15 000 euros d'amende pour entrave concertée à la liberté académique.",
         "Intégrerait ces nouvelles dispositions dans les codes de l'éducation, de la recherche et de la fonction publique."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51983",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6885,8 +7452,10 @@
         "Améliorerait la transmission d'informations au préfet sur les personnes suivies en soins psychiatriques présentant un risque pour l'ordre.",
         "Allongerait la durée maximale de rétention administrative des étrangers dangereux et permettrait des placements répétés jusqu'à 540 jours."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53284",
       "etat": "En cours",
       "statut": "Saisine du conseil constitutionnel",
@@ -6925,8 +7494,10 @@
         "Mettrait en place une stratégie nationale dotée de près de 2 milliards d'euros pour financer les mesures jusqu'en 2034.",
         "Proposerait un plan personnalisé d'accompagnement aux patients et renforcerait la formation de tous les professionnels concernés."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51672",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -6945,8 +7516,10 @@
         "Punirait la consultation habituelle ou payante d'images ou vidéos de trois ans de prison et 45 000 euros.",
         "Étendrait l'application de la loi française aux infractions commises à l'étranger par un citoyen français."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53198",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -6965,8 +7538,10 @@
         "Permettrait des dérogations temporaires aux communes nouvelles concernant certaines obligations légales, comme le logement social.",
         "Établirait une procédure spécifique pour modifier les limites territoriales des communes nouvelles, incluant une enquête publique."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53456",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -6985,8 +7560,10 @@
         "Permettrait aux professionnels de santé de refuser d'y participer, mais garantirait l'accès dans les établissements.",
         "Couvrirait les frais de l'aide à mourir par l'assurance maladie et punirait ceux qui l'empêcheraient."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51670",
       "etat": "Terminé",
       "statut": "Texte rejeté",
@@ -7005,8 +7582,10 @@
         "Prévoirait qu'une loi organique (règles complémentaires à la Constitution) définirait les conditions d'application précises de ce droit.",
         "Modifierait la Constitution de 1958 en y insérant un nouvel article 72-5 pour instaurer ces nouvelles dispositions."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L11N19503",
       "etat": "En cours",
       "statut": "2ème lecture en commission",
@@ -7025,8 +7604,10 @@
         "Des programmes pluriannuels d'actions obligatoires encadreraient les pratiques agricoles et industrielles près des captages.",
         "Avant 2030, des mesures limiteraient ou interdiraient l'usage d'intrants pour les captages prioritaires."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53425",
       "etat": "Terminé",
       "statut": "Retrait de l'initiative",
@@ -7045,8 +7626,10 @@
         "L'Autorité de la concurrence devrait recueillir l'avis motivé de l'ARCOM avant d'approuver une fusion de médias.",
         "Le code de commerce créerait de nouveaux seuils de chiffre d'affaires pour contrôler les concentrations dans les médias."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53329",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -7065,8 +7648,10 @@
         "Prendrait effet à compter du 1er janvier 2027 pour tous les produits fertilisants concernés.",
         "Ajouterait un article au code rural et de la pêche maritime pour cette nouvelle interdiction."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53418",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -7085,8 +7670,11 @@
         "Encouragerait les structures d'accueil de la petite enfance à organiser des activités en contact avec la nature.",
         "Obligerait le gouvernement à évaluer les bénéfices de l'éducation en extérieur et son déploiement sous cinq ans."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52392",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -7105,8 +7693,13 @@
         "Offrirait la possibilité de suspendre la promulgation de lois pour les abroger par un vote référendaire.",
         "Créerait des référendums d'initiative citoyenne pour des décisions locales, avec une validation juridique préalable."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 60,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "faute_francais",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53194",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -7125,8 +7718,10 @@
         "Préciserait que la détention d'un téléphone confisqué durerait jusqu'à sa remise au représentant légal de l'élève.",
         "Modifierait l'article L. 511-5 du code de l'éducation pour y intégrer ces nouvelles dispositions sur les lycées."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53722",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7145,8 +7740,11 @@
         "Renforcerait les contrôles sur l'honorabilité de toutes les personnes intervenant dans les écoles, y compris les bénévoles.",
         "Instituerait des contrôles réguliers et des sanctions graduées pour les établissements privés sous contrat, renforçant le rôle de l'État."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant",
+        "texte_tronque"
+      ],
       "dossier_uid": "DLR5L17N53723",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7165,8 +7763,10 @@
         "L'Autorité pourrait établir des critères pour pondérer ou exclure certains formats moins informatifs.",
         "Cette proposition modifierait l'article 13 de la loi de 1986 sur la liberté de communication."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53724",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7185,8 +7785,12 @@
         "Conditionnerait ce titre de séjour à six mois de formation professionnelle et à l'avis favorable de la structure d'accueil.",
         "Modifierait le Code de l'entrée et du séjour des étrangers et du droit d'asile (règles des étrangers)."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53725",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7205,8 +7809,10 @@
         "Soutiendrait les communes rurales qui n'ont pas enregistré de naissance depuis longtemps, contrairement aux décès.",
         "Faciliterait la continuité des déclarations de naissance pour les familles implantées depuis des générations dans ces communes."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53726",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7225,8 +7831,10 @@
         "Punirait sévèrement la révélation de l'identité des personnes protégées, avec des peines pouvant aller jusqu'à 10 ans de prison.",
         "Modifierait le code de la sécurité intérieure pour créer un nouveau cadre légal de protection spécifique."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53427",
       "etat": "En cours",
       "statut": "2ème lecture en commission",
@@ -7245,8 +7853,10 @@
         "Créerait une protection juridique pour les agriculteurs adaptant leurs horaires de travail aux réalités climatiques.",
         "Modifierait le code de l'urbanisme et le code rural pour mieux adapter le droit à l'agriculture."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53715",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -7265,8 +7875,10 @@
         "Créerait des sanctions pénales sévères pour la conception et la diffusion de services de piratage sportif.",
         "Modifierait le code du sport pour y intégrer ces nouvelles dispositions applicables aux contenus sportifs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53707",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7285,8 +7897,10 @@
         "Exigerait des agences la signature de contrats de moyens avec l'État, précisant les ressources allouées.",
         "Assurerait à l'État la majorité dans la gouvernance des agences qu'il finance principalement, hors enseignement supérieur."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53720",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -7305,8 +7919,10 @@
         "Sécuriserait juridiquement les porteurs de projets en rendant l'État responsable des recours dirigés contre la cartographie.",
         "Permettrait de réexaminer et renouveler la cartographie des zones tous les cinq ans pour les adapter aux besoins."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53721",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7567,8 +8183,10 @@
         "Rendrait les futures lois sur l'agriculture plus résistantes aux annulations fréquentes par le Conseil constitutionnel.",
         "Aiderait à garantir la capacité de la nation à produire et s'approvisionner durablement en denrées agricoles."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53702",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7587,8 +8205,11 @@
         "Exigerait un étiquetage spécifique sur la face avant des emballages d'aliments ultratransformés.",
         "Interdirait la vente de préparations pour bébés et jeunes enfants contenant des sucres ajoutés dès le 1er janvier 2028."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53424",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -7607,8 +8228,10 @@
         "Modifierait la loi organique de finances (règles budgétaires de l'État) pour définir les modalités pratiques de l'affectation.",
         "Le Parlement fixerait chaque année, via la loi de finances, la liste des programmes éligibles à ce dispositif."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53701",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7627,8 +8250,10 @@
         "Permettrait qu'un procès-verbal de non-contestation devienne exécutoire après vérification par un greffier de la juridiction.",
         "Préciserait que les créances commerciales seraient exclues de la procédure simplifiée existante pour les non-commerçants."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53315",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -7647,8 +8272,10 @@
         "Permettrait de nouvelles demandes ou des prolongations de permis de recherche et d'exploitation d'hydrocarbures.",
         "Abrogerait une partie de la loi de 2017 mettant fin à l'exploitation des hydrocarbures en Outre-mer."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53304",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -7667,8 +8294,11 @@
         "Obligerait la loi de finances à fixer annuellement la liste des programmes budgétaires éligibles à cette affectation.",
         "Insèrerait ce nouveau principe dans la Constitution, précisé par une loi organique (loi qui complète la Constitution)."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 88,
+      "quality_flags": [
+        "invention",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53686",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7687,8 +8317,11 @@
         "Obligerait d'informer le public de l'utilisation de ces systèmes, après avis de la CNIL (autorité indépendante).",
         "Prévoirait un rapport d'évaluation au Parlement d'ici le 31 décembre 2029, supervisé par la CNIL."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51720",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -7707,8 +8340,10 @@
         "Modifierait le code de l'éducation pour faire de l'éducation alimentaire un objectif fondamental de l'enseignement scolaire.",
         "Prévoirait la création d'une plateforme nationale de ressources pédagogiques et des évaluations régulières de l'expérimentation."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53171",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -7727,8 +8362,13 @@
         "Obligerait Électricité de France à ouvrir 40% de sa capacité hydroélectrique aux entreprises tierces pendant vingt ans.",
         "Modifierait le code de l'énergie pour créer un régime d'autorisation des grandes centrales, avec des comités de suivi locaux."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "invention",
+        "deformation",
+        "judge_non_independant",
+        "texte_tronque"
+      ],
       "dossier_uid": "DLR5L17N53530",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -7747,8 +8387,10 @@
         "Concernerait toute cession de titres qui permettrait à un acquéreur de détenir une majorité dans l'entreprise concernée.",
         "Exclurait de ce dispositif les parts de sociétés familiales, constituées entre proches parents jusqu'au quatrième degré."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51713",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -7767,8 +8409,10 @@
         "Instaurerait une clause de conscience pour les professionnels de santé et une commission de contrôle des procédures.",
         "Assurerait la prise en charge financière des frais et l'inclusion du décès dans les contrats d'assurance vie."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51670",
       "etat": "Terminé",
       "statut": "Texte rejeté",
@@ -7787,8 +8431,10 @@
         "Allouerait un budget de 2026 à 2034 pour financer ces mesures, incluant la formation des professionnels.",
         "Créerait des plans personnalisés d'accompagnement et de nouvelles maisons pour les soins palliatifs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N51672",
       "etat": "Terminé",
       "statut": "Texte adopté",
@@ -7807,8 +8453,10 @@
         "Instaurerait une rémunération minimale pour les médiateurs de santé-pair, fixée par un décret (texte d'application du gouvernement).",
         "Un décret (texte d'application) organiserait leur recrutement et formation, avec une évaluation nationale régulière."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53680",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7827,8 +8475,10 @@
         "Prévoirait des sanctions financières pour les éditeurs en cas d'absence ou d'erreur manifeste de classification.",
         "Modifierait le Code du patrimoine pour encadrer cette nouvelle obligation d'information sur les ouvrages."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53681",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7847,8 +8497,12 @@
         "Créerait des peines applicables aux skieurs dont le comportement serait lié à l'alcool.",
         "Viserait à réduire les risques d'accidents liés à ces pratiques dangereuses sur les pistes."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 50,
+      "quality_flags": [
+        "invention",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53676",
       "etat": "Terminé",
       "statut": "Retrait de l'initiative",
@@ -7867,8 +8521,10 @@
         "Exigerait la publication d'un arrêté fixant les catégories de dispositifs remboursables et leurs conditions.",
         "Modifierait le code de la sécurité sociale pour inscrire ces dispositifs sur la liste des produits remboursables."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53675",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7887,8 +8543,10 @@
         "Exclurait de cette obligation les mineurs, les prévenus, les personnes sans ressources et celles en maison d'arrêt.",
         "Modifierait le code pénitentiaire pour ajouter un nouveau chapitre sur cette contribution financière."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53674",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7907,8 +8565,10 @@
         "Accorderait aux jeunes filles scolarisées une tolérance d'absence justifiée par des symptômes d'endométriose.",
         "Compenserait la charge financière pour la sécurité sociale par une majoration de l'accise sur les tabacs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53677",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7927,8 +8587,10 @@
         "Exigerait l'autorisation écrite d'un juge pour chaque utilisation et préciserait la durée de cette autorisation.",
         "Prohiberait toute analyse des données génétiques concernant la santé ou les origines des personnes identifiées."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53678",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7947,8 +8609,10 @@
         "Compléterait les dispositifs de brouillage existants, souvent peu à jour ou limités dans leur utilisation.",
         "Modifierait le code pénitentiaire et financerait cette mesure par une taxe additionnelle sur le tabac."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53679",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7967,8 +8631,10 @@
         "Permettrait à l'État de contraindre un établissement à agir en cas de non-respect de ces nouvelles mesures.",
         "Modifierait le code de l'éducation pour intégrer ces nouvelles obligations légales aux établissements supérieurs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53669",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -7987,8 +8653,10 @@
         "Permettrait à la Commission des comptes de campagne de contrôler l'existence de ces chartes et procédures.",
         "Pourrait réduire l'aide publique reçue par les partis ne respectant pas ces nouvelles obligations."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53670",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8007,8 +8675,10 @@
         "Permettrait au représentant de l'État d'intervenir en cas de manquements graves aux valeurs républicaines.",
         "Modifierait le code de l'éducation pour y inscrire ces nouvelles règles et pouvoirs d'intervention."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53666",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8027,8 +8697,10 @@
         "Obligerait les plateformes numériques à publier des informations sur leur modération et coopération.",
         "Mettrait en œuvre des campagnes nationales pour sensibiliser les jeunes aux risques des contenus illicites."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53668",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8047,8 +8719,10 @@
         "Instaurerait des mesures correctives, comme une mise en demeure ou un suivi pédagogique renforcé en cas de lacunes persistantes.",
         "Modifierait le Code de l'éducation pour intégrer ces nouveaux dispositifs de contrôle et de suivi des apprentissages."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53671",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8067,8 +8741,12 @@
         "Modifierait l'article L. 212-1 du code de la sécurité intérieure pour cette nouvelle raison.",
         "Préciserait que le juge administratif apprécierait la gravité et le caractère intentionnel des faits reprochés."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53665",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8087,8 +8765,10 @@
         "Couvrirait des sujets comme la cybersécurité, les menaces hybrides et la gestion civile des crises.",
         "Financerait le dispositif par une taxe additionnelle sur le tabac, sans créer de dépenses nouvelles pour l'État."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53672",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -8107,8 +8787,11 @@
         "Punirait d'une amende de 7 500 euros les ministres du culte qui ne respecteraient pas cette nouvelle interdiction.",
         "Permettrait aux ministres d'exprimer leurs opinions politiques et de prendre position sur des questions de société hors culte."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53667",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8127,8 +8810,10 @@
         "Étendrait le gel des avoirs aux personnes physiques faisant l'apologie du terrorisme ou menaçant gravement l'ordre public.",
         "Permettrait le gel administratif des avoirs d'un fonds de dotation (organisme à but non lucratif) pendant sa suspension."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53661",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8147,8 +8832,10 @@
         "Encadrerait strictement la suspension des aides, nécessitant une mise en demeure préalable et une décision motivée et proportionnée.",
         "Modifierait la loi de 2000 sur les relations avec l'administration et le code général des collectivités territoriales."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53662",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8167,8 +8854,10 @@
         "Permettrait l'expulsion rapide d'occupants illicites, même si le bien n'est pas la résidence principale du propriétaire.",
         "Réduirait les délais et conditions d'expulsion, en modifiant la loi de 2007 sur le droit au logement opposable."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53673",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8187,8 +8876,10 @@
         "Tiendrait compte de critères comme la laïcité, l'égalité entre les femmes et les hommes et le refus de haine.",
         "Modifierait la loi de 1905 (séparation des Églises et de l’État) en ajoutant un nouvel article 27-1."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53664",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8207,8 +8898,10 @@
         "Obligerait les organismes organisateurs à déclarer toute modification importante sur l'objet, les dirigeants ou les financements.",
         "Modifierait le code de l'action sociale et des familles pour encadrer ces nouveaux pouvoirs de contrôle."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53663",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8227,8 +8920,10 @@
         "Financerait ce fonds par une contribution annuelle de 5 % sur les revenus financiers des grandes sociétés immobilières.",
         "Obligerait le Gouvernement à remettre un rapport au Parlement sur les coûts et difficultés des communes face aux périls."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53658",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -8246,8 +8941,10 @@
         "Renforcerait ainsi les peines encourues pour le vol d'animaux appartenant à autrui.",
         "Concernerait spécifiquement les animaux domestiques, apprivoisés ou également tenus en captivité."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53660",
       "etat": "Terminé",
       "statut": "Retrait de l'initiative",
@@ -8266,8 +8963,10 @@
         "Créerait des commissions départementales pour élaborer des stratégies et évaluer la mixité scolaire localement.",
         "Pénaliserait les établissements, notamment privés, qui auraient un taux élevé d'éviction des élèves défavorisés."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53659",
       "etat": "Déposé",
       "statut": "Texte déposé",

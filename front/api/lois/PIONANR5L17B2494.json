@@ -11,8 +11,10 @@
     "Obligerait les parents à signaler tout changement de situation à l'organisme des prestations familiales.",
     "Punirait le fait de ne pas déclarer l'évolution des ressources au service des pensions alimentaires."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53773",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -11,8 +11,10 @@
     "Compléterait les dispositifs de brouillage existants, souvent peu à jour ou limités dans leur utilisation.",
     "Modifierait le code pénitentiaire et financerait cette mesure par une taxe additionnelle sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53679",
   "etat": "Déposé",
   "statut": "Texte déposé",

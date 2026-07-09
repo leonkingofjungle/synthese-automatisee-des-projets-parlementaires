@@ -11,8 +11,10 @@
     "Instituerait un \"permis d'entreprendre\" obligatoire pour créer ou reprendre un restaurant, assurant une formation préalable des gérants.",
     "Permettrait aux municipalités de réguler l'ouverture de nouveaux restaurants pour préserver la diversité commerciale locale."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54224",
   "etat": "Déposé",
   "statut": "Texte déposé",

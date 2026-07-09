@@ -11,8 +11,10 @@
     "Simplifierait les procédures d'entretien des cours d'eau et de restauration des milieux aquatiques, accélérant certains travaux.",
     "Faciliterait l'acquisition ou l'utilisation de terrains privés pour réaliser des travaux urgents de prévention des inondations."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51175",
   "etat": "Terminé",
   "statut": "Texte adopté",

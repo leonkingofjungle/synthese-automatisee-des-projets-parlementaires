@@ -11,8 +11,10 @@
     "Exigerait que ces personnes soient déjà inscrites sur la liste électorale générale pour pouvoir voter localement.",
     "Entrerait en vigueur le lendemain de sa publication officielle au Journal officiel de la République française."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52104",
   "etat": "Terminé",
   "statut": "Texte adopté",

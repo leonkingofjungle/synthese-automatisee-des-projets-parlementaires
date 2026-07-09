@@ -11,8 +11,10 @@
     "Interdirait tout élément promotionnel ou incitant à la consommation sur les emballages de vapotage dès son application.",
     "Interdirait la vente de produits non conformes à partir du 1er juin 2027 et punirait les infractions d'une amende administrative."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54303",
   "etat": "Déposé",
   "statut": "Texte déposé",

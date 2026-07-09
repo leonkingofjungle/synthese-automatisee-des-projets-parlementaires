@@ -11,8 +11,11 @@
     "Permettrait au législateur de mieux protéger juridiquement l'autonomie stratégique et les capacités de production françaises.",
     "Réduirait la dépendance de la France envers des puissances étrangères pour des productions et services vitaux."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54285",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Sécuriserait juridiquement les porteurs de projets en rendant l'État responsable des recours dirigés contre la cartographie.",
     "Permettrait de réexaminer et renouveler la cartographie des zones tous les cinq ans pour les adapter aux besoins."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53721",
   "etat": "Déposé",
   "statut": "Texte déposé",

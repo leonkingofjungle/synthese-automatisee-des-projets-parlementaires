@@ -11,8 +11,10 @@
     "Punirait de 3 500 euros d'amende toute cession d'animal sans vérification du fichier ou à une personne inscrite.",
     "Imposerait aux personnes inscrites de justifier leur adresse annuellement aux services de police ou de gendarmerie."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54455",
   "etat": "Déposé",
   "statut": "Texte déposé",

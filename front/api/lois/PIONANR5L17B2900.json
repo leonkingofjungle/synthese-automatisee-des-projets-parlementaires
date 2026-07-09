@@ -11,8 +11,11 @@
     "Doublerait les amendes pour les infractions et confisquerait l'engin en cas de récidive ou de trafic pour augmenter sa vitesse.",
     "Autoriserait les policiers municipaux à immobiliser les trottinettes électriques et à constater les infractions."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54453",
   "etat": "Déposé",
   "statut": "Texte déposé",

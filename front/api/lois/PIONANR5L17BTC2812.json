@@ -11,8 +11,10 @@
     "Ces contrats permettraient aux bénéficiaires de valider une partie d'une certification professionnelle.",
     "Les éventuels impacts financiers pour l'État seraient compensés par une taxe additionnelle sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51791",
   "etat": "Terminé",
   "statut": "Texte adopté",

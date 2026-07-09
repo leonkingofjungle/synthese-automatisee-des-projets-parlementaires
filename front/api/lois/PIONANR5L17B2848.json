@@ -11,8 +11,10 @@
     "Rendrait obligatoire et immédiate la transmission des informations concernant les risques liés au personnel.",
     "Obligerait à prendre des mesures conservatoires face à des risques pour la sécurité physique ou morale des mineurs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53818",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

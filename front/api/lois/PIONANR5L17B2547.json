@@ -11,8 +11,10 @@
     "Viserait à améliorer l'accès aux soins et à réduire les déserts médicaux, notamment pour les spécialistes.",
     "Compenserait la charge pour les régions par une majoration de la dotation globale de fonctionnement."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53856",
   "etat": "Déposé",
   "statut": "Texte déposé",

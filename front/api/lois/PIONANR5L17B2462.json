@@ -11,8 +11,10 @@
     "Punirait la consultation habituelle ou payante d'images ou vidéos de trois ans de prison et 45 000 euros.",
     "Étendrait l'application de la loi française aux infractions commises à l'étranger par un citoyen français."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53198",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

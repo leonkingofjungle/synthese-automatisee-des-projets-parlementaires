@@ -11,8 +11,10 @@
     "Renforcerait l'obligation des employeurs d'informer les salariés sur les reprises et punirait les non-respects de cette règle.",
     "Mettrait en place un fonds coopératif financé par une taxe sur les fortunes de plus de 100 millions d'euros."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54246",
   "etat": "Déposé",
   "statut": "Texte déposé",

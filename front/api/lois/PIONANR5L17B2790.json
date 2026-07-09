@@ -11,8 +11,10 @@
     "Préserverait la portée symbolique de ces primes en évitant des impacts fiscaux négatifs pour les salariés.",
     "Alignerait le régime fiscal de ces primes avec celui d'autres distinctions honorifiques déjà exonérées d'impôt."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54314",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

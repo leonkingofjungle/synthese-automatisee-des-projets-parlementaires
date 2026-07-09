@@ -11,8 +11,10 @@
     "Fixerait la durée de ces créneaux à au moins celle de l'amortissement comptable, sans dépasser trente ans.",
     "Définirait par décret (texte réglementaire) la part maximale de subvention à 50% du coût total de l'équipement."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54138",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

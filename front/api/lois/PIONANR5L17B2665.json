@@ -11,8 +11,11 @@
     "Redonnerait à l'État la maîtrise des recettes de péage pour financer la transition écologique et les mobilités du quotidien.",
     "Renforcerait la capacité de l'Agence de financement des infrastructures de transport (AFITF) à soutenir les projets durables."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 88,
+  "quality_flags": [
+    "invention",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54136",
   "etat": "Déposé",
   "statut": "Texte déposé",

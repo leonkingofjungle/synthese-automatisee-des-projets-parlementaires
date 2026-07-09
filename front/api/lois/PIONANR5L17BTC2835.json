@@ -11,8 +11,10 @@
     "Interdirait l'intervention en milieu scolaire à toute personne inscrite aux fichiers des délinquants sexuels ou terroristes.",
     "Renforcerait le contrôle de l'État sur les établissements privés, exigeant des formations contre les violences."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54227",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

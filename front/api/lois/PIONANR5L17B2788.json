@@ -11,8 +11,10 @@
     "Réduirait la dépendance nationale aux importations de matières premières nécessaires à la production d'engrais.",
     "Exigerait que ces projets utilisent des méthodes de production respectant les critères de performance environnementale et climatique définis par décret."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54312",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

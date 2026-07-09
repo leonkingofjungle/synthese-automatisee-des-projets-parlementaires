@@ -11,8 +11,10 @@
     "Cette commission serait composée de membres de la Cour des comptes, Banque de France, Conseil d'État et d'autres institutions.",
     "Les coûts seraient compensés par l'instauration d'une nouvelle taxe additionnelle sur les produits du tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52977",
   "etat": "En cours",
   "statut": "2ème lecture en commission",

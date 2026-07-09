@@ -11,8 +11,10 @@
     "Mettrait en place une stratégie nationale dotée de près de 2 milliards d'euros pour financer les mesures jusqu'en 2034.",
     "Proposerait un plan personnalisé d'accompagnement aux patients et renforcerait la formation de tous les professionnels concernés."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51672",
   "etat": "Terminé",
   "statut": "Texte adopté",

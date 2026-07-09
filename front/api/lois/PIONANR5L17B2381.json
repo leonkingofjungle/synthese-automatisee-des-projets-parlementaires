@@ -11,8 +11,10 @@
     "Obligerait les plateformes numériques à publier des informations sur leur modération et coopération.",
     "Mettrait en œuvre des campagnes nationales pour sensibiliser les jeunes aux risques des contenus illicites."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53668",
   "etat": "Déposé",
   "statut": "Texte déposé",

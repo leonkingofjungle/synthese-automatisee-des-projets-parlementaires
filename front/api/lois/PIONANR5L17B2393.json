@@ -11,8 +11,10 @@
     "Instaurerait une rémunération minimale pour les médiateurs de santé-pair, fixée par un décret (texte d'application du gouvernement).",
     "Un décret (texte d'application) organiserait leur recrutement et formation, avec une évaluation nationale régulière."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53680",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Compléterait l'article L. 1111-13 du code général des collectivités territoriales sur le statut de l'élu.",
     "Étendrait cette obligation de neutralité déjà en vigueur pour les députés de l'Assemblée nationale."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54128",
   "etat": "Déposé",
   "statut": "Texte déposé",

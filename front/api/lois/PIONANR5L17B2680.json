@@ -11,8 +11,11 @@
     "Créerait un fonds de 800 millions d'euros pour aider les départements à financer cet accompagnement.",
     "Modifierait le code de l'action sociale et des familles ainsi que le code général des collectivités."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54151",
   "etat": "Déposé",
   "statut": "Texte déposé",

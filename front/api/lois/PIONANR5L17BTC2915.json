@@ -11,8 +11,10 @@
     "Instaurerait une procédure exigeante avec demande au médecin, évaluation collégiale, information complète et un délai de réflexion.",
     "Prévoirait le remboursement des frais par la Sécurité sociale, une clause de conscience et une commission de contrôle dédiée."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51670",
   "etat": "Terminé",
   "statut": "Texte rejeté",

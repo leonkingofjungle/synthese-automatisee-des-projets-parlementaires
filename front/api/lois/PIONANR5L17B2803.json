@@ -11,8 +11,10 @@
     "Dérogerait ainsi au principe d’inaliénabilité des collections publiques, inscrit dans le code du patrimoine.",
     "Exigerait que la remise soit effectuée au plus tard six mois après l'entrée en vigueur de la loi."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N50548",
   "etat": "Terminé",
   "statut": "Texte adopté",

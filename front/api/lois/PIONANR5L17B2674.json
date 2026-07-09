@@ -11,8 +11,10 @@
     "Simplifierait l'accès aux prêts collectifs pour les copropriétés en élargissant les mécanismes de garantie acceptés par les banques.",
     "Compenserait les pertes de recettes pour l'État et la Sécurité sociale en créant une taxe additionnelle sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54144",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

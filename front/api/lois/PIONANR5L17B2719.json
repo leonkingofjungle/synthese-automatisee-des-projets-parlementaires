@@ -11,8 +11,10 @@
     "Alignerait la transparence des tickets de carburant sur celle des factures de gaz et d'électricité.",
     "Compléterait l'article 289 du code général des impôts pour inclure ces nouvelles obligations d'affichage."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54238",
   "etat": "Déposé",
   "statut": "Texte déposé",

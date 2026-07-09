@@ -11,8 +11,11 @@
     "Abrogerait la cotisation volontaire de retraite et interdirait le cumul avec l'indemnité temporaire de retraite.",
     "Les nouvelles règles s'appliqueraient aux pensions prenant effet à partir du 1er janvier 2026 ou 2027 selon les cas."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54356",
   "etat": "Déposé",
   "statut": "Texte déposé",

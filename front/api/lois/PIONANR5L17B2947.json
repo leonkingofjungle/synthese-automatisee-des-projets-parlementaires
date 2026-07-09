@@ -11,8 +11,11 @@
     "Engloberait toutes les classes, de la petite section de maternelle jusqu'à la troisième du collège.",
     "Financerait les coûts de cette réforme par une nouvelle taxe additionnelle sur les produits du tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54534",
   "etat": "Déposé",
   "statut": "Texte déposé",

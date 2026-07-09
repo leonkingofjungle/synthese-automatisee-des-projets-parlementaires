@@ -11,8 +11,10 @@
     "Assouplirait les règles d'urbanisme pour les zones de montagne et favoriserait une gestion partagée de la ressource en eau.",
     "Soutiendrait les filières agricoles et forestières locales, notamment les abattoirs de montagne, et les loisirs de nature."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54006",
   "etat": "En cours",
   "statut": "2ème lecture en commission",

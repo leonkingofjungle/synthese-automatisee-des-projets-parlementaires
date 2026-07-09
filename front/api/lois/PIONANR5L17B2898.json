@@ -11,8 +11,10 @@
     "Punirait les violations de cette nouvelle règle de 2 ans de prison et 75 000 euros d'amende.",
     "Entrerait en vigueur seulement deux ans après sa promulgation pour permettre une transition."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54451",
   "etat": "Déposé",
   "statut": "Texte déposé",

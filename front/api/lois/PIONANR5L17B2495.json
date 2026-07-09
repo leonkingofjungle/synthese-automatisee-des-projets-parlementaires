@@ -11,8 +11,12 @@
     "Préciserait que les réductions seraient progressives selon la taille de la famille, définies par décret (texte réglementaire).",
     "Compenserait la perte de revenus pour l'État et les collectivités par une taxe additionnelle sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "invention",
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53774",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

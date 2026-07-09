@@ -11,8 +11,10 @@
     "Ajusterait le droit à indemnisation des anciens propriétaires pour ne pas pénaliser financièrement les communes.",
     "Modifierait le Code général de la propriété des personnes publiques pour faciliter la procédure et l'aligner sur d'autres lois."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54316",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Instaurerait une clause de conscience pour les professionnels de santé et une commission de contrôle des procédures.",
     "Assurerait la prise en charge financière des frais et l'inclusion du décès dans les contrats d'assurance vie."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51670",
   "etat": "Terminé",
   "statut": "Texte rejeté",

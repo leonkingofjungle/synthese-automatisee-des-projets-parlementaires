@@ -11,8 +11,10 @@
     "Exempterait certains projets majeurs du décompte local de l'artificialisation s'ils acquièrent des crédits équivalents.",
     "Financerait la mise en place de ces mesures grâce à une taxe additionnelle sur les produits du tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53868",
   "etat": "Déposé",
   "statut": "Texte déposé",

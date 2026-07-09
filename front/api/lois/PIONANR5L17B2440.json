@@ -11,8 +11,10 @@
     "Créerait une protection juridique pour les agriculteurs adaptant leurs horaires de travail aux réalités climatiques.",
     "Modifierait le code de l'urbanisme et le code rural pour mieux adapter le droit à l'agriculture."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53715",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

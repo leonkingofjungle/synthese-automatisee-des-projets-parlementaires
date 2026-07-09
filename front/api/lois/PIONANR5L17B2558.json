@@ -11,8 +11,11 @@
     "Renforcerait considérablement les amendes de la loi de blocage de 1968, les portant jusqu'à 5 millions d'euros pour les entreprises.",
     "Interdirait aux banques de refuser de financer les exportations d'armes autorisées par l'État, sauf motifs financiers clairs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53867",
   "etat": "Déposé",
   "statut": "Texte déposé",

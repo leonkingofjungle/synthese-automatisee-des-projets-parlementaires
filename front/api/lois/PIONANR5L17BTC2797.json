@@ -11,8 +11,12 @@
     "Durcirait la lutte contre le piratage de contenus sportifs, en bloquant rapidement les retransmissions illégales et en punissant lourdement.",
     "Promouvrait la solidarité financière entre sport masculin et féminin et entre clubs, tout en renforçant le rôle des supporters."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 62,
+  "quality_flags": [
+    "invention",
+    "judge_non_independant",
+    "texte_tronque"
+  ],
   "dossier_uid": "DLR5L17N51732",
   "etat": "En cours",
   "statut": "Commission mixte paritaire",

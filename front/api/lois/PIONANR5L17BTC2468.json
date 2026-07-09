@@ -11,8 +11,10 @@
     "Améliorerait la transmission d'informations au préfet sur les personnes suivies en soins psychiatriques présentant un risque pour l'ordre.",
     "Allongerait la durée maximale de rétention administrative des étrangers dangereux et permettrait des placements répétés jusqu'à 540 jours."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53284",
   "etat": "En cours",
   "statut": "Saisine du conseil constitutionnel",

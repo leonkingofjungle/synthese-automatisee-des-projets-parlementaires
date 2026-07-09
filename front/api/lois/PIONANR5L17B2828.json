@@ -11,8 +11,10 @@
     "Donnerait au directeur autorité sur un réseau d'écoles regroupant au moins 12 emplois d'enseignants.",
     "Définirait les missions du directeur, incluant l'autorité sur les personnels et le pilotage éducatif."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54363",
   "etat": "Déposé",
   "statut": "Texte déposé",

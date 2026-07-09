@@ -11,8 +11,11 @@
     "Ce mode désactiverait le défilement continu, la lecture automatique et les systèmes de valorisation publique des contenus.",
     "Permettrait aux parents de désactiver ce mode protecteur et punirait les non-conformités d'une amende administrative."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54237",
   "etat": "Déposé",
   "statut": "Texte déposé",

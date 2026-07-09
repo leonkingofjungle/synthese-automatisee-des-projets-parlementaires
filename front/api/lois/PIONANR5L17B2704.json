@@ -11,8 +11,11 @@
     "Obligerait ces structures à pratiquer le tiers-payant et interdirait toute facturation de dépassements d'honoraires aux patients.",
     "Financerait les coûts pour la Sécurité sociale grâce à une augmentation de la taxe sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54223",
   "etat": "Déposé",
   "statut": "Texte déposé",

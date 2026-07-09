@@ -11,8 +11,11 @@
     "Exigerait un étiquetage spécifique sur la face avant des emballages d'aliments ultratransformés.",
     "Interdirait la vente de préparations pour bébés et jeunes enfants contenant des sucres ajoutés dès le 1er janvier 2028."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53424",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

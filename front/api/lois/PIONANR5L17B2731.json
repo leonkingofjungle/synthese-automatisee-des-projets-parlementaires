@@ -11,8 +11,11 @@
     "Éliminerait les problèmes de fraudes et la surestimation des économies d'énergie réelles.",
     "Modifierait plusieurs codes existants et entrerait en vigueur un an après son adoption."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54250",
   "etat": "Déposé",
   "statut": "Texte déposé",

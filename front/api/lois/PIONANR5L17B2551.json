@@ -11,8 +11,12 @@
     "Garantirait des conditions d'hébergement et de sécurité adaptées, avec un fonds pour rénover les cabanes.",
     "Instituerait un certificat de spécialisation pour les bergers d'alpage et encouragerait leur formation professionnelle."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53860",
   "etat": "Déposé",
   "statut": "Texte déposé",

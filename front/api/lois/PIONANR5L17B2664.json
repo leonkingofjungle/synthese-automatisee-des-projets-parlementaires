@@ -11,8 +11,10 @@
     "Corrigerait une inégalité de traitement avec les réservistes de la police ou de la gendarmerie.",
     "Compenserait les pertes de recettes pour l'État et la Sécurité sociale via une taxe sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54135",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Supprimerait les exclusions pour les jeunes de la protection judiciaire et ceux sous OQTF (obligation de quitter le territoire français).",
     "Permettrait aux jeunes d'exercer un recours amiable ou contentieux si l'accompagnement par le département n'est pas respecté."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54298",
   "etat": "Déposé",
   "statut": "Texte déposé",

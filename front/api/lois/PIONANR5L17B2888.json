@@ -11,8 +11,10 @@
     "Créerait un délit puni de 7 500 euros d'amende pour le blocage physique des accès aux universités.",
     "Obligerait les présidents d'université à élaborer un plan de sécurité et de continuité des services d'enseignement."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54441",
   "etat": "Déposé",
   "statut": "Texte déposé",

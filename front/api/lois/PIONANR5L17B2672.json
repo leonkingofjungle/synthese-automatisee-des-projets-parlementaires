@@ -11,8 +11,11 @@
     "Accorderait des réductions de peine exceptionnelles de six mois maximum aux détenus de courte peine en cas de surpopulation générale.",
     "Exclurait les condamnés pour crimes ou terrorisme de ces réductions, et modifierait les codes pénitentiaire et pénal."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54142",
   "etat": "Déposé",
   "statut": "Texte déposé",

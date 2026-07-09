@@ -11,8 +11,11 @@
     "Améliorerait la reconnaissance de cette maladie chronique douloureuse, souvent méconnue, et réduirait les inégalités d'accès aux soins.",
     "Modifierait le code de la sécurité sociale pour inclure explicitement la cystite interstitielle dans la liste des ALD."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54450",
   "etat": "Déposé",
   "statut": "Texte déposé",

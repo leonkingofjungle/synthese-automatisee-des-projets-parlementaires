@@ -11,8 +11,10 @@
     "Permettrait à l'ARCOM d'appliquer des sanctions aux fournisseurs de réseaux sociaux ne respectant pas ces obligations.",
     "Inclurait dans ce contrôle les contenus diffusés ou recommandés par les systèmes algorithmiques des réseaux sociaux."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54306",
   "etat": "Déposé",
   "statut": "Texte déposé",

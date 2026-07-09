@@ -11,8 +11,12 @@
     "Modifierait l'article L. 212-1 du code de la sécurité intérieure pour cette nouvelle raison.",
     "Préciserait que le juge administratif apprécierait la gravité et le caractère intentionnel des faits reprochés."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53665",
   "etat": "Déposé",
   "statut": "Texte déposé",

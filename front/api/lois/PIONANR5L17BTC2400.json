@@ -11,8 +11,11 @@
     "Obligerait d'informer le public de l'utilisation de ces systèmes, après avis de la CNIL (autorité indépendante).",
     "Prévoirait un rapport d'évaluation au Parlement d'ici le 31 décembre 2029, supervisé par la CNIL."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51720",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

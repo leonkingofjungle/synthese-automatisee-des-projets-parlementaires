@@ -11,8 +11,10 @@
     "Créerait une sous-direction santé pour intégrer ces professionnels au sein des services d'incendie et de secours.",
     "Rendrait ces dispositions applicables aux personnels de santé de la brigade de sapeurs-pompiers de Paris et de Marseille."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51346",
   "etat": "Terminé",
   "statut": "Texte adopté",

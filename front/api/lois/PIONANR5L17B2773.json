@@ -11,8 +11,10 @@
     "Permettrait aux professionnels de santé de refuser d'y participer, tout en garantissant l'accès du patient.",
     "Préciserait que les frais liés à cette aide seraient couverts par la Sécurité sociale et sans dépassement d'honoraires."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51670",
   "etat": "Terminé",
   "statut": "Texte rejeté",

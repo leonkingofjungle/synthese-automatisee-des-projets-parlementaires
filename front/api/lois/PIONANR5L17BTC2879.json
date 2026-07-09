@@ -11,8 +11,11 @@
     "Garantirait la protection de la santé lors des transferts entre régimes sociaux d'Outre-mer et ceux de l'Hexagone.",
     "Compenserait les coûts pour la Sécurité sociale et l'État grâce à des augmentations des taxes sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53401",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

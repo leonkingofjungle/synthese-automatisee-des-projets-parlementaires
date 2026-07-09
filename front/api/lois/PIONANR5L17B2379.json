@@ -11,8 +11,10 @@
     "Permettrait au représentant de l'État d'intervenir en cas de manquements graves aux valeurs républicaines.",
     "Modifierait le code de l'éducation pour y inscrire ces nouvelles règles et pouvoirs d'intervention."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53666",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,12 @@
     "Définirait le contenu de cet enseignement grâce à un référentiel établi par le ministre de l'éducation.",
     "Financerait ces nouvelles mesures par une taxe additionnelle sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53672",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

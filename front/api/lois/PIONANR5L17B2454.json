@@ -11,8 +11,10 @@
     "Permettrait des dérogations temporaires aux communes nouvelles concernant certaines obligations légales, comme le logement social.",
     "Établirait une procédure spécifique pour modifier les limites territoriales des communes nouvelles, incluant une enquête publique."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53456",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

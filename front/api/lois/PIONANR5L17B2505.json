@@ -11,8 +11,10 @@
     "Développerait une stratégie nationale pour la souveraineté de l'élevage, modernisant les pratiques et prévenant les crises sanitaires.",
     "Rendrait obligatoire l'affichage de la rémunération des producteurs agricoles sur tous les produits pour plus de transparence."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53784",
   "etat": "Déposé",
   "statut": "Texte déposé",

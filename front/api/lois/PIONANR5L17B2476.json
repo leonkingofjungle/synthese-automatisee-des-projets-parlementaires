@@ -11,8 +11,10 @@
     "Instaurerait des peines d'un an de prison et 15 000 euros d'amende pour entrave concertée à la liberté académique.",
     "Intégrerait ces nouvelles dispositions dans les codes de l'éducation, de la recherche et de la fonction publique."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51983",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

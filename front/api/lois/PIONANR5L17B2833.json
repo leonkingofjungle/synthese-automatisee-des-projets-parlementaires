@@ -11,8 +11,10 @@
     "Permettrait de réaliser 550 millions d'euros d'économies en évitant le gaspillage de 120 millions de boîtes.",
     "Diminuerait les risques d'automédication, d'erreurs et la pollution liés aux médicaments non utilisés."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54368",
   "etat": "Déposé",
   "statut": "Texte déposé",

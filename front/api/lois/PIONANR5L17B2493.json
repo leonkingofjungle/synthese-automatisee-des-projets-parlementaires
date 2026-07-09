@@ -11,8 +11,10 @@
     "La majoration du revenu de solidarité active pour un enfant placé irait directement au tiers responsable.",
     "Le juge devrait réévaluer le montant et les conditions de paiement de la pension alimentaire après un placement."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53772",
   "etat": "Terminé",
   "statut": "Retrait de l'initiative",

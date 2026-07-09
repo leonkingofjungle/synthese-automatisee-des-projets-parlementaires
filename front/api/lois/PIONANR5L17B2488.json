@@ -11,8 +11,11 @@
     "Baserait la sélection des candidats, en cas de places limitées, sur les notes finales obtenues au baccalauréat.",
     "Chargerait les rectorats de proposer des formations alternatives avant le 14 juillet, si les vœux sont refusés."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53767",
   "etat": "Déposé",
   "statut": "Texte déposé",

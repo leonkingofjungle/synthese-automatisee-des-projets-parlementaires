@@ -11,8 +11,10 @@
     "Préciserait que pour les petites professions, l'audience serait mesurée par le nombre d'adhérents des syndicats.",
     "Modifierait plusieurs articles des codes de la santé publique et de la sécurité sociale pour intégrer ces règles."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53846",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

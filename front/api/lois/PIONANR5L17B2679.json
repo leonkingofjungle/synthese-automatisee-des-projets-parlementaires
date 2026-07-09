@@ -11,8 +11,10 @@
     "Fixerait le montant maximal de ce prêt à 100 000 euros, sans conditions de revenus pour les demandeurs.",
     "Modifierait le code de la construction et de l'habitation afin d'y ajouter ce nouveau dispositif d'aide."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54149",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

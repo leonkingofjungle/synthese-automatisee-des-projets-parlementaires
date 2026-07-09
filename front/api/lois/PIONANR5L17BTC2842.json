@@ -11,8 +11,10 @@
     "Elle exclurait la pension de réversion et la bonification pour enfants du calcul du plafond des pensions.",
     "Elle créerait une nouvelle taxe sur les transactions financières pour financer l'assurance vieillesse agricole."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51955",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

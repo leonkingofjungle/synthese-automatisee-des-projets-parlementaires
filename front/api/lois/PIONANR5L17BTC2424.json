@@ -11,8 +11,13 @@
     "Offrirait la possibilité de suspendre la promulgation de lois pour les abroger par un vote référendaire.",
     "Créerait des référendums d'initiative citoyenne pour des décisions locales, avec une validation juridique préalable."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 60,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "faute_francais",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53194",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

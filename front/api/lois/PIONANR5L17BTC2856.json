@@ -11,8 +11,13 @@
     "Imposerait à Électricité de France de céder une capacité hydroélectrique virtuelle pour ouvrir au moins 40 % du marché.",
     "Instaurerait des comités de suivi pour les installations de plus de 500 mégawatts, associant les riverains à la gestion de l'eau."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 68,
+  "quality_flags": [
+    "invention",
+    "deformation",
+    "judge_non_independant",
+    "texte_tronque"
+  ],
   "dossier_uid": "DLR5L17N53530",
   "etat": "Terminé",
   "statut": "Texte adopté",

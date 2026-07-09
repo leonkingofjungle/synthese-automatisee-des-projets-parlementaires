@@ -11,8 +11,11 @@
     "Obligerait les branches professionnelles à revaloriser les salaires minima pour qu'ils ne soient jamais inférieurs au SMIC.",
     "Créerait une caisse de péréquation financée par les grandes entreprises pour aider les petites à payer les hausses de salaires."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54446",
   "etat": "Déposé",
   "statut": "Texte déposé",

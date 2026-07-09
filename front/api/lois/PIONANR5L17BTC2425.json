@@ -11,8 +11,11 @@
     "Encouragerait les structures d'accueil de la petite enfance à organiser des activités en contact avec la nature.",
     "Obligerait le gouvernement à évaluer les bénéfices de l'éducation en extérieur et son déploiement sous cinq ans."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52392",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -11,8 +11,10 @@
     "Mettrait en place un dispositif public en Martinique pour aider à reconstituer les titres de propriété et exploiter les archives.",
     "Prolongerait jusqu'au 31 décembre 2038 les dispositifs facilitant la sortie de l'indivision successorale en Polynésie française."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54241",
   "etat": "Déposé",
   "statut": "Texte déposé",

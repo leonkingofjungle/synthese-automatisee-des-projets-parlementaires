@@ -11,8 +11,10 @@
     "Imposerait une révision des moyens et des écoles concernées par l'éducation prioritaire au moins tous les cinq ans.",
     "Étendrait les zones d'application de l'éducation prioritaire aux territoires éloignés en plus des zones dispersées."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54057",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

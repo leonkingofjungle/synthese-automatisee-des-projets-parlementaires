@@ -11,8 +11,10 @@
     "Permettrait aux représentants des salariés d'appeler de manière suspensive une décision de liquidation judiciaire.",
     "Assimilerait les salariés en attente d'un jugement d'appel de liquidation à des demandeurs d'emploi."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54307",
   "etat": "Déposé",
   "statut": "Texte déposé",

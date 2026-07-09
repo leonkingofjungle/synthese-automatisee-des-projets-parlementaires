@@ -11,8 +11,12 @@
     "Conditionnerait ce titre de séjour à six mois de formation professionnelle et à l'avis favorable de la structure d'accueil.",
     "Modifierait le Code de l'entrée et du séjour des étrangers et du droit d'asile (règles des étrangers)."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53725",
   "etat": "Déposé",
   "statut": "Texte déposé",

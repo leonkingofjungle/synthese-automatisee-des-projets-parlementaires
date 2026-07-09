@@ -11,8 +11,10 @@
     "Allouerait un budget de 2026 à 2034 pour financer ces mesures, incluant la formation des professionnels.",
     "Créerait des plans personnalisés d'accompagnement et de nouvelles maisons pour les soins palliatifs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51672",
   "etat": "Terminé",
   "statut": "Texte adopté",

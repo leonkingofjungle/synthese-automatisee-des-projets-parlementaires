@@ -11,8 +11,10 @@
     "Criminaliserait le fait de faciliter l'entrée ou le séjour illégal d'un étranger visé par des mesures restrictives de l'Union européenne.",
     "Instaurerait pour ces faits jusqu'à 10 ans d'emprisonnement et 750 000 euros d'amende, notamment en cas de bande organisée."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53853",
   "etat": "Déposé",
   "statut": "Texte déposé",

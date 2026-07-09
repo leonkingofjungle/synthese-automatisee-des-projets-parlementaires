@@ -11,8 +11,10 @@
     "Évaluerait les conséquences économiques, financières et sociales pour l'État, les usagers et les travailleurs du secteur.",
     "Obligerait le Gouvernement à présenter au Parlement les suites données aux recommandations de cet Observatoire."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54357",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,11 @@
     "Prévoirait une inscription rapide au rôle des juges et un calendrier judiciaire resserré pour ces affaires.",
     "Étendrait l'annulation partielle et le sursis à statuer (suspension provisoire) aux recours contre ces autorisations."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54438",
   "etat": "Déposé",
   "statut": "Texte déposé",

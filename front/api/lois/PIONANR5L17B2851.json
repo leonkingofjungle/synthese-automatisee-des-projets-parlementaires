@@ -11,8 +11,10 @@
     "Modifierait l'article L. 313-7 du code de l'action sociale et des familles.",
     "Subordonnerait le renouvellement et l'autorisation permanente à des évaluations positives des projets."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53886",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

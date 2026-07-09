@@ -11,8 +11,10 @@
     "Obligerait les professionnels de santé des SECPA à pratiquer le tiers payant et à ne pas facturer de dépassements d'honoraires.",
     "Permettrait aux équipes pluriprofessionnelles de proposer un accompagnement médico-psycho-social, de la médiation et des services d'interprétariat."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53783",
   "etat": "Déposé",
   "statut": "Texte déposé",

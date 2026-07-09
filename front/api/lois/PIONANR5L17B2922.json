@@ -11,10 +11,13 @@
     "Confierait à Vichy Communauté la gestion et le financement des équipements sportifs locaux et de leurs personnels.",
     "Modifierait la composition du conseil d'administration du CREPS en augmentant la représentation locale et sportive."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54096",
   "etat": "En cours",
-  "statut": "1ère lecture en séance publique",
+  "statut": "1ère lecture en commission",
   "depositaire": null
 }

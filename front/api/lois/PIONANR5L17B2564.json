@@ -11,8 +11,10 @@
     "Placerait sous le contrôle du conseil la participation forfaitaire aux soins lourds et coûteux, au montant du 1er janvier 2026.",
     "Compenserait les coûts pour la Sécurité sociale en augmentant la taxe sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53873",
   "etat": "Déposé",
   "statut": "Texte déposé",

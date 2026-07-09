@@ -11,8 +11,11 @@
     "Instituerait de nouvelles obligations d'entretien pour les bailleurs sociaux afin de maintenir un cadre de vie digne.",
     "Garantirait aux locataires le droit de rester dans leur logement pendant les travaux ou d'être relogés dans le neuf."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53764",
   "etat": "Déposé",
   "statut": "Texte déposé",

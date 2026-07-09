@@ -11,8 +11,10 @@
     "Rendrait le port d'un casque de protection homologué obligatoire pour toutes les personnes pratiquant les sports de glisse sur neige.",
     "Prévoirait la confiscation du matériel de ski pour les skieurs en infraction, et de lourdes peines en cas d'accident."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53768",
   "etat": "Déposé",
   "statut": "Texte déposé",

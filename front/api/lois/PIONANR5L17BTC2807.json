@@ -11,8 +11,11 @@
     "Préciserait que ces personnes devraient également être inscrites sur la liste électorale générale au moment du scrutin.",
     "Entrerait en vigueur le lendemain de sa publication au Journal officiel de la République française."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 88,
+  "quality_flags": [
+    "invention",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52104",
   "etat": "Terminé",
   "statut": "Texte adopté",

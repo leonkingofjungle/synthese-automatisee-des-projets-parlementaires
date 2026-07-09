@@ -11,8 +11,11 @@
     "Les établissements de santé pourraient proposer un hébergement aux parents d'enfants hospitalisés, dont les frais seraient pris en charge.",
     "Un délai de deux mois serait instauré pour les demandes d'allocation enfant handicapé, avec une avance automatique."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N50444",
   "etat": "Terminé",
   "statut": "Texte adopté",

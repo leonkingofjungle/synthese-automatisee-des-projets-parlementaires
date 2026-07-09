@@ -11,8 +11,11 @@
     "Appliquerait ces mesures aux ressortissants français, andorrans, européens ou du Royaume-Uni.",
     "Modifierait le code de la santé publique pour intégrer ces nouvelles dispositions concernant les médecins."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53192",
   "etat": "Terminé",
   "statut": "Texte adopté",

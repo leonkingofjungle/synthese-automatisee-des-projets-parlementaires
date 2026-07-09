@@ -11,8 +11,10 @@
     "Interdirait aux employeurs de demander une justification écrite ou orale pour une demande d'acompte.",
     "Limiterait les acomptes à cinq par mois et leur montant total à la moitié du salaire brut."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53862",
   "etat": "Déposé",
   "statut": "Texte déposé",

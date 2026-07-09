@@ -11,8 +11,10 @@
     "Financerait ce fonds par une contribution annuelle de 5 % sur les revenus financiers des grandes sociétés immobilières.",
     "Obligerait le Gouvernement à remettre un rapport au Parlement sur les coûts et difficultés des communes face aux périls."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53658",
   "etat": "Déposé",
   "statut": "Texte déposé",

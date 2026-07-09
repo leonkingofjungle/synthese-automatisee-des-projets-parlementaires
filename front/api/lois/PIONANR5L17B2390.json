@@ -11,8 +11,10 @@
     "Accorderait aux jeunes filles scolarisées une tolérance d'absence justifiée par des symptômes d'endométriose.",
     "Compenserait la charge financière pour la sécurité sociale par une majoration de l'accise sur les tabacs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53677",
   "etat": "Déposé",
   "statut": "Texte déposé",

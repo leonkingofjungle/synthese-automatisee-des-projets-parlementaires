@@ -11,8 +11,10 @@
     "Concernerait toute cession de titres qui permettrait à un acquéreur de détenir une majorité dans l'entreprise concernée.",
     "Exclurait de ce dispositif les parts de sociétés familiales, constituées entre proches parents jusqu'au quatrième degré."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51713",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

@@ -11,8 +11,10 @@
     "Organiserait une coordination entre l'État et les collectivités via des plans d'urgence locaux pour prévenir les risques.",
     "Permettrait de financer la recherche et la valorisation des sargasses, via commande publique et une nouvelle contribution."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53780",
   "etat": "Déposé",
   "statut": "Texte déposé",

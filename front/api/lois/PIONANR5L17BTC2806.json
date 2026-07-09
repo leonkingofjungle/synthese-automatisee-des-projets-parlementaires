@@ -11,8 +11,10 @@
     "Inclurait aussi les intercommunalités ou syndicats mixtes gérant ces services de petite enfance.",
     "Compenserait les coûts pour l'État par une taxe additionnelle sur le tabac dès le 1er janvier 2027."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53357",
   "etat": "Terminé",
   "statut": "Texte adopté",

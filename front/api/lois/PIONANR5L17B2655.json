@@ -11,8 +11,10 @@
     "Revaloriserait la PCH aide animalière de 6 000 euros à 10 000 euros sur dix ans et l'indexerait sur l'inflation.",
     "Instaurerait une signalétique nationale obligatoire pour autoriser les chiens guides et créerait un congé de formation de 10 jours."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54126",
   "etat": "Déposé",
   "statut": "Texte déposé",

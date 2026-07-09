@@ -11,8 +11,10 @@
     "Obligerait les agences régionales de santé à établir des plans d'action sur trois ans pour améliorer le dépistage localement.",
     "Assurerait une évaluation annuelle publique des plans d'action pour vérifier l'amélioration du dépistage et de l'accès aux examens."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54362",
   "etat": "Déposé",
   "statut": "Texte déposé",

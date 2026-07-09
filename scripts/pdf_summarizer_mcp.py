@@ -243,6 +243,7 @@ def rejudge_missing_scores(entries: list[dict], workers: int, gemini_fallback: b
     if not to_rejudge:
         print("Rejudge : aucune entrée sans score.")
         return
+    print(f"Rejudge : {len(to_rejudge)} entrée(s) sans score à traiter.\n")
 
     def _rejudge_one(entry: dict) -> tuple[dict, bool, dict | None]:
         # Ne doit jamais lever : une panne réseau sur un document (timeout, DNS, ...)
@@ -259,16 +260,20 @@ def rejudge_missing_scores(entries: list[dict], workers: int, gemini_fallback: b
 
     scored = skipped = failed = 0
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        for entry, has_text, judgment in pool.map(_rejudge_one, to_rejudge):
+        for i, (entry, has_text, judgment) in enumerate(pool.map(_rejudge_one, to_rejudge), 1):
             if not has_text:
                 skipped += 1  # sourcé depuis un PDF (ou mirroir disparu depuis) : jamais jugé, normal
+                print(f"[{i}/{len(to_rejudge)}] {entry['uid']} — ignoré (source PDF)")
             elif judgment is None:
                 failed += 1  # texte disponible mais judge indisponible/inexploitable
+                print(f"[{i}/{len(to_rejudge)}] {entry['uid']} — toujours sans score")
             else:
                 entry["quality_score"], entry["quality_flags"] = compute_score(judgment)
                 scored += 1
+                print(f"[{i}/{len(to_rejudge)}] {entry['uid']} — score {entry['quality_score']}/100 "
+                      f"({judgment['judge_model']})")
 
-    print(f"Rejudge : {scored} score(s) ajouté(s), {skipped} ignoré(s) (source PDF), "
+    print(f"\nRejudge : {scored} score(s) ajouté(s), {skipped} ignoré(s) (source PDF), "
           f"{failed} toujours sans score (judge indisponible).")
 
 

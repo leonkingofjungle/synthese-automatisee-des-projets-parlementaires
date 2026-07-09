@@ -11,8 +11,11 @@
     "Transférerait la majoration du RSA pour un enfant placé à la personne éligible qui prendrait effectivement en charge l'enfant.",
     "Reconnaîtrait formellement le tiers digne de confiance comme bénéficiaire direct de ces prestations familiales pour l'enfant."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 88,
+  "quality_flags": [
+    "faute_francais",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54305",
   "etat": "Déposé",
   "statut": "Texte déposé",

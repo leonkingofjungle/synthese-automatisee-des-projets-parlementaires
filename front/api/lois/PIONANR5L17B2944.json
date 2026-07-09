@@ -11,8 +11,10 @@
     "Fixerait des objectifs obligatoires de collecte et recyclage des déchets si les performances sont insuffisantes outre-mer.",
     "Autoriserait l'inspection de bagages sans consentement en outre-mer si un risque sanitaire est suspecté."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N50970",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

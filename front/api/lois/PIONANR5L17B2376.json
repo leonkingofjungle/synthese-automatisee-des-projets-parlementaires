@@ -11,8 +11,10 @@
     "Obligerait les organismes organisateurs à déclarer toute modification importante sur l'objet, les dirigeants ou les financements.",
     "Modifierait le code de l'action sociale et des familles pour encadrer ces nouveaux pouvoirs de contrôle."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53663",
   "etat": "Déposé",
   "statut": "Texte déposé",

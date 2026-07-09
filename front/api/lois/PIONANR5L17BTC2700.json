@@ -11,8 +11,11 @@
     "Permettrait aux personnes publiques de céder des terrains avec 50 % de décote pour construire des logements.",
     "Autoriserait des dérogations aux règles d'urbanisme pour construire des logements réservés aux agents publics."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51968",
   "etat": "Terminé",
   "statut": "Texte adopté",

@@ -11,8 +11,12 @@
     "Créerait une caisse pour accompagner les agriculteurs vers le bio et augmenterait les taxes pour les pollueurs.",
     "Réglementerait plus strictement les polluants comme les PFAS dans l'eau et les déchets industriels."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 88,
+  "quality_flags": [
+    "neutralite_douteuse",
+    "judge_non_independant",
+    "texte_tronque"
+  ],
   "dossier_uid": "DLR5L17N53777",
   "etat": "Déposé",
   "statut": "Texte déposé",

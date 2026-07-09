@@ -11,8 +11,11 @@
     "Renforcerait les contrôles sur l'honorabilité de toutes les personnes intervenant dans les écoles, y compris les bénévoles.",
     "Instituerait des contrôles réguliers et des sanctions graduées pour les établissements privés sous contrat, renforçant le rôle de l'État."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant",
+    "texte_tronque"
+  ],
   "dossier_uid": "DLR5L17N53723",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Empêcherait les opérateurs de paris sportifs de nommer les infrastructures ou compétitions sportives nationales.",
     "Permettrait aux associations de lutte contre les addictions et aux consommateurs d'agir en justice contre les abus publicitaires."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54452",
   "etat": "Déposé",
   "statut": "Texte déposé",

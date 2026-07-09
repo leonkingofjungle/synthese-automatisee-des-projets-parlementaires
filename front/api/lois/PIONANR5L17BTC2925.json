@@ -11,8 +11,10 @@
     "Imposerait aux établissements privés sous contrat de tenir une comptabilité analytique pour les dépenses et revenus.",
     "Entrerait en vigueur pour la comptabilité analytique trois ans après la promulgation de la loi."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54310",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

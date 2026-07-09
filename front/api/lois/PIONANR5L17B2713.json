@@ -11,8 +11,10 @@
     "Encadrerait précisément les contrats de production entre auteurs et producteurs d'œuvres sonores.",
     "Étendrait les droits voisins aux organismes exploitant des services sonores non linéaires, comme les podcasts."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54232",
   "etat": "Déposé",
   "statut": "Texte déposé",

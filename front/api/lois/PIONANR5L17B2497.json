@@ -11,8 +11,10 @@
     "Appliquerait ces règles à diverses associations à but non lucratif, en permettant le cumul des années même non consécutives.",
     "Validerait l'exercice des fonctions par la déclaration en préfecture et financerait la mesure via une taxe sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53776",
   "etat": "Déposé",
   "statut": "Texte déposé",

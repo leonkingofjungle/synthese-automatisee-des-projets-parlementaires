@@ -11,8 +11,11 @@
     "Interdirait la publicité pour ces aliments sur les plateformes numériques très utilisées par les jeunes et autour des écoles.",
     "Obligerait la restauration collective publique à proposer des repas avec 80% d'aliments non transformés et sans distributeurs automatiques."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53859",
   "etat": "Déposé",
   "statut": "Texte déposé",

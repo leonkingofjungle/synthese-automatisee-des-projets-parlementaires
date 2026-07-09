@@ -11,8 +11,10 @@
     "Renforcerait le rôle de la commission de suivi des conséquences pour la mise à jour des pathologies reconnues.",
     "Mettrait en place une présomption irréfutable d'exposition et offrirait l'assistance d'un traducteur aux demandeurs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53276",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

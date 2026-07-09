@@ -11,8 +11,11 @@
     "Gèlerait les fonds des entités menaçant l'ordre public et forcerait la restitution des subventions non conformes.",
     "Mettrait sous surveillance préfectorale les accueils de mineurs hors domicile et étendrait la prescription des délits de presse visant les mineurs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53936",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -11,8 +11,10 @@
     "Permettrait aux candidats de se présenter seuls ou en groupe, avec une déclaration obligatoire en préfecture.",
     "Préciserait les règles d'élection des adjoints dans les communes de moins de 1 000 habitants en modifiant le code général des collectivités territoriales."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54367",
   "etat": "Déposé",
   "statut": "Texte déposé",

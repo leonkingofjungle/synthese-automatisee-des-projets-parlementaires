@@ -11,8 +11,12 @@
     "Compenserait le coût pour l'État en créant une taxe additionnelle sur l'accise (taxe) sur les tabacs existante.",
     "Modifierait le code de l'éducation en y insérant un nouvel article pour ces dispositions sur les bourses."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54229",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

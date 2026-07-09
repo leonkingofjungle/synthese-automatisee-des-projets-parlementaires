@@ -11,8 +11,12 @@
     "Exigerait d'EDF qu'elle mette à disposition des tiers au moins 6 gigawatts de capacité hydroélectrique virtuelle.",
     "Instaurerait des comités de suivi obligatoires pour les grandes installations, associant collectivités et riverains."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 75,
+  "quality_flags": [
+    "invention",
+    "judge_non_independant",
+    "texte_tronque"
+  ],
   "dossier_uid": "DLR5L17N53530",
   "etat": "Terminé",
   "statut": "Texte adopté",

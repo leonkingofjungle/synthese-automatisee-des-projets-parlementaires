@@ -11,8 +11,10 @@
     "Imposerait des critères objectifs et transparents pour l'accès aux financements, avec une motivation des décisions.",
     "Assurerait un accès effectif au financement pour tout candidat déclaré, tout en gérant prudemment les risques."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54233",
   "etat": "Déposé",
   "statut": "Texte déposé",

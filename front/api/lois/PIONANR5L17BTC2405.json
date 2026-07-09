@@ -11,8 +11,13 @@
     "Obligerait Électricité de France à ouvrir 40% de sa capacité hydroélectrique aux entreprises tierces pendant vingt ans.",
     "Modifierait le code de l'énergie pour créer un régime d'autorisation des grandes centrales, avec des comités de suivi locaux."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "invention",
+    "deformation",
+    "judge_non_independant",
+    "texte_tronque"
+  ],
   "dossier_uid": "DLR5L17N53530",
   "etat": "Terminé",
   "statut": "Texte adopté",

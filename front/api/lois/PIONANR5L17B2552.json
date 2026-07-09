@@ -11,8 +11,10 @@
     "Revaloriserait l'aide couplée caprine et créerait un fonds de soutien pour les productions sous appellations d'origine.",
     "Reconnaîtrait l'élevage caprin pour la prévention des incendies et soutiendrait les projets d'irrigation pour les troupeaux."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53861",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,11 @@
     "Autoriserait les éleveurs à utiliser des lunettes de tir nocturne et les lieutenants de louveterie des appareils thermiques.",
     "Confierait à l'État le rôle d'indemniser les éleveurs à 100% pour les animaux prédatés, incluant leur valeur ajoutée."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54137",
   "etat": "Déposé",
   "statut": "Texte déposé",

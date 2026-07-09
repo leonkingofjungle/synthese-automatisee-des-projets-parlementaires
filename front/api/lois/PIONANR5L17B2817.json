@@ -11,8 +11,10 @@
     "Introduirait une mesure judiciaire pour prévenir les actes terroristes de certains condamnés radicalisés.",
     "Prolongerait la rétention administrative des étrangers dangereux pour l'ordre public à 90 jours."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53284",
   "etat": "En cours",
   "statut": "Saisine du conseil constitutionnel",

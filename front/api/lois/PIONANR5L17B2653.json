@@ -11,8 +11,10 @@
     "Autoriserait l'Agence nationale de l'habitat à subventionner les travaux de raccordement fibre en zones rurales.",
     "Relancerait le Fonds pour la société numérique pour financer en priorité la fibre dans les zones peu denses."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54124",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Exclurait les opérations d'autoconsommation collective de l'obligation d'obtenir une autorisation de fourniture d'électricité.",
     "Réduirait les tarifs d'utilisation du réseau public pour les participants à l'autoconsommation collective, favorisant ainsi les projets."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54436",
   "etat": "Déposé",
   "statut": "Texte déposé",

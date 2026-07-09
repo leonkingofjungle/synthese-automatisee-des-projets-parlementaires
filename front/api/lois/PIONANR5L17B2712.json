@@ -11,8 +11,10 @@
     "Modifierait le code de l'éducation en ajoutant un article pour encadrer le financement des établissements privés.",
     "Compenserait la charge des communes par une augmentation de la dotation et une taxe sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54231",
   "etat": "Déposé",
   "statut": "Texte déposé",

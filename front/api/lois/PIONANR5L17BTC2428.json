@@ -11,8 +11,10 @@
     "Prévoirait qu'une loi organique (règles complémentaires à la Constitution) définirait les conditions d'application précises de ce droit.",
     "Modifierait la Constitution de 1958 en y insérant un nouvel article 72-5 pour instaurer ces nouvelles dispositions."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L11N19503",
   "etat": "En cours",
   "statut": "2ème lecture en commission",

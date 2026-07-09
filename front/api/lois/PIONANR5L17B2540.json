@@ -11,8 +11,10 @@
     "Punirait d'une amende de 1 500 € le fait d'abandonner des récipients de protoxyde d'azote sur la voie publique.",
     "Intégrerait dans les programmes scolaires une sensibilisation aux dangers du protoxyde d'azote dès le cycle 2."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53160",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

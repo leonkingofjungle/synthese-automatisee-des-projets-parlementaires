@@ -11,8 +11,11 @@
     "Mettrait en place un suivi annuel des obligations et demanderait un rapport au Parlement sous 12 mois.",
     "Renforcerait l'accompagnement des gestionnaires avec des outils et modifierait le Code rural et de la pêche maritime."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54243",
   "etat": "Déposé",
   "statut": "Texte déposé",

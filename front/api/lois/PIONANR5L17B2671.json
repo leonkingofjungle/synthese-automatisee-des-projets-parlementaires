@@ -11,8 +11,10 @@
     "Rendrait publique la notice experte et les données brutes des sondages sous 48 heures par la Commission des sondages.",
     "Interdirait la publication des sondages d'intention de vote avant la clôture des candidatures et avant les résultats du premier tour."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54141",
   "etat": "Déposé",
   "statut": "Texte déposé",

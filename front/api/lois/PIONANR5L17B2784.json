@@ -11,8 +11,10 @@
     "Compléterait le code de la commande publique pour autoriser des marchés pluriannuels directs avec les producteurs.",
     "Dispenserait ces marchés directs de publicité et de mise en concurrence jusqu'à 100 000 euros par fournisseur."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54308",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

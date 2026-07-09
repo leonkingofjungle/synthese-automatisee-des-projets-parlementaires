@@ -11,8 +11,10 @@
     "L'Autorité de la concurrence devrait recueillir l'avis motivé de l'ARCOM avant d'approuver une fusion de médias.",
     "Le code de commerce créerait de nouveaux seuils de chiffre d'affaires pour contrôler les concentrations dans les médias."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53329",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

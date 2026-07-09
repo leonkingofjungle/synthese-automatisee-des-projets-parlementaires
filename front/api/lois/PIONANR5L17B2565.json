@@ -11,8 +11,11 @@
     "Interdirait de placer les aliments trop gras, salés ou sucrés près des caisses ou entrées dès 2027.",
     "Modifierait le code de la santé publique pour y intégrer ces nouvelles obligations de vente."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53874",
   "etat": "Déposé",
   "statut": "Texte déposé",

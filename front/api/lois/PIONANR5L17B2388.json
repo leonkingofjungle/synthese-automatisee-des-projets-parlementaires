@@ -11,8 +11,10 @@
     "Exigerait la publication d'un arrêté fixant les catégories de dispositifs remboursables et leurs conditions.",
     "Modifierait le code de la sécurité sociale pour inscrire ces dispositifs sur la liste des produits remboursables."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53675",
   "etat": "Déposé",
   "statut": "Texte déposé",

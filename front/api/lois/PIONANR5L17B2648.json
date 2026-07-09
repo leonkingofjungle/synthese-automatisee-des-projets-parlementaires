@@ -11,8 +11,10 @@
     "Modifierait les règles d'élection au premier tour, exigeant la majorité absolue et 25 % des électeurs inscrits.",
     "Réintroduirait des élections partielles complémentaires pour pourvoir les sièges vacants de conseillers municipaux."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54119",
   "etat": "Déposé",
   "statut": "Texte déposé",

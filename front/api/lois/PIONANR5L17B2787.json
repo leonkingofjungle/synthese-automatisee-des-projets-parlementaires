@@ -11,8 +11,10 @@
     "Rendrait les fournisseurs responsables des préjudices subis par le propriétaire en cas de manquement.",
     "Insérerait ces nouvelles obligations dans le Code de la consommation pour les rendre applicables."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54311",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

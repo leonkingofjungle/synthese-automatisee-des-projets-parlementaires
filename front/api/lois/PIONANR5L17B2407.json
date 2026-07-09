@@ -11,8 +11,11 @@
     "Obligerait la loi de finances à fixer annuellement la liste des programmes budgétaires éligibles à cette affectation.",
     "Insèrerait ce nouveau principe dans la Constitution, précisé par une loi organique (loi qui complète la Constitution)."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 88,
+  "quality_flags": [
+    "invention",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53686",
   "etat": "Déposé",
   "statut": "Texte déposé",

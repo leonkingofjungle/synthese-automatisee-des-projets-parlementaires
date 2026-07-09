@@ -11,8 +11,10 @@
     "Viserait la dépollution des terres et eaux contaminées, avec la recherche scientifique comme priorité nationale.",
     "Évaluerait l'opportunité d'étendre le fonds d'indemnisation des victimes de pesticides aux maladies liées au chlordécone."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L16N49263",
   "etat": "Terminé",
   "statut": "Texte adopté",

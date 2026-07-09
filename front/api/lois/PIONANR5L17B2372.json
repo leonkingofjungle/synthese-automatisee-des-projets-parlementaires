@@ -11,8 +11,10 @@
     "Créerait des commissions départementales pour élaborer des stratégies et évaluer la mixité scolaire localement.",
     "Pénaliserait les établissements, notamment privés, qui auraient un taux élevé d'éviction des élèves défavorisés."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53659",
   "etat": "Déposé",
   "statut": "Texte déposé",

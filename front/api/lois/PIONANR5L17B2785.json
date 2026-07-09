@@ -11,8 +11,10 @@
     "Permettrait des admissions exceptionnelles au regroupement ou à la réunification familiale en cas d'extrême urgence.",
     "Exigerait du Gouvernement un rapport pour évaluer la suspension et envisager sa pérennisation."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54309",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

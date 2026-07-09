@@ -10,8 +10,10 @@
     "Renforcerait ainsi les peines encourues pour le vol d'animaux appartenant à autrui.",
     "Concernerait spécifiquement les animaux domestiques, apprivoisés ou également tenus en captivité."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53660",
   "etat": "Terminé",
   "statut": "Retrait de l'initiative",

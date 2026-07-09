@@ -11,8 +11,11 @@
     "Affecterait les recettes au budget de l'État, des régions et des départements pour financer les mobilités.",
     "Entrerait en vigueur au plus tard le 1er janvier 2028, avec des exceptions pour les véhicules de secours et agricoles."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53871",
   "etat": "Déposé",
   "statut": "Texte déposé",

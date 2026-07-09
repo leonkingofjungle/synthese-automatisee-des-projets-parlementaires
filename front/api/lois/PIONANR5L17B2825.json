@@ -10,8 +10,12 @@
     "Réduirait la charge financière pour les professionnels acceptant ce moyen de paiement.",
     "Soutiendrait les petits commerces en diminuant leurs coûts de transaction liés aux titres."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 57,
+  "quality_flags": [
+    "invention",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54360",
   "etat": "Terminé",
   "statut": "Retrait de l'initiative",

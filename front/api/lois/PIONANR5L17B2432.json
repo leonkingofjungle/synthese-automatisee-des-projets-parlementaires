@@ -11,8 +11,10 @@
     "Créerait des sanctions pénales sévères pour la conception et la diffusion de services de piratage sportif.",
     "Modifierait le code du sport pour y intégrer ces nouvelles dispositions applicables aux contenus sportifs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53707",
   "etat": "Déposé",
   "statut": "Texte déposé",

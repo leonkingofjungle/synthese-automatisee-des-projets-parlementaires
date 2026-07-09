@@ -11,8 +11,11 @@
     "Mettrait les frais d'intervention des entreprises privées à la charge des occupants illégaux, avec avance éventuelle du propriétaire.",
     "Modifierait le Code des procédures civiles d'exécution et le Code de la sécurité intérieure pour encadrer cette nouvelle mesure."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53858",
   "etat": "Déposé",
   "statut": "Texte déposé",

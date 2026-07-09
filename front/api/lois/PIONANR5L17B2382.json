@@ -11,8 +11,10 @@
     "Permettrait à l'État de contraindre un établissement à agir en cas de non-respect de ces nouvelles mesures.",
     "Modifierait le code de l'éducation pour intégrer ces nouvelles obligations légales aux établissements supérieurs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53669",
   "etat": "Déposé",
   "statut": "Texte déposé",

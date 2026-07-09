@@ -11,8 +11,10 @@
     "Autoriserait le gouvernement à recourir à l'emprunt pour les lois de finances et, sous condition, pour la Sécurité sociale.",
     "Permettrait au Conseil constitutionnel de contrôler les ordonnances budgétaires avant leur application effective."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53385",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

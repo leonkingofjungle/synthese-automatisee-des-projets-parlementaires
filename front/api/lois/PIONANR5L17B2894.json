@@ -11,8 +11,11 @@
     "Imposerait de contrôler cette honorabilité non seulement au début, mais aussi régulièrement durant l'exercice des fonctions.",
     "Appliquerait également ces nouvelles règles de vérification aux personnes proposant des services d'animation ou garde à domicile."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54447",
   "etat": "Déposé",
   "statut": "Texte déposé",

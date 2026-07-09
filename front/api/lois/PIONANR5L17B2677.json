@@ -11,8 +11,10 @@
     "S'appliquerait dès le 1er janvier 2027, mais seulement aux affaires non encore prescrites à cette date.",
     "Financerait les dépenses liées à cette loi par une taxe supplémentaire sur les ventes de tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54147",
   "etat": "Déposé",
   "statut": "Texte déposé",

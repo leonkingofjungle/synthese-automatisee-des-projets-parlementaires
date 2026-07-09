@@ -11,8 +11,12 @@
     "Modifierait l'ordonnance (texte de loi non voté par le Parlement) sur le fonctionnement des assemblées.",
     "Permettrait aux citoyens de connaître l'avis du Conseil d'État avant le débat parlementaire."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 62,
+  "quality_flags": [
+    "invention",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53878",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

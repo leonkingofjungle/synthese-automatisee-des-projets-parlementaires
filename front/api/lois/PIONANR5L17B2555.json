@@ -11,8 +11,10 @@
     "Permettrait aux communes de financer des aides au conventionnement et de les déduire des pénalités SRU (Solidarité et Renouvellement Urbains).",
     "Intégrerait les logements locatifs intermédiaires dans le décompte SRU, dans la limite de 20 % de l'objectif."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53864",
   "etat": "Déposé",
   "statut": "Texte déposé",

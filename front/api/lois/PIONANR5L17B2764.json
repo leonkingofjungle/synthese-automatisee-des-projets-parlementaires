@@ -11,8 +11,10 @@
     "Accroîtrait les pouvoirs des maires et préfets pour agir contre l'urbanisation illégale, allongeant la prescription à dix ans.",
     "Définirait comme infraction l'installation prolongée de caravanes ou résidences mobiles hors zones dédiées sans autorisation."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53956",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

@@ -11,8 +11,12 @@
     "Calculerait l'assiette de cette taxe sur la part des bénéfices excédant 120 % de la moyenne des résultats de 2021 à 2024.",
     "Interdirait aux entreprises de répercuter cette contribution sur les prix de vente au consommateur, sous peine d'une amende importante."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54145",
   "etat": "Déposé",
   "statut": "Texte déposé",

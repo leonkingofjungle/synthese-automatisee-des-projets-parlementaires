@@ -11,8 +11,11 @@
     "Prendrait en charge la gestion des dépôts sauvages de matériaux, actuellement entièrement supportée par les communes.",
     "Créerait trois catégories distinctes de matériaux (gravats, bois, autres) pour adapter les contributions des producteurs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54242",
   "etat": "Déposé",
   "statut": "Texte déposé",

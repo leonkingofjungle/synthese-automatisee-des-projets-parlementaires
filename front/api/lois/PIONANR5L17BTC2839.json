@@ -11,8 +11,11 @@
     "Rabaisserait cette limite de cadmium à 20 milligrammes par kilo d’anhydride phosphorique au 1er janvier 2030.",
     "Entrerait en vigueur progressivement, d'abord le 1er janvier 2027, puis la limite plus stricte en 2030."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54148",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

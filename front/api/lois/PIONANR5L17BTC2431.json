@@ -11,8 +11,10 @@
     "Punirait sévèrement la révélation de l'identité des personnes protégées, avec des peines pouvant aller jusqu'à 10 ans de prison.",
     "Modifierait le code de la sécurité intérieure pour créer un nouveau cadre légal de protection spécifique."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53427",
   "etat": "En cours",
   "statut": "2ème lecture en commission",

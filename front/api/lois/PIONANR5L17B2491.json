@@ -11,8 +11,10 @@
     "Instituerait un label \"achat public local et responsable\" pour orienter les choix des acheteurs.",
     "Rendrait la commande publique plus accessible aux petites et moyennes entreprises en France."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53770",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -11,8 +11,10 @@
     "Obligerait l'autorité administrative française à organiser le transfert de ce monument commémoratif à l'Algérie.",
     "Contribuerait à refonder les relations entre la France et l'Algérie sur des bases égalitaires, reconnaissant une justice historique."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54239",
   "etat": "Déposé",
   "statut": "Texte déposé",

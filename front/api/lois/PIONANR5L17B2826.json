@@ -11,8 +11,10 @@
     "Viserait à alléger la charge sur le système de santé français, déjà confronté aux déserts médicaux et urgences saturées.",
     "Prévoirait une période transitoire pour que les bénéficiaires actuels puissent obtenir un autre titre de séjour."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54361",
   "etat": "Déposé",
   "statut": "Texte déposé",

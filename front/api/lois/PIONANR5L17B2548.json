@@ -11,8 +11,11 @@
     "Rendrait les fournisseurs civilement responsables des dommages si leur manquement permettait une occupation illicite.",
     "Modifierait le code de la consommation pour intégrer ces nouvelles obligations aux fournisseurs de services essentiels."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53857",
   "etat": "Déposé",
   "statut": "Texte déposé",

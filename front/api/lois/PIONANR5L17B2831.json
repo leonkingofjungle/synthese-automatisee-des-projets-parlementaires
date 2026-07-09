@@ -11,8 +11,10 @@
     "Réputerait le parcours de soins coordonnés respecté lorsque ces assurés seraient orientés vers un spécialiste.",
     "Modifierait l'article L. 162-5-3 du code de la sécurité sociale pour inscrire cette nouvelle dérogation."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54366",
   "etat": "Déposé",
   "statut": "Texte déposé",

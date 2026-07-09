@@ -11,8 +11,10 @@
     "Prévoirait une mise en demeure avec un délai d'exécution d'au moins vingt-quatre heures avant une évacuation forcée.",
     "Modifierait la loi de 2000 sur l'accueil des gens du voyage pour inclure les terrains privés dans le dispositif."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53781",
   "etat": "Déposé",
   "statut": "Texte déposé",

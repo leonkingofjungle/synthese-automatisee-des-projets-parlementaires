@@ -11,8 +11,10 @@
     "Assurerait la présence d'un avocat pour les mineurs dans toutes les instances civiles et les mesures de protection.",
     "Financerait cette mesure pour l'État par une taxe additionnelle sur les tabacs, après douze mois."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54222",
   "etat": "Déposé",
   "statut": "Texte déposé",

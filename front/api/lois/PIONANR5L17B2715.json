@@ -11,8 +11,11 @@
     "Exclurait du remboursement public les frais liés aux affichages de campagne irréguliers ou excessifs.",
     "Intégrerait les dépenses de publicité numérique sponsorisée au compte de campagne des candidats."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54234",
   "etat": "Déposé",
   "statut": "Texte déposé",

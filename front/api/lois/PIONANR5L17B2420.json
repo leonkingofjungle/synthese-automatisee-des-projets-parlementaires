@@ -11,8 +11,10 @@
     "Modifierait la loi organique de finances (règles budgétaires de l'État) pour définir les modalités pratiques de l'affectation.",
     "Le Parlement fixerait chaque année, via la loi de finances, la liste des programmes éligibles à ce dispositif."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53701",
   "etat": "Déposé",
   "statut": "Texte déposé",

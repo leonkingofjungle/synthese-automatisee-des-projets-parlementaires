@@ -11,8 +11,10 @@
     "Rendrait les fournisseurs responsables des préjudices si un contrat est conclu illégalement avec un occupant sans titre.",
     "Permettrait au préfet d'ordonner la suspension des contrats si des faux documents d'occupation sont identifiés."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54311",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

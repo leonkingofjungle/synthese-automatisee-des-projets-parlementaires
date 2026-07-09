@@ -11,8 +11,10 @@
     "Prévoirait des contrôles renforcés et des amendes importantes pour les entreprises ne respectant pas les plafonds de prix ou de marges.",
     "Diminuerait temporairement la TVA à 5,5% sur le gaz et les carburants, et pourrait l'étendre à l'électricité si nécessaire."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54150",
   "etat": "Déposé",
   "statut": "Texte déposé",

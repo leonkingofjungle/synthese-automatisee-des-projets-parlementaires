@@ -11,8 +11,10 @@
     "Permettrait aux boulangeries d'organiser le repos hebdomadaire des employés par roulement, même en semaine.",
     "Modifierait le code du travail pour intégrer ces nouvelles règles, et les préfets auraient trois mois pour agir."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53782",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

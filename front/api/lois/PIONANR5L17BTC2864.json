@@ -11,8 +11,12 @@
     "Appliquerait cette présomption si des indices crédibles montrent l'utilisation par l'IA ou ses résultats.",
     "Concernerait les œuvres soumises au droit d'auteur ou aux droits voisins et les affaires en cours."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53359",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

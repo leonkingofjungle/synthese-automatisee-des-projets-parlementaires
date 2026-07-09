@@ -11,8 +11,10 @@
     "Interdirait aux emballages de vapotage de suggérer des bienfaits, des avantages économiques ou de ressembler à des aliments.",
     "Entrerait en vigueur le 1er janvier 2027 pour la plupart des mesures, et le 1er juin 2027 pour d'autres."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54245",
   "etat": "Déposé",
   "statut": "Texte déposé",

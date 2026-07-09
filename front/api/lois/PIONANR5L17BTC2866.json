@@ -11,8 +11,10 @@
     "Renforcerait le soutien aux infrastructures culturelles et à la production locale dans les collectivités d'outre-mer.",
     "Instaurerait un rapport public annuel pour évaluer l'accès des intermittents aux droits sociaux en Outre-mer."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54248",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

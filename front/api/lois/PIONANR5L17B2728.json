@@ -11,8 +11,10 @@
     "Exigerait que ces projets contribuent à sécuriser l'approvisionnement en intrants agricoles stratégiques.",
     "Imposerait l'utilisation de procédés de production décarbonés, conformes aux objectifs climatiques nationaux définis par décret (règlement du gouvernement)."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54247",
   "etat": "Déposé",
   "statut": "Texte déposé",

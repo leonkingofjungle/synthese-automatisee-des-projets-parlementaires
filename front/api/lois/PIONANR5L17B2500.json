@@ -11,8 +11,10 @@
     "Mettrait en place une plateforme nationale sécurisée pour que les employeurs puissent vérifier ces certificats facilement.",
     "Rendrait obligatoire une formation sur la prévention des violences et les signalements, à renouveler tous les cinq ans."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53779",
   "etat": "Déposé",
   "statut": "Texte déposé",

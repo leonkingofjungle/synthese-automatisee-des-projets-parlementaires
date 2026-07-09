@@ -11,8 +11,10 @@
     "Instituerait un comité pour évaluer la rançon de 150 millions de francs or imposée à Haïti en 1825.",
     "Ce comité étudierait comment l'État français restituerait ces sommes au peuple haïtien."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54448",
   "etat": "Déposé",
   "statut": "Texte déposé",

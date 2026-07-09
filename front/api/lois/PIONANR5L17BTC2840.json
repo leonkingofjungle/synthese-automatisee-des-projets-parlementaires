@@ -11,8 +11,11 @@
     "Instaurerait des enquêtes pour retrouver les biens des condamnés introuvables afin d'exécuter entièrement les peines de confiscation.",
     "Garantirait la mise en paiement des experts judiciaires dans un délai de soixante jours, avec des intérêts de retard."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53159",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

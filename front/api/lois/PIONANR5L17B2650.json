@@ -11,8 +11,10 @@
     "Voudrait mieux protéger les animaux de compagnie, de travail, d'élevage et de chasse reconnus sensibles.",
     "Permettrait de vérifier si un animal recueilli dans une fourrière a été précédemment volé."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54121",
   "etat": "Déposé",
   "statut": "Texte déposé",

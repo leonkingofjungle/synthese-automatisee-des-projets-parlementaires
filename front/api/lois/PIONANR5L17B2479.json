@@ -11,8 +11,10 @@
     "Accorderait aux magistrats un droit de se taire lors de procédures disciplinaires et étendrait la limite d'âge à 70 ans.",
     "Modifierait une loi organique (loi fondamentale sur l'organisation des pouvoirs) et reporterait une échéance à 2028."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53225",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

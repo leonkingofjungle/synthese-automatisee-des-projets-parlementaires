@@ -11,8 +11,10 @@
     "Permettrait des solutions alternatives exceptionnellement, et consulterait usagers pour les interruptions de plus de 30 jours.",
     "Exigerait du Gouvernement un rapport annuel détaillé au Parlement sur l'application de ces nouvelles mesures."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54132",
   "etat": "Déposé",
   "statut": "Texte déposé",

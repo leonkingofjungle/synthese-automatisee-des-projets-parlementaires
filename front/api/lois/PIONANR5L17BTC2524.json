@@ -11,8 +11,11 @@
     "Simplifierait les ventes de biens (meubles ou immeubles) par un curateur pour les successions vacantes.",
     "Permettrait à la majorité (deux tiers) des co-propriétaires de décider de vendre un bien indivis."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51329",
   "etat": "Terminé",
   "statut": "Texte adopté",

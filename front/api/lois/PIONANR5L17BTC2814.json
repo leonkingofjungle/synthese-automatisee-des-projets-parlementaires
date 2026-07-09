@@ -11,8 +11,10 @@
     "Égalerait le montant de cette pension temporaire à celui de l'allocation de solidarité aux personnes âgées (ASPA).",
     "Prévoirait un arrêt de cette aide dès la réception de la pension, avec régularisation ou étalement du remboursement."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52517",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

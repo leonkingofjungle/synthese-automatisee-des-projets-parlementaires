@@ -11,8 +11,11 @@
     "Punirait d'une amende de 7 500 euros les ministres du culte qui ne respecteraient pas cette nouvelle interdiction.",
     "Permettrait aux ministres d'exprimer leurs opinions politiques et de prendre position sur des questions de société hors culte."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53667",
   "etat": "Déposé",
   "statut": "Texte déposé",

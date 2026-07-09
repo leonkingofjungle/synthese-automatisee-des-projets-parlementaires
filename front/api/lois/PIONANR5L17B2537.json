@@ -11,8 +11,10 @@
     "Limiterait la valeur d'achat à la moyenne réelle des actions entre le 1er octobre 2024 et le 30 septembre 2025.",
     "Compenserait le coût pour l'État par la création d'une taxe supplémentaire sur les produits du tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52977",
   "etat": "En cours",
   "statut": "2ème lecture en commission",

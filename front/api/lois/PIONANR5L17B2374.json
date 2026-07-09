@@ -11,8 +11,10 @@
     "Étendrait le gel des avoirs aux personnes physiques faisant l'apologie du terrorisme ou menaçant gravement l'ordre public.",
     "Permettrait le gel administratif des avoirs d'un fonds de dotation (organisme à but non lucratif) pendant sa suspension."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53661",
   "etat": "Déposé",
   "statut": "Texte déposé",

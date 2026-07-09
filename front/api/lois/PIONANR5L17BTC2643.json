@@ -11,8 +11,10 @@
     "Autoriserait les bâtonniers à être accompagnés d'un avocat désigné lors de leurs visites.",
     "Modifierait le code de procédure pénale et le code de la santé publique pour ces dispositions."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52230",
   "etat": "Terminé",
   "statut": "Texte adopté",

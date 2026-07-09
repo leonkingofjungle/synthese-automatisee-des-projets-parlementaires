@@ -11,8 +11,10 @@
     "Protégerait l'emploi des parents en offrant la suspension du contrat ou des aménagements d'horaires et le télétravail.",
     "Désignerait un référent unique en CAF pour informer les familles et faciliter toutes les démarches administratives."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54299",
   "etat": "Déposé",
   "statut": "Texte déposé",

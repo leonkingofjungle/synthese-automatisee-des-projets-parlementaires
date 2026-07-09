@@ -11,8 +11,10 @@
     "Exclurait de cette obligation les mineurs, les prévenus, les personnes sans ressources et celles en maison d'arrêt.",
     "Modifierait le code pénitentiaire pour ajouter un nouveau chapitre sur cette contribution financière."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53674",
   "etat": "Déposé",
   "statut": "Texte déposé",

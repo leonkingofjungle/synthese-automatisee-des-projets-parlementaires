@@ -11,8 +11,10 @@
     "Soumettrait leur installation à une autorisation d'urbanisme conditionnée par un contrat avec un commerce local à 15 kilomètres.",
     "Instaurerait une taxe d'un euro sur chaque colis importé et livré via consigne automatique, bénéficiant aux communes."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54143",
   "etat": "Déposé",
   "statut": "Texte déposé",

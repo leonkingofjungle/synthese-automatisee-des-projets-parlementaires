@@ -11,8 +11,10 @@
     "Tiendrait compte de critères comme la laïcité, l'égalité entre les femmes et les hommes et le refus de haine.",
     "Modifierait la loi de 1905 (séparation des Églises et de l’État) en ajoutant un nouvel article 27-1."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53664",
   "etat": "Déposé",
   "statut": "Texte déposé",

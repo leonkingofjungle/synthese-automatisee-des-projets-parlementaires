@@ -11,8 +11,11 @@
     "Allongerait de deux à neuf ans la durée de l'usufruit restant à courir permettant l'intervention de la SAFER.",
     "Étendraitt le droit de préemption de la SAFER aux ventes en viager afin d'éviter les contournements de la loi."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 88,
+  "quality_flags": [
+    "faute_francais",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53765",
   "etat": "Déposé",
   "statut": "Texte déposé",

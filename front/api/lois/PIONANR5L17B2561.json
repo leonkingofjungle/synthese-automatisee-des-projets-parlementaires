@@ -11,8 +11,11 @@
     "Augmenterait à 5 ans de prison et 75 000 euros d'amende les peines des parents de mineurs récidivistes.",
     "Doublerait les peines des parents déjà condamnés pour ne pas avoir respecté leurs obligations parentales."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53870",
   "etat": "Déposé",
   "statut": "Texte déposé",

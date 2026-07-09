@@ -11,8 +11,10 @@
     "Renforcerait le contrôle des citoyens sur l'utilisation de l'argent public pour le financement des écoles privées.",
     "Modifierait le code de l'éducation en ajoutant un article sur la publication de ces informations financières attestées."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54310",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

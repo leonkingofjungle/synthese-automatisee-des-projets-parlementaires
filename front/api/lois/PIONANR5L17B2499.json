@@ -11,8 +11,11 @@
     "Interdirait d'utiliser un local commercial comme simple espace de stockage pour échapper à la taxe sur les friches.",
     "Étendreait le droit de préemption des mairies aux locaux commerciaux vacants et taxés depuis plus de 24 mois."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53778",
   "etat": "Déposé",
   "statut": "Texte déposé",

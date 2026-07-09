@@ -11,8 +11,10 @@
     "Permettrait de modifier les limites territoriales des départements ou cantons pour intégrer une commune nouvelle.",
     "Allongerait la période de calcul de l'aide financière de l'État pour les nouvelles communes, passant à six ans."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53456",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

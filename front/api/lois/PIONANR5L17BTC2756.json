@@ -11,8 +11,10 @@
     "Exigerait un décret du gouvernement et une ordonnance de justice, si les biens sont gelés pour violation grave du droit international.",
     "Prévoirait qu'un rapport évalue l'impact de ce mécanisme sur l'attractivité financière française dans un délai d'un an."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52498",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

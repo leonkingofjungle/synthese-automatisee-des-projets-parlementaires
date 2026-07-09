@@ -11,8 +11,12 @@
     "Obligerait le Gouvernement à évaluer ce dispositif et ses risques sur les données personnelles en deux ans.",
     "Demanderait un rapport sur l'accès aux origines des personnes nées sous X ou adoptées, sous trois mois."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53429",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

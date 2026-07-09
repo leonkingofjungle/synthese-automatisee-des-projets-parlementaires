@@ -11,8 +11,10 @@
     "Obligerait l'État à informer les collectivités locales avant de vendre des immeubles sur leur territoire.",
     "Permettrait le transfert gratuit de biens immobiliers de l'État vers ce nouvel établissement public."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52746",
   "etat": "En cours",
   "statut": "Commission mixte paritaire",

@@ -11,8 +11,10 @@
     "Permettrait aux régions d'Outre-mer de gérer des aides pour l'assurance-récolte contre les aléas climatiques locaux.",
     "Renforcerait l'accompagnement et la formation des petits producteurs pour développer les circuits courts et l'élevage local."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54240",
   "etat": "Déposé",
   "statut": "Texte déposé",

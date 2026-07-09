@@ -11,8 +11,11 @@
     "Prévoirait des amendes pouvant atteindre 30 000 € ou 5 % du chiffre d'affaires hors taxes pour les entreprises ne respectant pas la règle.",
     "Modifierait le Code de la santé publique et s'appliquerait à partir du 1er janvier 2028."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53717",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

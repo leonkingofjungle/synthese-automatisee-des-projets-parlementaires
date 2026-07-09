@@ -11,8 +11,10 @@
     "Conditionnerait le bénéfice des exonérations et réductions de cotisations sociales au respect de l'assiduité des apprentis.",
     "Rétablirait la possibilité pour les apprentis d'utiliser leur compte personnel de formation pour financer le permis de conduire."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54134",
   "etat": "Déposé",
   "statut": "Texte déposé",

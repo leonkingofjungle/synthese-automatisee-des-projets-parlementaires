@@ -11,8 +11,13 @@
     "Étendrait les missions des pharmaciens et infirmiers pour la mesure de la pression artérielle.",
     "Inclurait la sensibilisation aux risques cardio-vasculaires dans les actions de santé au travail et à l'école."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 68,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "faute_francais",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53426",
   "etat": "En cours",
   "statut": "Commission mixte paritaire",

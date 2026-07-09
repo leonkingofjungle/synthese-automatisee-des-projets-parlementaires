@@ -11,8 +11,10 @@
     "Permettrait aux professionnels de santé de refuser d'y participer, mais garantirait l'accès dans les établissements.",
     "Couvrirait les frais de l'aide à mourir par l'assurance maladie et punirait ceux qui l'empêcheraient."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51670",
   "etat": "Terminé",
   "statut": "Texte rejeté",

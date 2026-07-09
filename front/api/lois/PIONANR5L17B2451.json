@@ -11,8 +11,10 @@
     "Soutiendrait les communes rurales qui n'ont pas enregistré de naissance depuis longtemps, contrairement aux décès.",
     "Faciliterait la continuité des déclarations de naissance pour les familles implantées depuis des générations dans ces communes."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53726",
   "etat": "Déposé",
   "statut": "Texte déposé",

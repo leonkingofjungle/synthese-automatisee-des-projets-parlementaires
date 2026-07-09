@@ -11,8 +11,10 @@
     "Exigerait des documents comme un titre de propriété, un contrat de bail, ou une attestation du bailleur.",
     "Modifierait le code de la consommation en y ajoutant un nouvel article L. 224-8-1 pour ces conditions."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53771",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

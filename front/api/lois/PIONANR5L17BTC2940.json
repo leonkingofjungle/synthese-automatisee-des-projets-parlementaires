@@ -11,8 +11,10 @@
     "Instaurerait des pénalités financières progressives, de 25 centimes à 10 euros par produit, pour la mode ultra-express.",
     "Obligerait l'affichage clair du lieu de fabrication et renforcerait la sensibilisation aux pratiques de consommation durable."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L16N49364",
   "etat": "En cours",
   "statut": "Commission mixte paritaire",

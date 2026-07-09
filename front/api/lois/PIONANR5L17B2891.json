@@ -11,8 +11,10 @@
     "Financerait cette réparation pour l'État et la Sécurité sociale via une taxe supplémentaire sur le tabac.",
     "Définirait par décret (règlement du gouvernement) la liste précise des maladies donnant droit à indemnisation."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54444",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Considérerait les activités agricoles adaptant leurs horaires aux aléas climatiques comme normalement continues.",
     "Modifierait des articles du code de l'urbanisme et du code rural et de la pêche maritime."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53715",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

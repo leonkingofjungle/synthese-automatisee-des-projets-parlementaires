@@ -11,8 +11,11 @@
     "Renforcerait le contrôle de l'honorabilité de tout le personnel, y compris les bénévoles, dans les établissements scolaires.",
     "Obligerait les ministres du culte à dénoncer les violences sur mineurs, même s'ils l'apprennent par la confession."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant",
+    "texte_tronque"
+  ],
   "dossier_uid": "DLR5L17N54227",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -11,8 +11,11 @@
     "Fixerait une réduction d'impôt sur le revenu à 25 % pour les souscriptions au capital des sociétés coopératives.",
     "Compenserait les pertes de recettes pour l'État et collectivités par une taxe additionnelle sur les produits du tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54014",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

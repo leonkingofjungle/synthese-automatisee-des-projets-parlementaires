@@ -11,8 +11,11 @@
     "Les décisions pour l'allocation enfant handicapé et la carte mobilité inclusion seraient accélérées, avec des avances automatiques.",
     "La protection contre le licenciement des parents salariés serait renforcée et un crédit d'impôt pour la suppléance des aidants serait créé."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N50444",
   "etat": "Terminé",
   "statut": "Texte adopté",

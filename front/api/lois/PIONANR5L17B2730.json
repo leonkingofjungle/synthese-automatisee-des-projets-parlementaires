@@ -11,8 +11,10 @@
     "Réduirait à 15 euros ou 30 euros maximum les frais en cas de rejet d'un chèque selon son montant.",
     "Plafonnerait les frais bancaires pour une saisie-attribution à 10% du montant dû, dans une limite fixée par décret."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54249",
   "etat": "Déposé",
   "statut": "Texte déposé",

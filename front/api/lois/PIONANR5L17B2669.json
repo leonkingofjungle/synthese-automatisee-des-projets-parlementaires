@@ -11,8 +11,10 @@
     "Permettrait aux candidats de se présenter isolément ou en groupe, avec une déclaration de candidature obligatoire.",
     "Modifierait plusieurs articles du code électoral et du code général des collectivités territoriales."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54140",
   "etat": "Déposé",
   "statut": "Texte déposé",

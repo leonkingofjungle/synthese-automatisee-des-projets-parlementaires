@@ -11,8 +11,10 @@
     "Analyserait les conséquences du droit colonial sur le développement économique, social et culturel des territoires concernés.",
     "Évaluerait la place de l'esclavage dans les programmes scolaires et analyserait les discriminations actuelles et sur les descendants."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52767",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

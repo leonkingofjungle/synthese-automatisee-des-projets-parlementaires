@@ -11,8 +11,10 @@
     "Instaurerait des mesures correctives, comme une mise en demeure ou un suivi pédagogique renforcé en cas de lacunes persistantes.",
     "Modifierait le Code de l'éducation pour intégrer ces nouveaux dispositifs de contrôle et de suivi des apprentissages."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53671",
   "etat": "Déposé",
   "statut": "Texte déposé",

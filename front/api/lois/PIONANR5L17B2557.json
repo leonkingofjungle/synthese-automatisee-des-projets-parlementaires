@@ -11,8 +11,11 @@
     "Améliorerait le bien-être et la santé des jeunes animaux en évitant les conditions stressantes des expositions.",
     "Soutiendrait les éleveurs français respectueux des règles et la traçabilité des animaux vendus."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53866",
   "etat": "Déposé",
   "statut": "Texte déposé",

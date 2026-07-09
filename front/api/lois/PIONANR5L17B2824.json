@@ -11,8 +11,11 @@
     "Obligerait les employeurs à mener des enquêtes internes et à signaler les faits de harcèlement sexuel.",
     "Étendrait l'aide juridictionnelle aux victimes et imposerait une obligation d'assistance aux agents artistiques."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant",
+    "texte_tronque"
+  ],
   "dossier_uid": "DLR5L17N54359",
   "etat": "Déposé",
   "statut": "Texte déposé",

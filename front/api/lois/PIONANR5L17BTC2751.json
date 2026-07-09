@@ -11,8 +11,10 @@
     "Adapterait les critères d'évaluation des examens nationaux pour les élèves bénéficiant d'un plan personnalisé.",
     "Exigerait du Gouvernement un rapport annuel évaluant les politiques d'éducation inclusive et les délais d'affectation."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N50686",
   "etat": "En cours",
   "statut": "Autre lecture",

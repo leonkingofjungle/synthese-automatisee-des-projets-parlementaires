@@ -11,8 +11,10 @@
     "Rendrait les futures lois sur l'agriculture plus résistantes aux annulations fréquentes par le Conseil constitutionnel.",
     "Aiderait à garantir la capacité de la nation à produire et s'approvisionner durablement en denrées agricoles."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53702",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -10,8 +10,10 @@
     "Exigerait l'approbation de la Commission de régulation de l'énergie pour ces décisions de priorisation.",
     "Modifierait le code de l'énergie pour préciser les critères de raccordement par décret (texte du gouvernement)."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53540",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

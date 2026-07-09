@@ -11,8 +11,10 @@
     "Permettrait à cette autorité d'évaluer la compatibilité de leurs nouvelles activités pendant trois ans après leur départ.",
     "Viserait à renforcer la confiance des contribuables dans l'utilisation des 4 milliards d'euros de financements publics."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54315",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

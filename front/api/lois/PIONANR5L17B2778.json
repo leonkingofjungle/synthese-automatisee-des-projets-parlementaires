@@ -11,8 +11,10 @@
     "Encouragerait l'innovation chez les producteurs en leur permettant de développer des recettes moins sucrées.",
     "Modifierait le code de la consommation en ajoutant un article sur ce nouveau seuil pour les confitures."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54302",
   "etat": "Déposé",
   "statut": "Texte déposé",

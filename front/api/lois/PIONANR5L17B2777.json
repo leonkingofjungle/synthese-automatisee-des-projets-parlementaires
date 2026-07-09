@@ -11,8 +11,10 @@
     "Transférerait gratuitement la propriété des casernes à l'État après 25 ans de bail, sans indemnisation pour les actionnaires.",
     "Modifierait le code général des impôts pour offrir une réduction de 18 % pour les investissements, plafonnée à 1 800 euros."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54301",
   "etat": "Déposé",
   "statut": "Texte déposé",

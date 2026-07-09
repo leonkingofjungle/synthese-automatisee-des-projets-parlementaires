@@ -11,8 +11,10 @@
     "Préciserait que la détention d'un téléphone confisqué durerait jusqu'à sa remise au représentant légal de l'élève.",
     "Modifierait l'article L. 511-5 du code de l'éducation pour y intégrer ces nouvelles dispositions sur les lycées."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53722",
   "etat": "Déposé",
   "statut": "Texte déposé",

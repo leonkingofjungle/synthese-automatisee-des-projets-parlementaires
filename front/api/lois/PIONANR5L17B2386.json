@@ -11,8 +11,10 @@
     "Permettrait l'expulsion rapide d'occupants illicites, même si le bien n'est pas la résidence principale du propriétaire.",
     "Réduirait les délais et conditions d'expulsion, en modifiant la loi de 2007 sur le droit au logement opposable."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53673",
   "etat": "Déposé",
   "statut": "Texte déposé",

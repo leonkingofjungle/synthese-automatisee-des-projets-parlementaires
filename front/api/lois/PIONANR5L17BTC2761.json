@@ -11,8 +11,11 @@
     "Assortirait systématiquement la libération d'interdictions de contact, de paraître ou de résider près de la victime.",
     "Créerait un guichet unique départemental pour suivre et orienter les victimes vers les aides adaptées."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52743",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -11,8 +11,12 @@
     "Modifierait le code électoral pour harmoniser les règles de remboursement des frais de campagne électorale.",
     "Financerait ces remboursements par une taxe additionnelle sur le tabac, dès le prochain renouvellement des conseils municipaux."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "faute_francais",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54369",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Interdirait aux assureurs de demander des informations sur d'éventuels dons d'organes ou de cellules aux assurés.",
     "Financerait ces nouvelles dépenses de sécurité sociale via une taxe additionnelle sur l'accise sur les tabacs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53976",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

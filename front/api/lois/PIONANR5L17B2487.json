@@ -11,8 +11,10 @@
     "Modifierait le Code général de la fonction publique (CGFP) pour ajouter cette disposition.",
     "Financerait les coûts de cette mesure par une nouvelle taxe additionnelle sur le tabac."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53766",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,11 @@
     "Mutualiserait les ressources, réduirait les pertes d'eau et garantirait l'accès universel à l'eau potable de qualité.",
     "Instaurerait une politique tarifaire unique et solidaire incluant un tarif social de l'eau pour tous."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53854",
   "etat": "Déposé",
   "statut": "Texte déposé",

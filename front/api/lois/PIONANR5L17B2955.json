@@ -11,8 +11,10 @@
     "Permettrait une indemnisation financière aux victimes si ce préjudice est reconnu par le tribunal.",
     "Renforcerait les pouvoirs du président d'audience pour assurer la dignité des débats et éviter ces préjudices."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54542",
   "etat": "Déposé",
   "statut": "Texte déposé",

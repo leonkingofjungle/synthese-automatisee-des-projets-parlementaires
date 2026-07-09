@@ -11,8 +11,11 @@
     "Confierait aux chambres de métiers et de l'artisanat l'organisation ou l'encadrement de ces évaluations.",
     "Viserait à renforcer la protection des consommateurs et à lutter contre la concurrence déloyale dans l'artisanat."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54225",
   "etat": "Déposé",
   "statut": "Texte déposé",

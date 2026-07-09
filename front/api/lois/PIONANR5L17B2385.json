@@ -11,8 +11,10 @@
     "Couvrirait des sujets comme la cybersécurité, les menaces hybrides et la gestion civile des crises.",
     "Financerait le dispositif par une taxe additionnelle sur le tabac, sans créer de dépenses nouvelles pour l'État."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53672",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

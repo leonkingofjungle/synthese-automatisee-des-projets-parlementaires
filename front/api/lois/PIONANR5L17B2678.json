@@ -11,8 +11,10 @@
     "Diminuerait cette limite à 20 milligrammes par kilo d'anhydride phosphorique à partir du 1er janvier 2030.",
     "Modifierait le code rural et de la pêche maritime pour ajouter ces nouvelles restrictions sur les engrais."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54148",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

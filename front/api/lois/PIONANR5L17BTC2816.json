@@ -11,8 +11,11 @@
     "Clarifierait les responsabilités de chaque entreprise dans un contrat de travaux, sans solidarité juridique entre les différents intervenants.",
     "Garantirait les prêts accordés aux copropriétés pour leurs travaux, par un cautionnement ou une assurance, sans franchise ni délai de carence."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54144",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

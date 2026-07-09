@@ -11,8 +11,12 @@
     "Créerait des peines applicables aux skieurs dont le comportement serait lié à l'alcool.",
     "Viserait à réduire les risques d'accidents liés à ces pratiques dangereuses sur les pistes."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 50,
+  "quality_flags": [
+    "invention",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53676",
   "etat": "Terminé",
   "statut": "Retrait de l'initiative",

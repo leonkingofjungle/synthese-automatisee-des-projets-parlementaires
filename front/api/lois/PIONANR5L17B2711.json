@@ -11,8 +11,10 @@
     "Créerait un fonds souverain, France Souveraine Énergie, pour sécuriser l'approvisionnement pétrolier national à l'étranger.",
     "Modifierait le code général des impôts pour instituer une taxe sur les bénéfices exceptionnels des grandes entreprises."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54230",
   "etat": "Déposé",
   "statut": "Texte déposé",

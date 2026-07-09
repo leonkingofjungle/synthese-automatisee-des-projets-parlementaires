@@ -11,8 +11,11 @@
     "Renforcerait le droit de retrait des apprentis sans incidence sur leur formation, et améliorerait l'enseignement de leurs droits.",
     "Confierait au Haut Conseil à l'égalité le suivi annuel des violences subies par les apprentis et stagiaires."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 88,
+  "quality_flags": [
+    "invention",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54226",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

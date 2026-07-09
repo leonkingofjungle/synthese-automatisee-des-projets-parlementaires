@@ -11,8 +11,12 @@
     "Permettrait à l'ARCOM de sanctionner financièrement les plateformes ne respectant pas les injonctions, jusqu'à 1% de leur chiffre d'affaires.",
     "Autoriserait l'ARCOM à collecter automatiquement des données publiques sur l'utilisation des contenus, même derrière un compte."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51330",
   "etat": "En cours",
   "statut": "2ème lecture en commission",
