@@ -11,8 +11,10 @@
     "Étendrait les cas de déblocage anticipé pour la naissance d'un enfant ou en cas de maladie grave d'un enfant.",
     "Modifierait le Code du travail pour renforcer l'attractivité des plans d'épargne salariale et l'échange d'informations."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53699",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

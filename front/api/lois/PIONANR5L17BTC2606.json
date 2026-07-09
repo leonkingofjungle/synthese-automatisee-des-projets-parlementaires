@@ -11,8 +11,10 @@
     "Modifierait le code électoral pour organiser le renouvellement de l’Assemblée d’Alsace en même temps que les régions.",
     "Entrerait en vigueur à la date du prochain renouvellement des organes délibérants des régions en France."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52750",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

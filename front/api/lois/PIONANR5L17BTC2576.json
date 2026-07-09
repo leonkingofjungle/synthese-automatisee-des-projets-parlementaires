@@ -11,8 +11,10 @@
     "Donnerait à la Commission nationale des comptes de campagne le droit de limiter les frais jugés excessifs.",
     "Modifierait le code électoral afin d'intégrer ces nouvelles règles de prise en charge des dépenses."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53690",
   "etat": "Terminé",
   "statut": "Texte adopté",

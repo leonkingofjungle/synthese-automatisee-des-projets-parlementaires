@@ -11,8 +11,11 @@
     "Obligerait ces sociétés à mettre en place un registre des décisions de financement et des déclarations d'intérêts.",
     "Confierait à la HATVP (Autorité de transparence publique) le contrôle des déclarations, prévoyant des sanctions en cas de manquement."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54640",
   "etat": "Déposé",
   "statut": "Texte déposé",

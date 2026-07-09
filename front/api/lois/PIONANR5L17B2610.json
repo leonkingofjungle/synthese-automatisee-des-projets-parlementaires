@@ -11,8 +11,10 @@
     "Intégrerait un volet de sensibilisation aux écrans et réseaux sociaux dans les projets des écoles et établissements.",
     "Étendrait l'interdiction d'utiliser des téléphones portables aux lycées, avec des exceptions définies par leur règlement intérieur."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53187",
   "etat": "En cours",
   "statut": "2ème lecture en commission",

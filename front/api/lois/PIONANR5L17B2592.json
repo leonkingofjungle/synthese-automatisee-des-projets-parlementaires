@@ -11,8 +11,10 @@
     "Modifierait l'article L. 302-5 du code de la construction et de l'habitation (loi encadrant le bâtiment).",
     "Supprimerait les prélèvements financiers et les obligations de construction inadaptées pour les communes rurales concernées."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54003",
   "etat": "Déposé",
   "statut": "Texte déposé",

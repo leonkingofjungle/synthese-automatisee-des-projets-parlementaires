@@ -11,8 +11,10 @@
     "Étendrait cette obligation de justificatif aux contrats d'eau et punirait l'usage de faux documents d'identité.",
     "Permettrait au préfet d'ordonner la coupure d'électricité et de gaz en cas d'occupation illicite du logement."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53771",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

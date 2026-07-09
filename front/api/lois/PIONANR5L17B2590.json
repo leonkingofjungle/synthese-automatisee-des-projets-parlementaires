@@ -11,8 +11,10 @@
     "Rendrait obligatoire la formation initiale et continue des professionnels de santé sur les violences sexistes et sexuelles.",
     "Instituerait un entretien médical annuel pour les enfants dès la maternelle pour un dépistage renforcé des violences."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54001",
   "etat": "Déposé",
   "statut": "Texte déposé",

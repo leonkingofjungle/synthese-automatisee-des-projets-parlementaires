@@ -11,8 +11,10 @@
     "Étendrait la trêve hivernale pour suspendre les expulsions aussi entre le 1er juin et le 30 septembre.",
     "Financerait cette mesure par une taxe additionnelle sur l'accise sur les tabacs pour compenser la charge de l'État."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54646",
   "etat": "Déposé",
   "statut": "Texte déposé",

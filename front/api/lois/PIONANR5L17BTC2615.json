@@ -11,8 +11,11 @@
     "Créerait un fonds dédié à la décarbonation du transport maritime pour soutenir l'industrie française.",
     "Exonérerait des quotas certaines marchandises transportées par des navires français à propulsion vélique."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52208",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

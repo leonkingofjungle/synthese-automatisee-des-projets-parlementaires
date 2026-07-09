@@ -11,8 +11,10 @@
     "Établirait les conditions de retrait d'une commune, avec un préavis de deux années scolaires, et de dissolution d'un RPI.",
     "Modifierait le code de l'éducation pour préciser la scolarisation hors RPI et la représentation des communes."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53775",
   "etat": "En cours",
   "statut": "1ère lecture en séance publique",

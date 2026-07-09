@@ -11,8 +11,10 @@
     "Permettrait la titularisation des maîtres-nageurs sauveteurs contractuels de la fonction publique pour renforcer les équipes.",
     "Fixerait comme objectif national la construction et rénovation de piscines publiques sous dix ans."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54648",
   "etat": "Déposé",
   "statut": "Texte déposé",

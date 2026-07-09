@@ -11,8 +11,11 @@
     "Exempterait de charges sociales et d'impôts les sommes obtenues par la monétisation des congés pour trois ans.",
     "Obligerait l'employeur à monétiser les jours de congés non pris, si le salarié n'a pas pu les poser."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 85,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54129",
   "etat": "Déposé",
   "statut": "Texte déposé",

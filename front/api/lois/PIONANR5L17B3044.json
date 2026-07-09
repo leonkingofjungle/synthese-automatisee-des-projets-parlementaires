@@ -11,8 +11,10 @@
     "Permettrait aux locataires de suspendre leur loyer si le logement dépassait des seuils de température, comme 26°C la nuit.",
     "L'exemption de loyer pourrait s'appliquer rétroactivement au premier jour d'une période de canicule officielle."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54653",
   "etat": "Déposé",
   "statut": "Texte déposé",

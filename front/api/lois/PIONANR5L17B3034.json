@@ -11,8 +11,10 @@
     "Mettrait en place une commission de suivi pour encadrer et évaluer les titularisations des agents publics.",
     "Compenserait les coûts pour les collectivités locales en augmentant leur dotation globale de fonctionnement."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54643",
   "etat": "Déposé",
   "statut": "Texte déposé",

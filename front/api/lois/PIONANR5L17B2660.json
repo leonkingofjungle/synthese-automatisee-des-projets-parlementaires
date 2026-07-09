@@ -11,8 +11,10 @@
     "Permettrait aussi de recueillir les empreintes des proches avec leur consentement pour faciliter l'identification.",
     "Compenserait les coûts pour l'État et les collectivités par une taxe additionnelle sur les tabacs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54131",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,12 @@
     "Assurerait que ces avis ne pourraient plus être cachés ou leur publication interrompue par le Gouvernement.",
     "Exclurait de cette obligation les projets de loi concernant les traités et relations internationales."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 62,
+  "quality_flags": [
+    "invention",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53879",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

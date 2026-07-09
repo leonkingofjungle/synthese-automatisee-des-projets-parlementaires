@@ -11,8 +11,11 @@
     "Rendrait l'enseignement du permis de conduire de catégorie B gratuit et accessible à tous, sans condition.",
     "Augmenterait la gratification minimale des stages dès quatre semaines et revaloriserait les salaires des alternants et apprentis."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53997",
   "etat": "Déposé",
   "statut": "Texte déposé",

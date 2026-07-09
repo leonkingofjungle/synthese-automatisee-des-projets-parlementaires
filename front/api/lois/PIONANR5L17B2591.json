@@ -11,8 +11,10 @@
     "Limiterait le blocage ou le plafonnement des prix à une durée maximale de trois mois, renouvelable une seule fois.",
     "Modifierait le code de commerce pour y ajouter ce dispositif spécifique de régulation des prix de l'énergie."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54002",
   "etat": "Déposé",
   "statut": "Texte déposé",

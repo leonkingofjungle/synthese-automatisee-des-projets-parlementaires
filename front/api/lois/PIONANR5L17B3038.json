@@ -11,8 +11,10 @@
     "Créerait un crédit d'impôt pour les familles inscrivant un enfant mineur à des cours de natation.",
     "Prévoirait une stratégie nationale pour rendre la profession de maître-nageur sauveteur plus attractive et mieux répartie."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54647",
   "etat": "Déposé",
   "statut": "Texte déposé",

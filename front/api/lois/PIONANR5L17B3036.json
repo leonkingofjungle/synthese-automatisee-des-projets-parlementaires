@@ -11,8 +11,11 @@
     "Sanctionnerait d'une peine de deux ans de prison et 150 000 euros d'amende l'achat illégal de métaux précieux.",
     "Porterait les peines à cinq ans et 375 000 euros en cas de bande organisée ou de victime vulnérable."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54645",
   "etat": "Déposé",
   "statut": "Texte déposé",

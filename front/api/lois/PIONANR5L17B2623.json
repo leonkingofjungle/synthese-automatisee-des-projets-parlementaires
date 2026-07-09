@@ -11,8 +11,10 @@
     "Chercherait à favoriser l'émergence de nouvelles formations politiques et un meilleur renouvellement de la classe politique.",
     "Modifierait la loi organique (texte de loi important) de 2004 définissant le statut d'autonomie de la Polynésie française."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54077",
   "etat": "Déposé",
   "statut": "Texte déposé",

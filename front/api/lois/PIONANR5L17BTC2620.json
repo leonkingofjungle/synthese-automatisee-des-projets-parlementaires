@@ -11,8 +11,12 @@
     "L'organisme réévaluerait le montant de la pension tous les trois ans ou annuellement à la demande des parents.",
     "Ne pas déclarer les informations nécessaires au calcul de la pension deviendrait une infraction inscrite au code pénal."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 72,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53773",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

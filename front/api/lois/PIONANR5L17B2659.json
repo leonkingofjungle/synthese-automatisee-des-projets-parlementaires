@@ -11,8 +11,12 @@
     "Compenserait la charge pour l'État en créant une taxe additionnelle à l'accise (impôt indirect) sur les tabacs.",
     "Compenserait les coûts pour les collectivités territoriales en augmentant la dotation globale de fonctionnement et la taxe sur les tabacs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "invention",
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54130",
   "etat": "Déposé",
   "statut": "Texte déposé",

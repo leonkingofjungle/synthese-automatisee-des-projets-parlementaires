@@ -11,8 +11,10 @@
     "Chargerait les comités régionaux et territoriaux de l'emploi de mettre en œuvre ce dispositif.",
     "Financerait le dispositif par des majorations de taxes sur le tabac, compensant les charges publiques."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54642",
   "etat": "Déposé",
   "statut": "Texte déposé",

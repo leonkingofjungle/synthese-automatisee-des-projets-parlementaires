@@ -11,8 +11,10 @@
     "Renforcerait la capacité des administrations à réserver des logements sociaux pour leurs agents.",
     "Autoriserait des dérogations aux règles d'urbanisme pour faciliter la construction de logements publics."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51968",
   "etat": "Terminé",
   "statut": "Texte adopté",

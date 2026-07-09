@@ -11,8 +11,10 @@
     "Interdirait la mise à disposition de locaux par l'État ou les associations pour la consommation de substances stupéfiantes.",
     "Prévoirait une valorisation tarifaire spécifique pour les consultations dédiées au sevrage des addictions par les médecins."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53996",
   "etat": "Déposé",
   "statut": "Texte déposé",

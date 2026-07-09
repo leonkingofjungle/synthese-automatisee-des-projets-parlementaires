@@ -11,8 +11,11 @@
     "Limiterait la contribution annuelle de chaque opérateur à un maximum de 0,5% de son chiffre d'affaires annuel.",
     "Modifierait le Code général des collectivités territoriales pour instaurer ce mécanisme de péréquation."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53369",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -11,8 +11,10 @@
     "Autoriserait les parlementaires et bâtonniers à être accompagnés de collaborateurs ou d'avocats lors de leurs visites.",
     "Permettrait aux parlementaires d'être accompagnés de journalistes lors de leurs visites dans les établissements psychiatriques."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52230",
   "etat": "Terminé",
   "statut": "Texte adopté",

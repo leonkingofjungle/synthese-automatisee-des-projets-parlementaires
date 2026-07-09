@@ -11,8 +11,10 @@
     "Préciserait les règles d'urbanisme en montagne pour éviter la dispersion des constructions sans freiner l'habitat proche.",
     "Créerait un fonds de solidarité pour la gestion de l'eau et la prévention des inondations entre territoires amont et aval."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54006",
   "etat": "En cours",
   "statut": "2ème lecture en commission",

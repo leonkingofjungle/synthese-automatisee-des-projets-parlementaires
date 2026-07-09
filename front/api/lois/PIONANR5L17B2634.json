@@ -11,8 +11,10 @@
     "Appliquerait cette présomption si un indice crédible laissait penser à une telle utilisation.",
     "Rendrait cette nouvelle règle applicable aux affaires juridiques en cours lors de son entrée en vigueur."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53359",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

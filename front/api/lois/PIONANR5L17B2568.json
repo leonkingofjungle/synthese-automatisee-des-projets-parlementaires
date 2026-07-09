@@ -11,8 +11,10 @@
     "Introduirait deux administrateurs représentant la nature, désignés par des organismes d'intérêt général, dans les conseils des grandes entreprises.",
     "Exigerait des grandes entreprises qu'elles établissent une politique environnementale, soumise à un vote consultatif des actionnaires."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53877",
   "etat": "Déposé",
   "statut": "Texte déposé",

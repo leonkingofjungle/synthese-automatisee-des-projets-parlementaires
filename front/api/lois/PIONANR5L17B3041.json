@@ -11,8 +11,10 @@
     "Obligerait les propriétaires de navires de plaisance à souscrire une assurance responsabilité civile pour naviguer en eaux françaises.",
     "Instaurerait une contribution annuelle d'au moins cinq euros, via l'assurance, pour soutenir la Société nationale de sauvetage en mer."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54650",
   "etat": "Déposé",
   "statut": "Texte déposé",

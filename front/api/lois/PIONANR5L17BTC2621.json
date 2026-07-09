@@ -11,8 +11,11 @@
     "Proposerait des mesures pour accompagner effectivement les jeunes jusqu'à leurs vingt-cinq ans.",
     "Financerait ces mesures et compenserait les pertes de recettes par une taxe sur les tabacs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53772",
   "etat": "Terminé",
   "statut": "Retrait de l'initiative",

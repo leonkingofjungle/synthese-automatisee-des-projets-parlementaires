@@ -11,8 +11,10 @@
     "Plafonnerait les loyers des nouveaux baux commerciaux, permettant un complément si la localisation est exceptionnelle.",
     "Permettrait aux locataires de demander la révision des loyers actuels dépassant de 10% les loyers de référence."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53875",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Sanctionnerait la participation à ces rassemblements illicites par une amende prévue pour les contraventions de cinquième classe.",
     "Définirait ces rassemblements comme réunissant au moins 250 personnes, modifiant le code de la sécurité intérieure."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51711",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

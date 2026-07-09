@@ -11,8 +11,10 @@
     "Autoriserait le refus de permis de construire pour les centres de données dans les territoires connaissant des tensions sur l'eau.",
     "Permettrait au ministre de l'énergie de réserver une capacité du réseau électrique pour les grandes infrastructures numériques."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N51569",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

@@ -11,8 +11,10 @@
     "Mettrait en place une commission (un groupe de travail) pour déterminer le prix de rachat de l'entreprise par l'État.",
     "Financerait cette acquisition en augmentant l'impôt sur les sociétés et l'impôt sur la fortune immobilière."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53999",
   "etat": "Déposé",
   "statut": "Texte déposé",

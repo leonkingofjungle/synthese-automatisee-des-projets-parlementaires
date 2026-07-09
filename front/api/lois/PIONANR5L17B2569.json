@@ -11,8 +11,11 @@
     "Modifierait le code des relations entre le public et l'administration (CRPA) pour ancrer cette transparence.",
     "Exclurait toutefois les avis du Conseil d'État sur les projets de loi liés aux relations internationales de la France."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53878",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

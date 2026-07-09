@@ -11,8 +11,11 @@
     "Protégerait les victimes de violences conjugales ou sexuelles contre le licenciement pendant six mois après un signalement.",
     "Instaurerait un congé rémunéré de dix jours pour les victimes de violences conjugales ou sexuelles pour leurs démarches."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant",
+    "texte_tronque"
+  ],
   "dossier_uid": "DLR5L17N53876",
   "etat": "Déposé",
   "statut": "Texte déposé",

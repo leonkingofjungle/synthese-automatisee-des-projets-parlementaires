@@ -11,8 +11,10 @@
     "Imposerait aux hôpitaux d'équiper de climatisation les unités d'hospitalisation, urgences, réanimation et blocs opératoires.",
     "Fixerait des délais de 18 mois à 2 ans pour les installations et organiserait une conférence de financement nationale."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54639",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Permettrait la saisie administrative des véhicules utilisés lors d'infractions et créerait une amende forfaitaire pour vol d'eau ou d'électricité.",
     "Mettrait en place une redevance obligatoire pour l'occupation des aires d'accueil et organiserait une rotation départementale des rassemblements."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53358",
   "etat": "En cours",
   "statut": "1ère lecture en commission",

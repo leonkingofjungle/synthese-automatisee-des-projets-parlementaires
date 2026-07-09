@@ -11,8 +11,10 @@
     "Améliorerait le taux de réussite à l'examen du permis de conduire, passant de 58% à 75%.",
     "Réduirait le coût total du permis pour les ménages, en offrant une expérience sans frais supplémentaires."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54652",
   "etat": "Déposé",
   "statut": "Texte déposé",

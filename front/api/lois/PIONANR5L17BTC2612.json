@@ -11,8 +11,10 @@
     "Accorderait des avantages tarifaires négociés avec des entreprises et établissements culturels ou sportifs.",
     "Financerait ces mesures par une taxe additionnelle sur le tabac pour compenser les pertes de recettes."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53774",
   "etat": "En cours",
   "statut": "1ère lecture en commission",
