@@ -11,8 +11,10 @@
     "Restreindrait l'usage des actions de préférence et imposerait une durée minimale de sept ans pour les investissements.",
     "Instaurerait des sanctions disciplinaires et des amendes en cas de non-communication des documents requis."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54543",
   "etat": "Déposé",
   "statut": "Texte déposé",

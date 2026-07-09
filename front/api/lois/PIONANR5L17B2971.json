@@ -11,8 +11,11 @@
     "Exclurait le financement des projets symboliques au détriment des opérations urgentes de sauvegarde du patrimoine.",
     "Renforcerait la coordination entre l'État et les communes via des conventions pluriannuelles pour une meilleure action."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54558",
   "etat": "Déposé",
   "statut": "Texte déposé",

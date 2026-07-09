@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2444",
+  "titre": "Lutter contre le morcellement du suivi médical",
+  "date_depot": "2026-02-04",
+  "categorie": "Santé",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2444.html",
+  "accroche": "Cette proposition de loi renforcerait la cohérence du parcours de soins et l'accès à la médecine de proximité pour les patients les plus vulnérables.",
+  "points": [
+    "Distinguerait les \"maisons de santé\" des \"structures de soins non programmés\" pour mieux informer les patients.",
+    "Créerait un acte médical spécifique et mieux valorisé pour les visites à domicile des patients fragiles.",
+    "Formaliserait la collaboration entre médecins et infirmiers en pratique avancée, rémunérant le temps de transmission clinique.",
+    "Adapterait l'application de ces mesures aux réalités des territoires, notamment aux zones souffrant de désertification médicale."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N53719",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Christelle D'Intorni (UDR)"
+}

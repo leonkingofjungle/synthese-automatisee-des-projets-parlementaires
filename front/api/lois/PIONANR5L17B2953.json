@@ -11,8 +11,12 @@
     "Mettrait fin à l'action publique et civile en cas de décès de la personne responsable des crimes.",
     "Modifierait le Code civil et le Code de procédure pénale pour inscrire l'imprescriptibilité de ces crimes."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "faute_francais",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54540",
   "etat": "Déposé",
   "statut": "Texte déposé",

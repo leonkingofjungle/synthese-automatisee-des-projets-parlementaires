@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2662",
+  "titre": "Renforcer le droit de contrôle des lieux de privation de liberté",
+  "date_depot": "2026-04-14",
+  "categorie": "Justice et sécurité",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2662.html",
+  "accroche": "Cette proposition renforcerait le droit des parlementaires d'inspecter librement et sans préavis les prisons et lieux de détention.",
+  "points": [
+    "Rénoverait l'article 719 du code de procédure pénale pour garantir un accès libre et sans préavis aux parlementaires.",
+    "Permettrait aux parlementaires de s'entretenir confidentiellement avec tout détenu consentant, sans personnel présent.",
+    "Encadrerait l'usage de matériel technique pour documenter les visites et exigerait un rapport officiel.",
+    "Imposerait une justification écrite pour toute restriction de visite et un recours rapide au juge administratif."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant",
+    "texte_tronque"
+  ],
+  "dossier_uid": "DLR5L17N54133",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Ugo Bernalicis (LFI-NFP)"
+}

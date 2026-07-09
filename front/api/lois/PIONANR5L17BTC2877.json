@@ -11,8 +11,10 @@
     "Elle établirait une mesure judiciaire pour prévenir les actes terroristes des condamnés radicalisés à 10 ans ou plus.",
     "La durée maximale de rétention administrative des étrangers menaçant l'ordre public serait portée à 540 jours."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N53284",
   "etat": "En cours",
   "statut": "Saisine du conseil constitutionnel",

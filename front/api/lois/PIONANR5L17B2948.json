@@ -11,8 +11,11 @@
     "Porterait cet écart maximal à 33 % pour les activités industrielles jugées essentielles aux intérêts de la Nation.",
     "Modifierait le Code de commerce en assurant des garanties, comme l'avis du ministère public et un droit d'appel."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54535",
   "etat": "Déposé",
   "statut": "Texte déposé",

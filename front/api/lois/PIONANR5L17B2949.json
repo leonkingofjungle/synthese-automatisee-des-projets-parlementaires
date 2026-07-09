@@ -11,8 +11,10 @@
     "Mettrait en place un « gardien de Loire », composé de deux personnes physiques pour incarner et défendre les intérêts du fleuve.",
     "Toute atteinte aux droits du fleuve entraînerait une responsabilité pénale ou civile pour les coupables, garantissant sa protection."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54536",
   "etat": "Déposé",
   "statut": "Texte déposé",

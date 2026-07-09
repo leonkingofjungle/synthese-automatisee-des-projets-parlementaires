@@ -10,8 +10,11 @@
     "Dispenserait les agriculteurs de montagne de fournir un justificatif écrit pour les parcelles de moins d’un hectare.",
     "Plafonnerait, par décret (texte du gouvernement), le montant de l’indemnité de défrichement pour les agriculteurs de montagne."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 86,
+  "quality_flags": [
+    "invention",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54559",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2442",
+  "titre": "Interdire les sucres ajoutés aliments destinés aux nourrissons et aux enfants en bas âge",
+  "date_depot": "2026-02-04",
+  "categorie": "Santé",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2442.html",
+  "accroche": "Cette proposition de loi interdirait l'ajout de sucres dans les aliments spécifiquement destinés aux nourrissons et jeunes enfants pour lutter contre l'obésité.",
+  "points": [
+    "Interdirait la fabrication, l'importation ou la vente de préparations alimentaires pour nourrissons et enfants avec sucres ajoutés.",
+    "Ciblerait les enfants de moins de 12 mois (nourrissons) et ceux de un à trois ans (enfants en bas âge).",
+    "Exclurait les laits infantiles premier et deuxième âges ainsi que les laits de croissance de cette interdiction.",
+    "Modifierait le code de la santé publique pour ajouter cette nouvelle interdiction et les sanctions qui l'accompagnent."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N53717",
+  "etat": "En cours",
+  "statut": "1ère lecture en commission",
+  "depositaire": "Cyrille Isaac-Sibille (Dem)"
+}

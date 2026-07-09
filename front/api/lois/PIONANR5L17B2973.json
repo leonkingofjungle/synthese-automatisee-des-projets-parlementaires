@@ -11,8 +11,10 @@
     "Permettrait à ces entités d'agir en justice pour la préservation, la restauration ou la réparation de leur intégrité écologique.",
     "Préciserait que cette reconnaissance n'affecterait ni la propriété des biens ni les compétences des collectivités."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54560",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17BTC2531",
+  "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
+  "date_depot": "2026-02-25",
+  "categorie": "Institutions et démocratie",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2531.html",
+  "accroche": "Cette proposition de loi renforcerait le contrôle sur les agences et opérateurs de l'État, en imposant plus de transparence sur leurs objectifs et rémunérations.",
+  "points": [
+    "Obligerait à publier annuellement la liste des dix plus hautes rémunérations brutes de chaque opérateur de l'État.",
+    "Instaurerait des contrats d'objectifs et de performance pour les opérateurs de l'État, définissant leurs missions et indicateurs.",
+    "Ces contrats d'objectifs seraient publics, d'une durée par défaut de cinq ans, avec un rapport annuel d'exécution.",
+    "Permettrait aux représentants de l'État de s'opposer aux décisions des conseils d'administration des organismes publics."
+  ],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N53720",
+  "etat": "En cours",
+  "statut": "1ère lecture en commission",
+  "depositaire": "Jean-Paul Mattei (Dem)"
+}

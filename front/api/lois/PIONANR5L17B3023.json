@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B3023",
+  "titre": "Renforcer la transparence sur la présence d’hexane dans l’alimentation",
+  "date_depot": "2026-07-07",
+  "categorie": "Santé",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3023.html",
+  "accroche": "Cette proposition de loi renforcerait la transparence sur l'hexane dans l'alimentation, en imposant des avertissements sanitaires et des contrôles renforcés.",
+  "points": [
+    "Exigerait des avertissements sanitaires clairs sur l'emballage des aliments contenant de l'hexane, notamment pour les personnes sensibles.",
+    "Obligerait les producteurs à mesurer et à conserver les niveaux de résidus d'hexane dans leurs produits alimentaires.",
+    "Instaurerait une contribution financière pour les entreprises produisant ou important du n-hexane pour aider la transition industrielle.",
+    "Contraindrait les vendeurs d'aliments pour animaux à informer les acheteurs de la présence possible de résidus d'hexane."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N54633",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Richard Ramos (Dem)"
+}

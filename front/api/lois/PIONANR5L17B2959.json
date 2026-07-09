@@ -11,8 +11,12 @@
     "Rendrait obligatoire l'interdiction définitive d'exercer auprès des mineurs pour les personnes coupables de crimes graves.",
     "Exigerait un extrait du fichier national des auteurs d'infractions pour toute personne travaillant avec des enfants."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "faute_francais",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54546",
   "etat": "Déposé",
   "statut": "Texte déposé",

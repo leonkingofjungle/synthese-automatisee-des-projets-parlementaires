@@ -11,8 +11,10 @@
     "Donnerait au maire un droit de désignation directe et un pouvoir d'accord ou de refus pour toute attribution de logement social.",
     "Transférerait aux communes des droits de réservation de l'État et punirait les bailleurs ne respectant pas ses décisions."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54548",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B2656",
+  "titre": "Permettre au juge d’ordonner au préfet la réquisition de locaux vacants pour mettre en œuvre le droit au logement",
+  "date_depot": "2026-04-14",
+  "categorie": "Logement et urbanisme",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2656.html",
+  "accroche": "Cette proposition de loi permettrait au juge d'ordonner la réquisition de logements inoccupés pour reloger les personnes reconnues prioritaires.",
+  "points": [
+    "Autoriserait le juge administratif à ordonner au préfet la réquisition de locaux vacants.",
+    "Permettrait à l'État de respecter enfin ses obligations concernant le droit au logement opposable (DALO).",
+    "Utiliserait les 2,4 millions de logements et 10 millions de m² de bureaux vides pour loger les plus démunis.",
+    "Modifierait le Code de la construction et de l'habitation pour intégrer le pouvoir d'ordonner cette réquisition."
+  ],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N54127",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Danielle Simonnet (EcoS)"
+}

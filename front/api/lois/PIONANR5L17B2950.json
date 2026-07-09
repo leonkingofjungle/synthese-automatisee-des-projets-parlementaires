@@ -11,8 +11,11 @@
     "Étendrait ce même mécanisme d'information aux responsables associatifs concernant leurs bénévoles en contact habituel avec des mineurs.",
     "Soumettrait les destinataires à la confidentialité de l'information et modifierait la loi sur le fonctionnement de la justice."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54537",
   "etat": "Déposé",
   "statut": "Texte déposé",

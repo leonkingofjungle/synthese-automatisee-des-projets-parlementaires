@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2651",
+  "titre": "Rétablir le mode de scrutin antérieur à la loi du 21 mai 2025 pour les communes de moins de 1 000 habitants",
+  "date_depot": "2026-04-14",
+  "categorie": "Institutions et démocratie",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2651.html",
+  "accroche": "Cette proposition de loi rétablirait le mode de scrutin antérieur à 2025, permettant aux électeurs des petites communes de panacher leurs votes et d'avoir plus de choix.",
+  "points": [
+    "Rétablirait le scrutin majoritaire pour les élections municipales dans les communes de moins de 1 000 habitants.",
+    "Permettrait aux électeurs de choisir librement leurs candidats sur le bulletin, rétablissant le panachage.",
+    "Fixerait les règles de majorité absolue ou relative nécessaires pour être élu aux premier et second tours.",
+    "Modifierait plusieurs articles du code électoral afin d'appliquer ces nouvelles règles de scrutin local."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N54122",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Xavier Breton (DR)"
+}

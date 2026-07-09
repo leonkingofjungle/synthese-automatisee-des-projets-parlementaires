@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B3024",
+  "titre": "Assurer un passage du permis dès 17 ans pour les élèves de la conduite supervisée",
+  "date_depot": "2026-07-07",
+  "categorie": "Éducation et jeunesse",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3024.html",
+  "accroche": "Cette proposition de loi permettrait aux jeunes de 17 ans en conduite supervisée de passer leur permis de conduire.",
+  "points": [
+    "Harmoniserait l'âge minimal requis pour passer le permis de conduire à 17 ans en conduite supervisée.",
+    "Faciliterait l'accès à la conduite supervisée, reconnue pour améliorer la qualité de l'apprentissage.",
+    "Augmenterait le taux de réussite au permis de conduire, actuellement de 75 % avec cette méthode.",
+    "Modifierait l'article L. 211-4 du code de la route concernant l'âge pour la conduite supervisée."
+  ],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N54634",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Pierre Meurin (RN)"
+}

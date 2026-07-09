@@ -11,8 +11,10 @@
     "Mettrait fin à l'obligation pour les maires de transférer leurs compétences aux intercommunalités concernant les ZFE-m.",
     "Modifierait les codes de l'environnement, des transports et des collectivités territoriales pour retirer toute mention des ZFE-m."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54557",
   "etat": "Déposé",
   "statut": "Texte déposé",

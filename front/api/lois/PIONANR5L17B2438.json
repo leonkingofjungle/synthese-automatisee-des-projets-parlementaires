@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2438",
+  "titre": "Promouvoir la restauration française du \"fait maison\"",
+  "date_depot": "2026-02-04",
+  "categorie": "Économie et travail",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2438.html",
+  "accroche": "Cette proposition de loi obligerait les restaurateurs ne préparant pas sur place à signaler explicitement les plats non faits maison.",
+  "points": [
+    "Obligerait les établissements de restauration à indiquer \"non fait maison\" sur leurs menus et plateformes numériques.",
+    "Permettrait aux professionnels cuisinant sur place d'afficher des mentions valorisantes comme \"fait maison\" en respectant des critères.",
+    "Modifierait le code de la consommation pour clarifier la définition du \"non fait maison\" et son affichage.",
+    "Habiliterait les agents de la répression des fraudes à contrôler ces mentions et appliquer des sanctions."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N53713",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Stéphane Viry (LIOT)"
+}

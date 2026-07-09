@@ -11,8 +11,10 @@
     "Prévoirait des amendes jusqu'à 15% de la valeur du navire, sa confiscation et une interdiction de cinq à dix ans.",
     "Modifierait le code des transports pour y ajouter des règles sur les superyachts et leur transparence."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54555",
   "etat": "Déposé",
   "statut": "Texte déposé",

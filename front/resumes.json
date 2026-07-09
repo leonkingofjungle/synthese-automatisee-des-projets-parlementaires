@@ -1,6 +1,211 @@
 {
-  "generated_at": "2026-07-07T11:14:50.694677+00:00",
+  "generated_at": "2026-07-08T14:34:20.822285+00:00",
   "documents": [
+    {
+      "uid": "PIONANR5L17B3023",
+      "titre": "Renforcer la transparence sur la présence d’hexane dans l’alimentation",
+      "date_depot": "2026-07-07",
+      "categorie": "Santé",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3023.html",
+      "accroche": "Cette proposition de loi renforcerait la transparence sur l'hexane dans l'alimentation, en imposant des avertissements sanitaires et des contrôles renforcés.",
+      "points": [
+        "Exigerait des avertissements sanitaires clairs sur l'emballage des aliments contenant de l'hexane, notamment pour les personnes sensibles.",
+        "Obligerait les producteurs à mesurer et à conserver les niveaux de résidus d'hexane dans leurs produits alimentaires.",
+        "Instaurerait une contribution financière pour les entreprises produisant ou important du n-hexane pour aider la transition industrielle.",
+        "Contraindrait les vendeurs d'aliments pour animaux à informer les acheteurs de la présence possible de résidus d'hexane."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54633",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Richard Ramos (Dem)"
+    },
+    {
+      "uid": "PIONANR5L17B3029",
+      "titre": "Améliorer le statut et les conditions de travail de tous les travailleurs du nucléaire",
+      "date_depot": "2026-07-07",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3029.html",
+      "accroche": "Cette proposition de loi améliorerait le statut et les conditions de travail des salariés du nucléaire, notamment les sous-traitants, en renforçant leur protection et leur suivi médical.",
+      "points": [
+        "Interdirait le recours à la sous-traitance dans les zones à risque radiologique et la limiterait à un seul niveau ailleurs.",
+        "Créerait un fonds pour permettre aux travailleurs exposés aux rayonnements ionisants une retraite anticipée dès 50 ans.",
+        "Rétablirait les CHSCT (Comités d'Hygiène, de Sécurité et des Conditions de Travail) avec un pouvoir de blocage.",
+        "Abaisserait l'exposition maximale aux rayonnements ionisants à 5 mSv et assurerait un suivi médical uniforme pour tous les travailleurs."
+      ],
+      "quality_score": 88,
+      "quality_flags": [
+        "invention",
+        "judge_non_independant",
+        "texte_tronque"
+      ],
+      "dossier_uid": "DLR5L17N54638",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Pierre-Yves Cadalen (LFI-NFP)"
+    },
+    {
+      "uid": "PIONANR5L17B3022",
+      "titre": "Améliorer les politiques de prévention des risques par l’incitation à l’activité physique régulière des salariés via la création du compte individuel active",
+      "date_depot": "2026-07-07",
+      "categorie": "Santé",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3022.html",
+      "accroche": "Cette proposition de loi créerait un Compte Individuel Activité pour inciter les salariés à pratiquer une activité physique régulière afin de prévenir les risques.",
+      "points": [
+        "Créerait un Compte Individuel Activité (CIA) pour aider les salariés à financer leurs activités physiques régulières.",
+        "Serait financé par les branches professionnelles et les assurances, avec 500 euros minimum par an et par salarié.",
+        "Reposeraient sur le volontariat des branches et des salariés, et les fonds non utilisés seraient perdus mensuellement.",
+        "Modifierait le Code du travail pour y insérer un nouveau titre dédié au Compte Individuel Activité des salariés."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54632",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Stéphane Viry (LIOT)"
+    },
+    {
+      "uid": "PIONANR5L17B3021",
+      "titre": "Renforcer le financement des services express régionaux métropolitain par la mobilisation de leviers de valorisation foncière",
+      "date_depot": "2026-07-07",
+      "categorie": "Logement et urbanisme",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3021.html",
+      "accroche": "Cette proposition de loi permettrait de mieux financer les services express régionaux métropolitains en évitant la spéculation foncière et en faisant contribuer les propriétaires bénéficiant de la valorisation.",
+      "points": [
+        "Empêcherait la spéculation immobilière autour des futures gares en fixant une date de référence pour l'évaluation des terrains.",
+        "Créerait une taxe spéciale sur les propriétés autour des services pour financer leurs investissements, plafonnée à 15 € par habitant.",
+        "Intégrerait mieux les aménagements urbains liés aux transports dans la stratégie des services express régionaux métropolitains.",
+        "Étendrait les compétences de la Société des grands projets aux opérations d'aménagement situées dans le périmètre des services."
+      ],
+      "quality_score": 68,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "faute_francais",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54631",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Christine Arrighi (EcoS)"
+    },
+    {
+      "uid": "PIONANR5L17B3026",
+      "titre": "Inscription systématique des amendes forfaitaires délictuelles au casier judiciaire, information des employeurs sur les condamnations pénales des agents chargés d’une mission de service public et vérification par l’employeur",
+      "date_depot": "2026-07-07",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3026.html",
+      "accroche": "Cette proposition rendrait visibles aux employeurs les condamnations pour amendes forfaitaires délictuelles des agents de service public, renforçant la sécurité.",
+      "points": [
+        "Inscrirait toutes les amendes forfaitaires délictuelles (AFD) sur le bulletin n°2 du casier judiciaire, accessible aux employeurs.",
+        "Obligerait le procureur à informer les employeurs des condamnations pénales des agents de service public.",
+        "Exigerait des employeurs d'évaluer la compatibilité des condamnations avec les missions confiées aux agents.",
+        "Permettrait le licenciement ou la radiation des agents si leur condamnation est incompatible avec leur fonction."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54635",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "François Jolivet (HOR)"
+    },
+    {
+      "uid": "PIONANR5L17B3028",
+      "titre": "Faire de la prévention et de la sécurité routière une grande cause nationale pour 2027",
+      "date_depot": "2026-07-07",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3028.html",
+      "accroche": "La prévention et la sécurité routière seraient désignées comme une grande cause nationale pour 2027, pour mieux lutter contre les accidents.",
+      "points": [
+        "Désignerait la prévention et la sécurité routière comme une grande cause nationale pour l'année 2027.",
+        "Mobiliserait pleinement l'État et les pouvoirs publics pour intensifier les campagnes de prévention.",
+        "Renforcerait l'éducation routière et soutiendrait les actions associatives de sensibilisation.",
+        "Financerait ces nouvelles mesures par une taxe additionnelle sur les produits du tabac."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54637",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Fabrice Brun (DR)"
+    },
+    {
+      "uid": "PIONANR5L17B3024",
+      "titre": "Assurer un passage du permis dès 17 ans pour les élèves de la conduite supervisée",
+      "date_depot": "2026-07-07",
+      "categorie": "Éducation et jeunesse",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3024.html",
+      "accroche": "Cette proposition de loi permettrait aux jeunes de 17 ans en conduite supervisée de passer leur permis de conduire.",
+      "points": [
+        "Harmoniserait l'âge minimal requis pour passer le permis de conduire à 17 ans en conduite supervisée.",
+        "Faciliterait l'accès à la conduite supervisée, reconnue pour améliorer la qualité de l'apprentissage.",
+        "Augmenterait le taux de réussite au permis de conduire, actuellement de 75 % avec cette méthode.",
+        "Modifierait l'article L. 211-4 du code de la route concernant l'âge pour la conduite supervisée."
+      ],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54634",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Pierre Meurin (RN)"
+    },
+    {
+      "uid": "PIONANR5L17B3025",
+      "titre": "Réprimer la provocation publique à l’outrage à l’hymne national et au drapeau tricolore",
+      "date_depot": "2026-07-07",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3025.html",
+      "accroche": "Cette proposition de loi créerait un délit pour punir ceux qui incitent publiquement à outrager l'hymne national ou le drapeau tricolore.",
+      "points": [
+        "Modifierait le code pénal pour créer un délit de provocation à l'outrage aux symboles nationaux.",
+        "Punirait cette provocation d'une amende de 7 500 euros, applicable à toute personne.",
+        "Aggraverait la peine à un an de prison et 15 000 euros d'amende pour les élus ou dépositaires de l'autorité.",
+        "Prévoirait l'interdiction des droits civiques, entraînant l'inéligibilité, pour les coupables de ces infractions."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54654",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Marc Chavent (UDR)"
+    },
+    {
+      "uid": "PIONANR5L17B3027",
+      "titre": "Supprimer les aménagements de peine et exclure la confusion des peines pour les auteurs de crimes et délits commis sur des mineurs",
+      "date_depot": "2026-07-07",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3027.html",
+      "accroche": "Cette proposition de loi durcirait les peines pour les crimes et délits sur mineurs en interdisant les aménagements et la confusion des peines.",
+      "points": [
+        "Interdirait tout aménagement de peine pour les personnes condamnées pour des crimes ou délits commis sur des mineurs.",
+        "Exclurait la confusion des peines, imposant un cumul intégral pour les infractions sur mineurs en modifiant le code pénal.",
+        "Obligerait le juge à informer les représentants légaux de la victime mineure six semaines avant toute décision sur la peine.",
+        "Appliquerait ces nouvelles règles aux décisions futures, même pour des condamnations passées, et réexaminerait les aménagements en cours."
+      ],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54636",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Antoine Valentin (UDR)"
+    },
     {
       "uid": "PIONANR5L17BTC3004",
       "titre": "Patrimoine immobilier de l'État",
@@ -14,12 +219,59 @@
         "Permettrait le transfert gratuit de biens immobiliers de l'État à cet établissement, informant les collectivités territoriales des cessions.",
         "Mettrait à disposition les agents de l'État auprès du nouvel établissement pour trois ans et définirait une stratégie immobilière."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N52746",
       "etat": "En cours",
       "statut": "Commission mixte paritaire",
       "depositaire": "Pierre Cazeneuve (EPR)"
+    },
+    {
+      "uid": "PIONANR5L17BTC2995",
+      "titre": "Accélérer la prévention cardio-neuro-vasculaire",
+      "date_depot": "2026-07-01",
+      "categorie": "Santé",
+      "link": "https://tricoteuses-assets.s3.fr-par.scw.cloud/documents/AN/PION/AN/R5/17/BTC/002/PIONANR5L17BTC2995/dyn-docs.pdf",
+      "accroche": "Cette proposition de loi renforcerait la lutte contre les maladies cardio-neuro-vasculaires en France, de la prévention au dépistage précoce.",
+      "points": [
+        "L'État arrêterait une stratégie nationale pluriannuelle de lutte contre les maladies cardio-neuro-vasculaires, y compris le dépistage.",
+        "Un dépistage précoce des maladies cardio-neuro-vasculaires serait rendu obligatoire pour les enfants après leur sixième anniversaire.",
+        "Les pharmaciens et infirmiers seraient autorisés à mesurer la pression artérielle afin de prévenir les risques cardio-neuro-vasculaires.",
+        "Des actions de sensibilisation et de dépistage seraient intégrées au monde du travail et dès l'école élémentaire."
+      ],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53426",
+      "etat": "En cours",
+      "statut": "Commission mixte paritaire",
+      "depositaire": "Yannick Neuder (DR)"
+    },
+    {
+      "uid": "PIONANR5L17B2989",
+      "titre": "Remplacer le principe de précaution par le principe de responsabilité dans la Constitution",
+      "date_depot": "2026-06-26",
+      "categorie": "Économie et travail",
+      "link": "https://tricoteuses-assets.s3.fr-par.scw.cloud/documents/AN/PION/AN/R5/17/B/002/PIONANR5L17B2989/dyn-docs.pdf",
+      "accroche": "Cette proposition remplacerait le principe de précaution par celui de responsabilité dans la Constitution, stimulant ainsi la croissance et l'innovation.",
+      "points": [
+        "Modifierait la Charte de l'environnement pour inscrire le principe de responsabilité dans la Constitution française.",
+        "Faciliterait la recherche et le développement en permettant une meilleure analyse bénéfices-risques des projets.",
+        "Soutenirait les projets des entreprises et collectivités souvent bloqués par l'application actuelle de la précaution.",
+        "Responsabiliserait les acteurs publics et privés à évaluer les risques et à assumer les conséquences de leurs choix."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54575",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Éric Michoux (UDR)"
     },
     {
       "uid": "PIONANR5L17B2968",
@@ -34,8 +286,10 @@
         "Prévoirait des amendes jusqu'à 15% de la valeur du navire, sa confiscation et une interdiction de cinq à dix ans.",
         "Modifierait le code des transports pour y ajouter des règles sur les superyachts et leur transparence."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54555",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -53,8 +307,11 @@
         "Dispenserait les agriculteurs de montagne de fournir un justificatif écrit pour les parcelles de moins d’un hectare.",
         "Plafonnerait, par décret (texte du gouvernement), le montant de l’indemnité de défrichement pour les agriculteurs de montagne."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 86,
+      "quality_flags": [
+        "invention",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54559",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -73,8 +330,10 @@
         "Obligerait les procureurs à justifier par écrit toute décision de ne pas intervenir après une alerte du fichier.",
         "Renforcerait la coordination entre les parquets avant tout classement sans suite pour une agression sexuelle sur mineur."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54551",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -93,8 +352,10 @@
         "Rationaliserait l'organisation de l'administration et aiderait à mieux maîtriser les finances publiques.",
         "Un décret (décision du gouvernement) organiserait le transfert des biens et le reclassement des agents."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54550",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -113,8 +374,10 @@
         "Obligerait les assureurs à respecter les taux d'incapacité fixés par les organismes publics, sauf dérogation motivée.",
         "Renforcerait les expertises médicales pour qu'elles considèrent la nature évolutive et les symptômes invisibles des maladies."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54549",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -133,8 +396,11 @@
         "Exclurait le financement des projets symboliques au détriment des opérations urgentes de sauvegarde du patrimoine.",
         "Renforcerait la coordination entre l'État et les communes via des conventions pluriannuelles pour une meilleure action."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54558",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -153,8 +419,10 @@
         "Un décret (texte d'application) fixerait le montant maximal des mensualités pris en compte par région.",
         "Compenserait la perte de recettes publiques par une taxe additionnelle sur les tabacs pour l'État."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54539",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -173,8 +441,10 @@
         "Assurerait l'octroi de l'AAH même sans recherche d'emploi active, si le handicap le justifie.",
         "Sécuriserait et harmoniserait les décisions des CDAPH (commissions des droits et de l'autonomie) pour l'AAH."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54556",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -193,8 +463,11 @@
         "Réduirait les délais d'obtention de 9 mois et permettrait la délivrance de copies numériques.",
         "Permettrait aussi de numériser les anciens actes papier et modifierait le code des étrangers."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54553",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -213,8 +486,10 @@
         "Permettrait à ces entités d'agir en justice pour la préservation, la restauration ou la réparation de leur intégrité écologique.",
         "Préciserait que cette reconnaissance n'affecterait ni la propriété des biens ni les compétences des collectivités."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54560",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -233,8 +508,11 @@
         "Mettrait en place de nouveaux projets éducatifs territoriaux pour organiser les activités extrascolaires.",
         "Renforcerait la formation des encadrants pour prévenir les violences et protéger les enfants."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54561",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -253,8 +531,12 @@
         "Rendrait obligatoire l'interdiction définitive d'exercer auprès des mineurs pour les personnes coupables de crimes graves.",
         "Exigerait un extrait du fichier national des auteurs d'infractions pour toute personne travaillant avec des enfants."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "faute_francais",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54546",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -273,8 +555,12 @@
         "Mettrait fin à l'action publique et civile en cas de décès de la personne responsable des crimes.",
         "Modifierait le Code civil et le Code de procédure pénale pour inscrire l'imprescriptibilité de ces crimes."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "faute_francais",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54540",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -293,8 +579,10 @@
         "Encadrerait les stages volontaires de troisième avec une durée maximale de cinq jours et un accompagnement renforcé.",
         "Imposerait des règles strictes de sécurité, incluant formation et évaluation des risques pour les élèves volontaires."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54547",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -313,8 +601,10 @@
         "Donnerait au maire un droit de désignation directe et un pouvoir d'accord ou de refus pour toute attribution de logement social.",
         "Transférerait aux communes des droits de réservation de l'État et punirait les bailleurs ne respectant pas ses décisions."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54548",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -333,8 +623,11 @@
         "Fixerait à 10 000 euros la limite annuelle pour ces revenus défiscalisés, en modifiant le code des impôts.",
         "Compenserait la perte de recettes pour l'État et la Sécurité sociale par une taxe additionnelle sur les tabacs."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54545",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -353,8 +646,10 @@
         "Mettrait fin à l'obligation pour les maires de transférer leurs compétences aux intercommunalités concernant les ZFE-m.",
         "Modifierait les codes de l'environnement, des transports et des collectivités territoriales pour retirer toute mention des ZFE-m."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54557",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -373,8 +668,10 @@
         "Instituerait un devoir d'information pour le copropriétaire ou l'exploitant concernant les nouvelles activités potentiellement gênantes.",
         "Modifierait la loi de 1965 sur la copropriété pour mieux protéger la jouissance paisible des logements."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54544",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -393,8 +690,10 @@
         "Restreindrait l'usage des actions de préférence et imposerait une durée minimale de sept ans pour les investissements.",
         "Instaurerait des sanctions disciplinaires et des amendes en cas de non-communication des documents requis."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54543",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -413,8 +712,12 @@
         "Créerait une commission locale pour garantir l'accès à l'eau, pouvant alerter le public si l'État n'agit pas.",
         "Exigerait un rapport évaluant le dispositif six mois avant la fin des six ans, pour décider de le prolonger."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54552",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -433,8 +736,11 @@
         "Étendrait ce même mécanisme d'information aux responsables associatifs concernant leurs bénévoles en contact habituel avec des mineurs.",
         "Soumettrait les destinataires à la confidentialité de l'information et modifierait la loi sur le fonctionnement de la justice."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54537",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -453,8 +759,11 @@
         "Alignerait la durée des obligations de formation continue des professionnels de santé sur six ans.",
         "Créerait une commission spécialisée au sein de la Haute Autorité de Santé pour évaluer les technologies diagnostiques."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54538",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -473,8 +782,10 @@
         "Mettrait en place un « gardien de Loire », composé de deux personnes physiques pour incarner et défendre les intérêts du fleuve.",
         "Toute atteinte aux droits du fleuve entraînerait une responsabilité pénale ou civile pour les coupables, garantissant sa protection."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54536",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -493,8 +804,10 @@
         "Protégerait les jeunes adultes et les populations vulnérables ciblées par les campagnes, réduisant ainsi les addictions.",
         "Lutterait contre les pratiques commerciales trompeuses des opérateurs, qui dépendent trop des joueurs les plus fragiles."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54541",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -513,8 +826,11 @@
         "Porterait cet écart maximal à 33 % pour les activités industrielles jugées essentielles aux intérêts de la Nation.",
         "Modifierait le Code de commerce en assurant des garanties, comme l'avis du ministère public et un droit d'appel."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54535",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -776,8 +1092,8 @@
       "quality_score": null,
       "quality_flags": [],
       "dossier_uid": "DLR5L17N51670",
-      "etat": "En cours",
-      "statut": "Autre lecture",
+      "etat": "Terminé",
+      "statut": "Texte rejeté",
       "depositaire": "Philippe Vigier (Dem)"
     },
     {
@@ -1221,6 +1537,68 @@
       "depositaire": "Christelle D'Intorni (UDR)"
     },
     {
+      "uid": "PIONANR5L17B2899",
+      "titre": "Encadrer la publicité pour les paris sportifs",
+      "date_depot": "2026-06-09",
+      "categorie": "Société et solidarités",
+      "link": "https://tricoteuses-assets.s3.fr-par.scw.cloud/documents/AN/PION/AN/R5/17/B/002/PIONANR5L17B2899/dyn-docs.pdf",
+      "accroche": "Cette proposition de loi encadrerait strictement la publicité pour les paris sportifs, notamment pour protéger les jeunes et limiter les risques d'addiction.",
+      "points": [
+        "Limiterait la publicité pour les paris sportifs à des supports spécifiques, interdisant les réseaux sociaux et plateformes numériques.",
+        "Interdirait aux influenceurs et personnalités publiques de promouvoir les paris sportifs, ainsi que les offres de gains financiers.",
+        "Empêcherait les opérateurs de paris sportifs de nommer les infrastructures ou compétitions sportives nationales.",
+        "Permettrait aux associations de lutte contre les addictions et aux consommateurs d'agir en justice contre les abus publicitaires."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54452",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Emmanuel Duplessy (EcoS)"
+    },
+    {
+      "uid": "PIONANR5L17B2894",
+      "titre": "Protéger les mineurs dans le cadre des activités périscolaires",
+      "date_depot": "2026-06-09",
+      "categorie": "Éducation et jeunesse",
+      "link": "https://tricoteuses-assets.s3.fr-par.scw.cloud/documents/AN/PION/AN/R5/17/B/002/PIONANR5L17B2894/dyn-docs.pdf",
+      "accroche": "Cette loi exigerait que toutes les personnes encadrant des enfants en activités périscolaires prouvent leur honorabilité pour renforcer leur protection.",
+      "points": [
+        "Étalerait l'obligation de présenter une attestation d'honorabilité pour tous les professionnels des activités périscolaires.",
+        "Vérifierait que les encadrants n'ont aucune condamnation inscrite à leur casier judiciaire, notamment pour violences sexuelles.",
+        "Imposerait de contrôler cette honorabilité non seulement au début, mais aussi régulièrement durant l'exercice des fonctions.",
+        "Appliquerait également ces nouvelles règles de vérification aux personnes proposant des services d'animation ou garde à domicile."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54447",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Sylvain Berrios (HOR)"
+    },
+    {
+      "uid": "PIONANR5L17B2884",
+      "titre": "Rétablir le caractère obligatoire du stage de préparation à l’installation pour les artisans afin de renforcer les chances de réussite et la pérennité des entreprises artisanales et de prévenir les défaillances",
+      "date_depot": "2026-06-09",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2884.html",
+      "accroche": "Cette proposition de loi rendrait de nouveau obligatoire le stage de préparation à l'installation pour les artisans, pour limiter les échecs d'entreprise.",
+      "points": [
+        "Rétablirait le caractère obligatoire du stage de préparation à l’installation pour les futurs chefs d'entreprise artisanale.",
+        "Intégrerait au stage les bases essentielles de gestion, les obligations fiscales, sociales et juridiques des entreprises.",
+        "Prévoirait des dispenses pour ceux qui justifieraient déjà d'une formation ou d'une expérience équivalente en gestion.",
+        "Fixerait la durée du stage à 21 heures et l'ouvrirait au conjoint et aux auxiliaires familiaux de l'artisan."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54437",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Stéphane Viry (LIOT)"
+    },
+    {
       "uid": "PIONANR5L17BTC2878",
       "titre": "Renforcer la protection des mineurs en formation professionnelle",
       "date_depot": "2026-06-04",
@@ -1273,8 +1651,10 @@
         "Elle établirait une mesure judiciaire pour prévenir les actes terroristes des condamnés radicalisés à 10 ans ou plus.",
         "La durée maximale de rétention administrative des étrangers menaçant l'ordre public serait portée à 540 jours."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53284",
       "etat": "En cours",
       "statut": "Saisine du conseil constitutionnel",
@@ -1879,6 +2259,28 @@
       "depositaire": "Erwan Balanant (Dem)"
     },
     {
+      "uid": "PIONANR5L17B2823",
+      "titre": "Assurer l’armement de plein droit des policiers municipaux",
+      "date_depot": "2026-05-26",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2823.html",
+      "accroche": "Les policiers municipaux seraient armés de plein droit, c'est-à-dire par principe, sauf si le maire s'y opposerait via une décision motivée.",
+      "points": [
+        "Rendrait l'armement des policiers municipaux la règle, plutôt qu'une autorisation exceptionnelle du maire.",
+        "Permettrait aux maires de s'opposer à l'armement des agents par une décision écrite et motivée.",
+        "Modifierait le Code de la sécurité intérieure pour inverser la logique d'armement actuelle.",
+        "Compenserait les coûts pour les communes par une dotation majorée et pour l'État par une taxe sur le tabac."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54358",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Laurent Croizier (Dem)"
+    },
+    {
       "uid": "PIONANR5L17BTC2814",
       "titre": "Garantir un revenu mensuel à tout nouveau retraité dès l’entrée en jouissance de la pension de retraite",
       "date_depot": "2026-05-21",
@@ -2251,8 +2653,11 @@
         "Organiserait une enquête de la mairie tous les deux ans et un contrôle pédagogique annuel par l'État.",
         "Simplifierait l'obtention des allocations familiales, remplaçant l'autorisation par une attestation d'instruction en famille."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54300",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -2334,8 +2739,8 @@
       "quality_score": null,
       "quality_flags": [],
       "dossier_uid": "DLR5L17N51670",
-      "etat": "En cours",
-      "statut": "Autre lecture",
+      "etat": "Terminé",
+      "statut": "Texte rejeté",
       "depositaire": null
     },
     {
@@ -2635,7 +3040,7 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54006",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique",
+      "statut": "2ème lecture en commission",
       "depositaire": "Jean-Pierre Vigier (DR)"
     },
     {
@@ -3290,8 +3695,10 @@
         "Revaloriserait les plafonds de revenus pour l'attribution des bourses afin d'éviter l'exclusion d'étudiants.",
         "Modifierait le code de l'éducation pour y inscrire ces nouvelles règles de revalorisation et de versement."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54229",
       "etat": "En cours",
       "statut": "1ère lecture en commission",
@@ -3370,8 +3777,10 @@
         "Simplifierait le remplacement des vice-présidents par une élection uninominale, évitant des procédures lourdes et disproportionnées.",
         "Empêcherait le renouvellement complet de la commission permanente lors du remplacement d'un vice-président."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N54236",
       "etat": "Déposé",
       "statut": "Texte déposé",
@@ -4056,6 +4465,186 @@
       "depositaire": "Éric Pauget (DR)"
     },
     {
+      "uid": "PIONANR5L17B2676",
+      "titre": "Permettre au titulaire d’un compte personnel de formation de céder ses droits au bénéfice d’un demandeur d’emploi de 18 à 30 ans",
+      "date_depot": "2026-04-14",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2676.html",
+      "accroche": "Cette proposition permettrait aux titulaires d'un compte personnel de formation de donner leurs droits non utilisés à des jeunes demandeurs d'emploi.",
+      "points": [
+        "Permettrait aux titulaires d'un CPF de céder tout ou partie de leurs droits de formation.",
+        "Bénéficieraient de ces droits les jeunes demandeurs d'emploi âgés de 18 à 30 ans.",
+        "Faciliterait l'accès à la formation pour les jeunes, luttant ainsi contre le chômage.",
+        "Modifierait le code du travail afin d'autoriser ce transfert solidaire entre particuliers."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54146",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Stéphane Lenormand (LIOT)"
+    },
+    {
+      "uid": "PIONANR5L17B2656",
+      "titre": "Permettre au juge d’ordonner au préfet la réquisition de locaux vacants pour mettre en œuvre le droit au logement",
+      "date_depot": "2026-04-14",
+      "categorie": "Logement et urbanisme",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2656.html",
+      "accroche": "Cette proposition de loi permettrait au juge d'ordonner la réquisition de logements inoccupés pour reloger les personnes reconnues prioritaires.",
+      "points": [
+        "Autoriserait le juge administratif à ordonner au préfet la réquisition de locaux vacants.",
+        "Permettrait à l'État de respecter enfin ses obligations concernant le droit au logement opposable (DALO).",
+        "Utiliserait les 2,4 millions de logements et 10 millions de m² de bureaux vides pour loger les plus démunis.",
+        "Modifierait le Code de la construction et de l'habitation pour intégrer le pouvoir d'ordonner cette réquisition."
+      ],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54127",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Danielle Simonnet (EcoS)"
+    },
+    {
+      "uid": "PIONANR5L17B2662",
+      "titre": "Renforcer le droit de contrôle des lieux de privation de liberté",
+      "date_depot": "2026-04-14",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2662.html",
+      "accroche": "Cette proposition renforcerait le droit des parlementaires d'inspecter librement et sans préavis les prisons et lieux de détention.",
+      "points": [
+        "Rénoverait l'article 719 du code de procédure pénale pour garantir un accès libre et sans préavis aux parlementaires.",
+        "Permettrait aux parlementaires de s'entretenir confidentiellement avec tout détenu consentant, sans personnel présent.",
+        "Encadrerait l'usage de matériel technique pour documenter les visites et exigerait un rapport officiel.",
+        "Imposerait une justification écrite pour toute restriction de visite et un recours rapide au juge administratif."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant",
+        "texte_tronque"
+      ],
+      "dossier_uid": "DLR5L17N54133",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Ugo Bernalicis (LFI-NFP)"
+    },
+    {
+      "uid": "PIONANR5L17B2652",
+      "titre": "Visant à enrichir les dispositions applicables au Haut Conseil de stabilité financière",
+      "date_depot": "2026-04-14",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2652.html",
+      "accroche": "Cette proposition de loi modifierait la composition du Haut Conseil de stabilité financière et ajusterait les règles d'octroi de crédit immobilier.",
+      "points": [
+        "Élargirait la composition du Haut Conseil de stabilité financière à un député et un sénateur.",
+        "Permettrait aux banques de prendre en compte le « reste à vivre » pour évaluer le risque d'endettement.",
+        "Autoriserait les banques à déroger au taux d'effort si elles prouvent l'absence de risque excessif.",
+        "Modifierait le code monétaire et financier pour inclure ces nouvelles dispositions dans la loi."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54123",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Lionel Causse (EPR)"
+    },
+    {
+      "uid": "PIONANR5L17B2651",
+      "titre": "Rétablir le mode de scrutin antérieur à la loi du 21 mai 2025 pour les communes de moins de 1 000 habitants",
+      "date_depot": "2026-04-14",
+      "categorie": "Institutions et démocratie",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2651.html",
+      "accroche": "Cette proposition de loi rétablirait le mode de scrutin antérieur à 2025, permettant aux électeurs des petites communes de panacher leurs votes et d'avoir plus de choix.",
+      "points": [
+        "Rétablirait le scrutin majoritaire pour les élections municipales dans les communes de moins de 1 000 habitants.",
+        "Permettrait aux électeurs de choisir librement leurs candidats sur le bulletin, rétablissant le panachage.",
+        "Fixerait les règles de majorité absolue ou relative nécessaires pour être élu aux premier et second tours.",
+        "Modifierait plusieurs articles du code électoral afin d'appliquer ces nouvelles règles de scrutin local."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54122",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Xavier Breton (DR)"
+    },
+    {
+      "uid": "PIONANR5L17B2647",
+      "titre": "Mettre fin au harcèlement téléphonique commercial",
+      "date_depot": "2026-04-14",
+      "categorie": "Société et solidarités",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2647.html",
+      "accroche": "Cette proposition de loi mettrait fin au harcèlement téléphonique commercial en obligeant les démarcheurs à utiliser un numéro unique et identifiable.",
+      "points": [
+        "Créerait un indicateur téléphonique unique et clairement identifiable pour tous les appels de démarchage commercial.",
+        "Modifierait le code de la consommation pour interdire le démarchage en dehors de l'indicateur unique.",
+        "Interdirait spécifiquement le démarchage depuis des numéros régionaux ou mobiles, avec des sanctions plus lourdes.",
+        "Habiliterait l'ARCEP à identifier les responsables pour que des poursuites judiciaires puissent être engagées."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54118",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Christophe Plassard (HOR)"
+    },
+    {
+      "uid": "PIONANR5L17B2646",
+      "titre": "L’expérimentation d’une gouvernance territoriale unifiée pour les centres de ressources, d'expertise et de performance sportive",
+      "date_depot": "2026-04-14",
+      "categorie": "Éducation et jeunesse",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2646.html",
+      "accroche": "Une expérimentation modifierait la gouvernance du CREPS de Vichy pour mieux associer l'État et les collectivités territoriales dans sa gestion.",
+      "points": [
+        "Expérimenterait pendant cinq ans une nouvelle gouvernance pour le CREPS de Vichy, adaptée à ses spécificités.",
+        "Accorderait au CREPS de Vichy des missions supplémentaires liées au développement territorial et à l'exploitation d'équipements.",
+        "Permettrait au CREPS d'utiliser les équipements, le personnel et les crédits de Vichy Communauté pour ses missions.",
+        "Modifierait la composition du conseil d'administration et impliquerait Vichy Communauté dans la nomination du directeur."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54117",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Nicolas Ray (DR)"
+    },
+    {
+      "uid": "PIONANR5L17B2649",
+      "titre": "Abroger la réforme du mode de scrutin municipal dans les communes de moins de 1 000 habitants",
+      "date_depot": "2026-04-14",
+      "categorie": "Institutions et démocratie",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2649.html",
+      "accroche": "Le mode de scrutin des communes de moins de 1 000 habitants reviendrait à un système majoritaire avec panachage, pour renforcer la participation.",
+      "points": [
+        "Rétablirait le mode de scrutin majoritaire pour élire les conseillers municipaux des communes de moins de 1 000 habitants.",
+        "Autoriserait les électeurs à panacher les noms sur les bulletins de vote, choisissant ainsi leurs candidats.",
+        "Préciserait que la majorité absolue serait nécessaire au premier tour, tandis que la relative suffirait au second.",
+        "Modifierait de nombreux articles du code électoral pour réintroduire ces règles de vote local simplifiées."
+      ],
+      "quality_score": 75,
+      "quality_flags": [
+        "invention",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54120",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Philippe Gosselin (DR)"
+    },
+    {
       "uid": "PIONANR5L17B2637",
       "titre": "Visant à étendre à toutes les communes la compensation financière prévue pour les communes de plus de 3 500 habitants pour l'exercice de l'ensemble des compétences du service public de la petite enfance",
       "date_depot": "2026-04-09",
@@ -4672,8 +5261,166 @@
       "quality_flags": [],
       "dossier_uid": "DLR5L17N54006",
       "etat": "En cours",
-      "statut": "1ère lecture en séance publique",
+      "statut": "2ème lecture en commission",
       "depositaire": "Jean-Pierre Vigier (DR)"
+    },
+    {
+      "uid": "PIONANR5L17B2599",
+      "titre": "Rendre l'affichage du nutri-score obligatoire sur les produits alimentaires et sur les supports publicitaires",
+      "date_depot": "2026-03-27",
+      "categorie": "Santé",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2599.html",
+      "accroche": "Cette proposition rendrait obligatoire l'affichage du Nutri-score sur les emballages alimentaires et les publicités, pour mieux informer les consommateurs.",
+      "points": [
+        "Obligerait les entreprises à afficher le Nutri-score sur les emballages des produits alimentaires vendus.",
+        "Rendrait l'affichage du Nutri-score obligatoire sur toutes les publicités pour les produits alimentaires.",
+        "Exclurait de cette obligation les produits bénéficiant d'une appellation d'origine protégée ou indication géographique.",
+        "Instaurerait une contribution de 2 % du chiffre d'affaires en cas de non-respect, versée à l'Assurance maladie."
+      ],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54010",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Sandrine Runel (SOC)"
+    },
+    {
+      "uid": "PIONANR5L17B2596",
+      "titre": "Rendre obligatoire la déclaration d’une nuance politique lors des élections municipales dans les communes de 1 000 habitants et plus",
+      "date_depot": "2026-03-27",
+      "categorie": "Institutions et démocratie",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2596.html",
+      "accroche": "Cette proposition rendrait obligatoire la déclaration d'une nuance politique pour les têtes de liste aux élections municipales dans les communes de 1000 habitants et plus.",
+      "points": [
+        "Modifierait le code électoral pour rendre obligatoire la déclaration d'une nuance politique en élections municipales.",
+        "Exigerait que cette nuance soit choisie dans une nomenclature nationale et vérifiée par l'autorité administrative compétente.",
+        "Interdirait l'utilisation de la mention \"sans étiquette\" ou de toute autre non conforme à la nomenclature nationale.",
+        "Afficherait la nuance politique déclarée sur les récépissés, les affichages officiels et les documents institutionnels."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54007",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Hervé Saulignac (SOC)"
+    },
+    {
+      "uid": "PIONANR5L17B2602",
+      "titre": "Renforcer l'effectivité de la lutte contre les discriminations liées au handicap dans la sphère professionnelle",
+      "date_depot": "2026-03-27",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2602.html",
+      "accroche": "Cette proposition de loi renforcerait la lutte contre les discriminations liées au handicap dans l'emploi, y compris pour les aidants.",
+      "points": [
+        "Introduirait explicitement le refus d'aménagement raisonnable comme une discrimination, applicable aux employeurs publics et privés.",
+        "Rendrait obligatoire et contrôlée la formation non-discrimination des recruteurs, encadrants et référents handicap, avec des sanctions en cas de manquement.",
+        "Instituerait des sanctions civiles dissuasives pour les discriminations, jusqu'à 100 000 euros d'amende, et obligerait à des mesures correctrices.",
+        "Accorderait aux aidants familiaux le droit aux aménagements raisonnables au travail et définirait la discrimination par association."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54013",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Stéphane Viry (LIOT)"
+    },
+    {
+      "uid": "PIONANR5L17B2597",
+      "titre": "Généraliser l’obligation d’affichage de la Déclaration des Droits de l’Homme et du Citoyen du 26 août 1789",
+      "date_depot": "2026-03-27",
+      "categorie": "Institutions et démocratie",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2597.html",
+      "accroche": "Cette proposition de loi généraliserait l'obligation d'afficher la Déclaration des Droits de l'Homme et du Citoyen dans de nombreux lieux publics.",
+      "points": [
+        "Généraliserait l'obligation d'afficher la Déclaration des Droits de l'Homme dans les principaux lieux publics.",
+        "Rendrait cet affichage obligatoire dans les administrations, les salles d'audience et les assemblées locales.",
+        "S'appliquerait aussi aux établissements d'enseignement supérieur et aux structures sociales et médico-sociales.",
+        "Inclurait enfin les ambassades françaises à l'étranger et les grandes gares et aéroports de France."
+      ],
+      "quality_score": 85,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54008",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Mickaël Bouloux (SOC)"
+    },
+    {
+      "uid": "PIONANR5L17B2598",
+      "titre": "Assurer une meilleure sécurité des biens et des personnes sur les sites d’enseignement supérieur",
+      "date_depot": "2026-03-27",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2598.html",
+      "accroche": "Cette proposition faciliterait l'intervention des forces de l'ordre dans les universités pour mieux sécuriser les biens et les personnes.",
+      "points": [
+        "Permettrait de punir l'intrusion illicite et le trouble à l'ordre public dans les universités.",
+        "Faciliterait l'intervention des forces de l'ordre pour débloquer les universités et protéger les personnes.",
+        "Ciblerait les blocages et occupations illicites des campus universitaires, souvent sources de dégradations coûteuses.",
+        "Viserait à réduire les coûts importants engendrés par les blocages et les dégradations des campus."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54009",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Anne-Laure Blin (DR)"
+    },
+    {
+      "uid": "PIONANR5L17B2594",
+      "titre": "Instaurer une commission nationale de réparation des préjudices subis par des mineurs et anciens mineurs placés dans le cadre de leur parcours de protection de l’enfance",
+      "date_depot": "2026-03-27",
+      "categorie": "Société et solidarités",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2594.html",
+      "accroche": "Une commission nationale de réparation serait créée pour indemniser les mineurs et anciens mineurs victimes des défaillances de la protection de l'enfance.",
+      "points": [
+        "Créerait une commission nationale pour recenser et enregistrer les atteintes et préjudices subis par les enfants placés.",
+        "Définirait le montant des indemnités et d'autres formes de réparation dues aux victimes par l'État.",
+        "Composerait cette commission de trente membres incluant des professionnels et des représentants d'enfants placés.",
+        "Financerait cette commission et les réparations via un fonds, payé à parts égales par l'État et les départements."
+      ],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54005",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Marianne Maximi (LFI-NFP)"
+    },
+    {
+      "uid": "PIONANR5L17B2603",
+      "titre": "Favoriser la création et la reprise d’entreprises sous forme de sociétés coopératives et participatives et de sociétés coopératives d’intérêt collectif",
+      "date_depot": "2026-03-27",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2603.html",
+      "accroche": "Cette proposition de loi rendrait plus facile la création et la reprise d'entreprises par leurs salariés sous forme de sociétés coopératives.",
+      "points": [
+        "Créerait un fonds de développement coopératif de 20 millions d'euros pour soutenir la création et reprise d'entreprises.",
+        "Instaurerait des bourses jusqu'à 5 000 euros pour aider les salariés à investir dans leur coopérative.",
+        "Augmenterait la réduction d'impôt sur le revenu à 25% pour les investissements dans les coopératives.",
+        "Porterait l'abattement fiscal pour les cessions d'entreprises aux salariés de 500 000 à 1 million d'euros."
+      ],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N54014",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission",
+      "depositaire": "Michel Castellani (LIOT)"
     },
     {
       "uid": "PIONANR5L17B2584",
@@ -5496,6 +6243,51 @@
       "depositaire": "Guillaume Gouffier Valente (EPR)"
     },
     {
+      "uid": "PIONANR5L17BTC2522",
+      "titre": "Relative à la sécurisation des marchés publics numériques",
+      "date_depot": "2026-02-25",
+      "categorie": "Numérique",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2522.html",
+      "accroche": "Cette proposition de loi renforcerait la sécurité des services informatiques en nuage utilisés par de nombreuses collectivités territoriales.",
+      "points": [
+        "Étendreait les règles de sécurisation numérique aux régions, départements et communes de plus de 30 000 habitants.",
+        "Qualifirait de sensibles les données essentielles des collectivités, comme celles concernant la santé ou la gestion de crise.",
+        "Permettrait aux administrations d'obtenir une dérogation maximale de dix-huit mois pour les projets numériques déjà engagés.",
+        "Autoriserait la rupture des contrats avec les prestataires ne respectant pas les nouvelles exigences de sécurité des données."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N52900",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission",
+      "depositaire": "Philippe Latombe (Dem)"
+    },
+    {
+      "uid": "PIONANR5L17BTC2531",
+      "titre": "Renforcer le contrôle, la gouvernance et la responsabilité financière des agences et opérateurs de l’État",
+      "date_depot": "2026-02-25",
+      "categorie": "Institutions et démocratie",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2531.html",
+      "accroche": "Cette proposition de loi renforcerait le contrôle sur les agences et opérateurs de l'État, en imposant plus de transparence sur leurs objectifs et rémunérations.",
+      "points": [
+        "Obligerait à publier annuellement la liste des dix plus hautes rémunérations brutes de chaque opérateur de l'État.",
+        "Instaurerait des contrats d'objectifs et de performance pour les opérateurs de l'État, définissant leurs missions et indicateurs.",
+        "Ces contrats d'objectifs seraient publics, d'une durée par défaut de cinq ans, avec un rapport annuel d'exécution.",
+        "Permettrait aux représentants de l'État de s'opposer aux décisions des conseils d'administration des organismes publics."
+      ],
+      "quality_score": 92,
+      "quality_flags": [
+        "deformation",
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53720",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission",
+      "depositaire": "Jean-Paul Mattei (Dem)"
+    },
+    {
       "uid": "PIONANR5L17BTC2520",
       "titre": "Renforcer la place des agriculteurs dans l’aménagement du territoire et à sécuriser l’exercice des activités agricoles face au changement climatique",
       "date_depot": "2026-02-24",
@@ -5568,8 +6360,12 @@
         "Créerait un fonds public pour payer rapidement les factures des petites et moyennes entreprises en cas de retards des marchés publics.",
         "Rendrait nulle toute renonciation au paiement des pénalités de retard, pour mieux protéger les créanciers."
       ],
-      "quality_score": null,
-      "quality_flags": [],
+      "quality_score": 80,
+      "quality_flags": [
+        "deformation",
+        "neutralite_douteuse",
+        "judge_non_independant"
+      ],
       "dossier_uid": "DLR5L17N53099",
       "etat": "En cours",
       "statut": "1ère lecture en séance publique",
@@ -6191,8 +6987,8 @@
       "quality_score": null,
       "quality_flags": [],
       "dossier_uid": "DLR5L17N51670",
-      "etat": "En cours",
-      "statut": "Autre lecture",
+      "etat": "Terminé",
+      "statut": "Texte rejeté",
       "depositaire": "Olivier Falorni"
     },
     {
@@ -6516,6 +7312,248 @@
       "depositaire": "Mickaël Cosson (Dem)"
     },
     {
+      "uid": "PIONANR5L17B2441",
+      "titre": "Promouvoir une société accueillante pour les enfants",
+      "date_depot": "2026-02-04",
+      "categorie": "Société et solidarités",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2441.html",
+      "accroche": "Cette proposition de loi interdirait l'exclusion injustifiée des enfants de nombreux lieux publics, la considérant comme une forme de discrimination.",
+      "points": [
+        "Modifierait le code pénal pour reconnaître l'exclusion des mineurs comme une discrimination punissable.",
+        "Protégerait les enfants de l'exclusion des lieux de vie, des espaces publics, des commerces et des transports.",
+        "Permettrait l'exclusion des mineurs seulement si elle est justifiée par leur sécurité ou leur capacité civile.",
+        "Obligerait le Gouvernement à remettre un rapport sur l'accueil des enfants et les politiques publiques en 12 mois."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53716",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Constance de Pélichy (LIOT)"
+    },
+    {
+      "uid": "PIONANR5L17B2442",
+      "titre": "Interdire les sucres ajoutés aliments destinés aux nourrissons et aux enfants en bas âge",
+      "date_depot": "2026-02-04",
+      "categorie": "Santé",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2442.html",
+      "accroche": "Cette proposition de loi interdirait l'ajout de sucres dans les aliments spécifiquement destinés aux nourrissons et jeunes enfants pour lutter contre l'obésité.",
+      "points": [
+        "Interdirait la fabrication, l'importation ou la vente de préparations alimentaires pour nourrissons et enfants avec sucres ajoutés.",
+        "Ciblerait les enfants de moins de 12 mois (nourrissons) et ceux de un à trois ans (enfants en bas âge).",
+        "Exclurait les laits infantiles premier et deuxième âges ainsi que les laits de croissance de cette interdiction.",
+        "Modifierait le code de la santé publique pour ajouter cette nouvelle interdiction et les sanctions qui l'accompagnent."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53717",
+      "etat": "En cours",
+      "statut": "1ère lecture en commission",
+      "depositaire": "Cyrille Isaac-Sibille (Dem)"
+    },
+    {
+      "uid": "PIONANR5L17B2437",
+      "titre": "Soutenir les communes rurales dans l’entretien des routes communales",
+      "date_depot": "2026-02-04",
+      "categorie": "Institutions et démocratie",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2437.html",
+      "accroche": "Une nouvelle dotation (aide financière) serait créée pour aider les communes rurales à entretenir leurs routes, améliorant ainsi la sécurité des usagers.",
+      "points": [
+        "Créerait une dotation spécifique pour soutenir l'entretien des routes dans les communes rurales, en complément des aides existantes.",
+        "Définirait les communes éligibles sur des critères comme la longueur de voirie et la densité de population.",
+        "Calculerait le montant de cette dotation en fonction de la voirie communale, la superficie et la densité de population.",
+        "Compenserait le coût pour l'État et les collectivités par une taxe additionnelle sur les tabacs."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53712",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Stéphane Viry (LIOT)"
+    },
+    {
+      "uid": "PIONANR5L17B2443",
+      "titre": "Encourager la construction durable et la valorisation des ressources naturelles dans le secteur du bâtiment",
+      "date_depot": "2026-02-04",
+      "categorie": "Environnement et énergie",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2443.html",
+      "accroche": "Cette loi encouragerait la construction durable en intégrant davantage d'énergies renouvelables et en valorisant mieux les ressources naturelles.",
+      "points": [
+        "Obligerait les constructions neuves à intégrer des dispositifs de production d'énergie renouvelable ou de valorisation des ressources.",
+        "Généraliserait la récupération et la réutilisation des eaux grises et pluviales dans les bâtiments neufs et existants.",
+        "Créerait un crédit d'impôt pour encourager les investissements dans des équipements de production et valorisation écologiques.",
+        "Adapterait les documents d'urbanisme pour faciliter l'installation d'équipements écologiques et d'énergies renouvelables."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53718",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Christelle D'Intorni (UDR)"
+    },
+    {
+      "uid": "PIONANR5L17B2439",
+      "titre": "Incriminer l'usage récréatif du protoxyde d'azote et prévenir les risques pour la sécurité routière",
+      "date_depot": "2026-02-04",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2439.html",
+      "accroche": "Cette proposition de loi rendrait illégale la consommation récréative de protoxyde d'azote et punirait son usage au volant.",
+      "points": [
+        "Créerait une nouvelle infraction pour la consommation de protoxyde d'azote, au-delà d'un seuil, punie d'un an de prison.",
+        "Modifierait le code de la route pour punir la conduite sous protoxyde d'azote de 3 ans de prison et 9 000 euros.",
+        "Augmenterait les peines à 5 ans de prison et 15 000 euros d'amende si le conducteur est aussi sous l'emprise d'alcool.",
+        "Ajouterait au code de l'éducation des informations spécifiques sur les dangers du protoxyde d'azote pour les jeunes."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53714",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "David Magnier (RN)"
+    },
+    {
+      "uid": "PIONANR5L17B2438",
+      "titre": "Promouvoir la restauration française du \"fait maison\"",
+      "date_depot": "2026-02-04",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2438.html",
+      "accroche": "Cette proposition de loi obligerait les restaurateurs ne préparant pas sur place à signaler explicitement les plats non faits maison.",
+      "points": [
+        "Obligerait les établissements de restauration à indiquer \"non fait maison\" sur leurs menus et plateformes numériques.",
+        "Permettrait aux professionnels cuisinant sur place d'afficher des mentions valorisantes comme \"fait maison\" en respectant des critères.",
+        "Modifierait le code de la consommation pour clarifier la définition du \"non fait maison\" et son affichage.",
+        "Habiliterait les agents de la répression des fraudes à contrôler ces mentions et appliquer des sanctions."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53713",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Stéphane Viry (LIOT)"
+    },
+    {
+      "uid": "PIONANR5L17B2436",
+      "titre": "Encourager, simplifier et promouvoir la vie associative, ses dirigeants et ses bénévoles",
+      "date_depot": "2026-02-04",
+      "categorie": "Société et solidarités",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2436.html",
+      "accroche": "Cette proposition de loi simplifierait les démarches des associations et renforcerait le soutien aux bénévoles, tout en stimulant leur développement et leur collaboration.",
+      "points": [
+        "Créerait un guichet unique numérique pour les nouvelles associations et allégerait la comptabilité des plus petites structures.",
+        "Transformerait la déduction fiscale des frais des bénévoles en crédit d'impôt et valoriserait leurs compétences acquises.",
+        "Instaurerait une expérimentation de trois ans dans dix départements pour des contrats de soutien aux associations.",
+        "Créerait une plateforme nationale dédiée au partage de matériel, de compétences et de locaux entre toutes les associations."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53711",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Stéphane Viry (LIOT)"
+    },
+    {
+      "uid": "PIONANR5L17B2433",
+      "titre": "Renforcer le droit des parents dans les procédures relatives à une mesure d’assistance éducative",
+      "date_depot": "2026-02-04",
+      "categorie": "Société et solidarités",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2433.html",
+      "accroche": "Cette proposition de loi permettrait aux parents de consulter le dossier de leur enfant au moins sept jours avant l'audience du juge des enfants.",
+      "points": [
+        "Soulignerait les multiples défaillances de la politique d'aide sociale à l'enfance, qui entraîne un coût conséquent pour la collectivité.",
+        "Remettrait en question la \"culture du placement\" qui s'est installée, contredisant l'obligation de privilégier l'intrafamilial.",
+        "Garantirait aux familles et avocats la consultation complète du dossier sept jours au moins avant l'audience du juge.",
+        "Modifierait l'article 375-1 du code civil pour imposer ce délai de consultation avant toute décision judiciaire."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53708",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Marine Hamelet (RN)"
+    },
+    {
+      "uid": "PIONANR5L17B2444",
+      "titre": "Lutter contre le morcellement du suivi médical",
+      "date_depot": "2026-02-04",
+      "categorie": "Santé",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2444.html",
+      "accroche": "Cette proposition de loi renforcerait la cohérence du parcours de soins et l'accès à la médecine de proximité pour les patients les plus vulnérables.",
+      "points": [
+        "Distinguerait les \"maisons de santé\" des \"structures de soins non programmés\" pour mieux informer les patients.",
+        "Créerait un acte médical spécifique et mieux valorisé pour les visites à domicile des patients fragiles.",
+        "Formaliserait la collaboration entre médecins et infirmiers en pratique avancée, rémunérant le temps de transmission clinique.",
+        "Adapterait l'application de ces mesures aux réalités des territoires, notamment aux zones souffrant de désertification médicale."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53719",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Christelle D'Intorni (UDR)"
+    },
+    {
+      "uid": "PIONANR5L17B2435",
+      "titre": "Protéger nos enfants contre la surexposition aux écrans",
+      "date_depot": "2026-02-04",
+      "categorie": "Santé",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2435.html",
+      "accroche": "Cette proposition de loi interdirait progressivement l'utilisation des écrans dans les maternités, crèches et écoles, pour préserver la santé et le développement des enfants.",
+      "points": [
+        "Interdirait dès le 1er septembre 2026 l'équipement de nouveaux écrans dans les maternités, crèches et écoles maternelles et élémentaires.",
+        "Proscrirait totalement l'usage des smartphones, tablettes et télévisions dans ces mêmes espaces au plus tard le 1er janvier 2028.",
+        "Permettrait aux personnels d'utiliser des outils numériques dans leurs propres espaces, et aux élèves ayant des besoins particuliers.",
+        "Modifierait le code de la santé publique en y ajoutant un nouveau livre sur la prévention des risques liés aux écrans."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53710",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Lisa Belluco (EcoS)"
+    },
+    {
+      "uid": "PIONANR5L17B2434",
+      "titre": "Lutter contre les placements d’enfants injustifiés",
+      "date_depot": "2026-02-04",
+      "categorie": "Société et solidarités",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2434.html",
+      "accroche": "Cette proposition rendrait le placement d'enfants par l'aide sociale plus strict, exigeant une maltraitance avérée ou un risque grave.",
+      "points": [
+        "Conditionnerait le placement d'un enfant en dehors de sa famille à une maltraitance avérée ou un risque grave.",
+        "Permettrait le placement en établissement seulement si l'accueil familial expose l'enfant à un risque de maltraitance.",
+        "Modifierait le Code civil pour renforcer les critères objectifs justifiant un placement d'enfant par les juges.",
+        "Obligerait une évaluation des conditions d'accueil familial et l'écoute de l'enfant avant de le placer hors famille."
+      ],
+      "quality_score": 100,
+      "quality_flags": [
+        "judge_non_independant"
+      ],
+      "dossier_uid": "DLR5L17N53709",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Marine Hamelet (RN)"
+    },
+    {
       "uid": "PIONANR5L17B2421",
       "titre": "La souveraineté alimentaire et agricole",
       "date_depot": "2026-02-03",
@@ -6731,8 +7769,8 @@
       "quality_score": null,
       "quality_flags": [],
       "dossier_uid": "DLR5L17N51670",
-      "etat": "En cours",
-      "statut": "Autre lecture",
+      "etat": "Terminé",
+      "statut": "Texte rejeté",
       "depositaire": null
     },
     {
@@ -7235,5 +8273,7 @@
       "depositaire": "Fatiha Keloua Hachi (SOC)"
     }
   ],
-  "rejets": {}
+  "rejets": {
+    "PIONANR5L17B2645": 1
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "uid": "PIONANR5L17B3027",
+  "titre": "Supprimer les aménagements de peine et exclure la confusion des peines pour les auteurs de crimes et délits commis sur des mineurs",
+  "date_depot": "2026-07-07",
+  "categorie": "Justice et sécurité",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3027.html",
+  "accroche": "Cette proposition de loi durcirait les peines pour les crimes et délits sur mineurs en interdisant les aménagements et la confusion des peines.",
+  "points": [
+    "Interdirait tout aménagement de peine pour les personnes condamnées pour des crimes ou délits commis sur des mineurs.",
+    "Exclurait la confusion des peines, imposant un cumul intégral pour les infractions sur mineurs en modifiant le code pénal.",
+    "Obligerait le juge à informer les représentants légaux de la victime mineure six semaines avant toute décision sur la peine.",
+    "Appliquerait ces nouvelles règles aux décisions futures, même pour des condamnations passées, et réexaminerait les aménagements en cours."
+  ],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N54636",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Antoine Valentin (UDR)"
+}

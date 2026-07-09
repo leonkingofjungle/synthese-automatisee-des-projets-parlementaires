@@ -11,8 +11,10 @@
     "Assurerait l'octroi de l'AAH même sans recherche d'emploi active, si le handicap le justifie.",
     "Sécuriserait et harmoniserait les décisions des CDAPH (commissions des droits et de l'autonomie) pour l'AAH."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54556",
   "etat": "Déposé",
   "statut": "Texte déposé",

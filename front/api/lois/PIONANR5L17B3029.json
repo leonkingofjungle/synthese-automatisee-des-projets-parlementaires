@@ -1,0 +1,24 @@
+{
+  "uid": "PIONANR5L17B3029",
+  "titre": "Améliorer le statut et les conditions de travail de tous les travailleurs du nucléaire",
+  "date_depot": "2026-07-07",
+  "categorie": "Économie et travail",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3029.html",
+  "accroche": "Cette proposition de loi améliorerait le statut et les conditions de travail des salariés du nucléaire, notamment les sous-traitants, en renforçant leur protection et leur suivi médical.",
+  "points": [
+    "Interdirait le recours à la sous-traitance dans les zones à risque radiologique et la limiterait à un seul niveau ailleurs.",
+    "Créerait un fonds pour permettre aux travailleurs exposés aux rayonnements ionisants une retraite anticipée dès 50 ans.",
+    "Rétablirait les CHSCT (Comités d'Hygiène, de Sécurité et des Conditions de Travail) avec un pouvoir de blocage.",
+    "Abaisserait l'exposition maximale aux rayonnements ionisants à 5 mSv et assurerait un suivi médical uniforme pour tous les travailleurs."
+  ],
+  "quality_score": 88,
+  "quality_flags": [
+    "invention",
+    "judge_non_independant",
+    "texte_tronque"
+  ],
+  "dossier_uid": "DLR5L17N54638",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Pierre-Yves Cadalen (LFI-NFP)"
+}

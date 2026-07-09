@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2647",
+  "titre": "Mettre fin au harcèlement téléphonique commercial",
+  "date_depot": "2026-04-14",
+  "categorie": "Société et solidarités",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2647.html",
+  "accroche": "Cette proposition de loi mettrait fin au harcèlement téléphonique commercial en obligeant les démarcheurs à utiliser un numéro unique et identifiable.",
+  "points": [
+    "Créerait un indicateur téléphonique unique et clairement identifiable pour tous les appels de démarchage commercial.",
+    "Modifierait le code de la consommation pour interdire le démarchage en dehors de l'indicateur unique.",
+    "Interdirait spécifiquement le démarchage depuis des numéros régionaux ou mobiles, avec des sanctions plus lourdes.",
+    "Habiliterait l'ARCEP à identifier les responsables pour que des poursuites judiciaires puissent être engagées."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N54118",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Christophe Plassard (HOR)"
+}

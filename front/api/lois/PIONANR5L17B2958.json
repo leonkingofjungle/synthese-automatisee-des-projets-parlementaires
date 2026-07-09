@@ -11,8 +11,11 @@
     "Fixerait à 10 000 euros la limite annuelle pour ces revenus défiscalisés, en modifiant le code des impôts.",
     "Compenserait la perte de recettes pour l'État et la Sécurité sociale par une taxe additionnelle sur les tabacs."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54545",
   "etat": "Déposé",
   "statut": "Texte déposé",

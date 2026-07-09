@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B3026",
+  "titre": "Inscription systématique des amendes forfaitaires délictuelles au casier judiciaire, information des employeurs sur les condamnations pénales des agents chargés d’une mission de service public et vérification par l’employeur",
+  "date_depot": "2026-07-07",
+  "categorie": "Justice et sécurité",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3026.html",
+  "accroche": "Cette proposition rendrait visibles aux employeurs les condamnations pour amendes forfaitaires délictuelles des agents de service public, renforçant la sécurité.",
+  "points": [
+    "Inscrirait toutes les amendes forfaitaires délictuelles (AFD) sur le bulletin n°2 du casier judiciaire, accessible aux employeurs.",
+    "Obligerait le procureur à informer les employeurs des condamnations pénales des agents de service public.",
+    "Exigerait des employeurs d'évaluer la compatibilité des condamnations avec les missions confiées aux agents.",
+    "Permettrait le licenciement ou la radiation des agents si leur condamnation est incompatible avec leur fonction."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N54635",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "François Jolivet (HOR)"
+}

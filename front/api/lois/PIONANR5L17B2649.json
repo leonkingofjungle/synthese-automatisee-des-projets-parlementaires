@@ -1,0 +1,24 @@
+{
+  "uid": "PIONANR5L17B2649",
+  "titre": "Abroger la réforme du mode de scrutin municipal dans les communes de moins de 1 000 habitants",
+  "date_depot": "2026-04-14",
+  "categorie": "Institutions et démocratie",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2649.html",
+  "accroche": "Le mode de scrutin des communes de moins de 1 000 habitants reviendrait à un système majoritaire avec panachage, pour renforcer la participation.",
+  "points": [
+    "Rétablirait le mode de scrutin majoritaire pour élire les conseillers municipaux des communes de moins de 1 000 habitants.",
+    "Autoriserait les électeurs à panacher les noms sur les bulletins de vote, choisissant ainsi leurs candidats.",
+    "Préciserait que la majorité absolue serait nécessaire au premier tour, tandis que la relative suffirait au second.",
+    "Modifierait de nombreux articles du code électoral pour réintroduire ces règles de vote local simplifiées."
+  ],
+  "quality_score": 75,
+  "quality_flags": [
+    "invention",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N54120",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Philippe Gosselin (DR)"
+}

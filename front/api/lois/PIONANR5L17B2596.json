@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2596",
+  "titre": "Rendre obligatoire la déclaration d’une nuance politique lors des élections municipales dans les communes de 1 000 habitants et plus",
+  "date_depot": "2026-03-27",
+  "categorie": "Institutions et démocratie",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2596.html",
+  "accroche": "Cette proposition rendrait obligatoire la déclaration d'une nuance politique pour les têtes de liste aux élections municipales dans les communes de 1000 habitants et plus.",
+  "points": [
+    "Modifierait le code électoral pour rendre obligatoire la déclaration d'une nuance politique en élections municipales.",
+    "Exigerait que cette nuance soit choisie dans une nomenclature nationale et vérifiée par l'autorité administrative compétente.",
+    "Interdirait l'utilisation de la mention \"sans étiquette\" ou de toute autre non conforme à la nomenclature nationale.",
+    "Afficherait la nuance politique déclarée sur les récépissés, les affichages officiels et les documents institutionnels."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N54007",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Hervé Saulignac (SOC)"
+}

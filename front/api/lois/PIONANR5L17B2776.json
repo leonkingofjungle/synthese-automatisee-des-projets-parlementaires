@@ -11,8 +11,11 @@
     "Organiserait une enquête de la mairie tous les deux ans et un contrôle pédagogique annuel par l'État.",
     "Simplifierait l'obtention des allocations familiales, remplaçant l'autorisation par une attestation d'instruction en famille."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54300",
   "etat": "Déposé",
   "statut": "Texte déposé",

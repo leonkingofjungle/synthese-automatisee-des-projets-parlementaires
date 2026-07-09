@@ -11,8 +11,10 @@
     "Encadrerait les stages volontaires de troisième avec une durée maximale de cinq jours et un accompagnement renforcé.",
     "Imposerait des règles strictes de sécurité, incluant formation et évaluation des risques pour les élèves volontaires."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54547",
   "etat": "Déposé",
   "statut": "Texte déposé",

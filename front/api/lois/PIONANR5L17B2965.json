@@ -11,8 +11,12 @@
     "Créerait une commission locale pour garantir l'accès à l'eau, pouvant alerter le public si l'État n'agit pas.",
     "Exigerait un rapport évaluant le dispositif six mois avant la fin des six ans, pour décider de le prolonger."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 80,
+  "quality_flags": [
+    "deformation",
+    "neutralite_douteuse",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54552",
   "etat": "Déposé",
   "statut": "Texte déposé",

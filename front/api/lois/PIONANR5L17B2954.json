@@ -11,8 +11,10 @@
     "Protégerait les jeunes adultes et les populations vulnérables ciblées par les campagnes, réduisant ainsi les addictions.",
     "Lutterait contre les pratiques commerciales trompeuses des opérateurs, qui dépendent trop des joueurs les plus fragiles."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54541",
   "etat": "Déposé",
   "statut": "Texte déposé",

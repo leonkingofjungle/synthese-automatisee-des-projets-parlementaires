@@ -11,8 +11,11 @@
     "Alignerait la durée des obligations de formation continue des professionnels de santé sur six ans.",
     "Créerait une commission spécialisée au sein de la Haute Autorité de Santé pour évaluer les technologies diagnostiques."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54538",
   "etat": "Déposé",
   "statut": "Texte déposé",

@@ -11,8 +11,10 @@
     "Permettrait le transfert gratuit de biens immobiliers de l'État à cet établissement, informant les collectivités territoriales des cessions.",
     "Mettrait à disposition les agents de l'État auprès du nouvel établissement pour trois ans et définirait une stratégie immobilière."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N52746",
   "etat": "En cours",
   "statut": "Commission mixte paritaire",

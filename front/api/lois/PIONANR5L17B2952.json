@@ -11,8 +11,10 @@
     "Un décret (texte d'application) fixerait le montant maximal des mensualités pris en compte par région.",
     "Compenserait la perte de recettes publiques par une taxe additionnelle sur les tabacs pour l'État."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54539",
   "etat": "Déposé",
   "statut": "Texte déposé",

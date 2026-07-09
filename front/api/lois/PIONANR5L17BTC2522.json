@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17BTC2522",
+  "titre": "Relative à la sécurisation des marchés publics numériques",
+  "date_depot": "2026-02-25",
+  "categorie": "Numérique",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17BTC2522.html",
+  "accroche": "Cette proposition de loi renforcerait la sécurité des services informatiques en nuage utilisés par de nombreuses collectivités territoriales.",
+  "points": [
+    "Étendreait les règles de sécurisation numérique aux régions, départements et communes de plus de 30 000 habitants.",
+    "Qualifirait de sensibles les données essentielles des collectivités, comme celles concernant la santé ou la gestion de crise.",
+    "Permettrait aux administrations d'obtenir une dérogation maximale de dix-huit mois pour les projets numériques déjà engagés.",
+    "Autoriserait la rupture des contrats avec les prestataires ne respectant pas les nouvelles exigences de sécurité des données."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N52900",
+  "etat": "En cours",
+  "statut": "1ère lecture en commission",
+  "depositaire": "Philippe Latombe (Dem)"
+}

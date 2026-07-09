@@ -11,8 +11,11 @@
     "Réduirait les délais d'obtention de 9 mois et permettrait la délivrance de copies numériques.",
     "Permettrait aussi de numériser les anciens actes papier et modifierait le code des étrangers."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54553",
   "etat": "Déposé",
   "statut": "Texte déposé",

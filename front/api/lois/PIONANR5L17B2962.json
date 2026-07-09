@@ -11,8 +11,10 @@
     "Obligerait les assureurs à respecter les taux d'incapacité fixés par les organismes publics, sauf dérogation motivée.",
     "Renforcerait les expertises médicales pour qu'elles considèrent la nature évolutive et les symptômes invisibles des maladies."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54549",
   "etat": "Déposé",
   "statut": "Texte déposé",

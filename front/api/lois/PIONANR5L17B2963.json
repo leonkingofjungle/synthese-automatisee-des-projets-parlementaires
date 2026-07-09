@@ -11,8 +11,10 @@
     "Rationaliserait l'organisation de l'administration et aiderait à mieux maîtriser les finances publiques.",
     "Un décret (décision du gouvernement) organiserait le transfert des biens et le reclassement des agents."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54550",
   "etat": "Déposé",
   "statut": "Texte déposé",

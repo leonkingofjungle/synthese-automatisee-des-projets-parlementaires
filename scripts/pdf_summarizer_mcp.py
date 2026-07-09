@@ -40,6 +40,12 @@ Deux optimisations de vitesse :
   - parallélisme : le téléchargement + l'appel Gemini par document sont des
     opérations réseau indépendantes, traitées par un pool de threads
     (--workers, défaut 5) plutôt que séquentiellement.
+
+`--rejudge-only` : backfill des quality_score manquants sur tout le cache (pas
+seulement la fenêtre --limit), sans regénérer le résumé — un seul appel Gemini
+par document (le judge, éventuellement en repli) au lieu de deux. Utile quand
+des entrées ont été publiées sans score (judge indisponible au moment de leur
+génération) : voir rejudge_missing_scores.
 """
 
 import argparse
@@ -223,6 +229,49 @@ def resolve_depositaires(entries: list[dict], workers: int, known_auteurs: dict[
           f"{failed} échec(s) réseau (retentés au prochain run).")
 
 
+def rejudge_missing_scores(entries: list[dict], workers: int, gemini_fallback: bool) -> None:
+    """Backfill quality_score sur les entrées déjà publiées mais sans score (judge
+    indisponible au moment de leur génération), sans regénérer le résumé.
+
+    Retélécharge le texte (pas conservé en cache) et rejuge avec l'accroche/points
+    déjà en place. Ignore les entrées sans texte source (résumées depuis un PDF :
+    le judge ne les évalue jamais, par design) et celles qui ont déjà un score.
+    Contrairement au flux normal, un score bas ne dépublie pas l'entrée : elle est
+    déjà publiée, on ne fait ici qu'ajouter l'information manquante.
+    """
+    to_rejudge = [e for e in entries if e.get("quality_score") is None]
+    if not to_rejudge:
+        print("Rejudge : aucune entrée sans score.")
+        return
+
+    def _rejudge_one(entry: dict) -> tuple[dict, bool, dict | None]:
+        # Ne doit jamais lever : une panne réseau sur un document (timeout, DNS, ...)
+        # ne doit pas faire perdre la progression de tous les autres via pool.map.
+        try:
+            text = download_document_text(entry["uid"])
+            if not text:
+                return entry, False, None
+            summary = {"categorie": entry["categorie"], "accroche": entry["accroche"], "points": entry["points"]}
+            return entry, True, judge_summary(text, summary, gemini_fallback=gemini_fallback)
+        except Exception as e:
+            print(f"[REJUDGE erreur] {entry['uid']} : {e}")
+            return entry, True, None
+
+    scored = skipped = failed = 0
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for entry, has_text, judgment in pool.map(_rejudge_one, to_rejudge):
+            if not has_text:
+                skipped += 1  # sourcé depuis un PDF (ou mirroir disparu depuis) : jamais jugé, normal
+            elif judgment is None:
+                failed += 1  # texte disponible mais judge indisponible/inexploitable
+            else:
+                entry["quality_score"], entry["quality_flags"] = compute_score(judgment)
+                scored += 1
+
+    print(f"Rejudge : {scored} score(s) ajouté(s), {skipped} ignoré(s) (source PDF), "
+          f"{failed} toujours sans score (judge indisponible).")
+
+
 def fetch_dossier_status(dossier_uid: str) -> tuple[str | None, str | None] | None:
     """(etat, statut) du dossier législatif, ou None si l'API est injoignable."""
     data = _get_api_data(f"{API_BASE}/dossiers/{dossier_uid}")
@@ -280,18 +329,18 @@ def refresh_statuses(entries: list[dict], workers: int, known_dossiers: dict[str
           f"{failed} échec(s) (valeurs précédentes conservées).")
 
 
-def process_document(doc: dict) -> dict:
+def process_document(doc: dict, judge_gemini_fallback: bool = False) -> dict:
     """Télécharge + résume + vérifie un document. Ne lève jamais : le statut est dans le retour."""
     uid = doc["uid"]
     titre = doc.get("titrePrincipalCourt") or doc.get("titrePrincipal")
     date_depot = (doc.get("dateDepot") or "")[:10]
     pdf_url = doc.get("pdfUrl")
 
-    text = download_document_text(uid)
-    if not text and not pdf_url:
-        return {"uid": uid, "titre": titre, "status": "skipped"}
-
     try:
+        text = download_document_text(uid)
+        if not text and not pdf_url:
+            return {"uid": uid, "titre": titre, "status": "skipped"}
+
         summary = summarize_text(text, titre) if text else summarize_pdf(download_pdf(pdf_url), titre)
 
         # Le judge ne lit que du texte : les documents résumés depuis le PDF
@@ -299,7 +348,7 @@ def process_document(doc: dict) -> dict:
         quality_score: int | None = None
         quality_flags: list[str] = []
         if text:
-            judgment = judge_summary(text, summary)
+            judgment = judge_summary(text, summary, gemini_fallback=judge_gemini_fallback)
             if judgment is not None:
                 quality_score, quality_flags = compute_score(judgment)
                 # Texte tronqué : les "invente" peuvent viser la partie manquante — badge, pas de rejet.
@@ -374,9 +423,19 @@ def main():
     parser.add_argument("--force", action="store_true", help="Ignorer le cache et régénérer la fenêtre courante")
     parser.add_argument("--no-status-refresh", action="store_true",
                         help="Ne pas re-synchroniser l'état d'avancement (etat/statut) des entrées")
+    parser.add_argument("--judge-gemini-fallback", action="store_true",
+                        help="Si Claude est indisponible, vérifier avec Gemini (même clé que le résumé) "
+                             "plutôt que publier sans score. Moins fiable : ce n'est plus un modèle "
+                             "indépendant de celui qui rédige (flag quality_flags: judge_non_independant).")
+    parser.add_argument("--rejudge-only", action="store_true",
+                        help="Ne pas récupérer de nouveaux documents ni régénérer de résumés : juste "
+                             "rejuger (voir --judge-gemini-fallback) les entrées déjà en cache mais "
+                             "sans quality_score, sur tout le corpus (ignore --limit/--type/--chambre).")
     args = parser.parse_args()
 
-    docs = get_recent_documents(args.type, args.chambre, args.limit)
+    # --rejudge-only ne touche ni à l'API de listing ni à Gemini pour la rédaction :
+    # on opère uniquement sur ce qui est déjà en cache.
+    docs = [] if args.rejudge_only else get_recent_documents(args.type, args.chambre, args.limit)
     print(f"\n{len(docs)} document(s) trouvé(s).\n")
 
     # Le cache complet est chargé pour préserver les résumés hors fenêtre ; --force
@@ -385,7 +444,7 @@ def main():
     reuse = {} if args.force else cache
     abandoned = {d["uid"] for d in docs
                  if d["uid"] not in reuse and rejects.get(d["uid"], 0) >= MAX_REJECT_ATTEMPTS}
-    to_fetch = [d for d in docs if d["uid"] not in reuse and d["uid"] not in abandoned]
+    to_fetch = [] if args.rejudge_only else [d for d in docs if d["uid"] not in reuse and d["uid"] not in abandoned]
     cached_count = len(docs) - len(to_fetch) - len(abandoned)
     if cached_count or abandoned:
         print(f"{cached_count} déjà en cache, {len(abandoned)} abandonné(s) "
@@ -396,7 +455,7 @@ def main():
     skipped = errors = rejected = 0
     if to_fetch:
         with ThreadPoolExecutor(max_workers=args.workers) as pool:
-            futures = {pool.submit(process_document, doc): doc for doc in to_fetch}
+            futures = {pool.submit(process_document, doc, args.judge_gemini_fallback): doc for doc in to_fetch}
             for future in as_completed(futures):
                 result = future.result()
                 uid, titre = result["uid"], result["titre"]
@@ -436,6 +495,9 @@ def main():
     results = sorted(merged.values(), key=lambda d: d.get("date_depot") or "", reverse=True)
     for entry in results:
         entry.pop("status", None)
+
+    if args.rejudge_only:
+        rejudge_missing_scores(results, args.workers, args.judge_gemini_fallback)
 
     # État d'avancement (dossier législatif) : re-synchronisé à chaque run pour
     # toutes les entrées, cache compris — `--limit 0` permet ainsi un backfill

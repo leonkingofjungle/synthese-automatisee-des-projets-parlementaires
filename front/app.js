@@ -161,6 +161,7 @@ export const FLAG_LABELS = {
   categorie_incertaine: "la rubrique attribuée est incertaine",
   neutralite_douteuse: "la neutralité du résumé est douteuse",
   faute_francais: "le résumé contient une ou plusieurs fautes de français",
+  judge_non_independant: "vérifié par repli, avec le même modèle que celui qui a rédigé le résumé",
   texte_tronque: "texte long : seule la première partie a pu être vérifiée",
 };
 

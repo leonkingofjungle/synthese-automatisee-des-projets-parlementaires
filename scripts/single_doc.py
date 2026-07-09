@@ -1,9 +1,11 @@
-"""Test unitaire sur un seul document : fetch par uid -> résumé Gemini -> judge Claude.
+"""Test unitaire sur un seul document : fetch par uid -> résumé Gemini -> judge Claude
+(repli Gemini optionnel, voir --judge-gemini-fallback).
 
 Affiche chaque étape en détail (source du texte, résumé, verdicts, score, décision
 de publication) sans jamais toucher front/resumes.json.
 
     python3 scripts/single_doc.py PIONANR5L17BTC3004
+    python3 scripts/single_doc.py PIONANR5L17BTC3004 --judge-gemini-fallback
 """
 
 import argparse
@@ -26,6 +28,8 @@ def fetch_document(uid: str) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Résume et juge un document par uid, sans écrire resumes.json.")
     parser.add_argument("uid", help="uid du document (ex. PIONANR5L17BTC3004)")
+    parser.add_argument("--judge-gemini-fallback", action="store_true",
+                        help="Si Claude est indisponible, vérifier avec Gemini plutôt que sans score")
     args = parser.parse_args()
 
     doc = fetch_document(args.uid)
@@ -49,17 +53,20 @@ def main() -> None:
         print("\n=== Judge ===\nDocument résumé depuis le PDF : publié sans score (le judge ne lit que du texte).")
         return
 
-    print("\n=== Judge (Claude) ===")
-    judgment = judge_summary(text, summary)
+    print("\n=== Judge ===")
+    judgment = judge_summary(text, summary, gemini_fallback=args.judge_gemini_fallback)
     if judgment is None:
         print("Judge indisponible ou réponse inexploitable : publication sans score.")
         return
 
+    print(f"modèle : {judgment['judge_model']}"
+          + (" (repli, vérification non indépendante)" if judgment["judge_model"] == "gemini" else ""))
     for v in judgment["verdicts"]:
         print(f"[{v['verdict'].upper():7}] {v['claim']}")
         if v.get("citation"):
             print(f"          citation : {v['citation'][:120]}")
-    print(f"catégorie correcte : {judgment['categorie_correcte']} / neutralité : {judgment['neutralite']}"
+    print(f"catégorie correcte : {judgment['categorie_correcte']} / neutralité : {judgment['neutralite']} "
+          f"/ correction : {judgment['correction']}"
           + (" / texte tronqué" if judgment.get("texte_tronque") else ""))
 
     score, flags = compute_score(judgment)

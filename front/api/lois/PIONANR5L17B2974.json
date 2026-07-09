@@ -11,8 +11,11 @@
     "Mettrait en place de nouveaux projets éducatifs territoriaux pour organiser les activités extrascolaires.",
     "Renforcerait la formation des encadrants pour prévenir les violences et protéger les enfants."
   ],
-  "quality_score": null,
-  "quality_flags": [],
+  "quality_score": 92,
+  "quality_flags": [
+    "deformation",
+    "judge_non_independant"
+  ],
   "dossier_uid": "DLR5L17N54561",
   "etat": "Déposé",
   "statut": "Texte déposé",

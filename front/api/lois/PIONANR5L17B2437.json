@@ -1,0 +1,22 @@
+{
+  "uid": "PIONANR5L17B2437",
+  "titre": "Soutenir les communes rurales dans l’entretien des routes communales",
+  "date_depot": "2026-02-04",
+  "categorie": "Institutions et démocratie",
+  "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B2437.html",
+  "accroche": "Une nouvelle dotation (aide financière) serait créée pour aider les communes rurales à entretenir leurs routes, améliorant ainsi la sécurité des usagers.",
+  "points": [
+    "Créerait une dotation spécifique pour soutenir l'entretien des routes dans les communes rurales, en complément des aides existantes.",
+    "Définirait les communes éligibles sur des critères comme la longueur de voirie et la densité de population.",
+    "Calculerait le montant de cette dotation en fonction de la voirie communale, la superficie et la densité de population.",
+    "Compenserait le coût pour l'État et les collectivités par une taxe additionnelle sur les tabacs."
+  ],
+  "quality_score": 100,
+  "quality_flags": [
+    "judge_non_independant"
+  ],
+  "dossier_uid": "DLR5L17N53712",
+  "etat": "Déposé",
+  "statut": "Texte déposé",
+  "depositaire": "Stéphane Viry (LIOT)"
+}
