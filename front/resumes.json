@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T11:24:32.465439+00:00",
+  "generated_at": "2026-07-09T11:36:32.779049+00:00",
   "documents": [
     {
       "uid": "PIONANR5L17B3023",
@@ -205,6 +205,306 @@
       "etat": "Déposé",
       "statut": "Texte déposé",
       "depositaire": "Antoine Valentin (UDR)"
+    },
+    {
+      "uid": "PIONANR5L17B3035",
+      "titre": "Renforcer la lutte contre les cancers pédiatriques et soutenir les familles concernées",
+      "date_depot": "2026-07-07",
+      "categorie": "Santé",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3035.html",
+      "accroche": "Cette proposition de loi renforcerait la lutte contre les cancers des enfants en améliorant l'accès aux soins et en soutenant les familles endeuillées.",
+      "points": [
+        "Intégrerait un volet spécial sur les cancers pédiatriques dans la politique nationale de lutte contre le cancer.",
+        "Garantirait aux familles une information complète et transparente sur toutes les options de traitement pour leur enfant.",
+        "Faciliterait l'accès aux médicaments européens pour les enfants atteints de cancers graves ou rares, sans alternative en France.",
+        "Permettrait aux parents d'un enfant décédé de conserver une demi-part de quotient familial jusqu'à ses 21 ans."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54644",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Alexandra Martin (Alpes-Maritimes) (DR)"
+    },
+    {
+      "uid": "PIONANR5L17B3030",
+      "titre": "Climatisation des établissements recevant un public vulnérable",
+      "date_depot": "2026-07-07",
+      "categorie": "Santé",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3030.html",
+      "accroche": "Si elle était votée, cette loi rendrait obligatoire la climatisation des écoles, EHPAD et hôpitaux pour protéger les personnes vulnérables des fortes chaleurs.",
+      "points": [
+        "Rendrait obligatoire l'équipement en climatisation des écoles primaires et secondaires, incluant salles de classe, de restauration et d'activités physiques.",
+        "Obligerait les EHPAD (maisons de retraite médicalisées) à installer la climatisation dans toutes les chambres et espaces de vie collective.",
+        "Imposerait aux hôpitaux d'équiper de climatisation les unités d'hospitalisation, urgences, réanimation et blocs opératoires.",
+        "Fixerait des délais de 18 mois à 2 ans pour les installations et organiserait une conférence de financement nationale."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54639",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Éric Ciotti (UDR)"
+    },
+    {
+      "uid": "PIONANR5L17B3036",
+      "titre": "Interdire le rachat d’or sauvage",
+      "date_depot": "2026-07-07",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3036.html",
+      "accroche": "Cette proposition de loi interdirait la vente et l'achat d'or et de métaux précieux hors des commerces établis pour protéger les consommateurs et lutter contre la criminalité.",
+      "points": [
+        "Interdirait le rachat de métaux précieux, comme l'or et l'argent, lors de ventes temporaires ou itinérantes.",
+        "Défendrait d'acheter ces métaux précieux au domicile des vendeurs ou de les démarcher à cette fin.",
+        "Sanctionnerait d'une peine de deux ans de prison et 150 000 euros d'amende l'achat illégal de métaux précieux.",
+        "Porterait les peines à cinq ans et 375 000 euros en cas de bande organisée ou de victime vulnérable."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54645",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Julien Rancoule (RN)"
+    },
+    {
+      "uid": "PIONANR5L17B3038",
+      "titre": "Garantir l’acquisition des compétences fondamentales de sécurité aquatique avant l’entrée au collège",
+      "date_depot": "2026-07-07",
+      "categorie": "Éducation et jeunesse",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3038.html",
+      "accroche": "Elle garantirait que tous les enfants acquièrent les compétences fondamentales de sécurité aquatique à l'école primaire, aidés par un fonds et un crédit d'impôt.",
+      "points": [
+        "Modifierait le code de l'éducation pour obliger les écoles primaires à enseigner la sécurité aquatique avant le collège.",
+        "Instituerait un fonds national d'accès à la sécurité aquatique pour financer les équipements et transports nécessaires.",
+        "Créerait un crédit d'impôt pour les familles inscrivant un enfant mineur à des cours de natation.",
+        "Prévoirait une stratégie nationale pour rendre la profession de maître-nageur sauveteur plus attractive et mieux répartie."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54647",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Christelle D'Intorni (UDR)"
+    },
+    {
+      "uid": "PIONANR5L17B3031",
+      "titre": "Prévenir les conflits d'intérêts dans le financement par les sociétés de l'audiovisuel public de productions cinématographiques et audiovisuelles dont leurs dirigeants sont les bénéficiaires",
+      "date_depot": "2026-07-07",
+      "categorie": "Institutions et démocratie",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3031.html",
+      "accroche": "Cette proposition de loi interdirait aux dirigeants de l'audiovisuel public de financer des productions où ils auraient un intérêt personnel.",
+      "points": [
+        "Interdirait aux sociétés publiques d'audiovisuel de financer des productions si un de leurs dirigeants y détient un intérêt.",
+        "Définirait précisément qui est considéré comme dirigeant et quels types d'intérêts privés seraient interdits dans ces productions.",
+        "Obligerait ces sociétés à mettre en place un registre des décisions de financement et des déclarations d'intérêts.",
+        "Confierait à la HATVP (Autorité de transparence publique) le contrôle des déclarations, prévoyant des sanctions en cas de manquement."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54640",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Sébastien Chenu (RN)"
+    },
+    {
+      "uid": "PIONANR5L17B3043",
+      "titre": "Abaisser l’âge minimum pour la conduite supervisée à 17 ans",
+      "date_depot": "2026-07-07",
+      "categorie": "Éducation et jeunesse",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3043.html",
+      "accroche": "Cette proposition de loi permettrait aux jeunes de 17 ans de bénéficier de la conduite supervisée, rendant l'apprentissage plus accessible.",
+      "points": [
+        "Abaisserait l'âge minimal pour la conduite supervisée à 17 ans, modifiant l'article L. 211-4 du code de la route.",
+        "Mettrait fin à l'incohérence actuelle où un jeune de 17 ans pourrait conduire seul, mais pas supervisé.",
+        "Améliorerait le taux de réussite à l'examen du permis de conduire, passant de 58% à 75%.",
+        "Réduirait le coût total du permis pour les ménages, en offrant une expérience sans frais supplémentaires."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54652",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Fabrice Barusseau (SOC)"
+    },
+    {
+      "uid": "PIONANR5L17B3033",
+      "titre": "Créer un dispositif ultramarin d’emploi durable, afin de lutter contre le chômage structurel dans les outre-mer",
+      "date_depot": "2026-07-07",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3033.html",
+      "accroche": "Une proposition de loi créerait un dispositif ultramarin d’emploi durable pour lutter contre le chômage structurel dans les territoires d'Outre-mer.",
+      "points": [
+        "Créerait une garantie d’emploi durable de 60 mois minimum dans les métiers de la bifurcation écologique.",
+        "Garantirait un salaire au moins égal au SMIC, avec une durée hebdomadaire de travail de 35 heures.",
+        "Chargerait les comités régionaux et territoriaux de l'emploi de mettre en œuvre ce dispositif.",
+        "Financerait le dispositif par des majorations de taxes sur le tabac, compensant les charges publiques."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54642",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Jean-Hugues Ratenon (LFI-NFP)"
+    },
+    {
+      "uid": "PIONANR5L17B3040",
+      "titre": "Lutter contre le harcèlement judiciaire subis par les parents protecteurs d’enfants victimes de violences incestueuses",
+      "date_depot": "2026-07-07",
+      "categorie": "Justice et sécurité",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3040.html",
+      "accroche": "Cette proposition de loi dépénaliserait l'infraction de non-représentation d'enfant, pour mieux protéger les parents signalant des violences incestueuses.",
+      "points": [
+        "Dépénaliserait le délit de non-représentation d’enfant en abrogeant l'article 227-5 du code pénal.",
+        "Entraînerait la suppression de l'article D 47-11-3 du code de procédure pénale sur la vérification des allégations.",
+        "Permettrait aux autres infractions de soustraction d'enfant, plus graves, d'être toujours punies par la loi.",
+        "Stopperait l'acharnement judiciaire contre les parents protecteurs d'enfants victimes de violences incestueuses signalées."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54649",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Andrée Taurinya (LFI-NFP)"
+    },
+    {
+      "uid": "PIONANR5L17B3034",
+      "titre": "La titularisation des agents de la fonction publique territoriale à La Réunion",
+      "date_depot": "2026-07-07",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3034.html",
+      "accroche": "Cette proposition de loi permettrait de titulariser les agents contractuels de la fonction publique territoriale à La Réunion pour réduire la précarité de l'emploi.",
+      "points": [
+        "Proposerait des recrutements réservés pendant six ans pour titulariser des agents contractuels à La Réunion.",
+        "Permettrait la titularisation des agents non-titulaires même si leur recrutement initial était irrégulier.",
+        "Mettrait en place une commission de suivi pour encadrer et évaluer les titularisations des agents publics.",
+        "Compenserait les coûts pour les collectivités locales en augmentant leur dotation globale de fonctionnement."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54643",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Jean-Hugues Ratenon (LFI-NFP)"
+    },
+    {
+      "uid": "PIONANR5L17B3044",
+      "titre": "Instaurer la suspension du paiement du loyer pour les logements ne protégeant pas leurs occupants des fortes chaleurs",
+      "date_depot": "2026-07-07",
+      "categorie": "Logement et urbanisme",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3044.html",
+      "accroche": "Cette proposition permettrait aux locataires de suspendre le paiement de leur loyer si leur logement ne les protégeait pas suffisamment contre les fortes chaleurs.",
+      "points": [
+        "Modifierait la loi de 1989 sur les rapports locatifs pour encadrer le confort thermique estival du logement.",
+        "Obligerait les propriétaires à installer, sur demande du locataire, des protections solaires et des brasseurs d'air.",
+        "Permettrait aux locataires de suspendre leur loyer si le logement dépassait des seuils de température, comme 26°C la nuit.",
+        "L'exemption de loyer pourrait s'appliquer rétroactivement au premier jour d'une période de canicule officielle."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54653",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "François Piquemal (LFI-NFP)"
+    },
+    {
+      "uid": "PIONANR5L17B3042",
+      "titre": "Responsabiliser les donneurs d’ordres vis-à-vis des sous-traitants, des emplois et des territoires",
+      "date_depot": "2026-07-07",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3042.html",
+      "accroche": "Cette proposition renforcerait la responsabilité des grandes entreprises envers leurs sous-traitants, afin de mieux protéger l'emploi et les territoires.",
+      "points": [
+        "Définirait juridiquement la relation de sous-traitance selon la taille du donneur d'ordres ou la dépendance financière du sous-traitant.",
+        "Obligerait la rédaction de contrats écrits pour les sous-traitances dépassant un certain seuil, ou appliquerait des clauses-types.",
+        "Associerait les sous-traitants aux décisions stratégiques des donneurs d'ordres et exigerait une étude d'impact si nécessaire.",
+        "Responsabiliserait les donneurs d'ordres à contribuer aux plans de reclassement en cas de licenciements chez les sous-traitants."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54651",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Arthur Delaporte (SOC)"
+    },
+    {
+      "uid": "PIONANR5L17B3032",
+      "titre": "Renforcer la lutte contre la fraude bancaire interne par la prévention des manquements graves à la probité",
+      "date_depot": "2026-07-07",
+      "categorie": "Économie et travail",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3032.html",
+      "accroche": "Une proposition de loi créerait un fichier national pour recenser les employés ayant commis de graves manquements afin de prévenir la fraude interne.",
+      "points": [
+        "Modifierait le code monétaire et financier pour créer un fichier national de prévention de la fraude interne.",
+        "Les manquements enregistrés devraient porter atteinte à la sécurité financière des établissements bancaires ou de leur clientèle.",
+        "Ce fichier, géré par un organisme public, recenserait les identités et dates des manquements pour cinq ans maximum.",
+        "Les banques pourraient le consulter pour les recrutements et l'État pour lutter contre les fraudes fiscales et sociales."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54641",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Daniel Labaronne (EPR)"
+    },
+    {
+      "uid": "PIONANR5L17B3039",
+      "titre": "Rendre effectif l’égal accès de tous à l’apprentissage de l’autonomie dans l’eau et de la nage",
+      "date_depot": "2026-07-07",
+      "categorie": "Éducation et jeunesse",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3039.html",
+      "accroche": "Cette proposition de loi rendrait l'apprentissage de la nage obligatoire à l'école, financerait des cours gratuits et améliorerait l'accès aux piscines pour tous.",
+      "points": [
+        "Rendrait l'enseignement de l'autonomie dans l'eau et de la nage obligatoire, de la maternelle jusqu'au collège.",
+        "Créerait un fonds national pour des cours de natation gratuits, priorisant les zones sans piscine et familles modestes.",
+        "Permettrait la titularisation des maîtres-nageurs sauveteurs contractuels de la fonction publique pour renforcer les équipes.",
+        "Fixerait comme objectif national la construction et rénovation de piscines publiques sous dix ans."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54648",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Mathilde Panot (LFI-NFP)"
+    },
+    {
+      "uid": "PIONANR5L17B3037",
+      "titre": "La mise à l’abri des personnes sans domicile fixe en période de canicule",
+      "date_depot": "2026-07-07",
+      "categorie": "Société et solidarités",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3037.html",
+      "accroche": "Cette proposition de loi obligerait l'État à loger les personnes sans domicile fixe pendant les canicules.",
+      "points": [
+        "Obligerait le représentant de l'État à ouvrir des places d'hébergement d'urgence dès une vigilance canicule orange ou rouge.",
+        "Permettrait au préfet de réquisitionner des logements si les capacités d'hébergement disponibles s'avéraient insuffisantes.",
+        "Étendrait la trêve hivernale pour suspendre les expulsions aussi entre le 1er juin et le 30 septembre.",
+        "Financerait cette mesure par une taxe additionnelle sur l'accise sur les tabacs pour compenser la charge de l'État."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54646",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Paul Vannier (LFI-NFP)"
+    },
+    {
+      "uid": "PIONANR5L17B3041",
+      "titre": "Protéger les bénévoles des organismes de secours et de sauvetage en mer et renforcer la sécurité des usagers de la mer",
+      "date_depot": "2026-07-07",
+      "categorie": "Société et solidarités",
+      "link": "https://www.assemblee-nationale.fr/dyn/opendata/PIONANR5L17B3041.html",
+      "accroche": "Cette proposition de loi renforcerait la protection juridique des bénévoles de secours en mer et rendrait l'assurance obligatoire pour les usagers.",
+      "points": [
+        "La proposition de loi étendrait la protection juridique aux bénévoles des secours en mer, lorsqu'ils agissent sous l'autorité de l'État.",
+        "Interdirait que les actions bénévoles de sauvetage en mer entraînent des sanctions professionnelles pour les marins concernés.",
+        "Obligerait les propriétaires de navires de plaisance à souscrire une assurance responsabilité civile pour naviguer en eaux françaises.",
+        "Instaurerait une contribution annuelle d'au moins cinq euros, via l'assurance, pour soutenir la Société nationale de sauvetage en mer."
+      ],
+      "quality_score": null,
+      "quality_flags": [],
+      "dossier_uid": "DLR5L17N54650",
+      "etat": "Déposé",
+      "statut": "Texte déposé",
+      "depositaire": "Éric Bothorel (EPR)"
     },
     {
       "uid": "PIONANR5L17BTC3004",
